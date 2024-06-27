@@ -1,0 +1,3202 @@
+{
+    "ITEM_NONE": {
+        "id": 0,
+        "name": "None"
+    },
+    "ITEM_MASTER_BALL": {
+        "id": 1,
+        "name": "Master Ball"
+    },
+    "ITEM_ULTRA_BALL": {
+        "id": 2,
+        "name": "Ultra Ball"
+    },
+    "ITEM_GREAT_BALL": {
+        "id": 3,
+        "name": "Great Ball"
+    },
+    "ITEM_POKE_BALL": {
+        "id": 4,
+        "name": "Pok\u00e9 Ball"
+    },
+    "ITEM_SAFARI_BALL": {
+        "id": 5,
+        "name": "Safari Ball"
+    },
+    "ITEM_NET_BALL": {
+        "id": 6,
+        "name": "Net Ball"
+    },
+    "ITEM_DIVE_BALL": {
+        "id": 7,
+        "name": "Dive Ball"
+    },
+    "ITEM_NEST_BALL": {
+        "id": 8,
+        "name": "Nest Ball"
+    },
+    "ITEM_REPEAT_BALL": {
+        "id": 9,
+        "name": "Repeat Ball"
+    },
+    "ITEM_TIMER_BALL": {
+        "id": 10,
+        "name": "Timer Ball"
+    },
+    "ITEM_LUXURY_BALL": {
+        "id": 11,
+        "name": "Luxury Ball"
+    },
+    "ITEM_PREMIER_BALL": {
+        "id": 12,
+        "name": "Premier Ball"
+    },
+    "ITEM_DUSK_BALL": {
+        "id": 13,
+        "name": "Dusk Ball"
+    },
+    "ITEM_HEAL_BALL": {
+        "id": 14,
+        "name": "Heal Ball"
+    },
+    "ITEM_QUICK_BALL": {
+        "id": 15,
+        "name": "Quick Ball"
+    },
+    "ITEM_CHERISH_BALL": {
+        "id": 16,
+        "name": "Cherish Ball"
+    },
+    "ITEM_POTION": {
+        "id": 17,
+        "name": "Potion"
+    },
+    "ITEM_ANTIDOTE": {
+        "id": 18,
+        "name": "Antidote"
+    },
+    "ITEM_BURN_HEAL": {
+        "id": 19,
+        "name": "Burn Heal"
+    },
+    "ITEM_ICE_HEAL": {
+        "id": 20,
+        "name": "Ice Heal"
+    },
+    "ITEM_AWAKENING": {
+        "id": 21,
+        "name": "Awakening"
+    },
+    "ITEM_PARALYZE_HEAL": {
+        "id": 22,
+        "name": "Paralyze Heal"
+    },
+    "ITEM_FULL_RESTORE": {
+        "id": 23,
+        "name": "Full Restore"
+    },
+    "ITEM_MAX_POTION": {
+        "id": 24,
+        "name": "Max Potion"
+    },
+    "ITEM_HYPER_POTION": {
+        "id": 25,
+        "name": "Hyper Potion"
+    },
+    "ITEM_SUPER_POTION": {
+        "id": 26,
+        "name": "Super Potion"
+    },
+    "ITEM_FULL_HEAL": {
+        "id": 27,
+        "name": "Full Heal"
+    },
+    "ITEM_REVIVE": {
+        "id": 28,
+        "name": "Revive"
+    },
+    "ITEM_MAX_REVIVE": {
+        "id": 29,
+        "name": "Max Revive"
+    },
+    "ITEM_FRESH_WATER": {
+        "id": 30,
+        "name": "Fresh Water"
+    },
+    "ITEM_SODA_POP": {
+        "id": 31,
+        "name": "Soda Pop"
+    },
+    "ITEM_LEMONADE": {
+        "id": 32,
+        "name": "Lemonade"
+    },
+    "ITEM_MOOMOO_MILK": {
+        "id": 33,
+        "name": "Moomoo Milk"
+    },
+    "ITEM_ENERGY_POWDER": {
+        "id": 34,
+        "name": "Energy Powder"
+    },
+    "ITEM_ENERGY_ROOT": {
+        "id": 35,
+        "name": "Energy Root"
+    },
+    "ITEM_HEAL_POWDER": {
+        "id": 36,
+        "name": "Heal Powder"
+    },
+    "ITEM_REVIVAL_HERB": {
+        "id": 37,
+        "name": "Revival Herb"
+    },
+    "ITEM_ETHER": {
+        "id": 38,
+        "name": "Ether"
+    },
+    "ITEM_MAX_ETHER": {
+        "id": 39,
+        "name": "Max Ether"
+    },
+    "ITEM_ELIXIR": {
+        "id": 40,
+        "name": "Elixir"
+    },
+    "ITEM_MAX_ELIXIR": {
+        "id": 41,
+        "name": "Max Elixir"
+    },
+    "ITEM_LAVA_COOKIE": {
+        "id": 42,
+        "name": "Lava Cookie"
+    },
+    "ITEM_BERRY_JUICE": {
+        "id": 43,
+        "name": "Berry Juice"
+    },
+    "ITEM_SACRED_ASH": {
+        "id": 44,
+        "name": "Sacred Ash"
+    },
+    "ITEM_HP_UP": {
+        "id": 45,
+        "name": "HP Up"
+    },
+    "ITEM_PROTEIN": {
+        "id": 46,
+        "name": "Protein"
+    },
+    "ITEM_IRON": {
+        "id": 47,
+        "name": "Iron"
+    },
+    "ITEM_CARBOS": {
+        "id": 48,
+        "name": "Carbos"
+    },
+    "ITEM_CALCIUM": {
+        "id": 49,
+        "name": "Calcium"
+    },
+    "ITEM_RARE_CANDY": {
+        "id": 50,
+        "name": "Rare Candy"
+    },
+    "ITEM_PP_UP": {
+        "id": 51,
+        "name": "PP Up"
+    },
+    "ITEM_ZINC": {
+        "id": 52,
+        "name": "Zinc"
+    },
+    "ITEM_PP_MAX": {
+        "id": 53,
+        "name": "PP Max"
+    },
+    "ITEM_OLD_GATEAU": {
+        "id": 54,
+        "name": "Old Gateau"
+    },
+    "ITEM_GUARD_SPEC": {
+        "id": 55,
+        "name": "Guard Spec."
+    },
+    "ITEM_DIRE_HIT": {
+        "id": 56,
+        "name": "Dire Hit"
+    },
+    "ITEM_X_ATTACK": {
+        "id": 57,
+        "name": "X Attack"
+    },
+    "ITEM_X_DEFENSE": {
+        "id": 58,
+        "name": "X Defend"
+    },
+    "ITEM_X_SPEED": {
+        "id": 59,
+        "name": "X Speed"
+    },
+    "ITEM_X_ACCURACY": {
+        "id": 60,
+        "name": "X Accuracy"
+    },
+    "ITEM_X_SPECIAL": {
+        "id": 61,
+        "name": "X Special"
+    },
+    "ITEM_X_SP_DEF": {
+        "id": 62,
+        "name": "X Sp. Def"
+    },
+    "ITEM_POKE_DOLL": {
+        "id": 63,
+        "name": "Pok\u00e9 Doll"
+    },
+    "ITEM_FLUFFY_TAIL": {
+        "id": 64,
+        "name": "Fluffy Tail"
+    },
+    "ITEM_BLUE_FLUTE": {
+        "id": 65,
+        "name": "Blue Flute"
+    },
+    "ITEM_YELLOW_FLUTE": {
+        "id": 66,
+        "name": "Yellow Flute"
+    },
+    "ITEM_RED_FLUTE": {
+        "id": 67,
+        "name": "Red Flute"
+    },
+    "ITEM_BLACK_FLUTE": {
+        "id": 68,
+        "name": "Black Flute"
+    },
+    "ITEM_WHITE_FLUTE": {
+        "id": 69,
+        "name": "White Flute"
+    },
+    "ITEM_SHOAL_SALT": {
+        "id": 70,
+        "name": "Shoal Salt"
+    },
+    "ITEM_SHOAL_SHELL": {
+        "id": 71,
+        "name": "Shoal Shell"
+    },
+    "ITEM_RED_SHARD": {
+        "id": 72,
+        "name": "Red Shard"
+    },
+    "ITEM_BLUE_SHARD": {
+        "id": 73,
+        "name": "Blue Shard"
+    },
+    "ITEM_YELLOW_SHARD": {
+        "id": 74,
+        "name": "Yellow Shard"
+    },
+    "ITEM_GREEN_SHARD": {
+        "id": 75,
+        "name": "Green Shard"
+    },
+    "ITEM_SUPER_REPEL": {
+        "id": 76,
+        "name": "Super Repel"
+    },
+    "ITEM_MAX_REPEL": {
+        "id": 77,
+        "name": "Max Repel"
+    },
+    "ITEM_ESCAPE_ROPE": {
+        "id": 78,
+        "name": "Escape Rope"
+    },
+    "ITEM_REPEL": {
+        "id": 79,
+        "name": "Repel"
+    },
+    "ITEM_SUN_STONE": {
+        "id": 80,
+        "name": "Sun Stone"
+    },
+    "ITEM_MOON_STONE": {
+        "id": 81,
+        "name": "Moon Stone"
+    },
+    "ITEM_FIRE_STONE": {
+        "id": 82,
+        "name": "Fire Stone"
+    },
+    "ITEM_THUNDER_STONE": {
+        "id": 83,
+        "name": "Thunder Stone"
+    },
+    "ITEM_WATER_STONE": {
+        "id": 84,
+        "name": "Water Stone"
+    },
+    "ITEM_LEAF_STONE": {
+        "id": 85,
+        "name": "Leaf Stone"
+    },
+    "ITEM_TINY_MUSHROOM": {
+        "id": 86,
+        "name": "Tiny Mushroom"
+    },
+    "ITEM_BIG_MUSHROOM": {
+        "id": 87,
+        "name": "Big Mushroom"
+    },
+    "ITEM_PEARL": {
+        "id": 88,
+        "name": "Pearl"
+    },
+    "ITEM_BIG_PEARL": {
+        "id": 89,
+        "name": "Big Pearl"
+    },
+    "ITEM_STARDUST": {
+        "id": 90,
+        "name": "Stardust"
+    },
+    "ITEM_STAR_PIECE": {
+        "id": 91,
+        "name": "Star Piece"
+    },
+    "ITEM_NUGGET": {
+        "id": 92,
+        "name": "Nugget"
+    },
+    "ITEM_HEART_SCALE": {
+        "id": 93,
+        "name": "Heart Scale"
+    },
+    "ITEM_HONEY": {
+        "id": 94,
+        "name": "Honey"
+    },
+    "ITEM_GROWTH_MULCH": {
+        "id": 95,
+        "name": "Growth Mulch"
+    },
+    "ITEM_DAMP_MULCH": {
+        "id": 96,
+        "name": "Damp Mulch"
+    },
+    "ITEM_STABLE_MULCH": {
+        "id": 97,
+        "name": "Stable Mulch"
+    },
+    "ITEM_GOOEY_MULCH": {
+        "id": 98,
+        "name": "Gooey Mulch"
+    },
+    "ITEM_ROOT_FOSSIL": {
+        "id": 99,
+        "name": "Root Fossil"
+    },
+    "ITEM_CLAW_FOSSIL": {
+        "id": 100,
+        "name": "Claw Fossil"
+    },
+    "ITEM_HELIX_FOSSIL": {
+        "id": 101,
+        "name": "Helix Fossil"
+    },
+    "ITEM_DOME_FOSSIL": {
+        "id": 102,
+        "name": "Dome Fossil"
+    },
+    "ITEM_OLD_AMBER": {
+        "id": 103,
+        "name": "Old Amber"
+    },
+    "ITEM_ARMOR_FOSSIL": {
+        "id": 104,
+        "name": "Armor Fossil"
+    },
+    "ITEM_SKULL_FOSSIL": {
+        "id": 105,
+        "name": "Skull Fossil"
+    },
+    "ITEM_RARE_BONE": {
+        "id": 106,
+        "name": "Rare Bone"
+    },
+    "ITEM_SHINY_STONE": {
+        "id": 107,
+        "name": "Shiny Stone"
+    },
+    "ITEM_DUSK_STONE": {
+        "id": 108,
+        "name": "Dusk Stone"
+    },
+    "ITEM_DAWN_STONE": {
+        "id": 109,
+        "name": "Dawn Stone"
+    },
+    "ITEM_OVAL_STONE": {
+        "id": 110,
+        "name": "Oval Stone"
+    },
+    "ITEM_ODD_KEYSTONE": {
+        "id": 111,
+        "name": "Odd Keystone"
+    },
+    "ITEM_GRISEOUS_ORB": {
+        "id": 112,
+        "name": "Griseous Orb"
+    },
+    "ITEM_UNKNOWN_71": {
+        "id": 113,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_72": {
+        "id": 114,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_73": {
+        "id": 115,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_74": {
+        "id": 116,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_75": {
+        "id": 117,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_76": {
+        "id": 118,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_77": {
+        "id": 119,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_78": {
+        "id": 120,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_79": {
+        "id": 121,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_7A": {
+        "id": 122,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_7B": {
+        "id": 123,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_7C": {
+        "id": 124,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_7D": {
+        "id": 125,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_7E": {
+        "id": 126,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_7F": {
+        "id": 127,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_80": {
+        "id": 128,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_81": {
+        "id": 129,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_82": {
+        "id": 130,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_83": {
+        "id": 131,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_84": {
+        "id": 132,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_85": {
+        "id": 133,
+        "name": "???"
+    },
+    "ITEM_UNKNOWN_86": {
+        "id": 134,
+        "name": "???"
+    },
+    "ITEM_ADAMANT_ORB": {
+        "id": 135,
+        "name": "Adamant Orb"
+    },
+    "ITEM_LUSTROUS_ORB": {
+        "id": 136,
+        "name": "Lustrous Orb"
+    },
+    "ITEM_GRASS_MAIL": {
+        "id": 137,
+        "name": "Grass Mail"
+    },
+    "ITEM_FLAME_MAIL": {
+        "id": 138,
+        "name": "Flame Mail"
+    },
+    "ITEM_BUBBLE_MAIL": {
+        "id": 139,
+        "name": "Bubble Mail"
+    },
+    "ITEM_BLOOM_MAIL": {
+        "id": 140,
+        "name": "Bloom Mail"
+    },
+    "ITEM_TUNNEL_MAIL": {
+        "id": 141,
+        "name": "Tunnel Mail"
+    },
+    "ITEM_STEEL_MAIL": {
+        "id": 142,
+        "name": "Steel Mail"
+    },
+    "ITEM_HEART_MAIL": {
+        "id": 143,
+        "name": "Heart Mail"
+    },
+    "ITEM_SNOW_MAIL": {
+        "id": 144,
+        "name": "Snow Mail"
+    },
+    "ITEM_SPACE_MAIL": {
+        "id": 145,
+        "name": "Space Mail"
+    },
+    "ITEM_AIR_MAIL": {
+        "id": 146,
+        "name": "Air Mail"
+    },
+    "ITEM_MOSAIC_MAIL": {
+        "id": 147,
+        "name": "Mosaic Mail"
+    },
+    "ITEM_BRICK_MAIL": {
+        "id": 148,
+        "name": "Brick Mail"
+    },
+    "ITEM_CHERI_BERRY": {
+        "id": 149,
+        "name": "Cheri Berry"
+    },
+    "ITEM_CHESTO_BERRY": {
+        "id": 150,
+        "name": "Chesto Berry"
+    },
+    "ITEM_PECHA_BERRY": {
+        "id": 151,
+        "name": "Pecha Berry"
+    },
+    "ITEM_RAWST_BERRY": {
+        "id": 152,
+        "name": "Rawst Berry"
+    },
+    "ITEM_ASPEAR_BERRY": {
+        "id": 153,
+        "name": "Aspear Berry"
+    },
+    "ITEM_LEPPA_BERRY": {
+        "id": 154,
+        "name": "Leppa Berry"
+    },
+    "ITEM_ORAN_BERRY": {
+        "id": 155,
+        "name": "Oran Berry"
+    },
+    "ITEM_PERSIM_BERRY": {
+        "id": 156,
+        "name": "Persim Berry"
+    },
+    "ITEM_LUM_BERRY": {
+        "id": 157,
+        "name": "Lum Berry"
+    },
+    "ITEM_SITRUS_BERRY": {
+        "id": 158,
+        "name": "Sitrus Berry"
+    },
+    "ITEM_FIGY_BERRY": {
+        "id": 159,
+        "name": "Figy Berry"
+    },
+    "ITEM_WIKI_BERRY": {
+        "id": 160,
+        "name": "Wiki Berry"
+    },
+    "ITEM_MAGO_BERRY": {
+        "id": 161,
+        "name": "Mago Berry"
+    },
+    "ITEM_AGUAV_BERRY": {
+        "id": 162,
+        "name": "Aguav Berry"
+    },
+    "ITEM_IAPAPA_BERRY": {
+        "id": 163,
+        "name": "Iapapa Berry"
+    },
+    "ITEM_RAZZ_BERRY": {
+        "id": 164,
+        "name": "Razz Berry"
+    },
+    "ITEM_BLUK_BERRY": {
+        "id": 165,
+        "name": "Bluk Berry"
+    },
+    "ITEM_NANAB_BERRY": {
+        "id": 166,
+        "name": "Nanab Berry"
+    },
+    "ITEM_WEPEAR_BERRY": {
+        "id": 167,
+        "name": "Wepear Berry"
+    },
+    "ITEM_PINAP_BERRY": {
+        "id": 168,
+        "name": "Pinap Berry"
+    },
+    "ITEM_POMEG_BERRY": {
+        "id": 169,
+        "name": "Pomeg Berry"
+    },
+    "ITEM_KELPSY_BERRY": {
+        "id": 170,
+        "name": "Kelpsy Berry"
+    },
+    "ITEM_QUALOT_BERRY": {
+        "id": 171,
+        "name": "Qualot Berry"
+    },
+    "ITEM_HONDEW_BERRY": {
+        "id": 172,
+        "name": "Hondew Berry"
+    },
+    "ITEM_GREPA_BERRY": {
+        "id": 173,
+        "name": "Grepa Berry"
+    },
+    "ITEM_TAMATO_BERRY": {
+        "id": 174,
+        "name": "Tamato Berry"
+    },
+    "ITEM_CORNN_BERRY": {
+        "id": 175,
+        "name": "Cornn Berry"
+    },
+    "ITEM_MAGOST_BERRY": {
+        "id": 176,
+        "name": "Magost Berry"
+    },
+    "ITEM_RABUTA_BERRY": {
+        "id": 177,
+        "name": "Rabuta Berry"
+    },
+    "ITEM_NOMEL_BERRY": {
+        "id": 178,
+        "name": "Nomel Berry"
+    },
+    "ITEM_SPELON_BERRY": {
+        "id": 179,
+        "name": "Spelon Berry"
+    },
+    "ITEM_PAMTRE_BERRY": {
+        "id": 180,
+        "name": "Pamtre Berry"
+    },
+    "ITEM_WATMEL_BERRY": {
+        "id": 181,
+        "name": "Watmel Berry"
+    },
+    "ITEM_DURIN_BERRY": {
+        "id": 182,
+        "name": "Durin Berry"
+    },
+    "ITEM_BELUE_BERRY": {
+        "id": 183,
+        "name": "Belue Berry"
+    },
+    "ITEM_OCCA_BERRY": {
+        "id": 184,
+        "name": "Occa Berry"
+    },
+    "ITEM_PASSHO_BERRY": {
+        "id": 185,
+        "name": "Passho Berry"
+    },
+    "ITEM_WACAN_BERRY": {
+        "id": 186,
+        "name": "Wacan Berry"
+    },
+    "ITEM_RINDO_BERRY": {
+        "id": 187,
+        "name": "Rindo Berry"
+    },
+    "ITEM_YACHE_BERRY": {
+        "id": 188,
+        "name": "Yache Berry"
+    },
+    "ITEM_CHOPLE_BERRY": {
+        "id": 189,
+        "name": "Chople Berry"
+    },
+    "ITEM_KEBIA_BERRY": {
+        "id": 190,
+        "name": "Kebia Berry"
+    },
+    "ITEM_SHUCA_BERRY": {
+        "id": 191,
+        "name": "Shuca Berry"
+    },
+    "ITEM_COBA_BERRY": {
+        "id": 192,
+        "name": "Coba Berry"
+    },
+    "ITEM_PAYAPA_BERRY": {
+        "id": 193,
+        "name": "Payapa Berry"
+    },
+    "ITEM_TANGA_BERRY": {
+        "id": 194,
+        "name": "Tanga Berry"
+    },
+    "ITEM_CHARTI_BERRY": {
+        "id": 195,
+        "name": "Charti Berry"
+    },
+    "ITEM_KASIB_BERRY": {
+        "id": 196,
+        "name": "Kasib Berry"
+    },
+    "ITEM_HABAN_BERRY": {
+        "id": 197,
+        "name": "Haban Berry"
+    },
+    "ITEM_COLBUR_BERRY": {
+        "id": 198,
+        "name": "Colbur Berry"
+    },
+    "ITEM_BABIRI_BERRY": {
+        "id": 199,
+        "name": "Babiri Berry"
+    },
+    "ITEM_CHILAN_BERRY": {
+        "id": 200,
+        "name": "Chilan Berry"
+    },
+    "ITEM_LIECHI_BERRY": {
+        "id": 201,
+        "name": "Liechi Berry"
+    },
+    "ITEM_GANLON_BERRY": {
+        "id": 202,
+        "name": "Ganlon Berry"
+    },
+    "ITEM_SALAC_BERRY": {
+        "id": 203,
+        "name": "Salac Berry"
+    },
+    "ITEM_PETAYA_BERRY": {
+        "id": 204,
+        "name": "Petaya Berry"
+    },
+    "ITEM_APICOT_BERRY": {
+        "id": 205,
+        "name": "Apicot Berry"
+    },
+    "ITEM_LANSAT_BERRY": {
+        "id": 206,
+        "name": "Lansat Berry"
+    },
+    "ITEM_STARF_BERRY": {
+        "id": 207,
+        "name": "Starf Berry"
+    },
+    "ITEM_ENIGMA_BERRY": {
+        "id": 208,
+        "name": "Enigma Berry"
+    },
+    "ITEM_MICLE_BERRY": {
+        "id": 209,
+        "name": "Micle Berry"
+    },
+    "ITEM_CUSTAP_BERRY": {
+        "id": 210,
+        "name": "Custap Berry"
+    },
+    "ITEM_JABOCA_BERRY": {
+        "id": 211,
+        "name": "Jaboca Berry"
+    },
+    "ITEM_ROWAP_BERRY": {
+        "id": 212,
+        "name": "Rowap Berry"
+    },
+    "ITEM_BRIGHT_POWDER": {
+        "id": 213,
+        "name": "Bright Powder"
+    },
+    "ITEM_WHITE_HERB": {
+        "id": 214,
+        "name": "White Herb"
+    },
+    "ITEM_MACHO_BRACE": {
+        "id": 215,
+        "name": "Macho Brace"
+    },
+    "ITEM_EXP_SHARE": {
+        "id": 216,
+        "name": "Exp. Share"
+    },
+    "ITEM_QUICK_CLAW": {
+        "id": 217,
+        "name": "Quick Claw"
+    },
+    "ITEM_SOOTHE_BELL": {
+        "id": 218,
+        "name": "Soothe Bell"
+    },
+    "ITEM_MENTAL_HERB": {
+        "id": 219,
+        "name": "Mental Herb"
+    },
+    "ITEM_CHOICE_BAND": {
+        "id": 220,
+        "name": "Choice Band"
+    },
+    "ITEM_KINGS_ROCK": {
+        "id": 221,
+        "name": "King\u2019s Rock"
+    },
+    "ITEM_SILVER_POWDER": {
+        "id": 222,
+        "name": "Silver Powder"
+    },
+    "ITEM_AMULET_COIN": {
+        "id": 223,
+        "name": "Amulet Coin"
+    },
+    "ITEM_CLEANSE_TAG": {
+        "id": 224,
+        "name": "Cleanse Tag"
+    },
+    "ITEM_SOUL_DEW": {
+        "id": 225,
+        "name": "Soul Dew"
+    },
+    "ITEM_DEEP_SEA_TOOTH": {
+        "id": 226,
+        "name": "Deep Sea Tooth"
+    },
+    "ITEM_DEEP_SEA_SCALE": {
+        "id": 227,
+        "name": "Deep Sea Scale"
+    },
+    "ITEM_SMOKE_BALL": {
+        "id": 228,
+        "name": "Smoke Ball"
+    },
+    "ITEM_EVERSTONE": {
+        "id": 229,
+        "name": "Everstone"
+    },
+    "ITEM_FOCUS_BAND": {
+        "id": 230,
+        "name": "Focus Band"
+    },
+    "ITEM_LUCKY_EGG": {
+        "id": 231,
+        "name": "Lucky Egg"
+    },
+    "ITEM_SCOPE_LENS": {
+        "id": 232,
+        "name": "Scope Lens"
+    },
+    "ITEM_METAL_COAT": {
+        "id": 233,
+        "name": "Metal Coat"
+    },
+    "ITEM_LEFTOVERS": {
+        "id": 234,
+        "name": "Leftovers"
+    },
+    "ITEM_DRAGON_SCALE": {
+        "id": 235,
+        "name": "Dragon Scale"
+    },
+    "ITEM_LIGHT_BALL": {
+        "id": 236,
+        "name": "Light Ball"
+    },
+    "ITEM_SOFT_SAND": {
+        "id": 237,
+        "name": "Soft Sand"
+    },
+    "ITEM_HARD_STONE": {
+        "id": 238,
+        "name": "Hard Stone"
+    },
+    "ITEM_MIRACLE_SEED": {
+        "id": 239,
+        "name": "Miracle Seed"
+    },
+    "ITEM_BLACK_GLASSES": {
+        "id": 240,
+        "name": "Black Glasses"
+    },
+    "ITEM_BLACK_BELT": {
+        "id": 241,
+        "name": "Black Belt"
+    },
+    "ITEM_MAGNET": {
+        "id": 242,
+        "name": "Magnet"
+    },
+    "ITEM_MYSTIC_WATER": {
+        "id": 243,
+        "name": "Mystic Water"
+    },
+    "ITEM_SHARP_BEAK": {
+        "id": 244,
+        "name": "Sharp Beak"
+    },
+    "ITEM_POISON_BARB": {
+        "id": 245,
+        "name": "Poison Barb"
+    },
+    "ITEM_NEVER_MELT_ICE": {
+        "id": 246,
+        "name": "Never-Melt Ice"
+    },
+    "ITEM_SPELL_TAG": {
+        "id": 247,
+        "name": "Spell Tag"
+    },
+    "ITEM_TWISTED_SPOON": {
+        "id": 248,
+        "name": "Twisted Spoon"
+    },
+    "ITEM_CHARCOAL": {
+        "id": 249,
+        "name": "Charcoal"
+    },
+    "ITEM_DRAGON_FANG": {
+        "id": 250,
+        "name": "Dragon Fang"
+    },
+    "ITEM_SILK_SCARF": {
+        "id": 251,
+        "name": "Silk Scarf"
+    },
+    "ITEM_UP_GRADE": {
+        "id": 252,
+        "name": "Up-Grade"
+    },
+    "ITEM_SHELL_BELL": {
+        "id": 253,
+        "name": "Shell Bell"
+    },
+    "ITEM_SEA_INCENSE": {
+        "id": 254,
+        "name": "Sea Incense"
+    },
+    "ITEM_LAX_INCENSE": {
+        "id": 255,
+        "name": "Lax Incense"
+    },
+    "ITEM_LUCKY_PUNCH": {
+        "id": 256,
+        "name": "Lucky Punch"
+    },
+    "ITEM_METAL_POWDER": {
+        "id": 257,
+        "name": "Metal Powder"
+    },
+    "ITEM_THICK_CLUB": {
+        "id": 258,
+        "name": "Thick Club"
+    },
+    "ITEM_LEEK": {
+        "id": 259,
+        "name": "Leek"
+    },
+    "ITEM_RED_SCARF": {
+        "id": 260,
+        "name": "Red Scarf"
+    },
+    "ITEM_BLUE_SCARF": {
+        "id": 261,
+        "name": "Blue Scarf"
+    },
+    "ITEM_PINK_SCARF": {
+        "id": 262,
+        "name": "Pink Scarf"
+    },
+    "ITEM_GREEN_SCARF": {
+        "id": 263,
+        "name": "Green Scarf"
+    },
+    "ITEM_YELLOW_SCARF": {
+        "id": 264,
+        "name": "Yellow Scarf"
+    },
+    "ITEM_WIDE_LENS": {
+        "id": 265,
+        "name": "Wide Lens"
+    },
+    "ITEM_MUSCLE_BAND": {
+        "id": 266,
+        "name": "Muscle Band"
+    },
+    "ITEM_WISE_GLASSES": {
+        "id": 267,
+        "name": "Wise Glasses"
+    },
+    "ITEM_EXPERT_BELT": {
+        "id": 268,
+        "name": "Expert Belt"
+    },
+    "ITEM_LIGHT_CLAY": {
+        "id": 269,
+        "name": "Light Clay"
+    },
+    "ITEM_LIFE_ORB": {
+        "id": 270,
+        "name": "Life Orb"
+    },
+    "ITEM_POWER_HERB": {
+        "id": 271,
+        "name": "Power Herb"
+    },
+    "ITEM_TOXIC_ORB": {
+        "id": 272,
+        "name": "Toxic Orb"
+    },
+    "ITEM_FLAME_ORB": {
+        "id": 273,
+        "name": "Flame Orb"
+    },
+    "ITEM_QUICK_POWDER": {
+        "id": 274,
+        "name": "Quick Powder"
+    },
+    "ITEM_FOCUS_SASH": {
+        "id": 275,
+        "name": "Focus Sash"
+    },
+    "ITEM_ZOOM_LENS": {
+        "id": 276,
+        "name": "Zoom Lens"
+    },
+    "ITEM_METRONOME": {
+        "id": 277,
+        "name": "Metronome"
+    },
+    "ITEM_IRON_BALL": {
+        "id": 278,
+        "name": "Iron Ball"
+    },
+    "ITEM_LAGGING_TAIL": {
+        "id": 279,
+        "name": "Lagging Tail"
+    },
+    "ITEM_DESTINY_KNOT": {
+        "id": 280,
+        "name": "Destiny Knot"
+    },
+    "ITEM_BLACK_SLUDGE": {
+        "id": 281,
+        "name": "Black Sludge"
+    },
+    "ITEM_ICY_ROCK": {
+        "id": 282,
+        "name": "Icy Rock"
+    },
+    "ITEM_SMOOTH_ROCK": {
+        "id": 283,
+        "name": "Smooth Rock"
+    },
+    "ITEM_HEAT_ROCK": {
+        "id": 284,
+        "name": "Heat Rock"
+    },
+    "ITEM_DAMP_ROCK": {
+        "id": 285,
+        "name": "Damp Rock"
+    },
+    "ITEM_GRIP_CLAW": {
+        "id": 286,
+        "name": "Grip Claw"
+    },
+    "ITEM_CHOICE_SCARF": {
+        "id": 287,
+        "name": "Choice Scarf"
+    },
+    "ITEM_STICKY_BARB": {
+        "id": 288,
+        "name": "Sticky Barb"
+    },
+    "ITEM_POWER_BRACER": {
+        "id": 289,
+        "name": "Power Bracer"
+    },
+    "ITEM_POWER_BELT": {
+        "id": 290,
+        "name": "Power Belt"
+    },
+    "ITEM_POWER_LENS": {
+        "id": 291,
+        "name": "Power Lens"
+    },
+    "ITEM_POWER_BAND": {
+        "id": 292,
+        "name": "Power Band"
+    },
+    "ITEM_POWER_ANKLET": {
+        "id": 293,
+        "name": "Power Anklet"
+    },
+    "ITEM_POWER_WEIGHT": {
+        "id": 294,
+        "name": "Power Weight"
+    },
+    "ITEM_SHED_SHELL": {
+        "id": 295,
+        "name": "Shed Shell"
+    },
+    "ITEM_BIG_ROOT": {
+        "id": 296,
+        "name": "Big Root"
+    },
+    "ITEM_CHOICE_SPECS": {
+        "id": 297,
+        "name": "Choice Specs"
+    },
+    "ITEM_FLAME_PLATE": {
+        "id": 298,
+        "name": "Flame Plate"
+    },
+    "ITEM_SPLASH_PLATE": {
+        "id": 299,
+        "name": "Splash Plate"
+    },
+    "ITEM_ZAP_PLATE": {
+        "id": 300,
+        "name": "Zap Plate"
+    },
+    "ITEM_MEADOW_PLATE": {
+        "id": 301,
+        "name": "Meadow Plate"
+    },
+    "ITEM_ICICLE_PLATE": {
+        "id": 302,
+        "name": "Icicle Plate"
+    },
+    "ITEM_FIST_PLATE": {
+        "id": 303,
+        "name": "Fist Plate"
+    },
+    "ITEM_TOXIC_PLATE": {
+        "id": 304,
+        "name": "Toxic Plate"
+    },
+    "ITEM_EARTH_PLATE": {
+        "id": 305,
+        "name": "Earth Plate"
+    },
+    "ITEM_SKY_PLATE": {
+        "id": 306,
+        "name": "Sky Plate"
+    },
+    "ITEM_MIND_PLATE": {
+        "id": 307,
+        "name": "Mind Plate"
+    },
+    "ITEM_INSECT_PLATE": {
+        "id": 308,
+        "name": "Insect Plate"
+    },
+    "ITEM_STONE_PLATE": {
+        "id": 309,
+        "name": "Stone Plate"
+    },
+    "ITEM_SPOOKY_PLATE": {
+        "id": 310,
+        "name": "Spooky Plate"
+    },
+    "ITEM_DRACO_PLATE": {
+        "id": 311,
+        "name": "Draco Plate"
+    },
+    "ITEM_DREAD_PLATE": {
+        "id": 312,
+        "name": "Dread Plate"
+    },
+    "ITEM_IRON_PLATE": {
+        "id": 313,
+        "name": "Iron Plate"
+    },
+    "ITEM_ODD_INCENSE": {
+        "id": 314,
+        "name": "Odd Incense"
+    },
+    "ITEM_ROCK_INCENSE": {
+        "id": 315,
+        "name": "Rock Incense"
+    },
+    "ITEM_FULL_INCENSE": {
+        "id": 316,
+        "name": "Full Incense"
+    },
+    "ITEM_WAVE_INCENSE": {
+        "id": 317,
+        "name": "Wave Incense"
+    },
+    "ITEM_ROSE_INCENSE": {
+        "id": 318,
+        "name": "Rose Incense"
+    },
+    "ITEM_LUCK_INCENSE": {
+        "id": 319,
+        "name": "Luck Incense"
+    },
+    "ITEM_PURE_INCENSE": {
+        "id": 320,
+        "name": "Pure Incense"
+    },
+    "ITEM_PROTECTOR": {
+        "id": 321,
+        "name": "Protector"
+    },
+    "ITEM_ELECTIRIZER": {
+        "id": 322,
+        "name": "Electirizer"
+    },
+    "ITEM_MAGMARIZER": {
+        "id": 323,
+        "name": "Magmarizer"
+    },
+    "ITEM_DUBIOUS_DISC": {
+        "id": 324,
+        "name": "Dubious Disc"
+    },
+    "ITEM_REAPER_CLOTH": {
+        "id": 325,
+        "name": "Reaper Cloth"
+    },
+    "ITEM_RAZOR_CLAW": {
+        "id": 326,
+        "name": "Razor Claw"
+    },
+    "ITEM_RAZOR_FANG": {
+        "id": 327,
+        "name": "Razor Fang"
+    },
+    "ITEM_TM01": {
+        "id": 328,
+        "name": "TM01"
+    },
+    "ITEM_TM02": {
+        "id": 329,
+        "name": "TM02"
+    },
+    "ITEM_TM03": {
+        "id": 330,
+        "name": "TM03"
+    },
+    "ITEM_TM04": {
+        "id": 331,
+        "name": "TM04"
+    },
+    "ITEM_TM05": {
+        "id": 332,
+        "name": "TM05"
+    },
+    "ITEM_TM06": {
+        "id": 333,
+        "name": "TM06"
+    },
+    "ITEM_TM07": {
+        "id": 334,
+        "name": "TM07"
+    },
+    "ITEM_TM08": {
+        "id": 335,
+        "name": "TM08"
+    },
+    "ITEM_TM09": {
+        "id": 336,
+        "name": "TM09"
+    },
+    "ITEM_TM10": {
+        "id": 337,
+        "name": "TM10"
+    },
+    "ITEM_TM11": {
+        "id": 338,
+        "name": "TM11"
+    },
+    "ITEM_TM12": {
+        "id": 339,
+        "name": "TM12"
+    },
+    "ITEM_TM13": {
+        "id": 340,
+        "name": "TM13"
+    },
+    "ITEM_TM14": {
+        "id": 341,
+        "name": "TM14"
+    },
+    "ITEM_TM15": {
+        "id": 342,
+        "name": "TM15"
+    },
+    "ITEM_TM16": {
+        "id": 343,
+        "name": "TM16"
+    },
+    "ITEM_TM17": {
+        "id": 344,
+        "name": "TM17"
+    },
+    "ITEM_TM18": {
+        "id": 345,
+        "name": "TM18"
+    },
+    "ITEM_TM19": {
+        "id": 346,
+        "name": "TM19"
+    },
+    "ITEM_TM20": {
+        "id": 347,
+        "name": "TM20"
+    },
+    "ITEM_TM21": {
+        "id": 348,
+        "name": "TM21"
+    },
+    "ITEM_TM22": {
+        "id": 349,
+        "name": "TM22"
+    },
+    "ITEM_TM23": {
+        "id": 350,
+        "name": "TM23"
+    },
+    "ITEM_TM24": {
+        "id": 351,
+        "name": "TM24"
+    },
+    "ITEM_TM25": {
+        "id": 352,
+        "name": "TM25"
+    },
+    "ITEM_TM26": {
+        "id": 353,
+        "name": "TM26"
+    },
+    "ITEM_TM27": {
+        "id": 354,
+        "name": "TM27"
+    },
+    "ITEM_TM28": {
+        "id": 355,
+        "name": "TM28"
+    },
+    "ITEM_TM29": {
+        "id": 356,
+        "name": "TM29"
+    },
+    "ITEM_TM30": {
+        "id": 357,
+        "name": "TM30"
+    },
+    "ITEM_TM31": {
+        "id": 358,
+        "name": "TM31"
+    },
+    "ITEM_TM32": {
+        "id": 359,
+        "name": "TM32"
+    },
+    "ITEM_TM33": {
+        "id": 360,
+        "name": "TM33"
+    },
+    "ITEM_TM34": {
+        "id": 361,
+        "name": "TM34"
+    },
+    "ITEM_TM35": {
+        "id": 362,
+        "name": "TM35"
+    },
+    "ITEM_TM36": {
+        "id": 363,
+        "name": "TM36"
+    },
+    "ITEM_TM37": {
+        "id": 364,
+        "name": "TM37"
+    },
+    "ITEM_TM38": {
+        "id": 365,
+        "name": "TM38"
+    },
+    "ITEM_TM39": {
+        "id": 366,
+        "name": "TM39"
+    },
+    "ITEM_TM40": {
+        "id": 367,
+        "name": "TM40"
+    },
+    "ITEM_TM41": {
+        "id": 368,
+        "name": "TM41"
+    },
+    "ITEM_TM42": {
+        "id": 369,
+        "name": "TM42"
+    },
+    "ITEM_TM43": {
+        "id": 370,
+        "name": "TM43"
+    },
+    "ITEM_TM44": {
+        "id": 371,
+        "name": "TM44"
+    },
+    "ITEM_TM45": {
+        "id": 372,
+        "name": "TM45"
+    },
+    "ITEM_TM46": {
+        "id": 373,
+        "name": "TM46"
+    },
+    "ITEM_TM47": {
+        "id": 374,
+        "name": "TM47"
+    },
+    "ITEM_TM48": {
+        "id": 375,
+        "name": "TM48"
+    },
+    "ITEM_TM49": {
+        "id": 376,
+        "name": "TM49"
+    },
+    "ITEM_TM50": {
+        "id": 377,
+        "name": "TM50"
+    },
+    "ITEM_TM51": {
+        "id": 378,
+        "name": "TM51"
+    },
+    "ITEM_TM52": {
+        "id": 379,
+        "name": "TM52"
+    },
+    "ITEM_TM53": {
+        "id": 380,
+        "name": "TM53"
+    },
+    "ITEM_TM54": {
+        "id": 381,
+        "name": "TM54"
+    },
+    "ITEM_TM55": {
+        "id": 382,
+        "name": "TM55"
+    },
+    "ITEM_TM56": {
+        "id": 383,
+        "name": "TM56"
+    },
+    "ITEM_TM57": {
+        "id": 384,
+        "name": "TM57"
+    },
+    "ITEM_TM58": {
+        "id": 385,
+        "name": "TM58"
+    },
+    "ITEM_TM59": {
+        "id": 386,
+        "name": "TM59"
+    },
+    "ITEM_TM60": {
+        "id": 387,
+        "name": "TM60"
+    },
+    "ITEM_TM61": {
+        "id": 388,
+        "name": "TM61"
+    },
+    "ITEM_TM62": {
+        "id": 389,
+        "name": "TM62"
+    },
+    "ITEM_TM63": {
+        "id": 390,
+        "name": "TM63"
+    },
+    "ITEM_TM64": {
+        "id": 391,
+        "name": "TM64"
+    },
+    "ITEM_TM65": {
+        "id": 392,
+        "name": "TM65"
+    },
+    "ITEM_TM66": {
+        "id": 393,
+        "name": "TM66"
+    },
+    "ITEM_TM67": {
+        "id": 394,
+        "name": "TM67"
+    },
+    "ITEM_TM68": {
+        "id": 395,
+        "name": "TM68"
+    },
+    "ITEM_TM69": {
+        "id": 396,
+        "name": "TM69"
+    },
+    "ITEM_TM70": {
+        "id": 397,
+        "name": "TM70"
+    },
+    "ITEM_TM71": {
+        "id": 398,
+        "name": "TM71"
+    },
+    "ITEM_TM72": {
+        "id": 399,
+        "name": "TM72"
+    },
+    "ITEM_TM73": {
+        "id": 400,
+        "name": "TM73"
+    },
+    "ITEM_TM74": {
+        "id": 401,
+        "name": "TM74"
+    },
+    "ITEM_TM75": {
+        "id": 402,
+        "name": "TM75"
+    },
+    "ITEM_TM76": {
+        "id": 403,
+        "name": "TM76"
+    },
+    "ITEM_TM77": {
+        "id": 404,
+        "name": "TM77"
+    },
+    "ITEM_TM78": {
+        "id": 405,
+        "name": "TM78"
+    },
+    "ITEM_TM79": {
+        "id": 406,
+        "name": "TM79"
+    },
+    "ITEM_TM80": {
+        "id": 407,
+        "name": "TM80"
+    },
+    "ITEM_TM81": {
+        "id": 408,
+        "name": "TM81"
+    },
+    "ITEM_TM82": {
+        "id": 409,
+        "name": "TM82"
+    },
+    "ITEM_TM83": {
+        "id": 410,
+        "name": "TM83"
+    },
+    "ITEM_TM84": {
+        "id": 411,
+        "name": "TM84"
+    },
+    "ITEM_TM85": {
+        "id": 412,
+        "name": "TM85"
+    },
+    "ITEM_TM86": {
+        "id": 413,
+        "name": "TM86"
+    },
+    "ITEM_TM87": {
+        "id": 414,
+        "name": "TM87"
+    },
+    "ITEM_TM88": {
+        "id": 415,
+        "name": "TM88"
+    },
+    "ITEM_TM89": {
+        "id": 416,
+        "name": "TM89"
+    },
+    "ITEM_TM90": {
+        "id": 417,
+        "name": "TM90"
+    },
+    "ITEM_TM91": {
+        "id": 418,
+        "name": "TM91"
+    },
+    "ITEM_TM92": {
+        "id": 419,
+        "name": "TM92"
+    },
+    "ITEM_HM01": {
+        "id": 420,
+        "name": "HM01"
+    },
+    "ITEM_HM02": {
+        "id": 421,
+        "name": "HM02"
+    },
+    "ITEM_HM03": {
+        "id": 422,
+        "name": "HM03"
+    },
+    "ITEM_HM04": {
+        "id": 423,
+        "name": "HM04"
+    },
+    "ITEM_HM05": {
+        "id": 424,
+        "name": "HM05"
+    },
+    "ITEM_HM06": {
+        "id": 425,
+        "name": "HM06"
+    },
+    "ITEM_HM07": {
+        "id": 426,
+        "name": "HM07"
+    },
+    "ITEM_HM08": {
+        "id": 427,
+        "name": "HM08"
+    },
+    "ITEM_EXPLORER_KIT": {
+        "id": 428,
+        "name": "???"
+    },
+    "ITEM_LOOT_SACK": {
+        "id": 429,
+        "name": "Loot Sack"
+    },
+    "ITEM_RULE_BOOK": {
+        "id": 430,
+        "name": "Rule Book"
+    },
+    "ITEM_POKE_RADAR": {
+        "id": 431,
+        "name": "Pok\u00e9 Radar"
+    },
+    "ITEM_POINT_CARD": {
+        "id": 432,
+        "name": "Point Card"
+    },
+    "ITEM_JOURNAL": {
+        "id": 433,
+        "name": "Journal"
+    },
+    "ITEM_SEAL_CASE": {
+        "id": 434,
+        "name": "Seal Case"
+    },
+    "ITEM_FASHION_CASE": {
+        "id": 435,
+        "name": "Fashion Case"
+    },
+    "ITEM_SEAL_BAG": {
+        "id": 436,
+        "name": "Seal Bag"
+    },
+    "ITEM_PAL_PAD": {
+        "id": 437,
+        "name": "Pal Pad"
+    },
+    "ITEM_WORKS_KEY": {
+        "id": 438,
+        "name": "Works Key"
+    },
+    "ITEM_OLD_CHARM": {
+        "id": 439,
+        "name": "Old Charm"
+    },
+    "ITEM_GALACTIC_KEY": {
+        "id": 440,
+        "name": "Galactic Key"
+    },
+    "ITEM_RED_CHAIN": {
+        "id": 441,
+        "name": "Red Chain"
+    },
+    "ITEM_TOWN_MAP": {
+        "id": 442,
+        "name": "Town Map"
+    },
+    "ITEM_VS_SEEKER": {
+        "id": 443,
+        "name": "Vs. Seeker"
+    },
+    "ITEM_COIN_CASE": {
+        "id": 444,
+        "name": "Coin Case"
+    },
+    "ITEM_OLD_ROD": {
+        "id": 445,
+        "name": "Old Rod"
+    },
+    "ITEM_GOOD_ROD": {
+        "id": 446,
+        "name": "Good Rod"
+    },
+    "ITEM_SUPER_ROD": {
+        "id": 447,
+        "name": "Super Rod"
+    },
+    "ITEM_SPRAYDUCK": {
+        "id": 448,
+        "name": "Sprayduck"
+    },
+    "ITEM_POFFIN_CASE": {
+        "id": 449,
+        "name": "Poffin Case"
+    },
+    "ITEM_BICYCLE": {
+        "id": 450,
+        "name": "Bicycle"
+    },
+    "ITEM_SUITE_KEY": {
+        "id": 451,
+        "name": "Suite Key"
+    },
+    "ITEM_OAKS_LETTER": {
+        "id": 452,
+        "name": "Oak\u2019s Letter"
+    },
+    "ITEM_LUNAR_WING": {
+        "id": 453,
+        "name": "Lunar Wing"
+    },
+    "ITEM_MEMBER_CARD": {
+        "id": 454,
+        "name": "Member Card"
+    },
+    "ITEM_AZURE_FLUTE": {
+        "id": 455,
+        "name": "Azure Flute"
+    },
+    "ITEM_SS_TICKET": {
+        "id": 456,
+        "name": "S.S. Ticket"
+    },
+    "ITEM_CONTEST_PASS": {
+        "id": 457,
+        "name": "Contest Pass"
+    },
+    "ITEM_MAGMA_STONE": {
+        "id": 458,
+        "name": "Magma Stone"
+    },
+    "ITEM_PARCEL": {
+        "id": 459,
+        "name": "Parcel"
+    },
+    "ITEM_COUPON_1": {
+        "id": 460,
+        "name": "Coupon 1"
+    },
+    "ITEM_COUPON_2": {
+        "id": 461,
+        "name": "Coupon 2"
+    },
+    "ITEM_COUPON_3": {
+        "id": 462,
+        "name": "Coupon 3"
+    },
+    "ITEM_STORAGE_KEY": {
+        "id": 463,
+        "name": "Storage Key"
+    },
+    "ITEM_SECRET_MEDICINE": {
+        "id": 464,
+        "name": "Secret Medicine"
+    },
+    "ITEM_VS_RECORDER": {
+        "id": 465,
+        "name": "Vs. Recorder"
+    },
+    "ITEM_GRACIDEA": {
+        "id": 466,
+        "name": "Gracidea"
+    },
+    "ITEM_SECRET_KEY": {
+        "id": 467,
+        "name": "Secret Key"
+    },
+    "ITEM_APRICORN_BOX": {
+        "id": 468,
+        "name": "Apricorn Box"
+    },
+    "ITEM_UNOWN_REPORT": {
+        "id": 469,
+        "name": "Unown Report"
+    },
+    "ITEM_BERRY_POTS": {
+        "id": 470,
+        "name": "Berry Pots"
+    },
+    "ITEM_DOWSING_MCHN": {
+        "id": 471,
+        "name": "Dowsing Machine"
+    },
+    "ITEM_BLUE_CARD": {
+        "id": 472,
+        "name": "Blue Card"
+    },
+    "ITEM_SLOWPOKE_TAIL": {
+        "id": 473,
+        "name": "Slowpoke Tail"
+    },
+    "ITEM_CLEAR_BELL": {
+        "id": 474,
+        "name": "Clear Bell"
+    },
+    "ITEM_CARD_KEY": {
+        "id": 475,
+        "name": "Card Key"
+    },
+    "ITEM_BASEMENT_KEY": {
+        "id": 476,
+        "name": "Basement Key"
+    },
+    "ITEM_SQUIRT_BOTTLE": {
+        "id": 477,
+        "name": "Squirt Bottle"
+    },
+    "ITEM_RED_SCALE": {
+        "id": 478,
+        "name": "Red Scale"
+    },
+    "ITEM_LOST_ITEM": {
+        "id": 479,
+        "name": "Lost Item"
+    },
+    "ITEM_PASS": {
+        "id": 480,
+        "name": "Pass"
+    },
+    "ITEM_MACHINE_PART": {
+        "id": 481,
+        "name": "Machine Part"
+    },
+    "ITEM_SILVER_WING": {
+        "id": 482,
+        "name": "Silver Wing"
+    },
+    "ITEM_RAINBOW_WING": {
+        "id": 483,
+        "name": "Rainbow Wing"
+    },
+    "ITEM_MYSTERY_EGG": {
+        "id": 484,
+        "name": "Mystery Egg"
+    },
+    "ITEM_RED_APRICORN": {
+        "id": 485,
+        "name": "Red Apricorn"
+    },
+    "ITEM_YELLOW_APRICORN": {
+        "id": 486,
+        "name": "Yellow Apricorn"
+    },
+    "ITEM_BLUE_APRICORN": {
+        "id": 487,
+        "name": "Blue Apricorn"
+    },
+    "ITEM_GREEN_APRICORN": {
+        "id": 488,
+        "name": "Green Apricorn"
+    },
+    "ITEM_PINK_APRICORN": {
+        "id": 489,
+        "name": "Pink Apricorn"
+    },
+    "ITEM_WHITE_APRICORN": {
+        "id": 490,
+        "name": "White Apricorn"
+    },
+    "ITEM_BLACK_APRICORN": {
+        "id": 491,
+        "name": "Black Apricorn"
+    },
+    "ITEM_FAST_BALL": {
+        "id": 492,
+        "name": "Fast Ball"
+    },
+    "ITEM_LEVEL_BALL": {
+        "id": 493,
+        "name": "Level Ball"
+    },
+    "ITEM_LURE_BALL": {
+        "id": 494,
+        "name": "Lure Ball"
+    },
+    "ITEM_HEAVY_BALL": {
+        "id": 495,
+        "name": "Heavy Ball"
+    },
+    "ITEM_LOVE_BALL": {
+        "id": 496,
+        "name": "Love Ball"
+    },
+    "ITEM_FRIEND_BALL": {
+        "id": 497,
+        "name": "Friend Ball"
+    },
+    "ITEM_MOON_BALL": {
+        "id": 498,
+        "name": "Moon Ball"
+    },
+    "ITEM_SPORT_BALL": {
+        "id": 499,
+        "name": "Sport Ball"
+    },
+    "ITEM_PARK_BALL": {
+        "id": 500,
+        "name": "Park Ball"
+    },
+    "ITEM_PHOTO_ALBUM": {
+        "id": 501,
+        "name": "Photo Album"
+    },
+    "ITEM_GB_SOUNDS": {
+        "id": 502,
+        "name": "GB Sounds"
+    },
+    "ITEM_TIDAL_BELL": {
+        "id": 503,
+        "name": "Tidal Bell"
+    },
+    "ITEM_RAGE_CANDY_BAR": {
+        "id": 504,
+        "name": "Rage Candy Bar"
+    },
+    "ITEM_DATA_CARD_01": {
+        "id": 505,
+        "name": "Data Card 01"
+    },
+    "ITEM_DATA_CARD_02": {
+        "id": 506,
+        "name": "Data Card 02"
+    },
+    "ITEM_DATA_CARD_03": {
+        "id": 507,
+        "name": "Data Card 03"
+    },
+    "ITEM_DATA_CARD_04": {
+        "id": 508,
+        "name": "Data Card 04"
+    },
+    "ITEM_DATA_CARD_05": {
+        "id": 509,
+        "name": "Data Card 05"
+    },
+    "ITEM_DATA_CARD_06": {
+        "id": 510,
+        "name": "Data Card 06"
+    },
+    "ITEM_DATA_CARD_07": {
+        "id": 511,
+        "name": "Data Card 07"
+    },
+    "ITEM_DATA_CARD_08": {
+        "id": 512,
+        "name": "Data Card 08"
+    },
+    "ITEM_DATA_CARD_09": {
+        "id": 513,
+        "name": "Data Card 09"
+    },
+    "ITEM_DATA_CARD_10": {
+        "id": 514,
+        "name": "Data Card 10"
+    },
+    "ITEM_DATA_CARD_11": {
+        "id": 515,
+        "name": "Data Card 11"
+    },
+    "ITEM_DATA_CARD_12": {
+        "id": 516,
+        "name": "Data Card 12"
+    },
+    "ITEM_DATA_CARD_13": {
+        "id": 517,
+        "name": "Data Card 13"
+    },
+    "ITEM_DATA_CARD_14": {
+        "id": 518,
+        "name": "Data Card 14"
+    },
+    "ITEM_DATA_CARD_15": {
+        "id": 519,
+        "name": "Data Card 15"
+    },
+    "ITEM_DATA_CARD_16": {
+        "id": 520,
+        "name": "Data Card 16"
+    },
+    "ITEM_DATA_CARD_17": {
+        "id": 521,
+        "name": "Data Card 17"
+    },
+    "ITEM_DATA_CARD_18": {
+        "id": 522,
+        "name": "Data Card 18"
+    },
+    "ITEM_DATA_CARD_19": {
+        "id": 523,
+        "name": "Data Card 19"
+    },
+    "ITEM_DATA_CARD_20": {
+        "id": 524,
+        "name": "Data Card 20"
+    },
+    "ITEM_DATA_CARD_21": {
+        "id": 525,
+        "name": "Data Card 21"
+    },
+    "ITEM_DATA_CARD_22": {
+        "id": 526,
+        "name": "Data Card 22"
+    },
+    "ITEM_DATA_CARD_23": {
+        "id": 527,
+        "name": "Data Card 23"
+    },
+    "ITEM_DATA_CARD_24": {
+        "id": 528,
+        "name": "Data Card 24"
+    },
+    "ITEM_DATA_CARD_25": {
+        "id": 529,
+        "name": "Data Card 25"
+    },
+    "ITEM_DATA_CARD_26": {
+        "id": 530,
+        "name": "Data Card 26"
+    },
+    "ITEM_DATA_CARD_27": {
+        "id": 531,
+        "name": "Data Card 27"
+    },
+    "ITEM_JADE_ORB": {
+        "id": 532,
+        "name": "Jade Orb"
+    },
+    "ITEM_LOCK_CAPSULE": {
+        "id": 533,
+        "name": "Lock Capsule"
+    },
+    "ITEM_RED_ORB": {
+        "id": 534,
+        "name": "Red Orb"
+    },
+    "ITEM_BLUE_ORB": {
+        "id": 535,
+        "name": "Blue Orb"
+    },
+    "ITEM_ENIGMA_STONE": {
+        "id": 536,
+        "name": "Enigma Stone"
+    },
+    "ITEM_MEGA_STONES_START": {
+        "id": 537,
+        "name": "Venusaurite"
+    },
+    "ITEM_CHARIZARDITE_X": {
+        "id": 538,
+        "name": "Charizardite X"
+    },
+    "ITEM_CHARIZARDITE_Y": {
+        "id": 539,
+        "name": "Charizardite Y"
+    },
+    "ITEM_BLASTOISINITE": {
+        "id": 540,
+        "name": "Blastoisite"
+    },
+    "ITEM_BEEDRILLITE": {
+        "id": 541,
+        "name": "Beedrillite"
+    },
+    "ITEM_PIDGEOTITE": {
+        "id": 542,
+        "name": "Pidgeotite"
+    },
+    "ITEM_ALAKAZITE": {
+        "id": 543,
+        "name": "Alakazite"
+    },
+    "ITEM_SLOWBRONITE": {
+        "id": 544,
+        "name": "Slowbronite"
+    },
+    "ITEM_GENGARITE": {
+        "id": 545,
+        "name": "Gengarite"
+    },
+    "ITEM_KANGASKHANITE": {
+        "id": 546,
+        "name": "Kangaskhite"
+    },
+    "ITEM_PINSIRITE": {
+        "id": 547,
+        "name": "Pinsirite"
+    },
+    "ITEM_GYARADOSITE": {
+        "id": 548,
+        "name": "Gyaradosite"
+    },
+    "ITEM_AERODACTYLITE": {
+        "id": 549,
+        "name": "Aerodactite"
+    },
+    "ITEM_MEWTWONITE_X": {
+        "id": 550,
+        "name": "Mewtwonite X"
+    },
+    "ITEM_MEWTWONITE_Y": {
+        "id": 551,
+        "name": "Mewtwonite Y"
+    },
+    "ITEM_AMPHAROSITE": {
+        "id": 552,
+        "name": "Ampharosite"
+    },
+    "ITEM_STEELIXITE": {
+        "id": 553,
+        "name": "Steelixite"
+    },
+    "ITEM_SCIZORITE": {
+        "id": 554,
+        "name": "Scizorite"
+    },
+    "ITEM_HERACRONITE": {
+        "id": 555,
+        "name": "Heracronite"
+    },
+    "ITEM_HOUNDOOMINITE": {
+        "id": 556,
+        "name": "Houndoomite"
+    },
+    "ITEM_TYRANITARITE": {
+        "id": 557,
+        "name": "Tyranitarite"
+    },
+    "ITEM_SCEPTILITE": {
+        "id": 558,
+        "name": "Sceptilite"
+    },
+    "ITEM_BLAZIKENITE": {
+        "id": 559,
+        "name": "Blazikenite"
+    },
+    "ITEM_SWAMPERTITE": {
+        "id": 560,
+        "name": "Swampertite"
+    },
+    "ITEM_GARDEVOIRITE": {
+        "id": 561,
+        "name": "Gardevoirite"
+    },
+    "ITEM_SABLENITE": {
+        "id": 562,
+        "name": "Sablenite"
+    },
+    "ITEM_MAWILITE": {
+        "id": 563,
+        "name": "Mawilite"
+    },
+    "ITEM_AGGRONITE": {
+        "id": 564,
+        "name": "Aggronite"
+    },
+    "ITEM_MEDICHAMITE": {
+        "id": 565,
+        "name": "Medichamite"
+    },
+    "ITEM_MANECTITE": {
+        "id": 566,
+        "name": "Manectite"
+    },
+    "ITEM_SHARPEDONITE": {
+        "id": 567,
+        "name": "Sharpedonite"
+    },
+    "ITEM_CAMERUPTITE": {
+        "id": 568,
+        "name": "Cameruptite"
+    },
+    "ITEM_ALTARIANITE": {
+        "id": 569,
+        "name": "Altarianite"
+    },
+    "ITEM_BANETTITE": {
+        "id": 570,
+        "name": "Banettite"
+    },
+    "ITEM_ABSOLITE": {
+        "id": 571,
+        "name": "Absolite"
+    },
+    "ITEM_GLALITITE": {
+        "id": 572,
+        "name": "Glalitite"
+    },
+    "ITEM_SALAMENCITE": {
+        "id": 573,
+        "name": "Salamencite"
+    },
+    "ITEM_METAGROSSITE": {
+        "id": 574,
+        "name": "Metagrossite"
+    },
+    "ITEM_LATIASITE": {
+        "id": 575,
+        "name": "Latiasite"
+    },
+    "ITEM_LATIOSITE": {
+        "id": 576,
+        "name": "Latiosite"
+    },
+    "ITEM_LOPUNNITE": {
+        "id": 577,
+        "name": "Lopunnite"
+    },
+    "ITEM_GARCHOMPITE": {
+        "id": 578,
+        "name": "Garchompite"
+    },
+    "ITEM_LUCARIONITE": {
+        "id": 579,
+        "name": "Lucarionite"
+    },
+    "ITEM_ABOMASITE": {
+        "id": 580,
+        "name": "Abomasite"
+    },
+    "ITEM_GALLADITE": {
+        "id": 581,
+        "name": "Galladite"
+    },
+    "ITEM_AUDINITE": {
+        "id": 582,
+        "name": "Audinite"
+    },
+    "ITEM_DIANCITE": {
+        "id": 583,
+        "name": "Diancite"
+    },
+    "ITEM_PIXIE_PLATE": {
+        "id": 584,
+        "name": "Pixie Plate"
+    },
+    "ITEM_ABSORB_BULB": {
+        "id": 585,
+        "name": "Absorb Bulb"
+    },
+    "ITEM_AIR_BALLOON": {
+        "id": 586,
+        "name": "Air Balloon"
+    },
+    "ITEM_BALM_MUSHROOM": {
+        "id": 587,
+        "name": "Balm Mushroom"
+    },
+    "ITEM_BIG_NUGGET": {
+        "id": 588,
+        "name": "Big Nugget"
+    },
+    "ITEM_BINDING_BAND": {
+        "id": 589,
+        "name": "Binding Band"
+    },
+    "ITEM_CASTELIACONE": {
+        "id": 590,
+        "name": "Casteliacone"
+    },
+    "ITEM_CELL_BATTERY": {
+        "id": 591,
+        "name": "Cell Battery"
+    },
+    "ITEM_COMET_SHARD": {
+        "id": 592,
+        "name": "Comet Shard"
+    },
+    "ITEM_DREAM_BALL": {
+        "id": 593,
+        "name": "Dream Ball"
+    },
+    "ITEM_EJECT_BUTTON": {
+        "id": 594,
+        "name": "Eject Button"
+    },
+    "ITEM_EVIOLITE": {
+        "id": 595,
+        "name": "Eviolite"
+    },
+    "ITEM_FLOAT_STONE": {
+        "id": 596,
+        "name": "Float Stone"
+    },
+    "ITEM_PEARL_STRING": {
+        "id": 597,
+        "name": "Pearl String"
+    },
+    "ITEM_PRISM_SCALE": {
+        "id": 598,
+        "name": "Prism Scale"
+    },
+    "ITEM_RED_CARD": {
+        "id": 599,
+        "name": "Red Card"
+    },
+    "ITEM_RING_TARGET": {
+        "id": 600,
+        "name": "Ring Target"
+    },
+    "ITEM_ROCKY_HELMET": {
+        "id": 601,
+        "name": "Rocky Helmet"
+    },
+    "ITEM_SWEET_HEART": {
+        "id": 602,
+        "name": "Sweet Heart"
+    },
+    "ITEM_ABILITY_CAPSULE": {
+        "id": 603,
+        "name": "Ability Capsule"
+    },
+    "ITEM_ASSAULT_VEST": {
+        "id": 604,
+        "name": "Assault Vest"
+    },
+    "ITEM_LUMINOUS_MOSS": {
+        "id": 605,
+        "name": "Luminous Moss"
+    },
+    "ITEM_LUMIOSE_GALETTE": {
+        "id": 606,
+        "name": "Lumiose Galette"
+    },
+    "ITEM_SACHET": {
+        "id": 607,
+        "name": "Sachet"
+    },
+    "ITEM_SAFETY_GOGGLES": {
+        "id": 608,
+        "name": "Safety Goggles"
+    },
+    "ITEM_SHALOUR_SABLE": {
+        "id": 609,
+        "name": "Shalour Sable"
+    },
+    "ITEM_SNOWBALL": {
+        "id": 610,
+        "name": "Snowball"
+    },
+    "ITEM_WEAKNESS_POLICY": {
+        "id": 611,
+        "name": "Weakness Policy"
+    },
+    "ITEM_WHIPPED_DREAM": {
+        "id": 612,
+        "name": "Whipped Dream"
+    },
+    "ITEM_ADRENALINE_ORB": {
+        "id": 613,
+        "name": "Adrenaline Orb"
+    },
+    "ITEM_BEAST_BALL": {
+        "id": 614,
+        "name": "Beast Ball"
+    },
+    "ITEM_BIG_MALASADA": {
+        "id": 615,
+        "name": "Big Malasada"
+    },
+    "ITEM_BOTTLE_CAP": {
+        "id": 616,
+        "name": "Bottle Cap"
+    },
+    "ITEM_GOLD_BOTTLE_CAP": {
+        "id": 617,
+        "name": "Gold Bottle Cap"
+    },
+    "ITEM_ELECTRIC_SEED": {
+        "id": 618,
+        "name": "Electric Seed"
+    },
+    "ITEM_GRASSY_SEED": {
+        "id": 619,
+        "name": "Grassy Seed"
+    },
+    "ITEM_MISTY_SEED": {
+        "id": 620,
+        "name": "Misty Seed"
+    },
+    "ITEM_PSYCHIC_SEED": {
+        "id": 621,
+        "name": "Psychic Seed"
+    },
+    "ITEM_ICE_STONE": {
+        "id": 622,
+        "name": "Ice Stone"
+    },
+    "ITEM_PROTECTIVE_PADS": {
+        "id": 623,
+        "name": "Protective Pads"
+    },
+    "ITEM_TERRAIN_EXTENDER": {
+        "id": 624,
+        "name": "Terrain Ext."
+    },
+    "ITEM_ABILITY_PATCH": {
+        "id": 625,
+        "name": "Ability Patch"
+    },
+    "ITEM_BLACK_AUGURITE": {
+        "id": 626,
+        "name": "Black Augurite"
+    },
+    "ITEM_BERRY_SWEET": {
+        "id": 627,
+        "name": "Berry Sweet"
+    },
+    "ITEM_CLOVER_SWEET": {
+        "id": 628,
+        "name": "Clover Sweet"
+    },
+    "ITEM_FLOWER_SWEET": {
+        "id": 629,
+        "name": "Flower Sweet"
+    },
+    "ITEM_LOVE_SWEET": {
+        "id": 630,
+        "name": "Love Sweet"
+    },
+    "ITEM_RIBBON_SWEET": {
+        "id": 631,
+        "name": "Ribbon Sweet"
+    },
+    "ITEM_STAR_SWEET": {
+        "id": 632,
+        "name": "Star Sweet"
+    },
+    "ITEM_STRAWBERRY_SWEET": {
+        "id": 633,
+        "name": "StrawberrySweet"
+    },
+    "ITEM_BLUNDER_POLICY": {
+        "id": 634,
+        "name": "Blunder Policy"
+    },
+    "ITEM_CHIPPED_POT": {
+        "id": 635,
+        "name": "Chipped Pot"
+    },
+    "ITEM_CRACKED_POT": {
+        "id": 636,
+        "name": "Cracked Pot"
+    },
+    "ITEM_EJECT_PACK": {
+        "id": 637,
+        "name": "Eject Pack"
+    },
+    "ITEM_EXP_CANDY_S": {
+        "id": 638,
+        "name": "Exp. Candy S"
+    },
+    "ITEM_EXP_CANDY_M": {
+        "id": 639,
+        "name": "Exp. Candy M"
+    },
+    "ITEM_EXP_CANDY_L": {
+        "id": 640,
+        "name": "Exp. Candy L"
+    },
+    "ITEM_EXP_CANDY_XS": {
+        "id": 641,
+        "name": "Exp. Candy XS"
+    },
+    "ITEM_EXP_CANDY_XL": {
+        "id": 642,
+        "name": "Exp. Candy XL"
+    },
+    "ITEM_GALARICA_CUFF": {
+        "id": 643,
+        "name": "Galarica Cuff"
+    },
+    "ITEM_GALARICA_TWIG": {
+        "id": 644,
+        "name": "Galarica Twig"
+    },
+    "ITEM_GALARICA_WREATH": {
+        "id": 645,
+        "name": "Galarica Wreath"
+    },
+    "ITEM_HEAVY_DUTY_BOOTS": {
+        "id": 646,
+        "name": "HeavyDutyBoots"
+    },
+    "ITEM_LINKING_CORD": {
+        "id": 647,
+        "name": "Linking Cord"
+    },
+    "ITEM_MOOMOO_CHEESE": {
+        "id": 648,
+        "name": "Moomoo Cheese"
+    },
+    "ITEM_PEAT_BLOCK": {
+        "id": 649,
+        "name": "Peat Block"
+    },
+    "ITEM_ROOM_SERVICE": {
+        "id": 650,
+        "name": "Room Service"
+    },
+    "ITEM_RUSTED_SHIELD": {
+        "id": 651,
+        "name": "Rusted Shield"
+    },
+    "ITEM_RUSTED_SWORD": {
+        "id": 652,
+        "name": "Rusted Sword"
+    },
+    "ITEM_SWEET_APPLE": {
+        "id": 653,
+        "name": "Sweet Apple"
+    },
+    "ITEM_TART_APPLE": {
+        "id": 654,
+        "name": "Tart Apple"
+    },
+    "ITEM_THROAT_SPRAY": {
+        "id": 655,
+        "name": "Throat Spray"
+    },
+    "ITEM_UTILITY_UMBRELLA": {
+        "id": 656,
+        "name": "Utility Umbrella"
+    },
+    "ITEM_ABILITY_SHIELD": {
+        "id": 657,
+        "name": "Ability Shield"
+    },
+    "ITEM_AUSPICIOUS_ARMOR": {
+        "id": 658,
+        "name": "Auspicious Armor"
+    },
+    "ITEM_BOOSTER_ENERGY": {
+        "id": 659,
+        "name": "Booster Energy"
+    },
+    "ITEM_CLEAR_AMULET": {
+        "id": 660,
+        "name": "Clear Amulet"
+    },
+    "ITEM_COVERT_CLOAK": {
+        "id": 661,
+        "name": "Covert Cloak"
+    },
+    "ITEM_GIMMIGHOUL_COIN": {
+        "id": 662,
+        "name": "Gimmighoul Coin"
+    },
+    "ITEM_LEADERS_CREST": {
+        "id": 663,
+        "name": "Leader\u2019s Crest"
+    },
+    "ITEM_LOADED_DICE": {
+        "id": 664,
+        "name": "Loaded Dice"
+    },
+    "ITEM_MALICIOUS_ARMOR": {
+        "id": 665,
+        "name": "Malicious Armor"
+    },
+    "ITEM_MIRROR_HERB": {
+        "id": 666,
+        "name": "Mirror Herb"
+    },
+    "ITEM_PUNCHING_GLOVE": {
+        "id": 667,
+        "name": "Punching Glove"
+    },
+    "ITEM_ROSELI_BERRY": {
+        "id": 668,
+        "name": "Roseli Berry"
+    },
+    "ITEM_KEE_BERRY": {
+        "id": 669,
+        "name": "Kee Berry"
+    },
+    "ITEM_MARANGA_BERRY": {
+        "id": 670,
+        "name": "Maranga Berry"
+    },
+    "ITEM_BURN_DRIVE": {
+        "id": 671,
+        "name": "Burn Drive"
+    },
+    "ITEM_CHILL_DRIVE": {
+        "id": 672,
+        "name": "Chill Drive"
+    },
+    "ITEM_DOUSE_DRIVE": {
+        "id": 673,
+        "name": "Douse Drive"
+    },
+    "ITEM_SHOCK_DRIVE": {
+        "id": 674,
+        "name": "Shock Drive"
+    },
+    "ITEM_COVER_FOSSIL": {
+        "id": 675,
+        "name": "Cover Fossil"
+    },
+    "ITEM_PLUME_FOSSIL": {
+        "id": 676,
+        "name": "Plume Fossil"
+    },
+    "ITEM_JAW_FOSSIL": {
+        "id": 677,
+        "name": "Jaw Fossil"
+    },
+    "ITEM_SAIL_FOSSIL": {
+        "id": 678,
+        "name": "Sail Fossil"
+    },
+    "ITEM_FOSSILIZED_BIRD": {
+        "id": 679,
+        "name": "Fossilized Bird"
+    },
+    "ITEM_FOSSILIZED_DINO": {
+        "id": 680,
+        "name": "Fossilized Dino"
+    },
+    "ITEM_FOSSILIZED_DRAKE": {
+        "id": 681,
+        "name": "Fossilized Drake"
+    },
+    "ITEM_FOSSILIZED_FISH": {
+        "id": 682,
+        "name": "Fossilized Fish"
+    },
+    "ITEM_NORMAL_GEM": {
+        "id": 683,
+        "name": "Normal Gem"
+    },
+    "ITEM_FIGHTING_GEM": {
+        "id": 684,
+        "name": "Fighting Gem"
+    },
+    "ITEM_FLYING_GEM": {
+        "id": 685,
+        "name": "Flying Gem"
+    },
+    "ITEM_POISON_GEM": {
+        "id": 686,
+        "name": "Poison Gem"
+    },
+    "ITEM_GROUND_GEM": {
+        "id": 687,
+        "name": "Ground Gem"
+    },
+    "ITEM_ROCK_GEM": {
+        "id": 688,
+        "name": "Rock Gem"
+    },
+    "ITEM_BUG_GEM": {
+        "id": 689,
+        "name": "Bug Gem"
+    },
+    "ITEM_GHOST_GEM": {
+        "id": 690,
+        "name": "Ghost Gem"
+    },
+    "ITEM_STEEL_GEM": {
+        "id": 691,
+        "name": "Steel Gem"
+    },
+    "ITEM_FIRE_GEM": {
+        "id": 692,
+        "name": "Fire Gem"
+    },
+    "ITEM_WATER_GEM": {
+        "id": 693,
+        "name": "Water Gem"
+    },
+    "ITEM_GRASS_GEM": {
+        "id": 694,
+        "name": "Grass Gem"
+    },
+    "ITEM_ELECTRIC_GEM": {
+        "id": 695,
+        "name": "Electric Gem"
+    },
+    "ITEM_PSYCHIC_GEM": {
+        "id": 696,
+        "name": "Psychic Gem"
+    },
+    "ITEM_ICE_GEM": {
+        "id": 697,
+        "name": "Ice Gem"
+    },
+    "ITEM_DRAGON_GEM": {
+        "id": 698,
+        "name": "Dragon Gem"
+    },
+    "ITEM_DARK_GEM": {
+        "id": 699,
+        "name": "Dark Gem"
+    },
+    "ITEM_FAIRY_GEM": {
+        "id": 700,
+        "name": "Fairy Gem"
+    },
+    "ITEM_FIGHTING_MEMORY": {
+        "id": 701,
+        "name": "Fighting Memory"
+    },
+    "ITEM_FLYING_MEMORY": {
+        "id": 702,
+        "name": "Flying Memory"
+    },
+    "ITEM_POISON_MEMORY": {
+        "id": 703,
+        "name": "Poison Memory"
+    },
+    "ITEM_GROUND_MEMORY": {
+        "id": 704,
+        "name": "Ground Memory"
+    },
+    "ITEM_ROCK_MEMORY": {
+        "id": 705,
+        "name": "Rock Memory"
+    },
+    "ITEM_BUG_MEMORY": {
+        "id": 706,
+        "name": "Bug Memory"
+    },
+    "ITEM_GHOST_MEMORY": {
+        "id": 707,
+        "name": "Ghost Memory"
+    },
+    "ITEM_STEEL_MEMORY": {
+        "id": 708,
+        "name": "Steel Memory"
+    },
+    "ITEM_FIRE_MEMORY": {
+        "id": 709,
+        "name": "Fire Memory"
+    },
+    "ITEM_WATER_MEMORY": {
+        "id": 710,
+        "name": "Water Memory"
+    },
+    "ITEM_GRASS_MEMORY": {
+        "id": 711,
+        "name": "Grass Memory"
+    },
+    "ITEM_ELECTRIC_MEMORY": {
+        "id": 712,
+        "name": "Electric Memory"
+    },
+    "ITEM_PSYCHIC_MEMORY": {
+        "id": 713,
+        "name": "Psychic Memory"
+    },
+    "ITEM_ICE_MEMORY": {
+        "id": 714,
+        "name": "Ice Memory"
+    },
+    "ITEM_DRAGON_MEMORY": {
+        "id": 715,
+        "name": "Dragon Memory"
+    },
+    "ITEM_DARK_MEMORY": {
+        "id": 716,
+        "name": "Dark Memory"
+    },
+    "ITEM_FAIRY_MEMORY": {
+        "id": 717,
+        "name": "Fairy Memory"
+    },
+    "ITEM_RED_NECTAR": {
+        "id": 718,
+        "name": "Red Nectar"
+    },
+    "ITEM_YELLOW_NECTAR": {
+        "id": 719,
+        "name": "Yellow Nectar"
+    },
+    "ITEM_PINK_NECTAR": {
+        "id": 720,
+        "name": "Pink Nectar"
+    },
+    "ITEM_PURPLE_NECTAR": {
+        "id": 721,
+        "name": "Purple Nectar"
+    },
+    "ITEM_BLANK_PLATE": {
+        "id": 722,
+        "name": "Blank Plate"
+    },
+    "ITEM_LEGEND_PLATE": {
+        "id": 723,
+        "name": "Legend Plate"
+    },
+    "ITEM_RELIC_COPPER": {
+        "id": 724,
+        "name": "Relic Copper"
+    },
+    "ITEM_RELIC_SILVER": {
+        "id": 725,
+        "name": "Relic Silver"
+    },
+    "ITEM_RELIC_GOLD": {
+        "id": 726,
+        "name": "Relic Gold"
+    },
+    "ITEM_RELIC_VASE": {
+        "id": 727,
+        "name": "Relic Vase"
+    },
+    "ITEM_RELIC_BAND": {
+        "id": 728,
+        "name": "Relic Band"
+    },
+    "ITEM_RELIC_STATUE": {
+        "id": 729,
+        "name": "Relic Statue"
+    },
+    "ITEM_RELIC_CROWN": {
+        "id": 730,
+        "name": "Relic Crown"
+    },
+    "ITEM_HEALTH_FEATHER": {
+        "id": 731,
+        "name": "Health Feather"
+    },
+    "ITEM_MUSCLE_FEATHER": {
+        "id": 732,
+        "name": "Muscle Feather"
+    },
+    "ITEM_RESIST_FEATHER": {
+        "id": 733,
+        "name": "Resist Feather"
+    },
+    "ITEM_GENIUS_FEATHER": {
+        "id": 734,
+        "name": "Genius Feather"
+    },
+    "ITEM_CLEVER_FEATHER": {
+        "id": 735,
+        "name": "Clever Feather"
+    },
+    "ITEM_SWIFT_FEATHER": {
+        "id": 736,
+        "name": "Swift Feather"
+    },
+    "ITEM_PRETTY_FEATHER": {
+        "id": 737,
+        "name": "Pretty Feather"
+    },
+    "ITEM_DNA_SPLICERS": {
+        "id": 738,
+        "name": "DNA Splicers"
+    },
+    "ITEM_REVEAL_GLASS": {
+        "id": 739,
+        "name": "Reveal Glass"
+    },
+    "ITEM_PRISON_BOTTLE": {
+        "id": 740,
+        "name": "Prison Bottle"
+    },
+    "ITEM_CATCHING_CHARM": {
+        "id": 741,
+        "name": "Catching Charm"
+    },
+    "ITEM_EXP_CHARM": {
+        "id": 742,
+        "name": "Exp. Charm"
+    },
+    "ITEM_OVAL_CHARM": {
+        "id": 743,
+        "name": "Oval Charm"
+    },
+    "ITEM_SHINY_CHARM": {
+        "id": 744,
+        "name": "Shiny Charm"
+    },
+    "ITEM_N_SOLARIZER": {
+        "id": 745,
+        "name": "N Solarizer"
+    },
+    "ITEM_N_LUNARIZER": {
+        "id": 746,
+        "name": "N Lunarizer"
+    },
+    "ITEM_POKEMON_BOX_LINK": {
+        "id": 747,
+        "name": "Box Link"
+    },
+    "ITEM_ZYGARDE_CUBE": {
+        "id": 748,
+        "name": "Zygarde Cube"
+    },
+    "ITEM_SUN_FLUTE": {
+        "id": 749,
+        "name": "Sun Flute"
+    },
+    "ITEM_MOON_FLUTE": {
+        "id": 750,
+        "name": "Moon Flute"
+    },
+    "ITEM_LIGHT_STONE": {
+        "id": 751,
+        "name": "Light Stone"
+    },
+    "ITEM_DARK_STONE": {
+        "id": 752,
+        "name": "Dark Stone"
+    },
+    "ITEM_ICEROOT_CARROT": {
+        "id": 753,
+        "name": "Iceroot Carrot"
+    },
+    "ITEM_SHADEROOT_CARROT": {
+        "id": 754,
+        "name": "Shady Carrot"
+    },
+    "ITEM_REINS_OF_UNITY": {
+        "id": 755,
+        "name": "Reins of Unity"
+    },
+    "ITEM_WOODEN_CROWN": {
+        "id": 756,
+        "name": "Wooden Crown"
+    },
+    "ITEM_ROTOM_CATALOG": {
+        "id": 757,
+        "name": "Rotom Catalog"
+    },
+    "ITEM_ADAMANT_CRYSTAL": {
+        "id": 758,
+        "name": "Adamant Crystal"
+    },
+    "ITEM_LUSTROUS_GLOBE": {
+        "id": 759,
+        "name": "Lustrous Globe"
+    },
+    "ITEM_GRISEOUS_CORE": {
+        "id": 760,
+        "name": "Griseous Core"
+    },
+    "ITEM_SCROLL_OF_DARKNESS": {
+        "id": 761,
+        "name": "Darkness Scroll"
+    },
+    "ITEM_SCROLL_OF_WATERS": {
+        "id": 762,
+        "name": "Waters Scroll"
+    },
+    "ITEM_MEGA_RING": {
+        "id": 763,
+        "name": "Mega Ring"
+    },
+    "ITEM_AUTOGRAPH": {
+        "id": 764,
+        "name": "Autograph"
+    },
+    "ITEM_GOLD_TEETH": {
+        "id": 765,
+        "name": "Gold Teeth"
+    },
+    "ITEM_KEY_STONE": {
+        "id": 766,
+        "name": "Key Stone"
+    },
+    "ITEM_LIFT_KEY": {
+        "id": 767,
+        "name": "Lift Key"
+    },
+    "ITEM_PEWTER_CRUNCHIES": {
+        "id": 768,
+        "name": "Pewter Snacks"
+    },
+    "ITEM_SYLPH_SCOPE": {
+        "id": 769,
+        "name": "Silph Scope"
+    },
+    "ITEM_TEA": {
+        "id": 770,
+        "name": "Tea"
+    },
+    "ITEM_LONELY_MINT": {
+        "id": 771,
+        "name": "Lonely Mint"
+    },
+    "ITEM_ADAMANT_MINT": {
+        "id": 772,
+        "name": "Adamant Mint"
+    },
+    "ITEM_NAUGHTY_MINT": {
+        "id": 773,
+        "name": "Naughty Mint"
+    },
+    "ITEM_BRAVE_MINT": {
+        "id": 774,
+        "name": "Brave Mint"
+    },
+    "ITEM_BOLD_MINT": {
+        "id": 775,
+        "name": "Bold Mint"
+    },
+    "ITEM_IMPISH_MINT": {
+        "id": 776,
+        "name": "Impish Mint"
+    },
+    "ITEM_LAX_MINT": {
+        "id": 777,
+        "name": "Lax Mint"
+    },
+    "ITEM_RELAXED_MINT": {
+        "id": 778,
+        "name": "Relaxed Mint"
+    },
+    "ITEM_MODEST_MINT": {
+        "id": 779,
+        "name": "Modest Mint"
+    },
+    "ITEM_MILD_MINT": {
+        "id": 780,
+        "name": "Mild Mint"
+    },
+    "ITEM_RASH_MINT": {
+        "id": 781,
+        "name": "Rash Mint"
+    },
+    "ITEM_QUIET_MINT": {
+        "id": 782,
+        "name": "Quiet Mint"
+    },
+    "ITEM_CALM_MINT": {
+        "id": 783,
+        "name": "Calm Mint"
+    },
+    "ITEM_GENTLE_MINT": {
+        "id": 784,
+        "name": "Gentle Mint"
+    },
+    "ITEM_CAREFUL_MINT": {
+        "id": 785,
+        "name": "Careful Mint"
+    },
+    "ITEM_SASSY_MINT": {
+        "id": 786,
+        "name": "Sassy Mint"
+    },
+    "ITEM_TIMID_MINT": {
+        "id": 787,
+        "name": "Timid Mint"
+    },
+    "ITEM_HASTY_MINT": {
+        "id": 788,
+        "name": "Hasty Mint"
+    },
+    "ITEM_JOLLY_MINT": {
+        "id": 789,
+        "name": "Jolly Mint"
+    },
+    "ITEM_NAIVE_MINT": {
+        "id": 790,
+        "name": "Naive Mint"
+    },
+    "ITEM_SERIOUS_MINT": {
+        "id": 791,
+        "name": "Serious Mint"
+    },
+    "ITEM_FAIRY_FEATHER": {
+        "id": 792,
+        "name": "Fairy Feather"
+    },
+    "ITEM_SYRUPY_APPLE": {
+        "id": 793,
+        "name": "Syrupy Apple"
+    },
+    "ITEM_UNREMARKABLE_TEACUP": {
+        "id": 794,
+        "name": "Mediocre Teacup"
+    },
+    "ITEM_MASTERPIECE_TEACUP": {
+        "id": 795,
+        "name": "MasterfulTeacup"
+    },
+    "ITEM_CORNERSTONE_MASK": {
+        "id": 796,
+        "name": "CornerstoneMask"
+    },
+    "ITEM_WELLSPRING_MASK": {
+        "id": 797,
+        "name": "Wellspring Mask"
+    },
+    "ITEM_HEARTHFLAME_MASK": {
+        "id": 798,
+        "name": "HearthflameMask"
+    },
+    "ITEM_METAL_ALLOY": {
+        "id": 799,
+        "name": "Metal Alloy"
+    }
+}
