@@ -1,10 +1,22 @@
 .app {
+  height: 100vh;
+}
+
+.nav {
+  position: absolute;
+  height: 5vh;
+  background-color: white;
+  width: 100vw;
+}
+
+.mastersheet {
+  padding-top:5vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 100vh;
+  height: 95vh;
 }
 
 .left-panel {
@@ -13,7 +25,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   overflow: auto;
 }
 
@@ -33,7 +44,7 @@
 .right-panel__close-btn {
   position: fixed;
   right: 10px;
-  top: 10px;
+  top: calc(5vh + 10px);
 }
 
 .stat-block {

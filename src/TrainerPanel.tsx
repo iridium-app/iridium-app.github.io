@@ -48,8 +48,8 @@ function TrainerPanel({
           </button>
           <div>{mon.level}</div>
           <div>{ItemData.Dict[mon.item]?.name}</div>
-          {mon.moveset.map((move) => (
-            <button key={move} onClick={() => moveBtnOnClick(move)}>
+          {mon.moveset.map((move, i) => (
+            <button key={"move_" + i + "_" + move} onClick={() => moveBtnOnClick(move)}>
               {MoveData.Dict[move].name}
             </button>
           ))}
