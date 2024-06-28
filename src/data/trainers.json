@@ -2236,7 +2236,7 @@
                 "moveset": [
                     "MOVE_THUNDER",
                     "MOVE_QUICK_ATTACK",
-                    "MOVE_DIG   ",
+                    "MOVE_DIG",
                     "MOVE_DOUBLE_TEAM"
                 ]
             },

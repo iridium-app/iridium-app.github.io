@@ -1,16 +1,27 @@
+/* App */
 .app {
   height: 100vh;
 }
 
+/* Nav */
 .nav {
   position: absolute;
   height: 5vh;
   background-color: white;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
+.difficulty-toggle {
+  position: absolute;
+  right: 20px;
+}
+
+/* Mastersheet */
 .mastersheet {
-  padding-top:5vh;
+  padding-top: 5vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
@@ -126,4 +137,13 @@
   display: var(--display);
   grid-column: 1 / span calc(var(--numMons) + 1);
   grid-template-columns: auto auto auto;
+}
+
+/* Home */
+
+.home {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

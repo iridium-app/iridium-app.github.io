@@ -1,15 +1,32 @@
-[
-  { "type": "trainer", "id": 4 },
-  {
-    "type": "trainer",
-    "id": 5
-  },
-  {
-    "type": "trainer",
-    "id": 267
-  },
-  {
-    "type": "trainer",
-    "id": 21
-  }
-]
+{
+  "casual": [
+    { "type": "trainer", "id": 4 },
+    {
+      "type": "trainer",
+      "id": 5
+    },
+    {
+      "type": "trainer",
+      "id": 267
+    },
+    {
+      "type": "trainer",
+      "id": 65
+    }
+  ],
+  "elite": [
+    { "type": "trainer", "id": 71 },
+    {
+      "type": "trainer",
+      "id": 70
+    },
+    {
+      "type": "trainer",
+      "id": 268
+    },
+    {
+      "type": "trainer",
+      "id": 21
+    }
+  ]
+}

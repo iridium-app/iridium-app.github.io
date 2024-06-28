@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useCallback, useContext, useState } from "react";
+import { UserContext } from "../App";
 
 import Dex from "../Dex";
 import MoveData from "../MoveData";
@@ -9,7 +10,9 @@ import mastersheet from "../data/mastersheet.json";
 import "../App.css";
 
 function Mastersheet() {
+  const { difficulty } = useContext(UserContext);
   const [selectedMon, setSelectedMon] = useState(Dex.Dict["SPECIES_NONE"]);
+  const mastersheetData = difficulty === "casual" ? mastersheet.casual : mastersheet.elite;
   // const [searchList, setSearchList] = useState(Dex.Dict);
   var rightPanelOpen = selectedMon !== Dex.Dict["SPECIES_NONE"];
 
@@ -27,7 +30,7 @@ function Mastersheet() {
           } as React.CSSProperties
         }
       >
-        {mastersheet.map((trainer) => (
+        {mastersheetData.map((trainer) => (
           <TrainerPanel
             key={"trainer_" + trainer.id}
             trainerId={trainer.id}
