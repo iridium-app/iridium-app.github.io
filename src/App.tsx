@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
@@ -28,18 +28,18 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter>
+      <HashRouter>
         <UserContext.Provider
           value={{ difficulty: difficulty, setDifficulty: setDifficulty }}
         >
           <Routes>
             <Route path="/" element={<Nav />}>
               <Route index element={<Home />} />
-              <Route path="mastersheet" element={<Mastersheet />} />
+              <Route path="/mastersheet" element={<Mastersheet />} />
             </Route>
           </Routes>
         </UserContext.Provider>
-      </BrowserRouter>
+      </HashRouter>
       <header className="app-header"></header>
     </div>
   );
