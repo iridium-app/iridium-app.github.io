@@ -25,11 +25,7 @@ function TrainerPanel({
       className="trainer-panel"
       style={{ "--numMons": trainer.numMons } as React.CSSProperties}
     >
-      <div
-        className="trainer-panel__header"
-      >
-        {trainer.name}
-      </div>
+      <div className="trainer-panel__header">{trainer.name}</div>
       <div className="trainer-panel__headers">
         <div>&nbsp;</div>
         <div>Name</div>
@@ -49,7 +45,10 @@ function TrainerPanel({
           <div>{mon.level}</div>
           <div>{ItemData.Dict[mon.item]?.name}</div>
           {mon.moveset.map((move, i) => (
-            <button key={"move_" + i + "_" + move} onClick={() => moveBtnOnClick(move)}>
+            <button
+              key={"move_" + i + "_" + move}
+              onClick={() => moveBtnOnClick(move)}
+            >
               {MoveData.Dict[move].name}
             </button>
           ))}
@@ -66,7 +65,7 @@ function TrainerPanel({
         <div>{MoveData.Dict[selectedMove].name}</div>
         <div>{Utility.GetNiceTypeName(MoveData.Dict[selectedMove].type)}</div>
         <div>
-          {MoveData.Dict[selectedMove].damageCategory == "SPLIT_STATUS"
+          {MoveData.Dict[selectedMove].damageCategory === "SPLIT_STATUS"
             ? "Status"
             : MoveData.Dict[selectedMove].basePower}
         </div>

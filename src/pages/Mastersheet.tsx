@@ -9,13 +9,13 @@ import mastersheet from "../data/mastersheet.json";
 import "../App.css";
 
 function Mastersheet() {
-    const [selectedMon, setSelectedMon] = useState(Dex.Dict["SPECIES_NONE"]);
-    // const [searchList, setSearchList] = useState(Dex.Dict);
-    var rightPanelOpen = selectedMon != Dex.Dict["SPECIES_NONE"];
+  const [selectedMon, setSelectedMon] = useState(Dex.Dict["SPECIES_NONE"]);
+  // const [searchList, setSearchList] = useState(Dex.Dict);
+  var rightPanelOpen = selectedMon !== Dex.Dict["SPECIES_NONE"];
 
-    const closeBtnOnClick = () => {
-      setSelectedMon(Dex.Dict["SPECIES_NONE"]);
-    };
+  const closeBtnOnClick = () => {
+    setSelectedMon(Dex.Dict["SPECIES_NONE"]);
+  };
 
   return (
     <div className="mastersheet">
@@ -27,7 +27,6 @@ function Mastersheet() {
           } as React.CSSProperties
         }
       >
-        <img src="logo.png" />
         {mastersheet.map((trainer) => (
           <TrainerPanel
             key={"trainer_" + trainer.id}
@@ -168,7 +167,7 @@ function Mastersheet() {
                 {Utility.GetNiceTypeName(MoveData.Dict[move.name].type)}
               </div>
               <div className="move-row__power">
-                {MoveData.Dict[move.name].damageCategory == "SPLIT_STATUS"
+                {MoveData.Dict[move.name].damageCategory === "SPLIT_STATUS"
                   ? "Status"
                   : MoveData.Dict[move.name].basePower}
               </div>
