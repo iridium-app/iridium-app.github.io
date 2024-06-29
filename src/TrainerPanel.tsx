@@ -43,7 +43,7 @@ function TrainerPanel({
             {Dex.Dict[mon.name].name}
           </button>
           <div>{mon.level}</div>
-          <div>{ItemData.Dict[mon.item]?.name}</div>
+          <div><img src={"/sprites/items/" + mon.item + ".png"} title={ItemData.Dict[mon.item]?.name}/></div>
           {mon.moveset.map((move, i) => (
             <button
               key={"move_" + i + "_" + move}
