@@ -3,7 +3,7 @@ import { DexInfo } from "./Dex";
 import Dex from "./Dex";
 import MoveData from "./MoveData";
 import TrainerData from "./TrainerData";
-import ItemData from "./data/ItemData";
+import ItemData from "./ItemData";
 import Utility from "./Utility";
 
 function TrainerPanel({
@@ -38,7 +38,7 @@ function TrainerPanel({
       </div>
       {trainer.party.map((mon) => (
         <div key={mon.name} className="trainer-panel__mon">
-          <div>(Sprite?)</div>
+          <img src={"/sprites/pokemon/" + mon.name.replace("SPECIES_", "").toLowerCase() + ".png"}/>
           <button onClick={() => setSelectedMon(Dex.Dict[mon.name])}>
             {Dex.Dict[mon.name].name}
           </button>
