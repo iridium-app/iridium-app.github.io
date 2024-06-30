@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { DexInfo } from "./Dex";
-import Dex from "./Dex";
-import MoveData from "./MoveData";
-import TrainerData from "./TrainerData";
-import ItemData from "./ItemData";
+import { DexInfo } from "./data/Dex";
+import Dex from "./data/Dex";
+import MoveData from "./data/MoveData";
+import TrainerData from "./data/TrainerData";
+import ItemData from "./data/ItemData";
 import Utility from "./Utility";
+import TypeImage from "./components/TypeImage";
 
 function TrainerPanel({
   trainerId,
@@ -38,12 +39,23 @@ function TrainerPanel({
       </div>
       {trainer.party.map((mon) => (
         <div key={mon.name} className="trainer-panel__mon">
-          <img src={"/sprites/pokemon/" + mon.name.replace("SPECIES_", "").toLowerCase() + ".png"}/>
+          <img
+            src={
+              "/sprites/pokemon/" +
+              mon.name.replace("SPECIES_", "").toLowerCase() +
+              ".png"
+            }
+          />
           <button onClick={() => setSelectedMon(Dex.Dict[mon.name])}>
             {Dex.Dict[mon.name].name}
           </button>
           <div>{mon.level}</div>
-          <div><img src={"/sprites/items/" + mon.item + ".png"} title={ItemData.Dict[mon.item]?.name}/></div>
+          <div>
+            <img
+              src={"/sprites/items/" + mon.item + ".png"}
+              title={ItemData.Dict[mon.item]?.name}
+            />
+          </div>
           {mon.moveset.map((move, i) => (
             <button
               key={"move_" + i + "_" + move}
@@ -63,12 +75,18 @@ function TrainerPanel({
         }
       >
         <div>{MoveData.Dict[selectedMove].name}</div>
-        <div>{Utility.GetNiceTypeName(MoveData.Dict[selectedMove].type)}</div>
+        <div>
+          <TypeImage move={MoveData.Dict[selectedMove]} />
+        </div>
         <div>
           {/* {MoveData.Dict[selectedMove].damageCategory === "SPLIT_STATUS"
             ? "Status"
             : MoveData.Dict[selectedMove].basePower} */}
-            <img src={Utility.GetDamageCategoryPath(MoveData.Dict[selectedMove].damageCategory)}></img>
+          <img
+            src={Utility.GetDamageCategoryPath(
+              MoveData.Dict[selectedMove].damageCategory
+            )}
+          ></img>
         </div>
         <div style={{ gridColumn: "1 / span 3" }}>
           {MoveData.Dict[selectedMove].description}

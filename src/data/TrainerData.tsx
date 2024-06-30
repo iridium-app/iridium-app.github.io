@@ -1,4 +1,4 @@
-import trainers from "./data/trainers.json"
+import trainers from "./trainers.json"
 let x: unknown = trainers;
 interface IDictionary {
     [index: string]: TrainerInfo;

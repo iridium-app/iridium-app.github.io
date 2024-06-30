@@ -1,4 +1,4 @@
-import moves from "./data/moves.json";
+import moves from "./moves.json";
 let x: unknown = moves;
 interface IDictionary {
   [index: string]: MoveInfo;

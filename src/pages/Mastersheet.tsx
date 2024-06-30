@@ -1,13 +1,14 @@
-import { useCallback, useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { UserContext } from "../App";
 
-import Dex from "../Dex";
-import MoveData from "../MoveData";
+import Dex from "../data/Dex";
+import MoveData from "../data/MoveData";
 import TrainerPanel from "../TrainerPanel";
 import Utility from "../Utility";
 import mastersheet from "../data/mastersheet.json";
 
 import "../App.css";
+import TypeImage from "../components/TypeImage";
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
@@ -168,12 +169,7 @@ function Mastersheet() {
                 {MoveData.Dict[move.name].name}
               </div>
               <div className="move-row__type">
-                <img
-                  src={
-                    "/sprites/misc/" + MoveData.Dict[move.name].type + ".png"
-                  }
-                  title={Utility.GetNiceTypeName(MoveData.Dict[move.name].type)}
-                />
+                <TypeImage move={MoveData.Dict[move.name]} />
               </div>
               <div className="move-row__power">
                 {/* {MoveData.Dict[move.name].damageCategory === "SPLIT_STATUS"

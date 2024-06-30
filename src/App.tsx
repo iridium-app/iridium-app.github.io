@@ -7,9 +7,9 @@ import Nav from "./pages/Nav";
 import usePersistedState from "use-persisted-state-hook";
 
 export type GlobalContext = {
-  difficulty: string
-  setDifficulty: (d: string) => void
-}
+  difficulty: string;
+  setDifficulty: (d: string) => void;
+};
 export const UserContext = React.createContext<GlobalContext>({
   difficulty: "casual",
   setDifficulty: () => {},

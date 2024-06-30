@@ -1,4 +1,4 @@
-import dex from "./data/dex.json";
+import dex from "./dex.json";
 let x: unknown = dex;
 interface IDictionary {
   [index: string]: DexInfo;

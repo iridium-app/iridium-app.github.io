@@ -1,4 +1,4 @@
-import item_data from "./data/items.json";
+import item_data from "./items.json";
 let x: unknown = item_data;
 interface IDictionary {
   [index: string]: ItemInfo;
