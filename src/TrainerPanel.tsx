@@ -65,9 +65,10 @@ function TrainerPanel({
         <div>{MoveData.Dict[selectedMove].name}</div>
         <div>{Utility.GetNiceTypeName(MoveData.Dict[selectedMove].type)}</div>
         <div>
-          {MoveData.Dict[selectedMove].damageCategory === "SPLIT_STATUS"
+          {/* {MoveData.Dict[selectedMove].damageCategory === "SPLIT_STATUS"
             ? "Status"
-            : MoveData.Dict[selectedMove].basePower}
+            : MoveData.Dict[selectedMove].basePower} */}
+            <img src={Utility.GetDamageCategoryPath(MoveData.Dict[selectedMove].damageCategory)}></img>
         </div>
         <div style={{ gridColumn: "1 / span 3" }}>
           {MoveData.Dict[selectedMove].description}

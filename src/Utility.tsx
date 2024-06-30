@@ -8,6 +8,11 @@ class Utility {
     retVal.trimEnd();
     return retVal;
   }
+
+  static GetDamageCategoryPath(hgeDamageCategory: string): string {
+    const lower = hgeDamageCategory.replace("SPLIT_", "").toLowerCase();
+    return "/sprites/misc/move-" + lower + ".png";
+  }
 }
 
 export default Utility;

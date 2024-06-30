@@ -12,7 +12,8 @@ import "../App.css";
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
   const [selectedMon, setSelectedMon] = useState(Dex.Dict["SPECIES_NONE"]);
-  const mastersheetData = difficulty === "casual" ? mastersheet.casual : mastersheet.elite;
+  const mastersheetData =
+    difficulty === "casual" ? mastersheet.casual : mastersheet.elite;
   // const [searchList, setSearchList] = useState(Dex.Dict);
   var rightPanelOpen = selectedMon !== Dex.Dict["SPECIES_NONE"];
 
@@ -167,12 +168,22 @@ function Mastersheet() {
                 {MoveData.Dict[move.name].name}
               </div>
               <div className="move-row__type">
-                {Utility.GetNiceTypeName(MoveData.Dict[move.name].type)}
+                <img
+                  src={
+                    "/sprites/misc/" + MoveData.Dict[move.name].type + ".png"
+                  }
+                  title={Utility.GetNiceTypeName(MoveData.Dict[move.name].type)}
+                />
               </div>
               <div className="move-row__power">
-                {MoveData.Dict[move.name].damageCategory === "SPLIT_STATUS"
+                {/* {MoveData.Dict[move.name].damageCategory === "SPLIT_STATUS"
                   ? "Status"
-                  : MoveData.Dict[move.name].basePower}
+                  : MoveData.Dict[move.name].basePower} */}
+                <img
+                  src={Utility.GetDamageCategoryPath(
+                    MoveData.Dict[move.name].damageCategory
+                  )}
+                ></img>
               </div>
             </div>
           ))}
