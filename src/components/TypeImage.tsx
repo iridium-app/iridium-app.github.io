@@ -1,11 +1,11 @@
 import { MoveInfo } from "../data/MoveData";
 import Utility from "../Utility";
 
-function TypeImage({ move }: { move: MoveInfo }) {
+function TypeImage({ type }: { type: string }) {
   return (
     <img
-      src={"/sprites/misc/" + move.type + ".png"}
-      title={Utility.GetNiceTypeName(move.type)}
+      src={"/sprites/misc/" + type + ".png"}
+      title={Utility.GetNiceName(type)}
     />
   );
 }

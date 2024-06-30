@@ -11,6 +11,7 @@ export type TrainerInfo = {
         level: number;
         name: string;
         item: string;
+        ability: string;
         moveset: string[];
     }[];
 };

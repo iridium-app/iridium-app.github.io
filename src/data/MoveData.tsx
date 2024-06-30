@@ -8,6 +8,7 @@ export type MoveInfo = {
   damageCategory: string;
   basePower: number;
   type: string;
+  pp: string;
   description: string;
 };
 

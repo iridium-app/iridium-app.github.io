@@ -6,6 +6,7 @@ import TrainerData from "./data/TrainerData";
 import ItemData from "./data/ItemData";
 import Utility from "./Utility";
 import TypeImage from "./components/TypeImage";
+import TrainerMonPanel from "./components/TrainerMonPanel";
 
 function TrainerPanel({
   trainerId,
@@ -26,7 +27,15 @@ function TrainerPanel({
       className="trainer-panel"
       style={{ "--numMons": trainer.numMons } as React.CSSProperties}
     >
-      <div className="trainer-panel__header">{trainer.name}</div>
+      <div className="trainer-panel__header">{trainer.name.toUpperCase()}</div>
+      {trainer.party.map((mon, i) => (
+        <TrainerMonPanel
+          key={"trainer-mon-panel-" + trainer.name + "-" + mon.name}
+          mon={mon}
+          column={i % 2 == 0 ? "left" : "right"}
+        />
+      ))}
+      {/* <div className="trainer-panel__header">{trainer.name}</div>
       <div className="trainer-panel__headers">
         <div>&nbsp;</div>
         <div>Name</div>
@@ -79,9 +88,9 @@ function TrainerPanel({
           <TypeImage move={MoveData.Dict[selectedMove]} />
         </div>
         <div>
-          {/* {MoveData.Dict[selectedMove].damageCategory === "SPLIT_STATUS"
+          { {MoveData.Dict[selectedMove].damageCategory === "SPLIT_STATUS"
             ? "Status"
-            : MoveData.Dict[selectedMove].basePower} */}
+            : MoveData.Dict[selectedMove].basePower} }
           <img
             src={Utility.GetDamageCategoryPath(
               MoveData.Dict[selectedMove].damageCategory
@@ -91,7 +100,7 @@ function TrainerPanel({
         <div style={{ gridColumn: "1 / span 3" }}>
           {MoveData.Dict[selectedMove].description}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

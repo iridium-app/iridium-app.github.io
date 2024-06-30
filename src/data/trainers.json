@@ -66,6 +66,7 @@
                 "level": "22",
                 "name": "SPECIES_YANMEGA",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SPEED_BOOST",
                 "moveset": [
                     "MOVE_U_TURN",
                     "MOVE_OMINOUS_WIND",
@@ -77,6 +78,7 @@
                 "level": "21",
                 "name": "SPECIES_CHARJABUG",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_BATTERY",
                 "moveset": [
                     "MOVE_PROTECT",
                     "MOVE_HELPING_HAND",
@@ -88,6 +90,7 @@
                 "level": "22",
                 "name": "SPECIES_ACCELGOR",
                 "item": "ITEM_LIECHI_BERRY",
+                "ability": "ABILITY_SWARM",
                 "moveset": [
                     "MOVE_SILVER_WIND",
                     "MOVE_ENDURE",
@@ -106,6 +109,7 @@
                 "level": "39",
                 "name": "SPECIES_STOUTLAND",
                 "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_TAKE_DOWN",
                     "MOVE_WILD_CHARGE",
@@ -117,6 +121,7 @@
                 "level": "40",
                 "name": "SPECIES_PIDGEOT",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_BIG_PECKS",
                 "moveset": [
                     "MOVE_FLY",
                     "MOVE_U_TURN",
@@ -128,6 +133,7 @@
                 "level": "38",
                 "name": "SPECIES_AMBIPOM",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_SCRAPPY",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_GIGA_IMPACT",
@@ -145,6 +151,7 @@
             {
                 "level": "20",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_BITE",
                     "MOVE_ROCK_TOMB",
@@ -156,6 +163,7 @@
                 "level": "21",
                 "name": "SPECIES_LUXIO",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_SPARK",
                     "MOVE_ICE_FANG",
@@ -201,6 +209,7 @@
                 "level": "2",
                 "name": "SPECIES_PATRAT",
                 "item": "ITEM_FOCUS_BAND",
+                "ability": "ABILITY_KEEN_EYE",
                 "moveset": [
                     "MOVE_COVET",
                     "MOVE_ASSURANCE",
@@ -212,6 +221,7 @@
                 "level": "4",
                 "name": "SPECIES_EEVEE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_ADAPTABILITY",
                 "moveset": [
                     "MOVE_HELPING_HAND",
                     "MOVE_CHARM",
@@ -223,6 +233,7 @@
                 "level": "3",
                 "name": "SPECIES_SNOM",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_FILTER",
                 "moveset": [
                     "MOVE_POWDER_SNOW",
                     "MOVE_BUG_BITE",
@@ -270,6 +281,7 @@
                 "level": "4",
                 "name": "SPECIES_PIKACHU",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_THUNDER_SHOCK",
                     "MOVE_THUNDER_WAVE",
@@ -281,6 +293,7 @@
                 "level": "5",
                 "name": "SPECIES_CATERPIE",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_SHIELD_DUST",
                 "moveset": [
                     "MOVE_BLOCK",
                     "MOVE_STRING_SHOT",
@@ -292,6 +305,7 @@
                 "level": "6",
                 "name": "SPECIES_PIDGEY",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_KEEN_EYE",
                 "moveset": [
                     "MOVE_QUICK_ATTACK",
                     "MOVE_MUD_SLAP",
@@ -303,6 +317,7 @@
                 "level": "5",
                 "name": "SPECIES_BULBASAUR",
                 "item": "ITEM_MIRACLE_SEED",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_RAZOR_LEAF",
                     "MOVE_HEADBUTT",
@@ -321,6 +336,7 @@
                 "level": "7",
                 "name": "SPECIES_MIMEJR",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_TECHNICIAN",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_FAKE_OUT",
@@ -332,6 +348,7 @@
                 "level": "6",
                 "name": "SPECIES_SPRITZEE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_HEALER",
                 "moveset": [
                     "MOVE_SWEET_SCENT",
                     "MOVE_FLAIL",
@@ -343,6 +360,7 @@
                 "level": "6",
                 "name": "SPECIES_MARILL",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_DOUBLE_SLAP",
                     "MOVE_AQUA_JET",
@@ -361,6 +379,7 @@
                 "level": "6",
                 "name": "SPECIES_WOOBAT",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SIMPLE",
                 "moveset": [
                     "MOVE_LEECH_LIFE",
                     "MOVE_MEDITATE",
@@ -372,6 +391,7 @@
                 "level": "7",
                 "name": "SPECIES_SPOINK",
                 "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_PSYWAVE",
@@ -383,6 +403,7 @@
                 "level": "7",
                 "name": "SPECIES_FLABEBE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_FLOWER_VEIL",
                 "moveset": [
                     "MOVE_SWEET_SCENT",
                     "MOVE_COVET",
@@ -474,6 +495,7 @@
                 "level": "22",
                 "name": "SPECIES_BRIONNE",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_LIQUID_VOICE",
                 "moveset": [
                     "MOVE_UPROAR",
                     "MOVE_BODY_SLAM",
@@ -485,6 +507,7 @@
                 "level": "24",
                 "name": "SPECIES_PYUKUMUKU",
                 "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_INNARDS_OUT",
                 "moveset": [
                     "MOVE_RECOVER",
                     "MOVE_TAUNT",
@@ -496,6 +519,7 @@
                 "level": "23",
                 "name": "SPECIES_QUAGSIRE",
                 "item": "ITEM_MYSTIC_WATER",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
                     "MOVE_BULLDOZE",
                     "MOVE_ICE_PUNCH",
@@ -514,6 +538,7 @@
                 "level": "5",
                 "name": "SPECIES_GROWLITHE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_FLASH_FIRE",
                 "moveset": [
                     "MOVE_BITE",
                     "MOVE_HOWL",
@@ -525,6 +550,7 @@
                 "level": "5",
                 "name": "SPECIES_RHYHORN",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SOLID_ROCK",
                 "moveset": [
                     "MOVE_ROCK_THROW",
                     "MOVE_PECK",
@@ -536,6 +562,7 @@
                 "level": "4",
                 "name": "SPECIES_EXEGGCUTE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_CHLOROPHYLL",
                 "moveset": [
                     "MOVE_BULLET_SEED",
                     "MOVE_BARRAGE",
@@ -547,6 +574,7 @@
                 "level": "6",
                 "name": "SPECIES_MAGIKARP",
                 "item": "ITEM_FOCUS_BAND",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_FLAIL",
                     "MOVE_WATER_GUN",
@@ -565,6 +593,7 @@
                 "level": "65",
                 "name": "SPECIES_LUXRAY",
                 "item": "ITEM_AIR_BALLOON",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_WILD_CHARGE",
                     "MOVE_SUPERPOWER",
@@ -576,6 +605,7 @@
                 "level": "64",
                 "name": "SPECIES_THUNDURUS",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_PRANKSTER",
                 "moveset": [
                     "MOVE_WILDBOLT_STORM",
                     "MOVE_SWAGGER",
@@ -586,6 +616,7 @@
             {
                 "level": "65",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_HYDRO_PUMP",
                     "MOVE_THUNDERBOLT",
@@ -597,6 +628,7 @@
                 "level": "65",
                 "name": "SPECIES_EELEKTROSS",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_DRAGON_PULSE",
@@ -608,6 +640,7 @@
                 "level": "65",
                 "name": "SPECIES_TAPU_KOKO",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_ELECTRIC_SURGE",
                 "moveset": [
                     "MOVE_WILD_CHARGE",
                     "MOVE_PLAY_ROUGH",
@@ -619,6 +652,7 @@
                 "level": "64",
                 "name": "SPECIES_MANECTRIC",
                 "item": "ITEM_MANECTITE",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_OVERHEAT",
@@ -637,6 +671,7 @@
                 "level": "55",
                 "name": "SPECIES_HOUNDOOM",
                 "item": "ITEM_HOUNDOOMINITE",
+                "ability": "ABILITY_SOLAR_POWER",
                 "moveset": [
                     "MOVE_SOLAR_BEAM",
                     "MOVE_DARK_PULSE",
@@ -648,6 +683,7 @@
                 "level": "54",
                 "name": "SPECIES_MAGMORTAR",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
                     "MOVE_FLAMETHROWER",
                     "MOVE_THUNDERBOLT",
@@ -659,6 +695,7 @@
                 "level": "54",
                 "name": "SPECIES_INFERNAPE",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_THUNDER_PUNCH",
                     "MOVE_RAGING_FURY",
@@ -670,6 +707,7 @@
                 "level": "52",
                 "name": "SPECIES_INCINEROAR",
                 "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_FLARE_BLITZ",
@@ -681,6 +719,7 @@
                 "level": "53",
                 "name": "SPECIES_CERULEDGE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_WEAK_ARMOR",
                 "moveset": [
                     "MOVE_BITTER_BLADE",
                     "MOVE_PHANTOM_FORCE",
@@ -692,6 +731,7 @@
                 "level": "56",
                 "name": "SPECIES_RESHIRAM",
                 "item": "ITEM_ASSAULT_VEST",
+                "ability": "ABILITY_TURBOBLAZE",
                 "moveset": [
                     "MOVE_BLUE_FLARE",
                     "MOVE_DRACO_METEOR",
@@ -710,6 +750,7 @@
                 "level": "23",
                 "name": "SPECIES_GROVYLE",
                 "item": "ITEM_FOCUS_BAND",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_LEAF_BLADE",
                     "MOVE_U_TURN",
@@ -721,6 +762,7 @@
                 "level": "24",
                 "name": "SPECIES_ELDEGOSS",
                 "item": "ITEM_FOCUS_BAND",
+                "ability": "ABILITY_REGENERATOR",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_U_TURN",
@@ -732,6 +774,7 @@
                 "level": "23",
                 "name": "SPECIES_PARASECT",
                 "item": "ITEM_FOCUS_BAND",
+                "ability": "ABILITY_DRY_SKIN",
                 "moveset": [
                     "MOVE_SEED_BOMB",
                     "MOVE_LEECH_LIFE",
@@ -774,6 +817,7 @@
                 "level": "57",
                 "name": "SPECIES_GASTRODON",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_STORM_DRAIN",
                 "moveset": [
                     "MOVE_MUDDY_WATER",
                     "MOVE_YAWN",
@@ -785,6 +829,7 @@
                 "level": "57",
                 "name": "SPECIES_RHYPERIOR",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_SOLID_ROCK",
                 "moveset": [
                     "MOVE_ROCK_WRECKER",
                     "MOVE_EARTHQUAKE",
@@ -796,6 +841,7 @@
                 "level": "56",
                 "name": "SPECIES_MAMOSWINE",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_HIGH_HORSEPOWER",
                     "MOVE_ROCK_SLIDE",
@@ -814,6 +860,7 @@
                 "level": "57",
                 "name": "SPECIES_KABUTOPS",
                 "item": "ITEM_CHOICE_SCARF",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_LIQUIDATION",
                     "MOVE_ROCK_SLIDE",
@@ -824,6 +871,7 @@
             {
                 "level": "57",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_TINTED_LENS",
                 "moveset": [
                     "MOVE_PSYCHIC",
                     "MOVE_AIR_SLASH",
@@ -834,6 +882,7 @@
             {
                 "level": "56",
                 "item": "ITEM_BABIRI_BERRY",
+                "ability": "ABILITY_ANTICIPATION",
                 "moveset": [
                     "MOVE_MOONBLAST",
                     "MOVE_LUNAR_DANCE",
@@ -851,6 +900,7 @@
             {
                 "level": "56",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_HARVEST",
                 "moveset": [
                     "MOVE_SUNNY_DAY",
                     "MOVE_SOLAR_BEAM",
@@ -861,6 +911,7 @@
             {
                 "level": "55",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_CHLOROPHYLL",
                 "moveset": [
                     "MOVE_HORN_LEECH",
                     "MOVE_HIGH_JUMP_KICK",
@@ -872,6 +923,7 @@
                 "level": "56",
                 "name": "SPECIES_GOLDUCK",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_CLOUD_NINE",
                 "moveset": [
                     "MOVE_HYDRO_PUMP",
                     "MOVE_PSYSHOCK",
@@ -927,6 +979,7 @@
                 "level": "58",
                 "name": "SPECIES_UNFEZANT",
                 "item": "ITEM_POWER_HERB",
+                "ability": "ABILITY_SUPER_LUCK",
                 "moveset": [
                     "MOVE_SKY_ATTACK",
                     "MOVE_U_TURN",
@@ -938,6 +991,7 @@
                 "level": "57",
                 "name": "SPECIES_SKARMORY",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_LIGHTNING_ROD",
                 "moveset": [
                     "MOVE_STEEL_WING",
                     "MOVE_WHIRLWIND",
@@ -949,6 +1003,7 @@
                 "level": "57",
                 "name": "SPECIES_GYARADOS",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_WATERFALL",
                     "MOVE_BOUNCE",
@@ -966,6 +1021,7 @@
             {
                 "level": "41",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_PSYCHIC_SURGE",
                 "moveset": [
                     "MOVE_PSYCHIC",
                     "MOVE_FOLLOW_ME",
@@ -977,6 +1033,7 @@
                 "level": "42",
                 "name": "SPECIES_WYRDEER",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_PSYSHIELD_BASH",
                     "MOVE_EARTHQUAKE",
@@ -988,6 +1045,7 @@
                 "level": "41",
                 "name": "SPECIES_PORYGON_Z",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_ADAPTABILITY",
                 "moveset": [
                     "MOVE_TRI_ATTACK",
                     "MOVE_ICE_BEAM",
@@ -999,6 +1057,7 @@
                 "level": "42",
                 "name": "SPECIES_MILTANK",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_ROCK_SLIDE",
                     "MOVE_BULLDOZE",
@@ -1017,6 +1076,7 @@
                 "level": "17",
                 "name": "SPECIES_LAMPENT",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
                     "MOVE_INFERNO",
                     "MOVE_OMINOUS_WIND",
@@ -1028,6 +1088,7 @@
                 "level": "17",
                 "name": "SPECIES_DRIFLOON",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_UNBURDEN",
                 "moveset": [
                     "MOVE_SELF_DESTRUCT",
                     "MOVE_AIR_CUTTER",
@@ -1038,6 +1099,7 @@
             {
                 "level": "19",
                 "item": "ITEM_COLBUR_BERRY",
+                "ability": "ABILITY_ILLUSION",
                 "moveset": [
                     "MOVE_SHADOW_CLAW",
                     "MOVE_FACADE",
@@ -1048,6 +1110,7 @@
             {
                 "level": "19",
                 "item": "ITEM_QUICK_CLAW",
+                "ability": "ABILITY_CURSED_BODY",
                 "moveset": [
                     "MOVE_PAIN_SPLIT",
                     "MOVE_WILL_O_WISP",
@@ -1059,6 +1122,7 @@
                 "level": "19",
                 "name": "SPECIES_HAUNTER",
                 "item": "ITEM_PAYAPA_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_SLUDGE",
                     "MOVE_MEMENTO",
@@ -1077,6 +1141,7 @@
                 "level": "13",
                 "name": "SPECIES_AMAURA",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_REFRIGERATE",
                 "moveset": [
                     "MOVE_ROCK_TOMB",
                     "MOVE_SHEER_COLD",
@@ -1087,6 +1152,7 @@
             {
                 "level": "11",
                 "item": "ITEM_JABOCA_BERRY",
+                "ability": "ABILITY_SLUSH_RUSH",
                 "moveset": [
                     "MOVE_METAL_CLAW",
                     "MOVE_ICICLE_SPEAR",
@@ -1098,6 +1164,7 @@
                 "level": "12",
                 "name": "SPECIES_SEALEO",
                 "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_AVALANCHE",
                     "MOVE_WHIRLPOOL",
@@ -1109,6 +1176,7 @@
                 "level": "13",
                 "name": "SPECIES_DELIBIRD",
                 "item": "ITEM_IRON_BALL",
+                "ability": "ABILITY_HUSTLE",
                 "moveset": [
                     "MOVE_FLING",
                     "MOVE_ICICLE_SPEAR",
@@ -1120,6 +1188,7 @@
                 "level": "12",
                 "name": "SPECIES_QUAXLY",
                 "item": "ITEM_STARF_BERRY",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_ICY_WIND",
                     "MOVE_AQUA_JET",
@@ -1138,6 +1207,7 @@
                 "level": "21",
                 "name": "SPECIES_KLEFKI",
                 "item": "ITEM_LIGHT_CLAY",
+                "ability": "ABILITY_PRANKSTER",
                 "moveset": [
                     "MOVE_HIDDEN_POWER",
                     "MOVE_LIGHT_SCREEN",
@@ -1149,6 +1219,7 @@
                 "level": "22",
                 "name": "SPECIES_EMPOLEON",
                 "item": "ITEM_LIECHI_BERRY",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
                     "MOVE_LIQUIDATION",
                     "MOVE_AQUA_JET",
@@ -1160,6 +1231,7 @@
                 "level": "23",
                 "name": "SPECIES_SKARMORY",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_LIGHTNING_ROD",
                 "moveset": [
                     "MOVE_STEEL_WING",
                     "MOVE_SPIKES",
@@ -1171,6 +1243,7 @@
                 "level": "22",
                 "name": "SPECIES_DURALUDON",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_DRAGON_RAGE",
                     "MOVE_FLASH_CANNON",
@@ -1181,6 +1254,7 @@
             {
                 "level": "22",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_SAND_FORCE",
                 "moveset": [
                     "MOVE_BULLDOZE",
                     "MOVE_IRON_HEAD",
@@ -1192,6 +1266,7 @@
                 "level": "23",
                 "name": "SPECIES_KINGAMBIT",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
                     "MOVE_SUCKER_PUNCH",
                     "MOVE_IRON_HEAD",
@@ -1209,6 +1284,7 @@
             {
                 "level": "29",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_UNBURDEN",
                 "moveset": [
                     "MOVE_POISON_JAB",
                     "MOVE_TAKE_DOWN",
@@ -1220,6 +1296,7 @@
                 "level": "29",
                 "name": "SPECIES_PASSIMIAN",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
                     "MOVE_LOW_KICK",
                     "MOVE_ROCK_SLIDE",
@@ -1231,6 +1308,7 @@
                 "level": "29",
                 "name": "SPECIES_SIRFETCHD",
                 "item": "ITEM_EXPERT_BELT",
+                "ability": "ABILITY_SCRAPPY",
                 "moveset": [
                     "MOVE_METEOR_ASSAULT",
                     "MOVE_KNOCK_OFF",
@@ -1300,6 +1378,7 @@
                 "level": "57",
                 "name": "SPECIES_DITTO",
                 "item": "ITEM_RED_CARD",
+                "ability": "ABILITY_IMPOSTER",
                 "moveset": [
                     "MOVE_TRANSFORM",
                     "MOVE_NONE",
@@ -1311,6 +1390,7 @@
                 "level": "57",
                 "name": "SPECIES_BLISSEY",
                 "item": "ITEM_ZOOM_LENS",
+                "ability": "ABILITY_NATURAL_CURE",
                 "moveset": [
                     "MOVE_SOFT_BOILED",
                     "MOVE_ZAP_CANNON",
@@ -1329,6 +1409,7 @@
                 "level": "22",
                 "name": "SPECIES_DOUBLADE",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_NO_GUARD",
                 "moveset": [
                     "MOVE_AERIAL_ACE",
                     "MOVE_BRICK_BREAK",
@@ -1340,6 +1421,7 @@
                 "level": "22",
                 "name": "SPECIES_PERRSERKER",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_STEELY_SPIRIT",
                 "moveset": [
                     "MOVE_HELPING_HAND",
                     "MOVE_FAKE_OUT",
@@ -1351,6 +1433,7 @@
                 "level": "21",
                 "name": "SPECIES_COPPERAJAH",
                 "item": "ITEM_METAL_COAT",
+                "ability": "ABILITY_HEAVY_METAL",
                 "moveset": [
                     "MOVE_HIGH_HORSEPOWER",
                     "MOVE_HEAVY_SLAM",
@@ -1381,6 +1464,7 @@
                 "level": "20",
                 "name": "SPECIES_DITTO",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_IMPOSTER",
                 "moveset": [
                     "MOVE_TRANSFORM",
                     "MOVE_NONE",
@@ -1392,6 +1476,7 @@
                 "level": "20",
                 "name": "SPECIES_DITTO",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_IMPOSTER",
                 "moveset": [
                     "MOVE_TRANSFORM",
                     "MOVE_NONE",
@@ -1403,6 +1488,7 @@
                 "level": "20",
                 "name": "SPECIES_DITTO",
                 "item": "ITEM_CHOICE_SCARF",
+                "ability": "ABILITY_IMPOSTER",
                 "moveset": [
                     "MOVE_TRANSFORM",
                     "MOVE_NONE",
@@ -1414,6 +1500,7 @@
                 "level": "20",
                 "name": "SPECIES_DITTO",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_IMPOSTER",
                 "moveset": [
                     "MOVE_TRANSFORM",
                     "MOVE_NONE",
@@ -1432,6 +1519,7 @@
                 "level": "13",
                 "name": "SPECIES_SHELLDER",
                 "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_SKILL_LINK",
                 "moveset": [
                     "MOVE_ICICLE_SPEAR",
                     "MOVE_HARDEN",
@@ -1443,6 +1531,7 @@
                 "level": "10",
                 "name": "SPECIES_SCYTHER",
                 "item": "ITEM_SILVER_POWDER",
+                "ability": "ABILITY_TECHNICIAN",
                 "moveset": [
                     "MOVE_BUG_BITE",
                     "MOVE_CUT",
@@ -1454,6 +1543,7 @@
                 "level": "10",
                 "name": "SPECIES_SUICUNE",
                 "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_ICY_WIND",
                     "MOVE_WATER_PULSE",
@@ -1465,6 +1555,7 @@
                 "level": "11",
                 "name": "SPECIES_TIMBURR",
                 "item": "ITEM_BLACK_BELT",
+                "ability": "ABILITY_GUTS",
                 "moveset": [
                     "MOVE_KARATE_CHOP",
                     "MOVE_POWER_UP_PUNCH",
@@ -1476,6 +1567,7 @@
                 "level": "11",
                 "name": "SPECIES_SANDILE",
                 "item": "ITEM_BLACK_GLASSES",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_BITE",
                     "MOVE_SAND_TOMB",
@@ -1487,6 +1579,7 @@
                 "level": "12",
                 "name": "SPECIES_SNORUNT",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_SNOW_CLOAK",
                 "moveset": [
                     "MOVE_HAIL",
                     "MOVE_ICY_WIND",
@@ -1505,6 +1598,7 @@
                 "level": "60",
                 "name": "SPECIES_KROOKODILE",
                 "item": "ITEM_CHOICE_SCARF",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_EARTHQUAKE",
                     "MOVE_ROCK_SLIDE",
@@ -1516,6 +1610,7 @@
                 "level": "60",
                 "name": "SPECIES_SCIZOR",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_TECHNICIAN",
                 "moveset": [
                     "MOVE_BULLET_PUNCH",
                     "MOVE_BUG_BITE",
@@ -1527,6 +1622,7 @@
                 "level": "61",
                 "name": "SPECIES_CLOYSTER",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_SKILL_LINK",
                 "moveset": [
                     "MOVE_ICICLE_SPEAR",
                     "MOVE_ROCK_BLAST",
@@ -1538,6 +1634,7 @@
                 "level": "60",
                 "name": "SPECIES_CONKELDURR",
                 "item": "ITEM_FLAME_ORB",
+                "ability": "ABILITY_GUTS",
                 "moveset": [
                     "MOVE_DRAIN_PUNCH",
                     "MOVE_MACH_PUNCH",
@@ -1549,6 +1646,7 @@
                 "level": "61",
                 "name": "SPECIES_FROSLASS",
                 "item": "ITEM_BRIGHT_POWDER",
+                "ability": "ABILITY_SNOW_CLOAK",
                 "moveset": [
                     "MOVE_SNOWSCAPE",
                     "MOVE_BLIZZARD",
@@ -1560,6 +1658,7 @@
                 "level": "62",
                 "name": "SPECIES_SUICUNE",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_HYDRO_PUMP",
                     "MOVE_ICY_WIND",
@@ -1578,6 +1677,7 @@
                 "level": "34",
                 "name": "SPECIES_MALAMAR",
                 "item": "ITEM_TANGA_BERRY",
+                "ability": "ABILITY_CONTRARY",
                 "moveset": [
                     "MOVE_FOUL_PLAY",
                     "MOVE_SUPERPOWER",
@@ -1589,6 +1689,7 @@
                 "level": "35",
                 "name": "SPECIES_INDEEDEE",
                 "item": "ITEM_COLBUR_BERRY",
+                "ability": "ABILITY_PSYCHIC_SURGE",
                 "moveset": [
                     "MOVE_PSYSHOCK",
                     "MOVE_HYPER_VOICE",
@@ -1600,6 +1701,7 @@
                 "level": "35",
                 "name": "SPECIES_TREVENANT",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_HARVEST",
                 "moveset": [
                     "MOVE_SEED_BOMB",
                     "MOVE_KNOCK_OFF",
@@ -1617,6 +1719,7 @@
             {
                 "level": "5",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_PIXILATE",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_SWEET_SCENT",
@@ -1628,6 +1731,7 @@
                 "level": "6",
                 "name": "SPECIES_WOOLOO",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_FLUFFY",
                 "moveset": [
                     "MOVE_ROLLOUT",
                     "MOVE_TACKLE",
@@ -1638,6 +1742,7 @@
             {
                 "level": "6",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_ILLUSION",
                 "moveset": [
                     "MOVE_QUICK_ATTACK",
                     "MOVE_ASTONISH",
@@ -1649,6 +1754,7 @@
                 "level": "5",
                 "name": "SPECIES_SPRIGATITO",
                 "item": "ITEM_MIRACLE_SEED",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_VINE_WHIP",
                     "MOVE_HEADBUTT",
@@ -1701,6 +1807,7 @@
                 "level": "18",
                 "name": "SPECIES_BANETTE",
                 "item": "ITEM_QUICK_CLAW",
+                "ability": "ABILITY_CURSED_BODY",
                 "moveset": [
                     "MOVE_CURSE",
                     "MOVE_PSYBEAM",
@@ -1712,6 +1819,7 @@
                 "level": "18",
                 "name": "SPECIES_DUSCLOPS",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_MUMMY",
                 "moveset": [
                     "MOVE_ANCIENT_POWER",
                     "MOVE_OMINOUS_WIND",
@@ -1730,6 +1838,7 @@
                 "level": "3",
                 "name": "SPECIES_LITWICK",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
                     "MOVE_ASTONISH",
                     "MOVE_CONFUSE_RAY",
@@ -1741,6 +1850,7 @@
                 "level": "3",
                 "name": "SPECIES_STARLY",
                 "item": "ITEM_STARF_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_QUICK_ATTACK",
                     "MOVE_SAND_ATTACK",
@@ -1752,6 +1862,7 @@
                 "level": "3",
                 "name": "SPECIES_PORYGON",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_TRACE",
                 "moveset": [
                     "MOVE_TACKLE",
                     "MOVE_SHARPEN",
@@ -1787,6 +1898,7 @@
                 "level": "55",
                 "name": "SPECIES_SILVALLY",
                 "item": "ITEM_SILK_SCARF",
+                "ability": "ABILITY_RKS_SYSTEM",
                 "moveset": [
                     "MOVE_DOUBLE_EDGE",
                     "MOVE_FIRE_BLAST",
@@ -1798,6 +1910,7 @@
                 "level": "56",
                 "name": "SPECIES_STARAPTOR",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_QUICK_ATTACK",
                     "MOVE_ENDEAVOR",
@@ -1809,6 +1922,7 @@
                 "level": "55",
                 "name": "SPECIES_FLOATZEL",
                 "item": "ITEM_CHOICE_BAND",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_AQUA_JET",
                     "MOVE_AQUA_TAIL",
@@ -1839,6 +1953,7 @@
                 "level": "44",
                 "name": "SPECIES_COMFEY",
                 "item": "ITEM_LIGHT_CLAY",
+                "ability": "ABILITY_TRIAGE",
                 "moveset": [
                     "MOVE_DRAINING_KISS",
                     "MOVE_LIGHT_SCREEN",
@@ -1850,6 +1965,7 @@
                 "level": "46",
                 "name": "SPECIES_TOGEKISS",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SERENE_GRACE",
                 "moveset": [
                     "MOVE_FOCUS_ENERGY",
                     "MOVE_AIR_SLASH",
@@ -1861,6 +1977,7 @@
                 "level": "45",
                 "name": "SPECIES_WIGGLYTUFF",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_COMPETITIVE",
                 "moveset": [
                     "MOVE_DAZZLING_GLEAM",
                     "MOVE_THUNDERBOLT",
@@ -1879,6 +1996,7 @@
                 "level": "47",
                 "name": "SPECIES_ARCHEOPS",
                 "item": "ITEM_CELL_BATTERY",
+                "ability": "ABILITY_DEFEATIST",
                 "moveset": [
                     "MOVE_ROCK_SLIDE",
                     "MOVE_BOUNCE",
@@ -1890,6 +2008,7 @@
                 "level": "46",
                 "name": "SPECIES_BRAVIARY",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
                     "MOVE_FLY",
                     "MOVE_TAKE_DOWN",
@@ -1901,6 +2020,7 @@
                 "level": "45",
                 "name": "SPECIES_ALTARIA",
                 "item": "ITEM_HABAN_BERRY",
+                "ability": "ABILITY_PIXILATE",
                 "moveset": [
                     "MOVE_AIR_SLASH",
                     "MOVE_HEAT_WAVE",
@@ -1919,6 +2039,7 @@
                 "level": "45",
                 "name": "SPECIES_MUSHARNA",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_SYNCHRONIZE",
                 "moveset": [
                     "MOVE_TRICK_ROOM",
                     "MOVE_PSYSHOCK",
@@ -1930,6 +2051,7 @@
                 "level": "45",
                 "name": "SPECIES_SLOWKING",
                 "item": "ITEM_MYSTIC_WATER",
+                "ability": "ABILITY_REGENERATOR",
                 "moveset": [
                     "MOVE_TRICK_ROOM",
                     "MOVE_SCALD",
@@ -1941,6 +2063,7 @@
                 "level": "46",
                 "name": "SPECIES_GOTHITELLE",
                 "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_SHADOW_TAG",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_FAKE_TEARS",
@@ -1959,6 +2082,7 @@
                 "level": "45",
                 "name": "SPECIES_HERACROSS",
                 "item": "ITEM_ROCKY_HELMET",
+                "ability": "ABILITY_SWARM",
                 "moveset": [
                     "MOVE_LOW_KICK",
                     "MOVE_X_SCISSOR",
@@ -1970,6 +2094,7 @@
                 "level": "47",
                 "name": "SPECIES_PANGORO",
                 "item": "ITEM_BLACK_BELT",
+                "ability": "ABILITY_SCRAPPY",
                 "moveset": [
                     "MOVE_HAMMER_ARM",
                     "MOVE_FOUL_PLAY",
@@ -1981,6 +2106,7 @@
                 "level": "46",
                 "name": "SPECIES_HITMONTOP",
                 "item": "ITEM_COBA_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_FOCUS_PUNCH",
@@ -1999,6 +2125,7 @@
                 "level": "45",
                 "name": "SPECIES_FLYGON",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_DRAGON_CLAW",
                     "MOVE_SCORCHING_SANDS",
@@ -2010,6 +2137,7 @@
                 "level": "44",
                 "name": "SPECIES_APPLETUN",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_APPLE_ACID",
                     "MOVE_DRAGON_PULSE",
@@ -2020,6 +2148,7 @@
             {
                 "level": "46",
                 "item": "ITEM_MARANGA_BERRY",
+                "ability": "ABILITY_SAP_SIPPER",
                 "moveset": [
                     "MOVE_FLASH_CANNON",
                     "MOVE_ACID_ARMOR",
@@ -2050,6 +2179,7 @@
                 "level": "23",
                 "name": "SPECIES_QWILFISH",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_POISON_FANG",
                     "MOVE_EXPLOSION",
@@ -2061,6 +2191,7 @@
                 "level": "24",
                 "name": "SPECIES_SEAKING",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_LIGHTNING_ROD",
                 "moveset": [
                     "MOVE_DRILL_RUN",
                     "MOVE_LIQUIDATION",
@@ -2072,6 +2203,7 @@
                 "level": "23",
                 "name": "SPECIES_BIBAREL",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_SIMPLE",
                 "moveset": [
                     "MOVE_ICE_FANG",
                     "MOVE_LIQUIDATION",
@@ -2141,6 +2273,7 @@
                 "level": "23",
                 "name": "SPECIES_GLIGAR",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_HYPER_CUTTER",
                 "moveset": [
                     "MOVE_ACROBATICS",
                     "MOVE_BULLDOZE",
@@ -2152,6 +2285,7 @@
                 "level": "23",
                 "name": "SPECIES_GASTRODON",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_STORM_DRAIN",
                 "moveset": [
                     "MOVE_RECOVER",
                     "MOVE_MUD_BOMB",
@@ -2163,6 +2297,7 @@
                 "level": "24",
                 "name": "SPECIES_CLODSIRE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
                     "MOVE_ATTRACT",
                     "MOVE_VENOSHOCK",
@@ -2181,6 +2316,7 @@
                 "level": "43",
                 "name": "SPECIES_MEGANIUM",
                 "item": "ITEM_LIGHT_CLAY",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_LIGHT_SCREEN",
                     "MOVE_GIGA_DRAIN",
@@ -2192,6 +2328,7 @@
                 "level": "42",
                 "name": "SPECIES_SWANNA",
                 "item": "ITEM_POWER_HERB",
+                "ability": "ABILITY_BIG_PECKS",
                 "moveset": [
                     "MOVE_SKY_ATTACK",
                     "MOVE_SURF",
@@ -2203,6 +2340,7 @@
                 "level": "45",
                 "name": "SPECIES_HEATMOR",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_WHITE_SMOKE",
                 "moveset": [
                     "MOVE_HEAT_WAVE",
                     "MOVE_DIG",
@@ -2233,10 +2371,11 @@
                 "level": "43",
                 "name": "SPECIES_BOLTUND",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_COMPETITIVE",
                 "moveset": [
                     "MOVE_THUNDER",
                     "MOVE_QUICK_ATTACK",
-                    "MOVE_DIG",
+                    "MOVE_DIG   ",
                     "MOVE_DOUBLE_TEAM"
                 ]
             },
@@ -2244,6 +2383,7 @@
                 "level": "43",
                 "name": "SPECIES_BOUFFALANT",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_SAP_SIPPER",
                 "moveset": [
                     "MOVE_HEAD_CHARGE",
                     "MOVE_WILD_CHARGE",
@@ -2262,6 +2402,7 @@
                 "level": "43",
                 "name": "SPECIES_SERPERIOR",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_CONTRARY",
                 "moveset": [
                     "MOVE_LEAF_STORM",
                     "MOVE_LEECH_SEED",
@@ -2273,6 +2414,7 @@
                 "level": "43",
                 "name": "SPECIES_TINKATON",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_IRON_HEAD",
@@ -2284,6 +2426,7 @@
                 "level": "44",
                 "name": "SPECIES_MARACTUS",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_SUCKER_PUNCH",
@@ -2365,6 +2508,7 @@
                 "level": "39",
                 "name": "SPECIES_SLAKING",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_TRUANT",
                 "moveset": [
                     "MOVE_GIGA_IMPACT",
                     "MOVE_EARTHQUAKE",
@@ -2376,6 +2520,7 @@
                 "level": "40",
                 "name": "SPECIES_SNORLAX",
                 "item": "ITEM_CUSTAP_BERRY",
+                "ability": "ABILITY_GLUTTONY",
                 "moveset": [
                     "MOVE_EXPLOSION",
                     "MOVE_HEAT_CRASH",
@@ -2387,6 +2532,7 @@
                 "level": "38",
                 "name": "SPECIES_DRAMPA",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_BERSERK",
                 "moveset": [
                     "MOVE_DRAGON_PULSE",
                     "MOVE_HYPER_VOICE",
@@ -2405,6 +2551,7 @@
                 "level": "39",
                 "name": "SPECIES_URSALUNA",
                 "item": "ITEM_FLAME_ORB",
+                "ability": "ABILITY_GUTS",
                 "moveset": [
                     "MOVE_HIGH_HORSEPOWER",
                     "MOVE_BULLDOZE",
@@ -2416,6 +2563,7 @@
                 "level": "40",
                 "name": "SPECIES_PORYGON2",
                 "item": "ITEM_EVIOLITE",
+                "ability": "ABILITY_TRACE",
                 "moveset": [
                     "MOVE_TRI_ATTACK",
                     "MOVE_RECOVER",
@@ -2427,6 +2575,7 @@
                 "level": "38",
                 "name": "SPECIES_FARIGIRAF",
                 "item": "ITEM_TWISTED_SPOON",
+                "ability": "ABILITY_SAP_SIPPER",
                 "moveset": [
                     "MOVE_PSYCHIC",
                     "MOVE_HYPER_VOICE",
@@ -2445,6 +2594,7 @@
                 "level": "37",
                 "name": "SPECIES_TALONFLAME",
                 "item": "ITEM_SHARP_BEAK",
+                "ability": "ABILITY_GALE_WINGS",
                 "moveset": [
                     "MOVE_DRILL_PECK",
                     "MOVE_U_TURN",
@@ -2456,6 +2606,7 @@
                 "level": "37",
                 "name": "SPECIES_HAWLUCHA",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_UNBURDEN",
                 "moveset": [
                     "MOVE_JUMP_KICK",
                     "MOVE_DRILL_PECK",
@@ -2791,6 +2942,7 @@
                 "level": "15",
                 "name": "SPECIES_SHUPPET",
                 "item": "ITEM_IRON_BALL",
+                "ability": "ABILITY_CURSED_BODY",
                 "moveset": [
                     "MOVE_CURSE",
                     "MOVE_EMBARGO",
@@ -2802,6 +2954,7 @@
                 "level": "16",
                 "name": "SPECIES_ZORUA",
                 "item": "ITEM_STICKY_BARB",
+                "ability": "ABILITY_ILLUSION",
                 "moveset": [
                     "MOVE_SNARL",
                     "MOVE_HONE_CLAWS",
@@ -2812,6 +2965,7 @@
             {
                 "level": "16",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_ILLUSION",
                 "moveset": [
                     "MOVE_HEADBUTT",
                     "MOVE_WILL_O_WISP",
@@ -2822,6 +2976,7 @@
             {
                 "level": "16",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_HUSTLE",
                 "moveset": [
                     "MOVE_BITE",
                     "MOVE_FEINT",
@@ -3060,6 +3215,7 @@
                 "level": "23",
                 "name": "SPECIES_GLIGAR",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_HYPER_CUTTER",
                 "moveset": [
                     "MOVE_ACROBATICS",
                     "MOVE_BULLDOZE",
@@ -3071,6 +3227,7 @@
                 "level": "23",
                 "name": "SPECIES_GASTRODON",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_STORM_DRAIN",
                 "moveset": [
                     "MOVE_RECOVER",
                     "MOVE_MUD_BOMB",
@@ -3082,6 +3239,7 @@
                 "level": "24",
                 "name": "SPECIES_CLODSIRE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
                     "MOVE_ATTRACT",
                     "MOVE_VENOSHOCK",
@@ -3100,6 +3258,7 @@
                 "level": "7",
                 "name": "SPECIES_ABRA",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_COSMIC_POWER",
                     "MOVE_MEMENTO",
@@ -3111,6 +3270,7 @@
                 "level": "7",
                 "name": "SPECIES_SWIRLIX",
                 "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_UNBURDEN",
                 "moveset": [
                     "MOVE_DRAINING_KISS",
                     "MOVE_AROMATHERAPY",
@@ -3122,6 +3282,7 @@
                 "level": "7",
                 "name": "SPECIES_SNUBBULL",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_FLOWER_VEIL",
                 "moveset": [
                     "MOVE_DRAINING_KISS",
                     "MOVE_POUND",
@@ -3297,6 +3458,7 @@
                 "level": "9",
                 "name": "SPECIES_SNOVER",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_ICE_BODY",
                 "moveset": [
                     "MOVE_POWDER_SNOW",
                     "MOVE_LEECH_SEED",
@@ -3308,6 +3470,7 @@
                 "level": "8",
                 "name": "SPECIES_SPHEAL",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_ICE_BODY",
                 "moveset": [
                     "MOVE_ICY_WIND",
                     "MOVE_BUBBLE_BEAM",
@@ -3319,6 +3482,7 @@
                 "level": "9",
                 "name": "SPECIES_VANILLITE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_ICE_BODY",
                 "moveset": [
                     "MOVE_SHEER_COLD",
                     "MOVE_DOUBLE_TEAM",
@@ -3330,6 +3494,7 @@
                 "level": "7",
                 "name": "SPECIES_SNEASEL",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_MEDITATE",
                     "MOVE_LOW_KICK",
@@ -3370,6 +3535,7 @@
                 "level": "24",
                 "name": "SPECIES_HAKAMO_O",
                 "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_BULLETPROOF",
                 "moveset": [
                     "MOVE_TAKE_DOWN",
                     "MOVE_DUAL_CHOP",
@@ -3381,6 +3547,7 @@
                 "level": "24",
                 "name": "SPECIES_FRAXURE",
                 "item": "ITEM_DRAGON_FANG",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
                     "MOVE_FIRST_IMPRESSION",
                     "MOVE_OUTRAGE",
@@ -3392,6 +3559,7 @@
                 "level": "26",
                 "name": "SPECIES_TURTONATOR",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_DRAGON_RAGE",
                     "MOVE_SCORCHING_SANDS",
@@ -3552,6 +3720,7 @@
                 "level": "24",
                 "name": "SPECIES_MIMIKYU",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_DISGUISE",
                 "moveset": [
                     "MOVE_SWORDS_DANCE",
                     "MOVE_SHADOW_SNEAK",
@@ -3563,6 +3732,7 @@
                 "level": "23",
                 "name": "SPECIES_WHIMSICOTT",
                 "item": "ITEM_BABIRI_BERRY",
+                "ability": "ABILITY_PRANKSTER",
                 "moveset": [
                     "MOVE_TAILWIND",
                     "MOVE_GIGA_DRAIN",
@@ -3574,6 +3744,7 @@
                 "level": "26",
                 "name": "SPECIES_RAPIDASH",
                 "item": "ITEM_EXPERT_BELT",
+                "ability": "ABILITY_MAGIC_BOUNCE",
                 "moveset": [
                     "MOVE_DAZZLING_GLEAM",
                     "MOVE_ZEN_HEADBUTT",
@@ -3638,6 +3809,7 @@
                 "level": "9",
                 "name": "SPECIES_SWINUB",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_SNOW_CLOAK",
                 "moveset": [
                     "MOVE_ICE_SHARD",
                     "MOVE_SAND_TOMB",
@@ -3649,6 +3821,7 @@
                 "level": "9",
                 "name": "SPECIES_SHELLDER",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_ICICLE_SPEAR",
                     "MOVE_SPIKE_CANNON",
@@ -3659,6 +3832,7 @@
             {
                 "level": "10",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_DRAINING_KISS",
                     "MOVE_ICY_WIND",
@@ -3669,6 +3843,7 @@
             {
                 "level": "9",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SNOW_CLOAK",
                 "moveset": [
                     "MOVE_BLIZZARD",
                     "MOVE_FLASH_CANNON",
@@ -3970,6 +4145,7 @@
                 "level": "58",
                 "name": "SPECIES_WUGTRIO",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_GOOEY",
                 "moveset": [
                     "MOVE_FOUL_PLAY",
                     "MOVE_REVERSAL",
@@ -3981,6 +4157,7 @@
                 "level": "59",
                 "name": "SPECIES_SKELEDIRGE",
                 "item": "ITEM_CHARCOAL",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_HEAT_WAVE",
                     "MOVE_SHADOW_BALL",
@@ -3992,6 +4169,7 @@
                 "level": "58",
                 "name": "SPECIES_CETITAN",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_SHEER_FORCE",
                 "moveset": [
                     "MOVE_ICICLE_CRASH",
                     "MOVE_EARTHQUAKE",
@@ -4348,6 +4526,7 @@
                 "level": "28",
                 "name": "SPECIES_EMBOAR",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_FIRE_PUNCH",
                     "MOVE_DRAIN_PUNCH",
@@ -4359,6 +4538,7 @@
                 "level": "30",
                 "name": "SPECIES_BLAZIKEN",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SPEED_BOOST",
                 "moveset": [
                     "MOVE_FIRE_PUNCH",
                     "MOVE_SCORCHING_SANDS",
@@ -4370,6 +4550,7 @@
                 "level": "29",
                 "name": "SPECIES_INFERNAPE",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_COUNTER",
                     "MOVE_ENDEAVOR",
@@ -4422,6 +4603,7 @@
                 "level": "27",
                 "name": "SPECIES_CHESNAUGHT",
                 "item": "ITEM_COBA_BERRY",
+                "ability": "ABILITY_BULLETPROOF",
                 "moveset": [
                     "MOVE_SEED_BOMB",
                     "MOVE_DOUBLE_EDGE",
@@ -4433,6 +4615,7 @@
                 "level": "28",
                 "name": "SPECIES_BRELOOM",
                 "item": "ITEM_TOXIC_ORB",
+                "ability": "ABILITY_POISON_HEAL",
                 "moveset": [
                     "MOVE_SKY_UPPERCUT",
                     "MOVE_SEED_BOMB",
@@ -4443,6 +4626,7 @@
             {
                 "level": "29",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_SEED_BOMB",
                     "MOVE_JUMP_KICK",
@@ -4911,6 +5095,7 @@
                 "level": "7",
                 "name": "SPECIES_DEDENNE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_PICKUP",
                 "moveset": [
                     "MOVE_THUNDER_WAVE",
                     "MOVE_SWEET_SCENT",
@@ -4922,6 +5107,7 @@
                 "level": "8",
                 "name": "SPECIES_ESPURR",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_KEEN_EYE",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_TRICK_ROOM",
@@ -4933,6 +5119,7 @@
                 "level": "7",
                 "name": "SPECIES_ELGYEM",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SYNCHRONIZE",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_HIDDEN_POWER",
@@ -4951,6 +5138,7 @@
                 "level": "8",
                 "name": "SPECIES_RALTS",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_TRACE",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_TELEPORT",
@@ -4962,6 +5150,7 @@
                 "level": "7",
                 "name": "SPECIES_MORELULL",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_EFFECT_SPORE",
                 "moveset": [
                     "MOVE_STUN_SPORE",
                     "MOVE_SWEET_SCENT",
@@ -4972,6 +5161,7 @@
             {
                 "level": "7",
                 "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_SYNCHRONIZE",
                 "moveset": [
                     "MOVE_STOMP",
                     "MOVE_SWEET_SCENT",
@@ -4990,6 +5180,7 @@
                 "level": "13",
                 "name": "SPECIES_LOTAD",
                 "item": "ITEM_DAMP_ROCK",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_RAIN_DANCE",
                     "MOVE_MEGA_DRAIN",
@@ -5001,6 +5192,7 @@
                 "level": "14",
                 "name": "SPECIES_WOOPER",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
                     "MOVE_MUD_SLAP",
                     "MOVE_WATER_GUN",
@@ -5012,6 +5204,7 @@
                 "level": "15",
                 "name": "SPECIES_BARBOACH",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_RAIN_DISH",
                 "moveset": [
                     "MOVE_SAND_TOMB",
                     "MOVE_WHIRLPOOL",
@@ -5030,6 +5223,7 @@
                 "level": "15",
                 "name": "SPECIES_KRABBY",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_HYPER_CUTTER",
                 "moveset": [
                     "MOVE_VICE_GRIP",
                     "MOVE_BUBBLE_BEAM",
@@ -5041,6 +5235,7 @@
                 "level": "14",
                 "name": "SPECIES_CORPHISH",
                 "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_ADAPTABILITY",
                 "moveset": [
                     "MOVE_VICE_GRIP",
                     "MOVE_AQUA_JET",
@@ -5052,6 +5247,7 @@
                 "level": "14",
                 "name": "SPECIES_CLAUNCHER",
                 "item": "ITEM_STICKY_BARB",
+                "ability": "ABILITY_MEGA_LAUNCHER",
                 "moveset": [
                     "MOVE_VICE_GRIP",
                     "MOVE_WATER_PULSE",
@@ -5070,6 +5266,7 @@
                 "level": "15",
                 "name": "SPECIES_PIPLUP",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_PECK",
                     "MOVE_METAL_CLAW",
@@ -5081,6 +5278,7 @@
                 "level": "15",
                 "name": "SPECIES_GOLDEEN",
                 "item": "ITEM_DAMP_ROCK",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_PECK",
                     "MOVE_HORN_ATTACK",
@@ -5092,6 +5290,7 @@
                 "level": "14",
                 "name": "SPECIES_MUDKIP",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_MUD_SLAP",
                     "MOVE_WHIRLPOOL",
@@ -5110,6 +5309,7 @@
                 "level": "15",
                 "name": "SPECIES_TIRTOUGA",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_STEALTH_ROCK",
                     "MOVE_AQUA_JET",
@@ -5121,6 +5321,7 @@
                 "level": "14",
                 "name": "SPECIES_WAILMER",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_RAIN_DISH",
                 "moveset": [
                     "MOVE_WHIRLPOOL",
                     "MOVE_AQUA_RING",
@@ -5132,6 +5333,7 @@
                 "level": "14",
                 "name": "SPECIES_TENTACOOL",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_LIQUID_OOZE",
                 "moveset": [
                     "MOVE_WHIRLPOOL",
                     "MOVE_POISON_STING",
@@ -5150,6 +5352,7 @@
                 "level": "13",
                 "name": "SPECIES_SKRELP",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_POISON_POINT",
                 "moveset": [
                     "MOVE_POISON_TAIL",
                     "MOVE_BUBBLE_BEAM",
@@ -5161,6 +5364,7 @@
                 "level": "14",
                 "name": "SPECIES_SLOWPOKE",
                 "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_WATER_PULSE",
                     "MOVE_YAWN",
@@ -5172,6 +5376,7 @@
                 "level": "15",
                 "name": "SPECIES_BUIZEL",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_BITE",
                     "MOVE_AQUA_JET",
@@ -5190,6 +5395,7 @@
                 "level": "14",
                 "name": "SPECIES_OMANYTE",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_ANCIENT_POWER",
                     "MOVE_WATER_PULSE",
@@ -5201,6 +5407,7 @@
                 "level": "14",
                 "name": "SPECIES_KABUTO",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_ANCIENT_POWER",
                     "MOVE_MEGA_DRAIN",
@@ -5212,6 +5419,7 @@
                 "level": "16",
                 "name": "SPECIES_FROGADIER",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_POWER_UP_PUNCH",
                     "MOVE_BUBBLE_BEAM",
@@ -5230,6 +5438,7 @@
                 "level": "20",
                 "name": "SPECIES_TORRACAT",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_FIRE_PUNCH",
@@ -5241,6 +5450,7 @@
                 "level": "21",
                 "name": "SPECIES_SALAZZLE",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_COMPOUND_EYES",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_POISON_JAB",
@@ -5270,6 +5480,7 @@
             {
                 "level": "19",
                 "item": "ITEM_BLACK_SLUDGE",
+                "ability": "ABILITY_POISON_TOUCH",
                 "moveset": [
                     "MOVE_VENOSHOCK",
                     "MOVE_DARK_PULSE",
@@ -5281,6 +5492,7 @@
                 "level": "20",
                 "name": "SPECIES_CACTURNE",
                 "item": "ITEM_BIG_ROOT",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
                     "MOVE_LEECH_SEED",
                     "MOVE_PROTECT",
@@ -5299,6 +5511,7 @@
                 "level": "23",
                 "name": "SPECIES_PACHIRISU",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_VOLT_ABSORB",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_NUZZLE",
@@ -5310,6 +5523,7 @@
                 "level": "24",
                 "name": "SPECIES_EELEKTRIK",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_WILD_CHARGE",
@@ -5321,6 +5535,7 @@
                 "level": "23",
                 "name": "SPECIES_FLAAFFY",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_FIRE_PUNCH",
@@ -5338,6 +5553,7 @@
             {
                 "level": "22",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_VOLT_ABSORB",
                 "moveset": [
                     "MOVE_SELF_DESTRUCT",
                     "MOVE_GRASS_KNOT",
@@ -5348,6 +5564,7 @@
             {
                 "level": "23",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_ROCK_SLIDE",
                     "MOVE_WILD_CHARGE",
@@ -5359,6 +5576,7 @@
                 "level": "24",
                 "name": "SPECIES_HELIOPTILE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_SOLAR_POWER",
                 "moveset": [
                     "MOVE_SUNNY_DAY",
                     "MOVE_GRASS_KNOT",
@@ -5370,6 +5588,7 @@
                 "level": "23",
                 "name": "SPECIES_ELEKID",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_MOTOR_DRIVE",
                 "moveset": [
                     "MOVE_NUZZLE",
                     "MOVE_ELECTROWEB",
@@ -5388,6 +5607,7 @@
                 "level": "25",
                 "name": "SPECIES_STUNFISK",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_EARTH_POWER",
                     "MOVE_BOUNCE",
@@ -5399,6 +5619,7 @@
                 "level": "23",
                 "name": "SPECIES_GALVANTULA",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_COMPOUND_EYES",
                 "moveset": [
                     "MOVE_THUNDER",
                     "MOVE_ELECTROWEB",
@@ -5417,6 +5638,7 @@
                 "level": "23",
                 "name": "SPECIES_PLUSLE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_PLUS",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_PLAY_ROUGH",
@@ -5428,6 +5650,7 @@
                 "level": "23",
                 "name": "SPECIES_MINUN",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_MINUS",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_GRAVITY",
@@ -5439,6 +5662,7 @@
                 "level": "23",
                 "name": "SPECIES_LANTURN",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_VOLT_ABSORB",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_MUDDY_WATER",
@@ -5457,6 +5681,7 @@
                 "level": "26",
                 "name": "SPECIES_MANECTRIC",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_LIGHTNING_ROD",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_FLAMETHROWER",
@@ -5468,6 +5693,7 @@
                 "level": "26",
                 "name": "SPECIES_ELECTABUZZ",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_MOTOR_DRIVE",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_ICE_PUNCH",
@@ -5637,6 +5863,7 @@
                 "level": "59",
                 "name": "SPECIES_AUDINO",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_REGENERATOR",
                 "moveset": [
                     "MOVE_WISH",
                     "MOVE_MOONBLAST",
@@ -5648,6 +5875,7 @@
                 "level": "57",
                 "name": "SPECIES_LICKILICKY",
                 "item": "ITEM_CHOICE_BAND",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_EXPLOSION",
                     "MOVE_NONE",
@@ -5659,6 +5887,7 @@
                 "level": "59",
                 "name": "SPECIES_LOPUNNY",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_LIMBER",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_DOUBLE_EDGE",
@@ -5776,6 +6005,7 @@
             {
                 "level": "22",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_GOOEY",
                 "moveset": [
                     "MOVE_BREAKING_SWIPE",
                     "MOVE_SLUDGE_BOMB",
@@ -5787,6 +6017,7 @@
                 "level": "22",
                 "name": "SPECIES_METANG",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_BULLET_PUNCH",
                     "MOVE_ROCK_SLIDE",
@@ -5805,6 +6036,7 @@
                 "level": "26",
                 "name": "SPECIES_LUXIO",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_ELECTRIC_TERRAIN",
                     "MOVE_CRUNCH",
@@ -5815,6 +6047,7 @@
             {
                 "level": "27",
                 "item": "ITEM_MIRACLE_SEED",
+                "ability": "ABILITY_AFTERMATH",
                 "moveset": [
                     "MOVE_ENERGY_BALL",
                     "MOVE_EXPLOSION",
@@ -5825,6 +6058,7 @@
             {
                 "level": "26",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_SURGE_SURFER",
                 "moveset": [
                     "MOVE_THUNDER",
                     "MOVE_MOONBLAST",
@@ -5843,6 +6077,7 @@
                 "level": "23",
                 "name": "SPECIES_CHATOT",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_BIG_PECKS",
                 "moveset": [
                     "MOVE_CHATTER",
                     "MOVE_NASTY_PLOT",
@@ -5854,6 +6089,7 @@
                 "level": "22",
                 "name": "SPECIES_FEAROW",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SNIPER",
                 "moveset": [
                     "MOVE_DUAL_WINGBEAT",
                     "MOVE_SLASH",
@@ -5865,6 +6101,7 @@
                 "level": "23",
                 "name": "SPECIES_EMOLGA",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_MOTOR_DRIVE",
                 "moveset": [
                     "MOVE_VOLT_SWITCH",
                     "MOVE_AIR_SLASH",
@@ -5883,6 +6120,7 @@
                 "level": "26",
                 "name": "SPECIES_LUXIO",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_THUNDER_FANG",
                     "MOVE_PSYCHIC_FANGS",
@@ -5894,6 +6132,7 @@
                 "level": "26",
                 "name": "SPECIES_MAGNETON",
                 "item": "ITEM_METAL_COAT",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_DISCHARGE",
                     "MOVE_FLASH_CANNON",
@@ -5905,6 +6144,7 @@
                 "level": "27",
                 "name": "SPECIES_JOLTEON",
                 "item": "ITEM_EXPERT_BELT",
+                "ability": "ABILITY_VOLT_ABSORB",
                 "moveset": [
                     "MOVE_THUNDER",
                     "MOVE_SHADOW_BALL",
@@ -5923,6 +6163,7 @@
                 "level": "34",
                 "name": "SPECIES_MR_MIME",
                 "item": "ITEM_WISE_GLASSES",
+                "ability": "ABILITY_FILTER",
                 "moveset": [
                     "MOVE_PSYSHOCK",
                     "MOVE_MYSTICAL_FIRE",
@@ -5934,6 +6175,7 @@
                 "level": "36",
                 "name": "SPECIES_AROMATISSE",
                 "item": "ITEM_BABIRI_BERRY",
+                "ability": "ABILITY_HEALER",
                 "moveset": [
                     "MOVE_MOONLIGHT",
                     "MOVE_DAZZLING_GLEAM",
@@ -5945,6 +6187,7 @@
                 "level": "36",
                 "name": "SPECIES_AZUMARILL",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_HUGE_POWER",
                 "moveset": [
                     "MOVE_AQUA_JET",
                     "MOVE_LIQUIDATION",
@@ -5963,6 +6206,7 @@
                 "level": "35",
                 "name": "SPECIES_SWOOBAT",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_SIMPLE",
                 "moveset": [
                     "MOVE_EXTRASENSORY",
                     "MOVE_HEAT_WAVE",
@@ -5974,6 +6218,7 @@
                 "level": "36",
                 "name": "SPECIES_GRUMPIG",
                 "item": "ITEM_CUSTAP_BERRY",
+                "ability": "ABILITY_GLUTTONY",
                 "moveset": [
                     "MOVE_PSYSHOCK",
                     "MOVE_POWER_GEM",
@@ -5985,6 +6230,7 @@
                 "level": "35",
                 "name": "SPECIES_FLORGES",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_FLOWER_VEIL",
                 "moveset": [
                     "MOVE_MOONBLAST",
                     "MOVE_ENERGY_BALL",
@@ -6015,6 +6261,7 @@
                 "level": "35",
                 "name": "SPECIES_ALAKAZAM",
                 "item": "ITEM_FOCUS_BAND",
+                "ability": "ABILITY_MAGIC_GUARD",
                 "moveset": [
                     "MOVE_PSYSHOCK",
                     "MOVE_SHADOW_BALL",
@@ -6026,6 +6273,7 @@
                 "level": "36",
                 "name": "SPECIES_SLURPUFF",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_UNBURDEN",
                 "moveset": [
                     "MOVE_BELLY_DRUM",
                     "MOVE_DRAIN_PUNCH",
@@ -6037,6 +6285,7 @@
                 "level": "35",
                 "name": "SPECIES_GRANBULL",
                 "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_FIRE_PUNCH",
                     "MOVE_CRUNCH",
@@ -6055,6 +6304,7 @@
                 "level": "35",
                 "name": "SPECIES_DEDENNE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_NUZZLE",
@@ -6066,6 +6316,7 @@
                 "level": "34",
                 "name": "SPECIES_MEOWSTIC",
                 "item": "ITEM_LIGHT_CLAY",
+                "ability": "ABILITY_PRANKSTER",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_HELPING_HAND",
@@ -6077,6 +6328,7 @@
                 "level": "36",
                 "name": "SPECIES_BEHEEYEM",
                 "item": "ITEM_WISE_GLASSES",
+                "ability": "ABILITY_TELEPATHY",
                 "moveset": [
                     "MOVE_PSYCHIC",
                     "MOVE_DARK_PULSE",
@@ -6095,6 +6347,7 @@
                 "level": "36",
                 "name": "SPECIES_GARDEVOIR",
                 "item": "ITEM_BABIRI_BERRY",
+                "ability": "ABILITY_TRACE",
                 "moveset": [
                     "MOVE_DAZZLING_GLEAM",
                     "MOVE_PSYSHOCK",
@@ -6106,6 +6359,7 @@
                 "level": "35",
                 "name": "SPECIES_SYLVEON",
                 "item": "ITEM_BABIRI_BERRY",
+                "ability": "ABILITY_PIXILATE",
                 "moveset": [
                     "MOVE_HYPER_VOICE",
                     "MOVE_QUICK_ATTACK",
@@ -6116,6 +6370,7 @@
             {
                 "level": "37",
                 "item": "ITEM_BABIRI_BERRY",
+                "ability": "ABILITY_PIXILATE",
                 "moveset": [
                     "MOVE_DRILL_RUN",
                     "MOVE_WILD_CHARGE",
@@ -6158,6 +6413,7 @@
                 "level": "47",
                 "name": "SPECIES_GENGAR",
                 "item": "ITEM_SILK_SCARF",
+                "ability": "ABILITY_CURSED_BODY",
                 "moveset": [
                     "MOVE_SHADOW_BALL",
                     "MOVE_SLUDGE_BOMB",
@@ -6169,6 +6425,7 @@
                 "level": "46",
                 "name": "SPECIES_DRAGALGE",
                 "item": "ITEM_TOXIC_ORB",
+                "ability": "ABILITY_POISON_POINT",
                 "moveset": [
                     "MOVE_FLING",
                     "MOVE_VENOSHOCK",
@@ -6187,6 +6444,7 @@
                 "level": "47",
                 "name": "SPECIES_TOXAPEX",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_POISON_POINT",
                 "moveset": [
                     "MOVE_TOXIC",
                     "MOVE_BANEFUL_BUNKER",
@@ -6198,6 +6456,7 @@
                 "level": "48",
                 "name": "SPECIES_SCOLIPEDE",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_SPEED_BOOST",
                 "moveset": [
                     "MOVE_POISON_JAB",
                     "MOVE_MEGAHORN",
@@ -6209,6 +6468,7 @@
                 "level": "49",
                 "name": "SPECIES_TENTACRUEL",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_LIQUID_OOZE",
                 "moveset": [
                     "MOVE_SURF",
                     "MOVE_SLUDGE_WAVE",
@@ -6244,6 +6504,7 @@
                 "level": "33",
                 "name": "SPECIES_BANETTE",
                 "item": "ITEM_RED_CARD",
+                "ability": "ABILITY_CURSED_BODY",
                 "moveset": [
                     "MOVE_PHANTOM_FORCE",
                     "MOVE_WILL_O_WISP",
@@ -6254,6 +6515,7 @@
             {
                 "level": "34",
                 "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_COMPETITIVE",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_PSYSHOCK",
@@ -6265,6 +6527,7 @@
                 "level": "34",
                 "name": "SPECIES_SPIRITOMB",
                 "item": "ITEM_RED_CARD",
+                "ability": "ABILITY_INFILTRATOR",
                 "moveset": [
                     "MOVE_WILL_O_WISP",
                     "MOVE_SHADOW_BALL",
@@ -6589,6 +6852,7 @@
                 "level": "66",
                 "name": "SPECIES_TYRANTRUM",
                 "item": "ITEM_HABAN_BERRY",
+                "ability": "ABILITY_ROCK_HEAD",
                 "moveset": [
                     "MOVE_HEAD_SMASH",
                     "MOVE_EARTHQUAKE",
@@ -6600,6 +6864,7 @@
                 "level": "70",
                 "name": "SPECIES_DRAGONITE",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_MULTISCALE",
                 "moveset": [
                     "MOVE_DRAGON_RUSH",
                     "MOVE_HURRICANE",
@@ -6611,6 +6876,7 @@
                 "level": "68",
                 "name": "SPECIES_AERODACTYL",
                 "item": "ITEM_POWER_HERB",
+                "ability": "ABILITY_UNNERVE",
                 "moveset": [
                     "MOVE_ROCK_SLIDE",
                     "MOVE_SKY_ATTACK",
@@ -6622,6 +6888,7 @@
                 "level": "68",
                 "name": "SPECIES_HYDREIGON",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_DRAGON_PULSE",
                     "MOVE_DARK_PULSE",
@@ -6633,6 +6900,7 @@
                 "level": "67",
                 "name": "SPECIES_DRUDDIGON",
                 "item": "ITEM_ROCKY_HELMET",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_DRAGON_RUSH",
                     "MOVE_SUCKER_PUNCH",
@@ -6644,6 +6912,7 @@
                 "level": "70",
                 "name": "SPECIES_GYARADOS",
                 "item": "ITEM_GYARADOSITE",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_AQUA_TAIL",
                     "MOVE_CRUNCH",
@@ -6914,6 +7183,7 @@
                 "level": "29",
                 "name": "SPECIES_THROH",
                 "item": "ITEM_FLAME_ORB",
+                "ability": "ABILITY_GUTS",
                 "moveset": [
                     "MOVE_FOLLOW_ME",
                     "MOVE_HELPING_HAND",
@@ -6925,6 +7195,7 @@
                 "level": "30",
                 "name": "SPECIES_SAWK",
                 "item": "ITEM_EXPERT_BELT",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_LOW_KICK",
                     "MOVE_ROCK_SLIDE",
@@ -6936,6 +7207,7 @@
                 "level": "29",
                 "name": "SPECIES_HARIYAMA",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_DRAIN_PUNCH",
@@ -6971,6 +7243,7 @@
                 "level": "6",
                 "name": "SPECIES_GEODUDE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_ROCK_HEAD",
                 "moveset": [
                     "MOVE_ROCK_BLAST",
                     "MOVE_MUD_SLAP",
@@ -6982,6 +7255,7 @@
                 "level": "6",
                 "name": "SPECIES_ROGGENROLA",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_TACKLE",
                     "MOVE_HARDEN",
@@ -6993,6 +7267,7 @@
                 "level": "6",
                 "name": "SPECIES_DWEBBLE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_ROCK_THROW",
                     "MOVE_FURY_CUTTER",
@@ -7237,6 +7512,7 @@
                 "level": "69",
                 "name": "SPECIES_DRAGAPULT",
                 "item": "ITEM_LIGHT_CLAY",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_REFLECT",
                     "MOVE_LIGHT_SCREEN",
@@ -7248,6 +7524,7 @@
                 "level": "67",
                 "name": "SPECIES_ROSERADE",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_POISON_POINT",
                 "moveset": [
                     "MOVE_PETAL_DANCE",
                     "MOVE_SLUDGE_BOMB",
@@ -7259,6 +7536,7 @@
                 "level": "68",
                 "name": "SPECIES_TOGEKISS",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_SERENE_GRACE",
                 "moveset": [
                     "MOVE_AIR_SLASH",
                     "MOVE_MOONBLAST",
@@ -7270,6 +7548,7 @@
                 "level": "69",
                 "name": "SPECIES_LUCARIO",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_CLOSE_COMBAT",
                     "MOVE_METEOR_MASH",
@@ -7281,6 +7560,7 @@
                 "level": "70",
                 "name": "SPECIES_GARCHOMP",
                 "item": "ITEM_GARCHOMPITE",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_OUTRAGE",
                     "MOVE_EARTHQUAKE",
@@ -7339,6 +7619,7 @@
                 "level": "20",
                 "name": "SPECIES_PIKACHU",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_SHOCK_WAVE",
                     "MOVE_NUZZLE",
@@ -7350,6 +7631,7 @@
                 "level": "20",
                 "name": "SPECIES_BUTTERFREE",
                 "item": "ITEM_BERRY_JUICE",
+                "ability": "ABILITY_COMPOUND_EYES",
                 "moveset": [
                     "MOVE_AIR_CUTTER",
                     "MOVE_SILVER_WIND",
@@ -7361,6 +7643,7 @@
                 "level": "19",
                 "name": "SPECIES_PIDGEOTTO",
                 "item": "ITEM_SHARP_BEAK",
+                "ability": "ABILITY_KEEN_EYE",
                 "moveset": [
                     "MOVE_AERIAL_ACE",
                     "MOVE_HEADBUTT",
@@ -7372,6 +7655,7 @@
                 "level": "20",
                 "name": "SPECIES_IVYSAUR",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_SLUDGE",
                     "MOVE_GRASS_KNOT",
@@ -7383,6 +7667,7 @@
                 "level": "21",
                 "name": "SPECIES_CHARMELEON",
                 "item": "ITEM_CHOICE_BAND",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_SHADOW_CLAW",
                     "MOVE_FLAME_CHARGE",
@@ -7401,6 +7686,7 @@
                 "level": "20",
                 "name": "SPECIES_GROWLITHE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_FLASH_FIRE",
                 "moveset": [
                     "MOVE_RAGING_FURY",
                     "MOVE_SUNNY_DAY",
@@ -7412,6 +7698,7 @@
                 "level": "20",
                 "name": "SPECIES_RHYDON",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_SOLID_ROCK",
                 "moveset": [
                     "MOVE_HORN_ATTACK",
                     "MOVE_STOMP",
@@ -7423,6 +7710,7 @@
                 "level": "20",
                 "name": "SPECIES_EXEGGCUTE",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_CHLOROPHYLL",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_PSYBEAM",
@@ -7434,6 +7722,7 @@
                 "level": "25",
                 "name": "SPECIES_MAGIKARP",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_SELF_DESTRUCT",
                     "MOVE_FLAIL",
@@ -7445,6 +7734,7 @@
                 "level": "19",
                 "name": "SPECIES_KADABRA",
                 "item": "ITEM_WISE_GLASSES",
+                "ability": "ABILITY_MAGIC_GUARD",
                 "moveset": [
                     "MOVE_PSYBEAM",
                     "MOVE_FUTURE_SIGHT",
@@ -7463,6 +7753,7 @@
                 "level": "43",
                 "name": "SPECIES_BLASTOISE",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_SHELL_SMASH",
@@ -7474,6 +7765,7 @@
                 "level": "43",
                 "name": "SPECIES_CHARIZARD",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_AIR_SLASH",
                     "MOVE_FLAMETHROWER",
@@ -7485,6 +7777,7 @@
                 "level": "43",
                 "name": "SPECIES_VENUSAUR",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_SLUDGE_BOMB",
@@ -7496,6 +7789,7 @@
                 "level": "45",
                 "name": "SPECIES_BUTTERFREE",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_COMPOUND_EYES",
                 "moveset": [
                     "MOVE_SLEEP_POWDER",
                     "MOVE_BUG_BUZZ",
@@ -7507,6 +7801,7 @@
                 "level": "44",
                 "name": "SPECIES_PIDGEOT",
                 "item": "ITEM_SHARP_BEAK",
+                "ability": "ABILITY_BIG_PECKS",
                 "moveset": [
                     "MOVE_FLY",
                     "MOVE_DOUBLE_EDGE",
@@ -7518,6 +7813,7 @@
                 "level": "45",
                 "name": "SPECIES_PIKACHU",
                 "item": "ITEM_LIGHT_BALL",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_THUNDERBOLT",
@@ -9066,6 +9362,7 @@
                 "level": "35",
                 "name": "SPECIES_HYPNO",
                 "item": "ITEM_LUM_BERRY",
+                "ability": "ABILITY_BAD_DREAMS",
                 "moveset": [
                     "MOVE_HYPNOSIS",
                     "MOVE_DREAM_EATER",
@@ -9077,6 +9374,7 @@
                 "level": "34",
                 "name": "SPECIES_LIEPARD",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_PRANKSTER",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_FOUL_PLAY",
@@ -9088,6 +9386,7 @@
                 "level": "34",
                 "name": "SPECIES_GRUMPIG",
                 "item": "ITEM_SILK_SCARF",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_HYPER_VOICE",
                     "MOVE_DAZZLING_GLEAM",
@@ -9811,6 +10110,7 @@
                 "level": "49",
                 "name": "SPECIES_KLEAVOR",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_SWARM",
                 "moveset": [
                     "MOVE_X_SCISSOR",
                     "MOVE_STONE_EDGE",
@@ -9822,6 +10122,7 @@
                 "level": "48",
                 "name": "SPECIES_GIGALITH",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_SAND_STREAM",
                 "moveset": [
                     "MOVE_EARTHQUAKE",
                     "MOVE_BODY_PRESS",
@@ -9987,6 +10288,7 @@
                 "level": "45",
                 "name": "SPECIES_CHANDELURE",
                 "item": "ITEM_CHARCOAL",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
                     "MOVE_FLAMETHROWER",
                     "MOVE_SHADOW_BALL",
@@ -9998,6 +10300,7 @@
                 "level": "44",
                 "name": "SPECIES_COPPERAJAH",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_SHEER_FORCE",
                 "moveset": [
                     "MOVE_IRON_TAIL",
                     "MOVE_HIGH_HORSEPOWER",
@@ -10009,6 +10312,7 @@
                 "level": "45",
                 "name": "SPECIES_CROBAT",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_U_TURN",
                     "MOVE_TAILWIND",
@@ -10902,6 +11206,7 @@
                 "level": "70",
                 "name": "SPECIES_SLOWBRO",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_SURF",
                     "MOVE_SLACK_OFF",
@@ -10913,6 +11218,7 @@
                 "level": "71",
                 "name": "SPECIES_GOTHITELLE",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_SHADOW_TAG",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_PSYSHOCK",
@@ -10924,6 +11230,7 @@
                 "level": "71",
                 "name": "SPECIES_DRAPION",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SNIPER",
                 "moveset": [
                     "MOVE_NIGHT_SLASH",
                     "MOVE_PSYCHO_CUT",
@@ -10942,6 +11249,7 @@
                 "level": "72",
                 "name": "SPECIES_HYDREIGON",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_DRACO_METEOR",
                     "MOVE_DARK_PULSE",
@@ -10953,6 +11261,7 @@
                 "level": "72",
                 "name": "SPECIES_ARCANINE",
                 "item": "ITEM_CHOICE_BAND",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_RAGING_FURY",
                     "MOVE_WILD_CHARGE",
@@ -10964,6 +11273,7 @@
                 "level": "71",
                 "name": "SPECIES_CORVIKNIGHT",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_UNNERVE",
                 "moveset": [
                     "MOVE_BODY_PRESS",
                     "MOVE_ROOST",
@@ -10982,6 +11292,7 @@
                 "level": "8",
                 "name": "SPECIES_BERGMITE",
                 "item": "ITEM_NEVER_MELT_ICE",
+                "ability": "ABILITY_ICE_BODY",
                 "moveset": [
                     "MOVE_ICE_BALL",
                     "MOVE_ICE_SHARD",
@@ -10993,6 +11304,7 @@
                 "level": "10",
                 "name": "SPECIES_CUBCHOO",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SLUSH_RUSH",
                 "moveset": [
                     "MOVE_AQUA_JET",
                     "MOVE_ICICLE_SPEAR",
@@ -11004,6 +11316,7 @@
                 "level": "8",
                 "name": "SPECIES_SEEL",
                 "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_ICE_BODY",
                 "moveset": [
                     "MOVE_SHEER_COLD",
                     "MOVE_BRINE",
@@ -11014,6 +11327,7 @@
             {
                 "level": "9",
                 "item": "ITEM_JABOCA_BERRY",
+                "ability": "ABILITY_HUSTLE",
                 "moveset": [
                     "MOVE_ICE_FANG",
                     "MOVE_BITE",
@@ -11032,6 +11346,7 @@
                 "level": "14",
                 "name": "SPECIES_HONEDGE",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_NO_GUARD",
                 "moveset": [
                     "MOVE_SHARPEN",
                     "MOVE_SHADOW_SNEAK",
@@ -11043,6 +11358,7 @@
                 "level": "15",
                 "name": "SPECIES_CARBINK",
                 "item": "ITEM_BABIRI_BERRY",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_SELF_DESTRUCT",
                     "MOVE_SWEET_SCENT",
@@ -11053,6 +11369,7 @@
             {
                 "level": "15",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_POISON_POINT",
                 "moveset": [
                     "MOVE_MUD_SLAP",
                     "MOVE_WHIRLPOOL",
@@ -11071,6 +11388,7 @@
                 "level": "15",
                 "name": "SPECIES_CLOBBOPUS",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_TECHNICIAN",
                 "moveset": [
                     "MOVE_POWER_UP_PUNCH",
                     "MOVE_HEADBUTT",
@@ -11082,6 +11400,7 @@
                 "level": "14",
                 "name": "SPECIES_KUBFU",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_KARATE_CHOP",
                     "MOVE_PAYBACK",
@@ -11093,6 +11412,7 @@
                 "level": "15",
                 "name": "SPECIES_PANCHAM",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_SCRAPPY",
                 "moveset": [
                     "MOVE_LOW_SWEEP",
                     "MOVE_ASSURANCE",
@@ -11111,6 +11431,7 @@
                 "level": "14",
                 "name": "SPECIES_ROWLET",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_AIR_CUTTER",
                     "MOVE_LEECH_SEED",
@@ -11122,6 +11443,7 @@
                 "level": "15",
                 "name": "SPECIES_STUFFUL",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_SLUSH_RUSH",
                 "moveset": [
                     "MOVE_FOCUS_PUNCH",
                     "MOVE_PAYBACK",
@@ -11133,6 +11455,7 @@
                 "level": "14",
                 "name": "SPECIES_LECHONK",
                 "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_HEADBUTT",
                     "MOVE_AMNESIA",
@@ -11151,6 +11474,7 @@
                 "level": "73",
                 "name": "SPECIES_CHANDELURE",
                 "item": "ITEM_CHOICE_SCARF",
+                "ability": "ABILITY_FLASH_FIRE",
                 "moveset": [
                     "MOVE_HEAT_WAVE",
                     "MOVE_NONE",
@@ -11162,6 +11486,7 @@
                 "level": "73",
                 "name": "SPECIES_SWAMPERT",
                 "item": "ITEM_CHOICE_SCARF",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_MUDDY_WATER",
                     "MOVE_NONE",
@@ -11180,6 +11505,7 @@
                 "level": "72",
                 "name": "SPECIES_BAXCALIBUR",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_ICE_BODY",
                 "moveset": [
                     "MOVE_ICICLE_CRASH",
                     "MOVE_DRAGON_RUSH",
@@ -11191,6 +11517,7 @@
                 "level": "71",
                 "name": "SPECIES_FLYGON",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_BREAKING_SWIPE",
                     "MOVE_EARTHQUAKE",
@@ -11202,6 +11529,7 @@
                 "level": "73",
                 "name": "SPECIES_DURALUDON",
                 "item": "ITEM_WHITE_HERB",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_FLASH_CANNON",
                     "MOVE_DRACO_METEOR",
@@ -11220,6 +11548,7 @@
                 "level": "73",
                 "name": "SPECIES_KOMMO_O",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_BULLETPROOF",
                 "moveset": [
                     "MOVE_BOOMBURST",
                     "MOVE_CLOSE_COMBAT",
@@ -11231,6 +11560,7 @@
                 "level": "71",
                 "name": "SPECIES_TURTONATOR",
                 "item": "ITEM_AIR_BALLOON",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_HEAD_SMASH",
                     "MOVE_HEAT_CRASH",
@@ -11242,6 +11572,7 @@
                 "level": "72",
                 "name": "SPECIES_DRAGONAIR",
                 "item": "ITEM_EVIOLITE",
+                "ability": "ABILITY_SHED_SKIN",
                 "moveset": [
                     "MOVE_THUNDER_WAVE",
                     "MOVE_DRAGON_PULSE",
@@ -11259,6 +11590,7 @@
             {
                 "level": "71",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_SHADOW_BALL",
                     "MOVE_BLAST_BURN",
@@ -11270,6 +11602,7 @@
                 "level": "72",
                 "name": "SPECIES_SPECTRIER",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_GRIM_NEIGH",
                 "moveset": [
                     "MOVE_SHADOW_BALL",
                     "MOVE_SNARL",
@@ -11281,6 +11614,7 @@
                 "level": "73",
                 "name": "SPECIES_QUAQUAVAL",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_LIQUIDATION",
                     "MOVE_AQUA_JET",
@@ -11299,6 +11633,7 @@
                 "level": "72",
                 "name": "SPECIES_RHYPERIOR",
                 "item": "ITEM_WEAKNESS_POLICY",
+                "ability": "ABILITY_SOLID_ROCK",
                 "moveset": [
                     "MOVE_EARTHQUAKE",
                     "MOVE_IRON_HEAD",
@@ -11310,6 +11645,7 @@
                 "level": "73",
                 "name": "SPECIES_GYARADOS",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_AQUA_TAIL",
                     "MOVE_EARTHQUAKE",
@@ -11321,6 +11657,7 @@
                 "level": "73",
                 "name": "SPECIES_SCEPTILE",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_FRENZY_PLANT",
                     "MOVE_DRAGON_PULSE",
@@ -11332,6 +11669,7 @@
                 "level": "74",
                 "name": "SPECIES_ELECTIVIRE",
                 "item": "ITEM_AIR_BALLOON",
+                "ability": "ABILITY_MOTOR_DRIVE",
                 "moveset": [
                     "MOVE_WILD_CHARGE",
                     "MOVE_FIRE_PUNCH",
@@ -12508,6 +12846,7 @@
                 "level": "64",
                 "name": "SPECIES_JOLTEON",
                 "item": "ITEM_CHOICE_SPECS",
+                "ability": "ABILITY_VOLT_ABSORB",
                 "moveset": [
                     "MOVE_VOLT_SWITCH",
                     "MOVE_HIDDEN_POWER",
@@ -12518,6 +12857,7 @@
             {
                 "level": "63",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_OVERHEAT",
                     "MOVE_DISCHARGE",
@@ -12528,6 +12868,7 @@
             {
                 "level": "63",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_AFTERMATH",
                 "moveset": [
                     "MOVE_EXPLOSION",
                     "MOVE_ZAP_CANNON",
@@ -12546,6 +12887,7 @@
                 "level": "6",
                 "name": "SPECIES_ABRA",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_MAGIC_GUARD",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_FAIRY_WIND",
@@ -12557,6 +12899,7 @@
                 "level": "5",
                 "name": "SPECIES_MUDBRAY",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_STAMINA",
                 "moveset": [
                     "MOVE_TACKLE",
                     "MOVE_MUD_SHOT",
@@ -12567,6 +12910,7 @@
             {
                 "level": "5",
                 "item": "ITEM_BLACK_SLUDGE",
+                "ability": "ABILITY_POISON_TOUCH",
                 "moveset": [
                     "MOVE_POISON_FANG",
                     "MOVE_SHADOW_SNEAK",
@@ -12585,6 +12929,7 @@
                 "level": "63",
                 "name": "SPECIES_MAGNEZONE",
                 "item": "ITEM_AIR_BALLOON",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_FLASH_CANNON",
                     "MOVE_THUNDERBOLT",
@@ -12596,6 +12941,7 @@
                 "level": "64",
                 "name": "SPECIES_VIKAVOLT",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_BUG_BUZZ",
                     "MOVE_THUNDERBOLT",
@@ -12606,6 +12952,7 @@
             {
                 "level": "65",
                 "item": "ITEM_CUSTAP_BERRY",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_EXPLOSION",
                     "MOVE_WILD_CHARGE",
@@ -12624,6 +12971,7 @@
                 "level": "64",
                 "name": "SPECIES_XURKITREE",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_BEAST_BOOST",
                 "moveset": [
                     "MOVE_THUNDERBOLT",
                     "MOVE_ENERGY_BALL",
@@ -12635,6 +12983,7 @@
                 "level": "64",
                 "name": "SPECIES_REGIELEKI",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_TRANSISTOR",
                 "moveset": [
                     "MOVE_ELECTROWEB",
                     "MOVE_THUNDERBOLT",
@@ -12760,6 +13109,7 @@
                 "level": "22",
                 "name": "SPECIES_HONCHKROW",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SUPER_LUCK",
                 "moveset": [
                     "MOVE_EMBARGO",
                     "MOVE_DRILL_PECK",
@@ -12771,6 +13121,7 @@
                 "level": "21",
                 "name": "SPECIES_VULLABY",
                 "item": "ITEM_WHITE_HERB",
+                "ability": "ABILITY_WEAK_ARMOR",
                 "moveset": [
                     "MOVE_SNARL",
                     "MOVE_ROOST",
@@ -12782,6 +13133,7 @@
                 "level": "21",
                 "name": "SPECIES_DRAPION",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SNIPER",
                 "moveset": [
                     "MOVE_CROSS_POISON",
                     "MOVE_LEECH_LIFE",
@@ -12792,6 +13144,7 @@
             {
                 "level": "22",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_FUR_COAT",
                 "moveset": [
                     "MOVE_DOUBLE_EDGE",
                     "MOVE_U_TURN",
@@ -12810,6 +13163,7 @@
                 "level": "75",
                 "name": "SPECIES_REGIELEKI",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_TRANSISTOR",
                 "moveset": [
                     "MOVE_ELECTROWEB",
                     "MOVE_VOLT_SWITCH",
@@ -12821,6 +13175,7 @@
                 "level": "75",
                 "name": "SPECIES_AMPHAROS",
                 "item": "ITEM_AMPHAROSITE",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
                     "MOVE_DRAGON_PULSE",
                     "MOVE_DISCHARGE",
@@ -12832,6 +13187,7 @@
                 "level": "75",
                 "name": "SPECIES_HELIOLISK",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_SOLAR_POWER",
                 "moveset": [
                     "MOVE_THUNDERBOLT",
                     "MOVE_HYPER_VOICE",
@@ -12843,6 +13199,7 @@
                 "level": "75",
                 "name": "SPECIES_BOLTUND",
                 "item": "ITEM_AIR_BALLOON",
+                "ability": "ABILITY_ELECTRIC_SURGE",
                 "moveset": [
                     "MOVE_VOLT_SWITCH",
                     "MOVE_SUPER_FANG",
@@ -12854,6 +13211,7 @@
                 "level": "75",
                 "name": "SPECIES_GROUDON",
                 "item": "ITEM_SOFT_SAND",
+                "ability": "ABILITY_DROUGHT",
                 "moveset": [
                     "MOVE_PRECIPICE_BLADES",
                     "MOVE_HEAT_CRASH",
@@ -12871,6 +13229,7 @@
             {
                 "level": "16",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_GRASS_KNOT",
                     "MOVE_SHOCK_WAVE",
@@ -12881,6 +13240,7 @@
             {
                 "level": "17",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_SPARK",
                     "MOVE_ROCK_TOMB",
@@ -12892,6 +13252,7 @@
                 "level": "16",
                 "name": "SPECIES_EELEKTRIK",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_ELECTROWEB",
                     "MOVE_MEGA_DRAIN",
@@ -12998,6 +13359,7 @@
                 "level": "13",
                 "name": "SPECIES_SABLEYE",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_PRANKSTER",
                 "moveset": [
                     "MOVE_EMBARGO",
                     "MOVE_MEMENTO",
@@ -13009,6 +13371,7 @@
                 "level": "16",
                 "name": "SPECIES_LARVITAR",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_SAND_STREAM",
                 "moveset": [
                     "MOVE_BULLDOZE",
                     "MOVE_ROCK_TOMB",
@@ -13020,6 +13383,7 @@
                 "level": "15",
                 "name": "SPECIES_KUBFU",
                 "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_POWER_UP_PUNCH",
                     "MOVE_AERIAL_ACE",
@@ -13031,6 +13395,7 @@
                 "level": "13",
                 "name": "SPECIES_HONEDGE",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_NO_GUARD",
                 "moveset": [
                     "MOVE_METAL_CLAW",
                     "MOVE_SHADOW_SNEAK",
@@ -13042,6 +13407,7 @@
                 "level": "15",
                 "name": "SPECIES_FRAXURE",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
                     "MOVE_BITE",
                     "MOVE_DUAL_CHOP",
@@ -13060,6 +13426,7 @@
                 "level": "16",
                 "name": "SPECIES_LOMBRE",
                 "item": "ITEM_COBA_BERRY",
+                "ability": "ABILITY_RAIN_DISH",
                 "moveset": [
                     "MOVE_MEGA_DRAIN",
                     "MOVE_BUBBLE_BEAM",
@@ -13071,6 +13438,7 @@
                 "level": "15",
                 "name": "SPECIES_WINGULL",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_DRIZZLE",
                 "moveset": [
                     "MOVE_AERIAL_ACE",
                     "MOVE_WATER_GUN",
@@ -13082,6 +13450,7 @@
                 "level": "13",
                 "name": "SPECIES_PALPITOAD",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_MUD_BOMB",
                     "MOVE_WATER_PULSE",
@@ -13093,6 +13462,7 @@
                 "level": "16",
                 "name": "SPECIES_DEWOTT",
                 "item": "ITEM_MYSTIC_WATER",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_ROCK_TOMB",
                     "MOVE_WATER_PULSE",
@@ -13111,6 +13481,7 @@
                 "level": "8",
                 "name": "SPECIES_DUOSION",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_MAGIC_GUARD",
                 "moveset": [
                     "MOVE_CONFUSION",
                     "MOVE_METRONOME",
@@ -13122,6 +13493,7 @@
                 "level": "8",
                 "name": "SPECIES_INKAY",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_CONTRARY",
                 "moveset": [
                     "MOVE_TRICK_ROOM",
                     "MOVE_METRONOME",
@@ -13133,6 +13505,7 @@
                 "level": "9",
                 "name": "SPECIES_BELDUM",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_METAL_CLAW",
                     "MOVE_CONFUSION",
@@ -13144,6 +13517,7 @@
                 "level": "10",
                 "name": "SPECIES_BRAIXEN",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_EMBER",
                     "MOVE_QUICK_ATTACK",
@@ -13161,6 +13535,7 @@
             {
                 "level": "27",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_OVERHEAT",
                     "MOVE_THUNDER_WAVE",
@@ -13172,6 +13547,7 @@
                 "level": "28",
                 "name": "SPECIES_REGIELEKI",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_TRANSISTOR",
                 "moveset": [
                     "MOVE_VOLT_SWITCH",
                     "MOVE_BOUNCE",
@@ -13183,6 +13559,7 @@
                 "level": "27",
                 "name": "SPECIES_HELIOLISK",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_SOLAR_POWER",
                 "moveset": [
                     "MOVE_HYPER_VOICE",
                     "MOVE_FLAMETHROWER",
@@ -13194,6 +13571,7 @@
                 "level": "27",
                 "name": "SPECIES_BOLTUND",
                 "item": "ITEM_STARF_BERRY",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
                     "MOVE_WILD_CHARGE",
                     "MOVE_FLAME_CHARGE",
@@ -13212,6 +13590,7 @@
                 "level": "37",
                 "name": "SPECIES_REUNICLUS",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_MAGIC_GUARD",
                 "moveset": [
                     "MOVE_PAIN_SPLIT",
                     "MOVE_TRICK_ROOM",
@@ -13223,6 +13602,7 @@
                 "level": "36",
                 "name": "SPECIES_MALAMAR",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_CONTRARY",
                 "moveset": [
                     "MOVE_SUPERPOWER",
                     "MOVE_NIGHT_SLASH",
@@ -13234,6 +13614,7 @@
                 "level": "36",
                 "name": "SPECIES_METANG",
                 "item": "ITEM_COLBUR_BERRY",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_EXPLOSION",
                     "MOVE_GYRO_BALL",
@@ -13245,6 +13626,7 @@
                 "level": "37",
                 "name": "SPECIES_DELPHOX",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_FLAMETHROWER",
                     "MOVE_PSYSHOCK",
@@ -13263,6 +13645,7 @@
                 "level": "52",
                 "name": "SPECIES_SABLEYE",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_PRANKSTER",
                 "moveset": [
                     "MOVE_WILL_O_WISP",
                     "MOVE_RECOVER",
@@ -13274,6 +13657,7 @@
                 "level": "53",
                 "name": "SPECIES_TYRANITAR",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_SAND_STREAM",
                 "moveset": [
                     "MOVE_CRUNCH",
                     "MOVE_STONE_EDGE",
@@ -13285,6 +13669,7 @@
                 "level": "54",
                 "name": "SPECIES_URSHIFU",
                 "item": "ITEM_BLACK_GLASSES",
+                "ability": "ABILITY_UNSEEN_FIST",
                 "moveset": [
                     "MOVE_WICKED_BLOW",
                     "MOVE_CLOSE_COMBAT",
@@ -13296,6 +13681,7 @@
                 "level": "54",
                 "name": "SPECIES_ARCHALUDON",
                 "item": "ITEM_WHITE_HERB",
+                "ability": "ABILITY_STAMINA",
                 "moveset": [
                     "MOVE_FLASH_CANNON",
                     "MOVE_BODY_PRESS",
@@ -13307,6 +13693,7 @@
                 "level": "53",
                 "name": "SPECIES_HAXORUS",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
                     "MOVE_DRAGON_RUSH",
                     "MOVE_EARTHQUAKE",
@@ -13398,6 +13785,7 @@
                 "level": "75",
                 "name": "SPECIES_DELPHOX",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_FIRE_BLAST",
                     "MOVE_PSYSHOCK",
@@ -13409,6 +13797,7 @@
                 "level": "75",
                 "name": "SPECIES_GARDEVOIR",
                 "item": "ITEM_TWISTED_SPOON",
+                "ability": "ABILITY_TRACE",
                 "moveset": [
                     "MOVE_PSYCHIC",
                     "MOVE_SHADOW_BALL",
@@ -13420,6 +13809,7 @@
                 "level": "75",
                 "name": "SPECIES_ALCREMIE",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_PIXILATE",
                 "moveset": [
                     "MOVE_TRI_ATTACK",
                     "MOVE_PSYSHOCK",
@@ -13431,6 +13821,7 @@
                 "level": "75",
                 "name": "SPECIES_HATTERENE",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_MAGIC_BOUNCE",
                 "moveset": [
                     "MOVE_MOONBLAST",
                     "MOVE_PSYCHIC",
@@ -13442,6 +13833,7 @@
                 "level": "75",
                 "name": "SPECIES_RAYQUAZA",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_AIR_LOCK",
                 "moveset": [
                     "MOVE_DRACO_METEOR",
                     "MOVE_HURRICANE",
@@ -13460,6 +13852,7 @@
                 "level": "17",
                 "name": "SPECIES_YAMASK",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_MUMMY",
                 "moveset": [
                     "MOVE_NIGHT_SHADE",
                     "MOVE_ASTONISH",
@@ -13471,6 +13864,7 @@
                 "level": "18",
                 "name": "SPECIES_PUMPKABOO",
                 "item": "ITEM_QUICK_CLAW",
+                "ability": "ABILITY_FRISK",
                 "moveset": [
                     "MOVE_MEGA_DRAIN",
                     "MOVE_LEECH_SEED",
@@ -13482,6 +13876,7 @@
                 "level": "16",
                 "name": "SPECIES_GOLETT",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_IRON_FIST",
                 "moveset": [
                     "MOVE_POWER_UP_PUNCH",
                     "MOVE_MUD_BOMB",
@@ -13500,6 +13895,7 @@
                 "level": "16",
                 "name": "SPECIES_DUSKULL",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_NIGHT_SHADE",
                     "MOVE_WILL_O_WISP",
@@ -13511,6 +13907,7 @@
                 "level": "17",
                 "name": "SPECIES_PHANTUMP",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_NATURAL_CURE",
                 "moveset": [
                     "MOVE_LEECH_SEED",
                     "MOVE_MEGA_DRAIN",
@@ -13522,6 +13919,7 @@
                 "level": "16",
                 "name": "SPECIES_GASTLY",
                 "item": "ITEM_IRON_BALL",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_FLING",
                     "MOVE_POISON_GAS",
@@ -13539,6 +13937,7 @@
             {
                 "level": "75",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_SCALD",
                     "MOVE_THUNDERBOLT",
@@ -13550,6 +13949,7 @@
                 "level": "75",
                 "name": "SPECIES_POLITOED",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_DRIZZLE",
                 "moveset": [
                     "MOVE_HYDRO_PUMP",
                     "MOVE_ICE_BEAM",
@@ -13561,6 +13961,7 @@
                 "level": "75",
                 "name": "SPECIES_GYARADOS",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_WATERFALL",
                     "MOVE_EARTHQUAKE",
@@ -13572,6 +13973,7 @@
                 "level": "75",
                 "name": "SPECIES_SWAMPERT",
                 "item": "ITEM_SWAMPERTITE",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_FISSURE",
                     "MOVE_AQUA_TAIL",
@@ -13583,6 +13985,7 @@
                 "level": "75",
                 "name": "SPECIES_KYOGRE",
                 "item": "ITEM_MYSTIC_WATER",
+                "ability": "ABILITY_DRIZZLE",
                 "moveset": [
                     "MOVE_ORIGIN_PULSE",
                     "MOVE_ICE_BEAM",
@@ -13601,6 +14004,7 @@
                 "level": "75",
                 "name": "SPECIES_HAXORUS",
                 "item": "ITEM_CHOICE_SCARF",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
                     "MOVE_OUTRAGE",
                     "MOVE_IRON_TAIL",
@@ -13612,6 +14016,7 @@
                 "level": "75",
                 "name": "SPECIES_TYRANITAR",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_SAND_STREAM",
                 "moveset": [
                     "MOVE_STONE_EDGE",
                     "MOVE_CRUNCH",
@@ -13623,6 +14028,7 @@
                 "level": "75",
                 "name": "SPECIES_ARCHALUDON",
                 "item": "ITEM_WHITE_HERB",
+                "ability": "ABILITY_STAMINA",
                 "moveset": [
                     "MOVE_DRACO_METEOR",
                     "MOVE_FLASH_CANNON",
@@ -13634,6 +14040,7 @@
                 "level": "75",
                 "name": "SPECIES_SABLEYE",
                 "item": "ITEM_SABLENITE",
+                "ability": "ABILITY_MAGIC_BOUNCE",
                 "moveset": [
                     "MOVE_FOUL_PLAY",
                     "MOVE_WILL_O_WISP",
@@ -13644,6 +14051,7 @@
             {
                 "level": "75",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_TERAVOLT",
                 "moveset": [
                     "MOVE_BOLT_STRIKE",
                     "MOVE_ICICLE_CRASH",
@@ -13661,6 +14069,7 @@
             {
                 "level": "75",
                 "item": "ITEM_CHARIZARDITE_Y",
+                "ability": "ABILITY_DROUGHT",
                 "moveset": [
                     "MOVE_FLAMETHROWER",
                     "MOVE_AIR_SLASH",
@@ -13671,6 +14080,7 @@
             {
                 "level": "75",
                 "item": "ITEM_VENUSAURITE",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_EARTH_POWER",
@@ -13682,6 +14092,7 @@
                 "level": "75",
                 "name": "SPECIES_PIKACHU",
                 "item": "ITEM_LIGHT_BALL",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_VOLT_TACKLE",
                     "MOVE_FAKE_OUT",
@@ -13693,6 +14104,7 @@
                 "level": "75",
                 "name": "SPECIES_SNORLAX",
                 "item": "ITEM_CUSTAP_BERRY",
+                "ability": "ABILITY_GLUTTONY",
                 "moveset": [
                     "MOVE_EXPLOSION",
                     "MOVE_BODY_SLAM",
@@ -13704,6 +14116,7 @@
                 "level": "75",
                 "name": "SPECIES_LAPRAS",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
                     "MOVE_SURF",
                     "MOVE_ICE_BEAM",
@@ -13722,6 +14135,7 @@
                 "level": "75",
                 "name": "SPECIES_RHYPERIOR",
                 "item": "ITEM_WEAKNESS_POLICY",
+                "ability": "ABILITY_SOLID_ROCK",
                 "moveset": [
                     "MOVE_ROCK_WRECKER",
                     "MOVE_EARTHQUAKE",
@@ -13733,6 +14147,7 @@
                 "level": "75",
                 "name": "SPECIES_EXEGGUTOR",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_CHLOROPHYLL",
                 "moveset": [
                     "MOVE_SUNNY_DAY",
                     "MOVE_LEAF_STORM",
@@ -13744,6 +14159,7 @@
                 "level": "75",
                 "name": "SPECIES_GYARADOS",
                 "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_FLIP_TURN",
                     "MOVE_EARTHQUAKE",
@@ -13755,6 +14171,7 @@
                 "level": "75",
                 "name": "SPECIES_ALAKAZAM",
                 "item": "ITEM_ALAKAZITE",
+                "ability": "ABILITY_TRACE",
                 "moveset": [
                     "MOVE_PSYCHO_BOOST",
                     "MOVE_SHADOW_BALL",
@@ -13766,6 +14183,7 @@
                 "level": "75",
                 "name": "SPECIES_TAUROS",
                 "item": "ITEM_CHOICE_BAND",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_GIGA_IMPACT",
                     "MOVE_CLOSE_COMBAT",
@@ -13784,6 +14202,7 @@
                 "level": "50",
                 "name": "SPECIES_SANDACONDA",
                 "item": "ITEM_BRIGHT_POWDER",
+                "ability": "ABILITY_SAND_VEIL",
                 "moveset": [
                     "MOVE_SANDSTORM",
                     "MOVE_BODY_PRESS",
@@ -13795,6 +14214,7 @@
                 "level": "49",
                 "name": "SPECIES_MUDSDALE",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_STAMINA",
                 "moveset": [
                     "MOVE_BODY_PRESS",
                     "MOVE_HIGH_HORSEPOWER",
@@ -13806,6 +14226,7 @@
                 "level": "51",
                 "name": "SPECIES_GLISCOR",
                 "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_SAND_VEIL",
                 "moveset": [
                     "MOVE_GUILLOTINE",
                     "MOVE_SANDSTORM",
@@ -13823,6 +14244,7 @@
             {
                 "level": "75",
                 "item": "ITEM_RUSTED_SWORD",
+                "ability": "ABILITY_INTREPID_SWORD",
                 "moveset": [
                     "MOVE_BEHEMOTH_BLADE",
                     "MOVE_PLAY_ROUGH",
@@ -13833,6 +14255,7 @@
             {
                 "level": "75",
                 "item": "ITEM_MEWTWONITE_Y",
+                "ability": "ABILITY_INSOMNIA",
                 "moveset": [
                     "MOVE_PSYSTRIKE",
                     "MOVE_SHADOW_BALL",
@@ -13843,6 +14266,7 @@
             {
                 "level": "75",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_DELTA_STREAM",
                 "moveset": [
                     "MOVE_DRAGON_ASCENT",
                     "MOVE_EARTHQUAKE",
@@ -13854,6 +14278,7 @@
                 "level": "75",
                 "name": "SPECIES_ARCEUS",
                 "item": "ITEM_PIXIE_PLATE",
+                "ability": "ABILITY_MULTITYPE",
                 "moveset": [
                     "MOVE_JUDGMENT",
                     "MOVE_CALM_MIND",
@@ -13865,6 +14290,7 @@
                 "level": "75",
                 "name": "SPECIES_DARKRAI",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_BAD_DREAMS",
                 "moveset": [
                     "MOVE_DARK_PULSE",
                     "MOVE_DARK_VOID",
@@ -13883,6 +14309,7 @@
                 "level": "75",
                 "name": "SPECIES_ROSERADE",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_TECHNICIAN",
                 "moveset": [
                     "MOVE_PETAL_DANCE",
                     "MOVE_HIDDEN_POWER",
@@ -13894,6 +14321,7 @@
                 "level": "75",
                 "name": "SPECIES_LUCARIO",
                 "item": "ITEM_AIR_BALLOON",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_CLOSE_COMBAT",
                     "MOVE_METEOR_MASH",
@@ -13905,6 +14333,7 @@
                 "level": "75",
                 "name": "SPECIES_TOGEKISS",
                 "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_SERENE_GRACE",
                 "moveset": [
                     "MOVE_MOONBLAST",
                     "MOVE_AIR_SLASH",
@@ -13916,6 +14345,7 @@
                 "level": "75",
                 "name": "SPECIES_MILOTIC",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_COMPETITIVE",
                 "moveset": [
                     "MOVE_RAIN_DANCE",
                     "MOVE_HYDRO_PUMP",
@@ -13927,6 +14357,7 @@
                 "level": "75",
                 "name": "SPECIES_GARCHOMP",
                 "item": "ITEM_GARCHOMPITE",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_FISSURE",
                     "MOVE_DRAGON_RUSH",
@@ -14542,6 +14973,7 @@
                 "level": "20",
                 "name": "SPECIES_GLIGAR",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_SHOCK_WAVE",
                     "MOVE_NUZZLE",
@@ -14553,6 +14985,7 @@
                 "level": "20",
                 "name": "SPECIES_GASTRODON",
                 "item": "ITEM_BERRY_JUICE",
+                "ability": "ABILITY_COMPOUND_EYES",
                 "moveset": [
                     "MOVE_AIR_CUTTER",
                     "MOVE_SILVER_WIND",
@@ -14564,6 +14997,7 @@
                 "level": "19",
                 "name": "SPECIES_CLODSIRE",
                 "item": "ITEM_SHARP_BEAK",
+                "ability": "ABILITY_KEEN_EYE",
                 "moveset": [
                     "MOVE_AERIAL_ACE",
                     "MOVE_HEADBUTT",
@@ -15192,6 +15626,7 @@
                 "level": "25",
                 "name": "SPECIES_TOXICROAK",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_DRY_SKIN",
                 "moveset": [
                     "MOVE_NIGHT_SLASH",
                     "MOVE_CROSS_POISON",
@@ -15203,6 +15638,7 @@
                 "level": "25",
                 "name": "SPECIES_HONCHKROW",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SUPER_LUCK",
                 "moveset": [
                     "MOVE_NIGHT_SLASH",
                     "MOVE_AIR_SLASH",
@@ -15214,6 +15650,7 @@
                 "level": "25",
                 "name": "SPECIES_UNFEZANT",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SUPER_LUCK",
                 "moveset": [
                     "MOVE_SKY_ATTACK",
                     "MOVE_U_TURN",
@@ -15225,6 +15662,7 @@
                 "level": "25",
                 "name": "SPECIES_ABSOL",
                 "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SUPER_LUCK",
                 "moveset": [
                     "MOVE_NIGHT_SLASH",
                     "MOVE_PSYCHO_CUT",
@@ -16132,6 +16570,7 @@
                 "level": "50",
                 "name": "SPECIES_KLINKLANG",
                 "item": "ITEM_METAL_COAT",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_SHIFT_GEAR",
                     "MOVE_GEAR_GRIND",
@@ -16143,6 +16582,7 @@
                 "level": "51",
                 "name": "SPECIES_MAGNEZONE",
                 "item": "ITEM_CUSTAP_BERRY",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_ZAP_CANNON",
                     "MOVE_FLASH_CANNON",
@@ -16647,6 +17087,7 @@
                 "level": "50",
                 "name": "SPECIES_GOLISOPOD",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_SWARM",
                 "moveset": [
                     "MOVE_FIRST_IMPRESSION",
                     "MOVE_LIQUIDATION",
@@ -16658,6 +17099,7 @@
                 "level": "49",
                 "name": "SPECIES_VIKAVOLT",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_BUG_BUZZ",
                     "MOVE_VOLT_SWITCH",
@@ -16669,6 +17111,7 @@
                 "level": "47",
                 "name": "SPECIES_ARMALDO",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_BATTLE_ARMOR",
                 "moveset": [
                     "MOVE_IRON_TAIL",
                     "MOVE_EARTHQUAKE",
@@ -16748,6 +17191,7 @@
                 "level": "58",
                 "name": "SPECIES_LUCARIO",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_AURA_SPHERE",
                     "MOVE_FLASH_CANNON",
@@ -16759,6 +17203,7 @@
                 "level": "57",
                 "name": "SPECIES_MIENSHAO",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_REGENERATOR",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_ACROBATICS",
@@ -16770,6 +17215,7 @@
                 "level": "59",
                 "name": "SPECIES_ANNIHILAPE",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
                     "MOVE_PHANTOM_FORCE",
                     "MOVE_DRAIN_PUNCH",
@@ -16788,6 +17234,7 @@
                 "level": "6",
                 "name": "SPECIES_CLOBBOPUS",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_TECHNICIAN",
                 "moveset": [
                     "MOVE_MUD_SHOT",
                     "MOVE_ROCK_SMASH",
@@ -16799,6 +17246,7 @@
                 "level": "6",
                 "name": "SPECIES_TIMBURR",
                 "item": "ITEM_BLACK_BELT",
+                "ability": "ABILITY_GUTS",
                 "moveset": [
                     "MOVE_LOW_KICK",
                     "MOVE_ROCK_THROW",
@@ -16975,6 +17423,7 @@
                 "level": "50",
                 "name": "SPECIES_FLAREON",
                 "item": "ITEM_TOXIC_ORB",
+                "ability": "ABILITY_GUTS",
                 "moveset": [
                     "MOVE_SUPERPOWER",
                     "MOVE_FLAME_CHARGE",
@@ -16986,6 +17435,7 @@
                 "level": "51",
                 "name": "SPECIES_ARMAROUGE",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_WEAK_ARMOR",
                 "moveset": [
                     "MOVE_ARMOR_CANNON",
                     "MOVE_PSYCHIC",
@@ -16997,6 +17447,7 @@
                 "level": "50",
                 "name": "SPECIES_CINDERACE",
                 "item": "ITEM_CHARCOAL",
+                "ability": "ABILITY_PROTEAN",
                 "moveset": [
                     "MOVE_PYRO_BALL",
                     "MOVE_SUCKER_PUNCH",
@@ -17015,6 +17466,7 @@
                 "level": "50",
                 "name": "SPECIES_FLAPPLE",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_HUSTLE",
                 "moveset": [
                     "MOVE_DRAGON_RUSH",
                     "MOVE_SEED_BOMB",
@@ -17026,6 +17478,7 @@
                 "level": "50",
                 "name": "SPECIES_RILLABOOM",
                 "item": "ITEM_GRASSY_SEED",
+                "ability": "ABILITY_GRASSY_SURGE",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_SEED_BOMB",
@@ -17037,6 +17490,7 @@
                 "level": "50",
                 "name": "SPECIES_TORTERRA",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_EARTHQUAKE",
                     "MOVE_SEED_BOMB",
@@ -17055,6 +17509,7 @@
                 "level": "51",
                 "name": "SPECIES_FERALIGATR",
                 "item": "ITEM_ROCKY_HELMET",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_CRUNCH",
                     "MOVE_WATERFALL",
@@ -17066,6 +17521,7 @@
                 "level": "51",
                 "name": "SPECIES_CLAWITZER",
                 "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_MEGA_LAUNCHER",
                 "moveset": [
                     "MOVE_WATER_PULSE",
                     "MOVE_SLUDGE_WAVE",
@@ -17077,6 +17533,7 @@
                 "level": "51",
                 "name": "SPECIES_WALREIN",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
                     "MOVE_SCALD",
                     "MOVE_ICE_BEAM",
@@ -17988,6 +18445,7 @@
                 "level": "21",
                 "name": "SPECIES_BRONZOR",
                 "item": "ITEM_LAX_INCENSE",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_HEX",
                     "MOVE_CONFUSE_RAY",
@@ -17999,6 +18457,7 @@
                 "level": "22",
                 "name": "SPECIES_MELTAN",
                 "item": "ITEM_IRON_BALL",
+                "ability": "ABILITY_HEAVY_METAL",
                 "moveset": [
                     "MOVE_MAGNET_BOMB",
                     "MOVE_HEAVY_SLAM",
@@ -18010,6 +18469,7 @@
                 "level": "21",
                 "name": "SPECIES_FERROSEED",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_IRON_BARBS",
                 "moveset": [
                     "MOVE_LEECH_SEED",
                     "MOVE_PROTECT",
@@ -18021,6 +18481,7 @@
                 "level": "21",
                 "name": "SPECIES_KLINK",
                 "item": "ITEM_STARF_BERRY",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
                     "MOVE_SPARK",
                     "MOVE_GEAR_GRIND",
@@ -18068,6 +18529,7 @@
                 "level": "20",
                 "name": "SPECIES_TOGETIC",
                 "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_SERENE_GRACE",
                 "moveset": [
                     "MOVE_SKY_ATTACK",
                     "MOVE_ROOST",
@@ -18079,6 +18541,7 @@
                 "level": "21",
                 "name": "SPECIES_ROSELIA",
                 "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_POISON_POINT",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_VENOSHOCK",
@@ -18090,6 +18553,7 @@
                 "level": "20",
                 "name": "SPECIES_GABITE",
                 "item": "ITEM_SOFT_SAND",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_DUAL_CHOP",
                     "MOVE_SAND_TOMB",
@@ -18108,6 +18572,7 @@
                 "level": "25",
                 "name": "SPECIES_LUCARIO",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_AURA_SPHERE",
                     "MOVE_FLASH_CANNON",
@@ -18119,6 +18584,7 @@
                 "level": "26",
                 "name": "SPECIES_ROSERADE",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_POISON_POINT",
                 "moveset": [
                     "MOVE_GIGA_DRAIN",
                     "MOVE_SLUDGE_BOMB",
@@ -18130,6 +18596,7 @@
                 "level": "27",
                 "name": "SPECIES_GABITE",
                 "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_DUAL_CHOP",
                     "MOVE_HIGH_HORSEPOWER",
@@ -18399,6 +18866,7 @@
                 "level": "15",
                 "name": "SPECIES_SNEASEL",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_INNER_FOCUS",
                 "moveset": [
                     "MOVE_ICICLE_SPEAR",
                     "MOVE_LOW_KICK",
@@ -18409,6 +18877,7 @@
             {
                 "level": "15",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_SNOW_WARNING",
                 "moveset": [
                     "MOVE_DRAINING_KISS",
                     "MOVE_POWDER_SNOW",
@@ -18420,6 +18889,7 @@
                 "level": "15",
                 "name": "SPECIES_FINNEON",
                 "item": "ITEM_MYSTIC_WATER",
+                "ability": "ABILITY_STORM_DRAIN",
                 "moveset": [
                     "MOVE_PSYBEAM",
                     "MOVE_BRINE",
@@ -19051,6 +19521,7 @@
                 "level": "51",
                 "name": "SPECIES_LUDICOLO",
                 "item": "ITEM_COBA_BERRY",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_MUDDY_WATER",
                     "MOVE_ICE_BEAM",
@@ -19061,6 +19532,7 @@
             {
                 "level": "52",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_SCALD",
                     "MOVE_VOLT_SWITCH",
@@ -19072,6 +19544,7 @@
                 "level": "51",
                 "name": "SPECIES_SEISMITOAD",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_EARTHQUAKE",
                     "MOVE_POISON_JAB",
@@ -19083,6 +19556,7 @@
                 "level": "53",
                 "name": "SPECIES_SAMUROTT",
                 "item": "ITEM_MYSTIC_WATER",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_AQUA_TAIL",
                     "MOVE_BRICK_BREAK",
@@ -19094,6 +19568,7 @@
                 "level": "52",
                 "name": "SPECIES_POLITOED",
                 "item": "ITEM_RINDO_BERRY",
+                "ability": "ABILITY_DRIZZLE",
                 "moveset": [
                     "MOVE_PERISH_SONG",
                     "MOVE_SCALD",
@@ -19112,6 +19587,7 @@
                 "level": "34",
                 "name": "SPECIES_ARBOK",
                 "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_POISON_JAB",
                     "MOVE_ICE_FANG",
@@ -19123,6 +19599,7 @@
                 "level": "35",
                 "name": "SPECIES_AGGRON",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_IRON_HEAD",
                     "MOVE_METAL_BURST",
@@ -19134,6 +19611,7 @@
                 "level": "34",
                 "name": "SPECIES_MAGMORTAR",
                 "item": "ITEM_LIFE_ORB",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
                     "MOVE_HEAT_WAVE",
                     "MOVE_THUNDERBOLT",
@@ -19145,6 +19623,7 @@
                 "level": "33",
                 "name": "SPECIES_MISMAGIUS",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_SHADOW_BALL",
                     "MOVE_GRASS_KNOT",
@@ -19156,6 +19635,7 @@
                 "level": "35",
                 "name": "SPECIES_RHYPERIOR",
                 "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_SOLID_ROCK",
                 "moveset": [
                     "MOVE_HIGH_HORSEPOWER",
                     "MOVE_ROCK_SLIDE",
@@ -19167,6 +19647,7 @@
                 "level": "34",
                 "name": "SPECIES_MAGCARGO",
                 "item": "ITEM_SHUCA_BERRY",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
                     "MOVE_HEAT_WAVE",
                     "MOVE_POWER_GEM",
@@ -19233,6 +19714,7 @@
                 "level": "4",
                 "name": "SPECIES_MAGBY",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
                     "MOVE_FIRE_SPIN",
                     "MOVE_SMOG",
@@ -19244,6 +19726,7 @@
                 "level": "5",
                 "name": "SPECIES_HOUNDOUR",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_LEER",
                     "MOVE_SNARL",
@@ -19255,6 +19738,7 @@
                 "level": "6",
                 "name": "SPECIES_CHIMCHAR",
                 "item": "ITEM_CHARCOAL",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_MACH_PUNCH",
                     "MOVE_LEER",
@@ -19273,6 +19757,7 @@
                 "level": "4",
                 "name": "SPECIES_ELEKID",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
                     "MOVE_THUNDER_SHOCK",
                     "MOVE_QUICK_ATTACK",
@@ -19284,6 +19769,7 @@
                 "level": "5",
                 "name": "SPECIES_SHINX",
                 "item": "ITEM_MAGNET",
+                "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
                     "MOVE_BITE",
                     "MOVE_TACKLE",
@@ -19295,6 +19781,7 @@
                 "level": "6",
                 "name": "SPECIES_PACHIRISU",
                 "item": "ITEM_NONE",
+                "ability": "ABILITY_VOLT_ABSORB",
                 "moveset": [
                     "MOVE_QUICK_ATTACK",
                     "MOVE_FOLLOW_ME",
@@ -19313,6 +19800,7 @@
                 "level": "67",
                 "name": "SPECIES_CYCLIZAR",
                 "item": "ITEM_CHOICE_SCARF",
+                "ability": "ABILITY_REGENERATOR",
                 "moveset": [
                     "MOVE_U_TURN",
                     "MOVE_DOUBLE_EDGE",
@@ -19324,6 +19812,7 @@
                 "level": "68",
                 "name": "SPECIES_DRAMPA",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_BERSERK",
                 "moveset": [
                     "MOVE_DRAGON_PULSE",
                     "MOVE_SURF",
@@ -19335,6 +19824,7 @@
                 "level": "68",
                 "name": "SPECIES_HYDRAPPLE",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_REGENERATOR",
                 "moveset": [
                     "MOVE_DRAGON_PULSE",
                     "MOVE_ENERGY_BALL",
@@ -19346,6 +19836,7 @@
                 "level": "69",
                 "name": "SPECIES_GOODRA",
                 "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_BREAKING_SWIPE",
                     "MOVE_MUDDY_WATER",
@@ -19583,6 +20074,7 @@
                 "level": "30",
                 "name": "SPECIES_MACHAMP",
                 "item": "ITEM_WISE_GLASSES",
+                "ability": "ABILITY_NO_GUARD",
                 "moveset": [
                     "MOVE_FIRE_BLAST",
                     "MOVE_FOCUS_BLAST",
@@ -19594,6 +20086,7 @@
                 "level": "31",
                 "name": "SPECIES_CONKELDURR",
                 "item": "ITEM_SITRUS_BERRY",
+                "ability": "ABILITY_IRON_FIST",
                 "moveset": [
                     "MOVE_MACH_PUNCH",
                     "MOVE_BULK_UP",
@@ -19604,6 +20097,7 @@
             {
                 "level": "32",
                 "item": "ITEM_COBA_BERRY",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_SEED_BOMB",
                     "MOVE_SUBMISSION",
@@ -19615,6 +20109,7 @@
                 "level": "30",
                 "name": "SPECIES_MIENSHAO",
                 "item": "ITEM_FOCUS_SASH",
+                "ability": "ABILITY_REGENERATOR",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_U_TURN",
@@ -19626,6 +20121,7 @@
                 "level": "31",
                 "name": "SPECIES_SCRAFTY",
                 "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_MOXIE",
                 "moveset": [
                     "MOVE_FAKE_OUT",
                     "MOVE_HIGH_JUMP_KICK",
@@ -19637,6 +20133,7 @@
                 "level": "32",
                 "name": "SPECIES_ANNIHILAPE",
                 "item": "ITEM_COBA_BERRY",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
                     "MOVE_CLOSE_COMBAT",
                     "MOVE_SHADOW_FORCE",
@@ -19654,6 +20151,7 @@
             {
                 "level": "70",
                 "item": "ITEM_LATIOSITE",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_LUSTER_PURGE",
                     "MOVE_DRACO_METEOR",
@@ -19664,6 +20162,7 @@
             {
                 "level": "70",
                 "item": "ITEM_LATIASITE",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
                     "MOVE_MIST_BALL",
                     "MOVE_ICY_WIND",
@@ -19675,6 +20174,7 @@
                 "level": "70",
                 "name": "SPECIES_REGIDRAGO",
                 "item": "ITEM_YACHE_BERRY",
+                "ability": "ABILITY_DRAGONS_MAW",
                 "moveset": [
                     "MOVE_DRAGON_ENERGY",
                     "MOVE_EXPLOSION",
@@ -19685,6 +20185,7 @@
             {
                 "level": "70",
                 "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_SHELL_ARMOR",
                 "moveset": [
                     "MOVE_RAIN_DANCE",
                     "MOVE_GYRO_BALL",
@@ -19696,6 +20197,7 @@
                 "level": "70",
                 "name": "SPECIES_HEATRAN",
                 "item": "ITEM_AIR_BALLOON",
+                "ability": "ABILITY_FLASH_FIRE",
                 "moveset": [
                     "MOVE_HEAT_WAVE",
                     "MOVE_FLASH_CANNON",
@@ -19707,6 +20209,7 @@
                 "level": "70",
                 "name": "SPECIES_KINGDRA",
                 "item": "ITEM_HABAN_BERRY",
+                "ability": "ABILITY_SWIFT_SWIM",
                 "moveset": [
                     "MOVE_RAIN_DANCE",
                     "MOVE_DRACO_METEOR",

@@ -169,7 +169,7 @@ function Mastersheet() {
                 {MoveData.Dict[move.name].name}
               </div>
               <div className="move-row__type">
-                <TypeImage move={MoveData.Dict[move.name]} />
+                <TypeImage type={MoveData.Dict[move.name].type} />
               </div>
               <div className="move-row__power">
                 {/* {MoveData.Dict[move.name].damageCategory === "SPLIT_STATUS"
