@@ -58,8 +58,6 @@
   top: calc(5vh + 10px);
 }
 
-
-
 .move-block {
   width: 100%;
   display: flex;
@@ -94,7 +92,7 @@
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   width: 100%;
-  margin-top:3vh;
+  margin-top: 3vh;
 }
 
 .trainer-panel__header {
@@ -236,4 +234,26 @@
   background-color: hsl(calc(var(--progress) * 1.2), 100%, 50%);
   border-radius: 3px;
   height: 65%;
+}
+
+@media only screen and (max-width: 600px) {
+  .trainer-mon-panel {
+    display: flex;
+    flex-direction: column;
+  }
+  .trainer-mon-panel__stats {
+    display: none;
+  }
+  .trainer-mon-panel__moves {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #left-column {
+    grid-column: 2 / 12;
+  }
+  #right-column {
+    grid-column: 2 / 12;
+  }
 }
