@@ -210,6 +210,10 @@
   font-size: xx-large;
 }
 
+.move-display__footer {
+  grid-column: span 4;
+}
+
 /* Stat Display */
 .stat-display {
   display: flex;
