@@ -26,6 +26,7 @@ function TrainerMonPanel({
       <div className="trainer-mon-panel__box">
         <div className="trainer-mon-panel__box__images">
           <img
+            title={dexInfo.name}
             src={
               "/sprites/pokemon/" +
               mon.name.replace("SPECIES_", "").toLowerCase() +
@@ -48,7 +49,11 @@ function TrainerMonPanel({
             />
           ))}
         </div>
-        <div className="trainer-mon-panel__box__ability">{mon.ability ? Utility.GetNiceName(mon.ability) : Utility.GetNiceName(dexInfo.abilities[0])}</div>
+        <div className="trainer-mon-panel__box__ability">
+          {mon.ability
+            ? Utility.GetNiceName(mon.ability)
+            : Utility.GetNiceName(dexInfo.abilities[0])}
+        </div>
       </div>
       <div className="trainer-mon-panel__stats">
         <StatDisplay mon={dexInfo} />
