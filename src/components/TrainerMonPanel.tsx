@@ -1,5 +1,6 @@
 import Utility from "../Utility";
-import Dex from "../data/Dex";
+import Dex, { DexInfo } from "../data/Dex";
+import FormTable from "../data/FormTable";
 import MoveData from "../data/MoveData";
 import ItemImage from "./ItemImage";
 import MoveDisplay from "./MoveDisplay";
@@ -12,24 +13,28 @@ function TrainerMonPanel({
 }: {
   mon: {
     level: number;
-    name: string;
+    monWithForm: {
+      name: string;
+      form: number;
+    };
     item: string;
     ability: string;
     moveset: string[];
   };
   column: string;
 }) {
-  const dexInfo = Dex.Dict[mon.name];
+  const dexInfo: DexInfo = Dex.GetDexInfo(mon.monWithForm);
+  const formName: string = FormTable.GetFormName(mon.monWithForm);
 
   return (
     <div className="trainer-mon-panel" id={column + "-column"}>
       <div className="trainer-mon-panel__box">
         <div className="trainer-mon-panel__box__images">
           <img
-            title={dexInfo.name}
+            title={Utility.GetNiceName(formName)}
             src={
               "/sprites/pokemon/" +
-              mon.name.replace("SPECIES_", "").toLowerCase() +
+              formName.replace("SPECIES_", "").toLowerCase() +
               ".png"
             }
           />
@@ -44,7 +49,7 @@ function TrainerMonPanel({
         <div className="trainer-mon-panel__box__types">
           {dexInfo.types.map((type) => (
             <TypeImage
-              key={"type-image-" + mon.name + "-" + type}
+              key={"type-image-" + mon.monWithForm.name + "-" + type}
               type={type}
             />
           ))}

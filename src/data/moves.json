@@ -664,12 +664,12 @@
         "description": "The foe is stricken by a shock wave. This attack always inflicts 40 HP damage."
     },
     "MOVE_FIRE_SPIN": {
-        "name": "Fire Spin",
+        "name": "Fire Vortex",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "50",
         "type": "TYPE_FIRE",
         "pp": "10",
-        "description": "The foe becomes trapped within a fierce vortex of fire that rages for two to five turns."
+        "description": "A blazing fire swirls around the foe. It has a high critical-hit ratio."
     },
     "MOVE_THUNDER_SHOCK": {
         "name": "Thunder Shock",
@@ -2000,12 +2000,12 @@
         "description": "The user hits with a punch that may lower the target\u2019s Defense. It can also smash cracked boulders."
     },
     "MOVE_WHIRLPOOL": {
-        "name": "Whirlpool",
+        "name": "Aqua Vortex",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "50",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "Traps the foe inside a whirlpool that lasts for two to five turns. The user can pass through whirlpools."
+        "description": "A harsh whirlpool swirls around the foe. It has a high critical-hit ratio."
     },
     "MOVE_BEAT_UP": {
         "name": "Beat Up",
@@ -2624,12 +2624,12 @@
         "description": "The user attacks the foe with an uppercut thrown skyward with force. "
     },
     "MOVE_SAND_TOMB": {
-        "name": "Sand Tomb",
+        "name": "Sand Vortex",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "50",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "The user traps the foe inside a harshly raging sandstorm for two to five turns. "
+        "description": "A harsh sandstorm swirls around the foe. It has a high critical-hit ratio."
     },
     "MOVE_SHEER_COLD": {
         "name": "Permafrost",

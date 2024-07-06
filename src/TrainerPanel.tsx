@@ -30,7 +30,7 @@ function TrainerPanel({
       <div className="trainer-panel__header">{trainer.name.toUpperCase()}</div>
       {trainer.party.map((mon, i) => (
         <TrainerMonPanel
-          key={"trainer-mon-panel-" + trainer.name + "-" + mon.name}
+          key={"trainer-mon-panel-" + trainer.name + "-" + mon.monWithForm.name}
           mon={mon}
           column={i % 2 == 0 ? "left" : "right"}
         />

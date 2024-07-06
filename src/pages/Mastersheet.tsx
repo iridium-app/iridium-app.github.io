@@ -12,14 +12,14 @@ import TypeImage from "../components/TypeImage";
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
-  const [selectedMon, setSelectedMon] = useState(Dex.Dict["SPECIES_NONE"]);
+  const [selectedMon, setSelectedMon] = useState(Dex.GetNone());
   const mastersheetData =
     difficulty === "casual" ? mastersheet.casual : mastersheet.elite;
   // const [searchList, setSearchList] = useState(Dex.Dict);
-  var rightPanelOpen = selectedMon !== Dex.Dict["SPECIES_NONE"];
+  var rightPanelOpen = selectedMon !== Dex.GetNone();
 
   const closeBtnOnClick = () => {
-    setSelectedMon(Dex.Dict["SPECIES_NONE"]);
+    setSelectedMon(Dex.GetNone());
   };
 
   return (

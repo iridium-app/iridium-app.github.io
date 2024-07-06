@@ -201,7 +201,7 @@
     },
     "ITEM_RARE_CANDY": {
         "id": 50,
-        "name": "Rare Candy"
+        "name": "Infinite Candy"
     },
     "ITEM_PP_UP": {
         "id": 51,
@@ -1781,7 +1781,7 @@
     },
     "ITEM_OLD_ROD": {
         "id": 445,
-        "name": "Old Rod"
+        "name": "Fishing Rod"
     },
     "ITEM_GOOD_ROD": {
         "id": 446,
@@ -1809,7 +1809,7 @@
     },
     "ITEM_OAKS_LETTER": {
         "id": 452,
-        "name": "Oak\u2019s Letter"
+        "name": "Clair\u2019s Letter"
     },
     "ITEM_LUNAR_WING": {
         "id": 453,

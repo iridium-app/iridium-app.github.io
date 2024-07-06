@@ -18,15 +18,19 @@
     { "type": "trainer", "id": 71 },
     {
       "type": "trainer",
-      "id": 70
+      "id": 497
     },
     {
       "type": "trainer",
-      "id": 268
+      "id": 496
     },
     {
       "type": "trainer",
-      "id": 21
+      "id": 27
+    },
+    {
+      "type": "trainer",
+      "id": 688
     }
   ]
 }

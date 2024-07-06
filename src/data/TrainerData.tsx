@@ -9,7 +9,10 @@ export type TrainerInfo = {
     battleType: string;
     party: {
         level: number;
-        name: string;
+        monWithForm: {
+            name: string;
+            form: number;
+        };
         item: string;
         ability: string;
         moveset: string[];
