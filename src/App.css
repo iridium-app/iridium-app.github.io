@@ -101,22 +101,6 @@
   text-align: center;
 }
 
-/* .trainer-panel__header {
-  grid-column: 1 / span calc(var(--numMons) + 1);
-  text-align: center;
-  font-size: larger;
-}
-
-.trainer-panel button {
-  display: block;
-}
-
-.trainer_panel__move {
-  display: var(--display);
-  grid-column: 1 / span calc(var(--numMons) + 1);
-  grid-template-columns: auto auto auto;
-} */
-
 .trainer-mon-panel {
   width: 100%;
   min-height: 50px;
@@ -229,10 +213,11 @@
   grid-row-gap: 0px;
   align-items: center;
 }
+
 .stat-row__name {
-  /* grid-area: 1 / 2 / 2 / 4; */
   grid-column: 2 / span 4;
 }
+
 .stat-row__bar {
   grid-column: 8 / span 5;
   width: var(--progress);

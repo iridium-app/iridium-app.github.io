@@ -1,26 +1,26 @@
-import trainers from "./trainers.json"
+import trainers from "./trainers.json";
 let x: unknown = trainers;
 interface IDictionary {
-    [index: string]: TrainerInfo;
+  [index: string]: TrainerInfo;
 }
 export type TrainerInfo = {
-    name: string;
-    numMons: number;
-    battleType: string;
-    party: {
-        level: number;
-        monWithForm: {
-            name: string;
-            form: number;
-        };
-        item: string;
-        ability: string;
-        moveset: string[];
-    }[];
+  name: string;
+  numMons: number;
+  battleType: string;
+  party: {
+    level: number;
+    monWithForm: {
+      name: string;
+      form: number;
+    };
+    item: string;
+    ability: string;
+    moveset: string[];
+  }[];
 };
 
 class TrainerData {
-    static Dict: IDictionary = x as {string: TrainerInfo };
+  static Dict: IDictionary = x as { string: TrainerInfo };
 }
 
-export default TrainerData
+export default TrainerData;

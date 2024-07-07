@@ -3,12 +3,14 @@ import { UserContext } from "../App";
 
 import Dex from "../data/Dex";
 import MoveData from "../data/MoveData";
-import TrainerPanel from "../TrainerPanel";
+import TrainerPanel from "../components/TrainerPanel";
 import Utility from "../Utility";
 import mastersheet from "../data/mastersheet.json";
 
 import "../App.css";
 import TypeImage from "../components/TypeImage";
+import EncounterPanel from "../components/EncounterPanel";
+import EncounterData from "../data/EncounterData";
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
@@ -32,13 +34,17 @@ function Mastersheet() {
           } as React.CSSProperties
         }
       >
-        {mastersheetData.map((trainer) => (
-          <TrainerPanel
-            key={"trainer_" + trainer.id}
-            trainerId={trainer.id}
-            setSelectedMon={setSelectedMon}
-          />
-        ))}
+        {mastersheetData.map((panel) =>
+          panel.type === "trainer" ? (
+            <TrainerPanel
+              key={"trainer_" + panel.id}
+              trainerId={panel.id}
+              setSelectedMon={setSelectedMon}
+            />
+          ) : (
+            <EncounterPanel encounterInfo={EncounterData.GetInfo(panel.id)}/>
+          )
+        )}
         {/*{" "}
         <form onSubmit={onSubmit}>
           <label>
@@ -172,9 +178,6 @@ function Mastersheet() {
                 <TypeImage type={MoveData.Dict[move.name].type} />
               </div>
               <div className="move-row__power">
-                {/* {MoveData.Dict[move.name].damageCategory === "SPLIT_STATUS"
-                  ? "Status"
-                  : MoveData.Dict[move.name].basePower} */}
                 <img
                   src={Utility.GetDamageCategoryPath(
                     MoveData.Dict[move.name].damageCategory

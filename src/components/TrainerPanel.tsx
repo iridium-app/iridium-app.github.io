@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { DexInfo } from "./data/Dex";
-import Dex from "./data/Dex";
-import MoveData from "./data/MoveData";
-import TrainerData from "./data/TrainerData";
-import ItemData from "./data/ItemData";
-import Utility from "./Utility";
-import TypeImage from "./components/TypeImage";
-import TrainerMonPanel from "./components/TrainerMonPanel";
+import { DexInfo } from "../data/Dex";
+import Dex from "../data/Dex";
+import MoveData from "../data/MoveData";
+import TrainerData from "../data/TrainerData";
+import ItemData from "../data/ItemData";
+import Utility from "../Utility";
+import TypeImage from "./TypeImage";
+import TrainerMonPanel from "./TrainerMonPanel";
 
 function TrainerPanel({
   trainerId,
