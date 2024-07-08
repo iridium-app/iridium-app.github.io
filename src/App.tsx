@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Mastersheet from "./pages/Mastersheet";
 import Nav from "./pages/Nav";
 import usePersistedState from "use-persisted-state-hook";
+import Dev from "./pages/Dev";
 
 export type GlobalContext = {
   difficulty: string;
@@ -36,6 +37,7 @@ function App() {
             <Route path="/" element={<Nav />}>
               <Route index element={<Home />} />
               <Route path="/mastersheet" element={<Mastersheet />} />
+              <Route path="/dev" element={<Dev />} />
             </Route>
           </Routes>
         </UserContext.Provider>

@@ -42,7 +42,10 @@ function Mastersheet() {
               setSelectedMon={setSelectedMon}
             />
           ) : (
-            <EncounterPanel encounterInfo={EncounterData.GetInfo(panel.id)}/>
+            <EncounterPanel
+              key={"encounter_" + panel.id}
+              encounterInfo={EncounterData.GetInfo(panel.id)}
+            />
           )
         )}
         {/*{" "}

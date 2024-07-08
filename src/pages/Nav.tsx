@@ -17,6 +17,7 @@ function Nav() {
       <div className="nav">
         <Link to="/">Home</Link>
         <Link to="mastersheet">Mastersheet</Link>
+        <Link to="dev">Dev</Link>
         <div className={"difficulty-toggle"}>
           <div>{difficulty.toUpperCase()}</div>
           <button onClick={onToggleButtonClick}>Toggle Difficulty</button>

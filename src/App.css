@@ -19,6 +19,27 @@
   right: 20px;
 }
 
+/* Dev */
+.dev {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  background-color: gray;
+  align-items: center;
+  height: 95vh;
+}
+
+.dev > form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin:5vh;
+}
+
+#tsvInput {
+  height: 20vh;
+}
+
 /* Mastersheet */
 .mastersheet {
   padding-top: 5vh;

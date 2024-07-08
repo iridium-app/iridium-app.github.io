@@ -1,4 +1,5 @@
 import FormTable from "./FormTable";
+import nameMapping from "./nameMapping.json";
 import dex from "./dex.json";
 let x: unknown = dex;
 interface IDictionary {
@@ -32,11 +33,31 @@ class Dex {
 
   static GetDexInfo(monWithForm: MonWithForm): DexInfo {
     if (monWithForm.form > 0) {
-      const formName = FormTable.GetFormName(monWithForm)
+      const formName = FormTable.GetFormName(monWithForm);
       return this.Dict[formName];
     } else {
       return this.Dict[monWithForm.name];
     }
+  }
+
+  static GetHgeName(niceName: string): string {
+    const mapping = nameMapping.find(
+      (mapping) => mapping.niceName === niceName
+    );
+    if (mapping != undefined) {
+      return mapping.hgeName;
+    }
+    return "";
+  }
+
+  static GetAbilityHgeName(niceName: string): string {
+    const mapping = nameMapping.find(
+      (mapping) => mapping.niceName === niceName
+    );
+    if (mapping != undefined) {
+      return mapping.hgeName;
+    }
+    return "";
   }
 
   static GetNone(): DexInfo {
