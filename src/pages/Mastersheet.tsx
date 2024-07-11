@@ -40,12 +40,11 @@ function Mastersheet() {
               <TrainerPanel
                 key={"trainer_" + panel.id}
                 trainerId={panel.id}
-                setSelectedMon={setSelectedMon}
               />
             ) : (
               <EncounterPanel
                 key={"encounter_" + panel.id}
-                id={panel.id}
+                setSelectedMon={setSelectedMon}
                 encounterInfo={EncounterData.GetInfo(panel.id)}
               />
             )

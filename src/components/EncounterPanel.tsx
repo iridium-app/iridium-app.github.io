@@ -1,3 +1,4 @@
+import Dex, { DexInfo } from "../data/Dex";
 import { EncounterInfo } from "../data/EncounterData";
 import EncounterData from "../data/EncounterData";
 import FormTable from "../data/FormTable";
@@ -5,10 +6,10 @@ import MonImage from "./MonImage";
 
 function EncounterPanel({
   encounterInfo,
-  id,
+  setSelectedMon,
 }: {
   encounterInfo: EncounterInfo;
-  id: number;
+  setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
 }) {
   return (
     <div className="encounter-panel">
@@ -26,7 +27,9 @@ function EncounterPanel({
               className="encounter-method__encounter"
               key={"encounter-method__encounter-" + index}
             >
-              <MonImage formName={FormTable.GetFormName(encounter)} />
+              <button onClick={() => setSelectedMon(Dex.GetDexInfo(encounter))}>
+                <MonImage formName={FormTable.GetFormName(encounter)} />
+              </button>
             </div>
           ))}
         </div>
