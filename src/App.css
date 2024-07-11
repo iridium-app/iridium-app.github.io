@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin:5vh;
+  margin: 5vh;
 }
 
 #tsvInput {
@@ -103,6 +103,19 @@
 }
 .move-row__power {
   grid-area: 1 / 11 / 2 / 13;
+}
+
+/* Encounter Panel */
+.encounter-panel {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%
+}
+
+.encounter-panel__header {
+  grid-column: span 12;
+  font-size: xx-large;
+  text-align: center;
 }
 
 /* Trainer Panel */

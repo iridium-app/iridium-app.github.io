@@ -3,6 +3,7 @@ import Dex, { DexInfo } from "../data/Dex";
 import FormTable from "../data/FormTable";
 import MoveData from "../data/MoveData";
 import ItemImage from "./ItemImage";
+import MonImage from "./MonImage";
 import MoveDisplay from "./MoveDisplay";
 import StatDisplay from "./StatDisplay";
 import TypeImage from "./TypeImage";
@@ -30,14 +31,7 @@ function TrainerMonPanel({
     <div className="trainer-mon-panel" id={column + "-column"}>
       <div className="trainer-mon-panel__box">
         <div className="trainer-mon-panel__box__images">
-          <img
-            title={Utility.GetNiceName(formName)}
-            src={
-              "/sprites/pokemon/" +
-              formName.replace("SPECIES_", "").toLowerCase() +
-              ".png"
-            }
-          />
+          <MonImage formName={formName} />
           <div style={{ position: "sticky" }}>
             <ItemImage itemName={mon.item} />
           </div>

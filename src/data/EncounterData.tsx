@@ -21,6 +21,23 @@ class EncounterData {
   static GetInfo(id: number) {
     return this.Dict[id];
   }
+
+  static GetMethodNiceName(type: string) {
+    switch (type) {
+      case "morning":
+        return "Morning";
+      case "day":
+        return "Day";
+      case "night":
+        return "Night";
+      case "surf":
+        return "Surf";
+      case "oldRod":
+        return "Old Rod";
+      default:
+        throw new Error("Unexpected Method Name");
+    }
+  }
 }
 
 export default EncounterData;

@@ -44,6 +44,7 @@ function Mastersheet() {
           ) : (
             <EncounterPanel
               key={"encounter_" + panel.id}
+              id={panel.id}
               encounterInfo={EncounterData.GetInfo(panel.id)}
             />
           )
