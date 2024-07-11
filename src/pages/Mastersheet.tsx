@@ -34,22 +34,23 @@ function Mastersheet() {
           } as React.CSSProperties
         }
       >
-        {mastersheetData.map((panel) =>
-          panel.type === "trainer" ? (
-            <TrainerPanel
-              key={"trainer_" + panel.id}
-              trainerId={panel.id}
-              setSelectedMon={setSelectedMon}
-            />
-          ) : (
-            <EncounterPanel
-              key={"encounter_" + panel.id}
-              id={panel.id}
-              encounterInfo={EncounterData.GetInfo(panel.id)}
-            />
-          )
-        )}
-        {/*{" "}
+        <div className="left-panel__gutter">
+          {mastersheetData.map((panel) =>
+            panel.type === "trainer" ? (
+              <TrainerPanel
+                key={"trainer_" + panel.id}
+                trainerId={panel.id}
+                setSelectedMon={setSelectedMon}
+              />
+            ) : (
+              <EncounterPanel
+                key={"encounter_" + panel.id}
+                id={panel.id}
+                encounterInfo={EncounterData.GetInfo(panel.id)}
+              />
+            )
+          )}
+          {/*{" "}
         <form onSubmit={onSubmit}>
           <label>
             Search
@@ -65,6 +66,7 @@ function Mastersheet() {
           </button>
         ))}{" "}
         */}
+        </div>
       </div>
       <div
         className="right-panel"
