@@ -13,20 +13,24 @@ function EncounterPanel({
   return (
     <div className="encounter-panel">
       <div className="encounter-panel__header">{encounterInfo.name}</div>
-      <div className="encounter-panel__methods">
-        {encounterInfo.methods.map((method) => (
-          <div className="encounter-method" key={"encounter-method-" + method.type}>
-            <div className="encoutner-method__header">
-              {EncounterData.GetMethodNiceName(method.type)}
-            </div>
-            {method.encounters.map((encounter, index) => (
-              <div className="encounter-method__encounter" key={"encounter-method__encounter-" + index}>
-                <MonImage formName={FormTable.GetFormName(encounter)} />
-              </div>
-            ))}
+      {encounterInfo.methods.map((method) => (
+        <div
+          className="encounter-method"
+          key={"encounter-method-" + method.type}
+        >
+          <div className="encoutner-method__header">
+            {EncounterData.GetMethodNiceName(method.type)}
           </div>
-        ))}
-      </div>
+          {method.encounters.map((encounter, index) => (
+            <div
+              className="encounter-method__encounter"
+              key={"encounter-method__encounter-" + index}
+            >
+              <MonImage formName={FormTable.GetFormName(encounter)} />
+            </div>
+          ))}
+        </div>
+      ))}
     </div>
   );
 }

@@ -116,15 +116,19 @@
 
 /* Encounter Panel */
 .encounter-panel {
+  grid-column: 3 / span 8;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .encounter-panel__header {
-  grid-column: span 12;
+  grid-column: span 6;
   font-size: xx-large;
   text-align: center;
+}
+
+.encounter-method {
+  grid-column: span 1;
 }
 
 /* Trainer Panel */
@@ -291,5 +295,8 @@
   }
   .trainer-mon-panel {
     grid-column: span 6;
+  }
+  .encounter-method {
+    grid-column: span 2;
   }
 }
