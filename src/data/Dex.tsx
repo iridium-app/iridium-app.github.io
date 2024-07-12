@@ -71,6 +71,12 @@ class Dex {
       return filtered;
     }, {});
   }
+
+  static Equals(a: MonWithForm, b: MonWithForm): boolean {
+    if (a.name === b.name && a.form === b.form)
+      return true;
+    return false;
+  }
 }
 
 export default Dex;

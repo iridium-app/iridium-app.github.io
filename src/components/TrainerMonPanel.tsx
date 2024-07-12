@@ -31,7 +31,7 @@ function TrainerMonPanel({
     <div className="trainer-mon-panel" id={column + "-column"}>
       <div className="trainer-mon-panel__box">
         <div className="trainer-mon-panel__box__images">
-          <MonImage formName={formName} />
+          <MonImage formName={formName} size={80} />
           <div style={{ position: "sticky" }}>
             <ItemImage itemName={mon.item} />
           </div>

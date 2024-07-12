@@ -7,6 +7,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_STAKATAKA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_COBALION",
                         "form": 0
                     },
@@ -56,6 +60,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_STAKATAKA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_COBALION",
                         "form": 0
                     },
@@ -104,6 +112,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_STAKATAKA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_COBALION",
                         "form": 0
@@ -154,6 +166,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_FEEBAS",
                         "form": 0
                     },
@@ -174,6 +190,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_FEEBAS",
                         "form": 0
@@ -201,6 +221,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_VOLCARONA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PINSIR",
                         "form": 1
@@ -251,6 +275,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_VOLCARONA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PINSIR",
                         "form": 1
                     },
@@ -299,6 +327,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_VOLCARONA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PINSIR",
                         "form": 1
@@ -355,6 +387,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_BUZZWOLE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PHEROMOSA",
                         "form": 0
                     },
@@ -404,6 +440,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_BUZZWOLE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PHEROMOSA",
                         "form": 0
                     },
@@ -452,6 +492,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BUZZWOLE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PHEROMOSA",
                         "form": 0
@@ -516,12 +560,21 @@
                     {
                         "name": "SPECIES_PIPLUP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_PIPLUP",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
-                "encounters": []
+                "encounters": [
+                    {
+                        "name": "SPECIES_MANAPHY",
+                        "form": 0
+                    }
+                ]
             }
         ]
     },
@@ -533,6 +586,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_HO_OH",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RESHIRAM",
                         "form": 0
                     },
@@ -582,6 +639,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_HO_OH",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RESHIRAM",
                         "form": 0
                     },
@@ -630,6 +691,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_HO_OH",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RESHIRAM",
                         "form": 0
@@ -694,12 +759,20 @@
                     {
                         "name": "SPECIES_MUDKIP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_MUDKIP",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_FEEBAS",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -728,6 +801,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_TAPU_BULU",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TAPU_KOKO",
                         "form": 0
                     },
@@ -777,6 +854,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_TAPU_BULU",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TAPU_KOKO",
                         "form": 0
                     },
@@ -825,6 +906,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TAPU_BULU",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TAPU_KOKO",
                         "form": 0
@@ -889,12 +974,20 @@
                     {
                         "name": "SPECIES_SKRELP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SKRELP",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_FEEBAS",
                         "form": 0
@@ -923,6 +1016,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_UXIE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MESPRIT",
                         "form": 0
                     },
@@ -971,6 +1068,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_UXIE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MESPRIT",
                         "form": 0
@@ -1021,6 +1122,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_UXIE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MESPRIT",
                         "form": 0
                     },
@@ -1070,6 +1175,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_TIRTOUGA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_FRILLISH",
                         "form": 0
                     },
@@ -1090,6 +1199,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_KYOGRE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PALKIA",
                         "form": 0
@@ -1160,6 +1273,10 @@
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
                     }
                 ]
             },
@@ -1209,12 +1326,20 @@
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -1271,6 +1396,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_BELLSPROUT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_COTTONEE",
                         "form": 0
                     },
@@ -1320,6 +1449,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_BELLSPROUT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_COTTONEE",
                         "form": 0
                     },
@@ -1368,6 +1501,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BELLSPROUT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_COTTONEE",
                         "form": 0
@@ -1424,6 +1561,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_GENESECT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_BUZZWOLE",
                         "form": 0
                     },
@@ -1473,6 +1614,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_GENESECT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_BUZZWOLE",
                         "form": 0
                     },
@@ -1521,6 +1666,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GENESECT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_BUZZWOLE",
                         "form": 0
@@ -1585,12 +1734,20 @@
                     {
                         "name": "SPECIES_TOTODILE",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_TOTODILE",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SUICUNE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TAPU_FINI",
                         "form": 0
@@ -1619,6 +1776,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DIALGA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PALKIA",
                         "form": 0
                     },
@@ -1668,6 +1829,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DIALGA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PALKIA",
                         "form": 0
                     },
@@ -1716,6 +1881,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DIALGA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PALKIA",
                         "form": 0
@@ -1766,6 +1935,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_SHELLOS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_KABUTO",
                         "form": 0
                     },
@@ -1786,6 +1959,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PALKIA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_WALKING_WAKE",
                         "form": 0
@@ -1813,6 +1990,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MEOWTH",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_MUNNA",
                         "form": 0
@@ -1863,6 +2044,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_MEOWTH",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_MUNNA",
                         "form": 0
                     },
@@ -1911,6 +2096,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MEOWTH",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_MUNNA",
                         "form": 0
@@ -1971,6 +2160,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_UNOWN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NATU",
                         "form": 0
                     },
@@ -2020,6 +2213,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_UNOWN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NATU",
                         "form": 0
                     },
@@ -2064,6 +2261,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_UNOWN",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_UNOWN",
                         "form": 0
@@ -2124,6 +2325,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_UNOWN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NATU",
                         "form": 0
                     },
@@ -2173,6 +2378,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_UNOWN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NATU",
                         "form": 0
                     },
@@ -2217,6 +2426,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_UNOWN",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_UNOWN",
                         "form": 0
@@ -2273,6 +2486,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_MOLTRES",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_ZAPDOS",
                         "form": 1
                     },
@@ -2322,6 +2539,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_MOLTRES",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_ZAPDOS",
                         "form": 1
                     },
@@ -2370,6 +2591,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MOLTRES",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_ZAPDOS",
                         "form": 1
@@ -2426,6 +2651,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_RAGING_BOLT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ZEKROM",
                         "form": 0
                     },
@@ -2475,6 +2704,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_RAGING_BOLT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ZEKROM",
                         "form": 0
                     },
@@ -2523,6 +2756,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RAGING_BOLT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ZEKROM",
                         "form": 0
@@ -2587,12 +2824,20 @@
                     {
                         "name": "SPECIES_SQUIRTLE",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SQUIRTLE",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TYNAMO",
                         "form": 0
@@ -2621,6 +2866,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ABSOL",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_MOLTRES",
                         "form": 1
                     },
@@ -2670,6 +2919,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ABSOL",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_MOLTRES",
                         "form": 1
                     },
@@ -2718,6 +2971,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ABSOL",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_MOLTRES",
                         "form": 1
@@ -2782,12 +3039,20 @@
                     {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_FEEBAS",
                         "form": 0
@@ -2816,6 +3081,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_POOCHYENA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VENONAT",
                         "form": 0
                     },
@@ -2865,6 +3134,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_POOCHYENA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VENONAT",
                         "form": 0
                     },
@@ -2913,6 +3186,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_POOCHYENA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VENONAT",
                         "form": 0
@@ -2977,12 +3254,20 @@
                     {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_FEEBAS",
                         "form": 0
@@ -3010,6 +3295,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_LUGIA",
                         "form": 0
@@ -3060,6 +3349,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_LUGIA",
                         "form": 0
                     },
@@ -3108,6 +3401,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_LUGIA",
                         "form": 0
@@ -3164,6 +3461,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ROGGENROLA",
                         "form": 0
                     },
@@ -3213,6 +3514,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ROGGENROLA",
                         "form": 0
                     },
@@ -3261,6 +3566,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ROGGENROLA",
                         "form": 0
@@ -3325,12 +3634,20 @@
                     {
                         "name": "SPECIES_GOOMY",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_GOOMY",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BARBOACH",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_REMORAID",
                         "form": 0
@@ -3359,6 +3676,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SMOOCHUM",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_CHINGLING",
                         "form": 0
                     },
@@ -3408,6 +3729,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SMOOCHUM",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_CHINGLING",
                         "form": 0
                     },
@@ -3456,6 +3781,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SMOOCHUM",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_CHINGLING",
                         "form": 0
@@ -3520,12 +3849,20 @@
                     {
                         "name": "SPECIES_SLOWPOKE",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BARBOACH",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_REMORAID",
                         "form": 0
@@ -3554,6 +3891,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZARUDE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TAPU_BULU",
                         "form": 0
                     },
@@ -3603,6 +3944,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZARUDE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TAPU_BULU",
                         "form": 0
                     },
@@ -3651,6 +3996,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZARUDE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TAPU_BULU",
                         "form": 0
@@ -3715,12 +4064,20 @@
                     {
                         "name": "SPECIES_FRILLISH",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_FRILLISH",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_LUVDISC",
                         "form": 0
@@ -3749,6 +4106,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_LANDORUS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_DIALGA",
                         "form": 0
                     },
@@ -3797,6 +4158,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_LANDORUS",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_DIALGA",
                         "form": 0
@@ -3847,6 +4212,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_LANDORUS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_DIALGA",
                         "form": 0
                     },
@@ -3895,6 +4264,10 @@
             {
                 "type": "surf",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
@@ -3923,6 +4296,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_YVELTAL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_HOOPA",
                         "form": 1
                     },
@@ -3972,6 +4349,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_YVELTAL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_HOOPA",
                         "form": 1
                     },
@@ -4020,6 +4401,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_YVELTAL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_HOOPA",
                         "form": 1
@@ -4084,12 +4469,20 @@
                     {
                         "name": "SPECIES_AMAURA",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_AMAURA",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_REMORAID",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SHELLDER",
                         "form": 0
@@ -4117,6 +4510,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_XERNEAS",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ZACIAN",
                         "form": 1
@@ -4167,6 +4564,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_XERNEAS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ZACIAN",
                         "form": 1
                     },
@@ -4215,6 +4616,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_XERNEAS",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ZACIAN",
                         "form": 1
@@ -4275,6 +4680,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_VENONAT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SKORUPI",
                         "form": 0
                     },
@@ -4324,6 +4733,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_VENONAT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SKORUPI",
                         "form": 0
                     },
@@ -4368,6 +4781,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_VENONAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VENONAT",
                         "form": 0
@@ -4425,6 +4842,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_MEWTWO",
+                        "form": 1
+                    },
+                    {
+                        "name": "SPECIES_MEWTWO",
                         "form": 2
                     },
                     {
@@ -4474,6 +4895,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_MEWTWO",
+                        "form": 1
+                    },
+                    {
+                        "name": "SPECIES_MEWTWO",
                         "form": 2
                     },
                     {
@@ -4521,6 +4946,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MEWTWO",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_MEWTWO",
                         "form": 2
@@ -4577,6 +5006,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_NECROZMA",
                         "form": 3
                     },
@@ -4626,6 +5059,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_NECROZMA",
                         "form": 3
                     },
@@ -4674,6 +5111,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_NECROZMA",
                         "form": 3
@@ -4730,6 +5171,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_LANDORUS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TORNADUS",
                         "form": 0
                     },
@@ -4779,6 +5224,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_LANDORUS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TORNADUS",
                         "form": 0
                     },
@@ -4827,6 +5276,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_LANDORUS",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TORNADUS",
                         "form": 0
@@ -4877,6 +5330,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIPLUP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MUDKIP",
                         "form": 0
                     },
@@ -4897,6 +5354,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_WALKING_WAKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SUICUNE",
                         "form": 0
@@ -4920,6 +5381,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_HO_OH",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_HEATRAN",
                         "form": 0
@@ -4970,6 +5435,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_HO_OH",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_HEATRAN",
                         "form": 0
                     },
@@ -5018,6 +5487,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_HO_OH",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_HEATRAN",
                         "form": 0
@@ -5074,6 +5547,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_CHARMANDER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_CHIMCHAR",
                         "form": 0
                     },
@@ -5123,6 +5600,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_CHARMANDER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_CHIMCHAR",
                         "form": 0
                     },
@@ -5171,6 +5652,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CHARMANDER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_CHIMCHAR",
                         "form": 0
@@ -5227,6 +5712,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5276,6 +5765,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5324,6 +5817,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -5380,6 +5877,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5429,6 +5930,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5477,6 +5982,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -5533,6 +6042,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5582,6 +6095,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5630,6 +6147,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -5686,6 +6207,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5735,6 +6260,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5783,6 +6312,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -5839,6 +6372,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5888,6 +6425,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -5936,6 +6477,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -5992,6 +6537,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -6041,6 +6590,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -6089,6 +6642,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -6145,6 +6702,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -6194,6 +6755,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -6242,6 +6807,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -6298,6 +6867,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -6347,6 +6920,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -6395,6 +6972,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SLOWPOKE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -6455,6 +7036,10 @@
                         "form": 1
                     },
                     {
+                        "name": "SPECIES_GROUDON",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_GREAT_TUSK",
                         "form": 0
                     },
@@ -6504,6 +7089,10 @@
                         "form": 1
                     },
                     {
+                        "name": "SPECIES_GROUDON",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_GREAT_TUSK",
                         "form": 0
                     },
@@ -6548,6 +7137,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GROUDON",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_GROUDON",
                         "form": 1
@@ -6605,6 +7198,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_ZYGARDE",
+                        "form": 5
+                    },
+                    {
+                        "name": "SPECIES_ZYGARDE",
                         "form": 0
                     },
                     {
@@ -6654,6 +7251,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_ZYGARDE",
+                        "form": 5
+                    },
+                    {
+                        "name": "SPECIES_ZYGARDE",
                         "form": 0
                     },
                     {
@@ -6701,6 +7302,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZYGARDE",
+                        "form": 5
+                    },
                     {
                         "name": "SPECIES_ZYGARDE",
                         "form": 0
@@ -6757,6 +7362,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_REGIGIGAS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_KANGASKHAN",
                         "form": 1
                     },
@@ -6805,6 +7414,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_REGIGIGAS",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_KANGASKHAN",
                         "form": 1
@@ -6855,6 +7468,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_REGIGIGAS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_KANGASKHAN",
                         "form": 1
                     },
@@ -6904,6 +7521,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_BUIZEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SHELLDER",
                         "form": 0
                     },
@@ -6924,6 +7545,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PHIONE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TAPU_FINI",
                         "form": 0
@@ -6952,6 +7577,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_TAPU_FINI",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SHARPEDO",
                         "form": 1
                     },
@@ -7000,6 +7629,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TAPU_FINI",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SHARPEDO",
                         "form": 1
@@ -7050,6 +7683,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_TAPU_FINI",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SHARPEDO",
                         "form": 1
                     },
@@ -7098,6 +7735,10 @@
             {
                 "type": "surf",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PANPOUR",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_CLAMPERL",
                         "form": 0
@@ -7127,6 +7768,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_KYOGRE",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_KYOGRE",
                         "form": 1
                     },
                     {
@@ -7174,6 +7819,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_KYOGRE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_KYOGRE",
                         "form": 1
@@ -7225,6 +7874,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_KYOGRE",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_KYOGRE",
                         "form": 1
                     },
                     {
@@ -7272,6 +7925,10 @@
             {
                 "type": "surf",
                 "encounters": [
+                    {
+                        "name": "SPECIES_OSHAWOTT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DUCKLETT",
                         "form": 0
@@ -7292,7 +7949,12 @@
             },
             {
                 "type": "oldRod",
-                "encounters": []
+                "encounters": [
+                    {
+                        "name": "SPECIES_PALKIA",
+                        "form": 0
+                    }
+                ]
             }
         ]
     },
@@ -7303,6 +7965,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
@@ -7353,6 +8019,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
                     },
@@ -7402,6 +8072,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
                     },
@@ -7450,6 +8124,10 @@
             {
                 "type": "surf",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TOTODILE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SQUIRTLE",
                         "form": 0
@@ -7471,6 +8149,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_WAILMER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
@@ -7499,6 +8181,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
                     },
@@ -7547,6 +8233,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
@@ -7597,6 +8287,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
                     },
@@ -7646,6 +8340,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_TOTODILE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SQUIRTLE",
                         "form": 0
                     },
@@ -7666,6 +8364,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_WAILMER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
@@ -7699,6 +8401,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_GYARADOS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_WALKING_WAKE",
                         "form": 0
                     },
@@ -7748,6 +8454,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_GYARADOS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_WALKING_WAKE",
                         "form": 0
                     },
@@ -7796,6 +8506,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GYARADOS",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_WALKING_WAKE",
                         "form": 0
@@ -7846,6 +8560,10 @@
                 "type": "oldRod",
                 "encounters": [
                     {
+                        "name": "SPECIES_MANAPHY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TAPU_FINI",
                         "form": 0
                     },
@@ -7877,6 +8595,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
@@ -7927,6 +8649,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
                     },
@@ -7975,6 +8701,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
@@ -8025,6 +8755,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_TOTODILE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SQUIRTLE",
                         "form": 0
                     },
@@ -8045,6 +8779,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_WAILMER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
@@ -8083,6 +8821,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_HOOPA",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_DEOXYS",
                         "form": 0
                     },
@@ -8131,6 +8873,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_HOOPA",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_DEOXYS",
                         "form": 0
@@ -8181,6 +8927,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_HOOPA",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_DEOXYS",
                         "form": 0
                     },
@@ -8229,6 +8979,10 @@
             {
                 "type": "surf",
                 "encounters": [
+                    {
+                        "name": "SPECIES_WAILMER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_WINGULL",
                         "form": 0
@@ -8257,6 +9011,10 @@
                     {
                         "name": "SPECIES_TAPU_FINI",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_TAPU_FINI",
+                        "form": 0
                     }
                 ]
             }
@@ -8269,6 +9027,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZEKROM",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TAPU_KOKO",
                         "form": 0
@@ -8319,6 +9081,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZEKROM",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TAPU_KOKO",
                         "form": 0
                     },
@@ -8367,6 +9133,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZEKROM",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TAPU_KOKO",
                         "form": 0
@@ -8417,6 +9187,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_FEEBAS",
                         "form": 0
                     },
@@ -8437,6 +9211,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_WINGULL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -8466,6 +9244,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_HOOPA",
+                        "form": 1
+                    },
+                    {
+                        "name": "SPECIES_HOOPA",
                         "form": 0
                     },
                     {
@@ -8513,6 +9295,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_HOOPA",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_HOOPA",
                         "form": 0
@@ -8564,6 +9350,10 @@
                 "encounters": [
                     {
                         "name": "SPECIES_HOOPA",
+                        "form": 1
+                    },
+                    {
+                        "name": "SPECIES_HOOPA",
                         "form": 0
                     },
                     {
@@ -8612,6 +9402,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_LOTAD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
                     },
@@ -8632,6 +9426,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SHELLDER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SHELLOS",
                         "form": 0
@@ -8660,6 +9458,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_BERGMITE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ONIX",
                         "form": 0
                     },
@@ -8708,6 +9510,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BERGMITE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ONIX",
                         "form": 0
@@ -8758,6 +9564,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_BERGMITE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ONIX",
                         "form": 0
                     },
@@ -8807,6 +9617,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_LOTAD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
                     },
@@ -8827,6 +9641,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SHELLDER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SHELLOS",
                         "form": 0
@@ -8855,6 +9673,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_MAGBY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ONIX",
                         "form": 0
                     },
@@ -8903,6 +9725,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGBY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ONIX",
                         "form": 0
@@ -8953,6 +9779,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_MAGBY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ONIX",
                         "form": 0
                     },
@@ -9002,6 +9832,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_LOTAD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
                     },
@@ -9022,6 +9856,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SHELLDER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SHELLOS",
                         "form": 0
@@ -9050,6 +9888,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_MAGBY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ONIX",
                         "form": 0
                     },
@@ -9098,6 +9940,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGBY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ONIX",
                         "form": 0
@@ -9148,6 +9994,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_MAGBY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ONIX",
                         "form": 0
                     },
@@ -9197,6 +10047,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_LOTAD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
                     },
@@ -9217,6 +10071,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SHELLDER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SHELLOS",
                         "form": 0
@@ -9245,6 +10103,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_GLASTRIER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_KYUREM",
                         "form": 0
                     },
@@ -9293,6 +10155,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GLASTRIER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_KYUREM",
                         "form": 0
@@ -9343,6 +10209,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_GLASTRIER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_KYUREM",
                         "form": 0
                     },
@@ -9392,6 +10262,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_LUVDISC",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SLOWPOKE",
                         "form": 0
                     },
@@ -9412,6 +10286,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CARVANHA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_KRABBY",
                         "form": 0
@@ -9440,6 +10318,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_LUNALA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MEWTWO",
                         "form": 0
                     },
@@ -9488,6 +10370,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_LUNALA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MEWTWO",
                         "form": 0
@@ -9538,6 +10424,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_LUNALA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MEWTWO",
                         "form": 0
                     },
@@ -9587,6 +10477,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_MANAPHY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_CLAUNCHER",
                         "form": 0
                     },
@@ -9607,6 +10501,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MANAPHY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SUICUNE",
                         "form": 0
@@ -9631,6 +10529,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ALAKAZAM",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_GARDEVOIR",
                         "form": 1
                     },
@@ -9679,6 +10581,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ALAKAZAM",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_GARDEVOIR",
                         "form": 1
@@ -9729,6 +10635,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_ALAKAZAM",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_GARDEVOIR",
                         "form": 1
                     },
@@ -9778,6 +10688,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_HOPPIP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DRIFLOON",
                         "form": 0
                     },
@@ -9798,6 +10712,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_KELDEO",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SUICUNE",
                         "form": 0
@@ -9826,6 +10744,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DARKRAI",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_YVELTAL",
                         "form": 0
                     },
@@ -9875,6 +10797,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DARKRAI",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_YVELTAL",
                         "form": 0
                     },
@@ -9923,6 +10849,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DARKRAI",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_YVELTAL",
                         "form": 0
@@ -9979,6 +10909,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DELIBIRD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SWINUB",
                         "form": 0
                     },
@@ -10028,6 +10962,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DELIBIRD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SWINUB",
                         "form": 0
                     },
@@ -10076,6 +11014,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DELIBIRD",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SWINUB",
                         "form": 0
@@ -10132,6 +11074,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_KYUREM",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ABOMASNOW",
                         "form": 1
                     },
@@ -10181,6 +11127,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_KYUREM",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ABOMASNOW",
                         "form": 1
                     },
@@ -10229,6 +11179,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_KYUREM",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ABOMASNOW",
                         "form": 1
@@ -10285,6 +11239,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DELIBIRD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SWINUB",
                         "form": 0
                     },
@@ -10334,6 +11292,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DELIBIRD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SWINUB",
                         "form": 0
                     },
@@ -10382,6 +11344,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DELIBIRD",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SWINUB",
                         "form": 0
@@ -10443,6 +11409,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ZYGARDE",
                         "form": 0
                     },
@@ -10491,6 +11461,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ZYGARDE",
                         "form": 0
@@ -10541,6 +11515,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_RAYQUAZA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ZYGARDE",
                         "form": 0
                     },
@@ -10590,6 +11568,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_SKRELP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NOIBAT",
                         "form": 0
                     },
@@ -10610,6 +11592,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GOOMY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DRATINI",
                         "form": 0
@@ -10638,6 +11624,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DRATINI",
                         "form": 0
                     },
@@ -10658,6 +11648,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CHINCHOU",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DRATINI",
                         "form": 0
@@ -10685,6 +11679,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TERRAKION",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_AGGRON",
                         "form": 1
@@ -10735,6 +11733,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_TERRAKION",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_AGGRON",
                         "form": 1
                     },
@@ -10783,6 +11785,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TERRAKION",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_AGGRON",
                         "form": 1
@@ -10833,6 +11839,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_SKRELP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_CLAUNCHER",
                         "form": 0
                     },
@@ -10868,6 +11878,10 @@
                     {
                         "name": "SPECIES_CARVANHA",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_CARVANHA",
+                        "form": 0
                     }
                 ]
             }
@@ -10880,6 +11894,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SCEPTILE",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_KARTANA",
                         "form": 0
@@ -10930,6 +11948,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SCEPTILE",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_KARTANA",
                         "form": 0
                     },
@@ -10978,6 +12000,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SCEPTILE",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_KARTANA",
                         "form": 0
@@ -11034,6 +12060,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DIGLETT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_WOOPER",
                         "form": 0
                     },
@@ -11083,6 +12113,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DIGLETT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_WOOPER",
                         "form": 0
                     },
@@ -11131,6 +12165,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DIGLETT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_WOOPER",
                         "form": 0
@@ -11195,12 +12233,20 @@
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -11229,6 +12275,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_GEODUDE",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_WOOBAT",
                         "form": 0
                     },
@@ -11278,6 +12328,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_GEODUDE",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_WOOBAT",
                         "form": 0
                     },
@@ -11326,6 +12380,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GEODUDE",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_WOOBAT",
                         "form": 0
@@ -11390,12 +12448,20 @@
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -11424,6 +12490,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_FARFETCHD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MILTANK",
                         "form": 0
                     },
@@ -11472,6 +12542,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_FARFETCHD",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MILTANK",
                         "form": 0
@@ -11522,6 +12596,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_FARFETCHD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MILTANK",
                         "form": 0
                     },
@@ -11571,6 +12649,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_WAILMER",
                         "form": 0
                     },
@@ -11591,6 +12673,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CARVANHA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_CLAMPERL",
                         "form": 0
@@ -11619,6 +12705,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ENTEI",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MOLTRES",
                         "form": 0
                     },
@@ -11667,6 +12757,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ENTEI",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MOLTRES",
                         "form": 0
@@ -11717,6 +12811,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_ENTEI",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MOLTRES",
                         "form": 0
                     },
@@ -11766,6 +12864,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_POLIWAG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
                     },
@@ -11786,6 +12888,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -11828,12 +12934,20 @@
                     {
                         "name": "SPECIES_POLIWAG",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_POLIWAG",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_POLIWAG",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_POLIWAG",
                         "form": 0
@@ -11861,6 +12975,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
@@ -11911,6 +13029,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -11959,6 +13081,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
@@ -12015,6 +13141,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12064,6 +13194,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12112,6 +13246,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
@@ -12168,6 +13306,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12217,6 +13359,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12265,6 +13411,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
@@ -12321,6 +13471,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DEWGONG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12370,6 +13524,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DEWGONG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12418,6 +13576,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DEWGONG",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
@@ -12474,6 +13636,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DEWGONG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12522,6 +13688,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DEWGONG",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
@@ -12572,6 +13742,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_DEWGONG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -12620,6 +13794,10 @@
             {
                 "type": "surf",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SEEL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_HORSEA",
                         "form": 0
@@ -12650,6 +13828,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_KRABBY",
                         "form": 0
                     },
@@ -12668,6 +13850,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_STEELIX",
                         "form": 0
@@ -12718,6 +13904,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_STEELIX",
                         "form": 0
                     },
@@ -12766,6 +13956,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_STEELIX",
                         "form": 0
@@ -12820,6 +14014,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_SEAKING",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
                     },
@@ -12836,6 +14034,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -12864,6 +14066,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SNEASEL",
                         "form": 0
                     },
@@ -12913,6 +14119,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SNEASEL",
                         "form": 0
                     },
@@ -12961,6 +14171,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SNEASEL",
                         "form": 0
@@ -13015,6 +14229,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_SEAKING",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
                     },
@@ -13031,6 +14249,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -13059,6 +14281,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SNEASEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -13108,6 +14334,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SNEASEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -13156,6 +14386,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SNEASEL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
@@ -13210,6 +14444,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_SEAKING",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
                     },
@@ -13226,6 +14464,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -13253,6 +14495,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MEWTWO",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VICTINI",
                         "form": 0
@@ -13303,6 +14549,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_MEWTWO",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VICTINI",
                         "form": 0
                     },
@@ -13351,6 +14601,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MEWTWO",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VICTINI",
                         "form": 0
@@ -13405,6 +14659,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_WOOPER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_QUAGSIRE",
                         "form": 0
                     },
@@ -13436,6 +14694,10 @@
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
                     }
                 ]
             }
@@ -13448,6 +14710,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BRONZOR",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DRILBUR",
                         "form": 0
@@ -13498,6 +14764,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_BRONZOR",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DRILBUR",
                         "form": 0
                     },
@@ -13546,6 +14816,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BRONZOR",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DRILBUR",
                         "form": 0
@@ -13596,6 +14870,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_BINACLE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_OSHAWOTT",
                         "form": 0
                     },
@@ -13616,6 +14894,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SKRELP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TIRTOUGA",
                         "form": 0
@@ -13643,6 +14925,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_LITWICK",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -13693,6 +14979,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_LITWICK",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
                     },
@@ -13741,6 +15031,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_LITWICK",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DROWZEE",
                         "form": 0
@@ -13797,6 +15091,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PONYTA",
                         "form": 0
                     },
@@ -13846,6 +15144,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PONYTA",
                         "form": 0
                     },
@@ -13894,6 +15196,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PONYTA",
                         "form": 0
@@ -13948,6 +15254,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_POLIWHIRL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_POLIWAG",
                         "form": 0
                     },
@@ -13964,6 +15274,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -13992,6 +15306,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ONIX",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DONPHAN",
                         "form": 0
                     },
@@ -14041,6 +15359,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ONIX",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DONPHAN",
                         "form": 0
                     },
@@ -14089,6 +15411,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ONIX",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DONPHAN",
                         "form": 0
@@ -14143,6 +15469,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_SEAKING",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
                     },
@@ -14159,6 +15489,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -14186,6 +15520,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GOLBAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ONIX",
                         "form": 0
@@ -14236,6 +15574,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_GOLBAT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ONIX",
                         "form": 0
                     },
@@ -14284,6 +15626,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GOLBAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ONIX",
                         "form": 0
@@ -14340,6 +15686,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -14389,6 +15739,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -14437,6 +15791,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_QUAGSIRE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
@@ -14493,6 +15851,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SNEASEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -14542,6 +15904,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SNEASEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -14590,6 +15956,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SNEASEL",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
@@ -14644,6 +16014,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_SEAKING",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
                     },
@@ -14660,6 +16034,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -14735,12 +16113,20 @@
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -14833,6 +16219,10 @@
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
                     }
                 ]
             },
@@ -14854,12 +16244,20 @@
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GOLDEEN",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLDEEN",
                         "form": 0
@@ -14888,6 +16286,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_QUAGSIRE",
                         "form": 0
                     },
@@ -14908,6 +16310,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -14940,6 +16346,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACRUEL",
                         "form": 0
                     },
@@ -14956,6 +16366,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -14988,6 +16402,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACRUEL",
                         "form": 0
                     },
@@ -15004,6 +16422,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -15036,6 +16458,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACRUEL",
                         "form": 0
                     },
@@ -15052,6 +16478,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -15084,6 +16514,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_POLIWAG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_POLIWHIRL",
                         "form": 0
                     },
@@ -15100,6 +16534,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -15132,6 +16570,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_GOLDEEN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SEAKING",
                         "form": 0
                     },
@@ -15148,6 +16590,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -15180,6 +16626,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACRUEL",
                         "form": 0
                     },
@@ -15196,6 +16646,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -15223,6 +16677,10 @@
             {
                 "type": "surf",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GRIMER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GRIMER",
                         "form": 0
@@ -15265,12 +16723,20 @@
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
+                    },
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
                     }
                 ]
             },
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -15303,6 +16769,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACRUEL",
                         "form": 0
                     },
@@ -15319,6 +16789,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -15346,6 +16820,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SNOVER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MANKEY",
                         "form": 0
@@ -15396,6 +16874,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SNOVER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MANKEY",
                         "form": 0
                     },
@@ -15444,6 +16926,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SNOVER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MANKEY",
                         "form": 0
@@ -15500,6 +16986,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_PORYGON",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MUNCHLAX",
                         "form": 0
                     },
@@ -15548,6 +17038,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PORYGON",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MUNCHLAX",
                         "form": 0
@@ -15598,6 +17092,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_PORYGON",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MUNCHLAX",
                         "form": 0
                     },
@@ -15647,6 +17145,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_POLIWAG",
                         "form": 0
                     },
@@ -15667,6 +17169,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_REMORAID",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_CARVANHA",
                         "form": 0
@@ -15695,6 +17201,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_CRANIDOS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_OMANYTE",
                         "form": 0
                     },
@@ -15743,6 +17253,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CRANIDOS",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_OMANYTE",
                         "form": 0
@@ -15793,6 +17307,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_CRANIDOS",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_OMANYTE",
                         "form": 0
                     },
@@ -15842,6 +17360,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_BUIZEL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MUDKIP",
                         "form": 0
                     },
@@ -15862,6 +17384,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CORPHISH",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_CORSOLA",
                         "form": 0
@@ -15890,6 +17416,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PONYTA",
                         "form": 0
                     },
@@ -15939,6 +17469,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PONYTA",
                         "form": 0
                     },
@@ -15987,6 +17521,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PONYTA",
                         "form": 0
@@ -16041,6 +17579,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_POLIWAG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_POLIWHIRL",
                         "form": 0
                     },
@@ -16057,6 +17599,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -16084,6 +17630,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
@@ -16134,6 +17684,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
                     },
@@ -16182,6 +17736,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
@@ -16238,6 +17796,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
                     },
@@ -16287,6 +17849,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
                     },
@@ -16335,6 +17901,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZUBAT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
@@ -16391,6 +17961,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_CUBONE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
                     },
@@ -16440,6 +18014,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_CUBONE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
                     },
@@ -16488,6 +18066,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CUBONE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
@@ -16544,6 +18126,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_CUBONE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
                     },
@@ -16593,6 +18179,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_CUBONE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
                     },
@@ -16641,6 +18231,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CUBONE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GEODUDE",
                         "form": 0
@@ -16697,6 +18291,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLBEAT",
                         "form": 0
                     },
@@ -16746,6 +18344,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLBEAT",
                         "form": 0
                     },
@@ -16794,6 +18396,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ILLUMISE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VOLBEAT",
                         "form": 0
@@ -16850,6 +18456,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -16899,6 +18509,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -16947,6 +18561,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -17003,6 +18621,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_CATERPIE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PIDGEY",
                         "form": 0
                     },
@@ -17052,6 +18674,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_CATERPIE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PIDGEY",
                         "form": 0
                     },
@@ -17100,6 +18726,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CATERPIE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PIDGEY",
                         "form": 0
@@ -17156,6 +18786,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -17205,6 +18839,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -17253,6 +18891,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -17309,6 +18951,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -17358,6 +19004,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -17406,6 +19056,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -17460,6 +19114,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_GOLDEEN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SEAKING",
                         "form": 0
                     },
@@ -17476,6 +19134,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -17503,6 +19165,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
@@ -17553,6 +19219,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
                     },
@@ -17601,6 +19271,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
@@ -17657,6 +19331,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
                     },
@@ -17706,6 +19384,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
                     },
@@ -17754,6 +19436,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
@@ -17808,6 +19494,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_PSYDUCK",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -17824,6 +19514,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -17851,6 +19545,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SPEAROW",
                         "form": 0
@@ -17901,6 +19599,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SPEAROW",
                         "form": 0
                     },
@@ -17949,6 +19651,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SPEAROW",
                         "form": 0
@@ -18017,6 +19723,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_PIDGEOTTO",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ABRA",
                         "form": 0
                     },
@@ -18066,6 +19776,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_PIDGEOTTO",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ABRA",
                         "form": 0
                     },
@@ -18102,6 +19816,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PIDGEOTTO",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PIDGEOTTO",
                         "form": 0
@@ -18158,6 +19876,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_MANKEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -18207,6 +19929,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_MANKEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -18255,6 +19981,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MANKEY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -18309,6 +20039,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_GOLDEEN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SEAKING",
                         "form": 0
                     },
@@ -18325,6 +20059,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -18353,6 +20091,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
                     },
@@ -18402,6 +20144,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
                     },
@@ -18450,6 +20196,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_SPEAROW",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_VOLTORB",
                         "form": 0
@@ -18504,6 +20254,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_GOLDEEN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SEAKING",
                         "form": 0
                     },
@@ -18520,6 +20274,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -18547,6 +20305,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DROWZEE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -18597,6 +20359,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DROWZEE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_RATTATA",
                         "form": 0
                     },
@@ -18645,6 +20411,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DROWZEE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_RATTATA",
                         "form": 0
@@ -18701,6 +20471,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
                     },
@@ -18750,6 +20524,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
                     },
@@ -18798,6 +20576,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
@@ -18848,6 +20630,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_QUAGSIRE",
                         "form": 0
                     },
@@ -18877,6 +20663,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACOOL",
                         "form": 0
                     },
@@ -18895,6 +20685,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
@@ -18945,6 +20739,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
                     },
@@ -18993,6 +20791,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
@@ -19049,6 +20851,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
                     },
@@ -19098,6 +20904,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
                     },
@@ -19146,6 +20956,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_NIDORINA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_NIDORINO",
                         "form": 0
@@ -19202,6 +21016,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_GRIMER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_FEAROW",
                         "form": 0
                     },
@@ -19251,6 +21069,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_GRIMER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_FEAROW",
                         "form": 0
                     },
@@ -19299,6 +21121,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GRIMER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_FEAROW",
                         "form": 0
@@ -19355,6 +21181,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_FEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GRIMER",
                         "form": 0
                     },
@@ -19404,6 +21234,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_FEAROW",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GRIMER",
                         "form": 0
                     },
@@ -19452,6 +21286,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_FEAROW",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GRIMER",
                         "form": 0
@@ -19508,6 +21346,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_GRIMER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_FEAROW",
                         "form": 0
                     },
@@ -19557,6 +21399,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_GRIMER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_FEAROW",
                         "form": 0
                     },
@@ -19605,6 +21451,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GRIMER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_FEAROW",
                         "form": 0
@@ -19693,6 +21543,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MR_MIME",
                         "form": 0
                     },
@@ -19742,6 +21596,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_MR_MIME",
                         "form": 0
                     },
@@ -19758,6 +21616,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TANGELA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TANGELA",
                         "form": 0
@@ -19812,6 +21674,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_TENTACOOL",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TENTACRUEL",
                         "form": 0
                     },
@@ -19828,6 +21694,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -19855,6 +21725,10 @@
             {
                 "type": "morning",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SPEAROW",
                         "form": 0
@@ -19905,6 +21779,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SPEAROW",
                         "form": 0
                     },
@@ -19953,6 +21831,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RATTATA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_SPEAROW",
                         "form": 0
@@ -20007,6 +21889,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_POLIWAG",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_POLIWHIRL",
                         "form": 0
                     },
@@ -20023,6 +21909,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -20063,6 +21953,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_BELLSPROUT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ABRA",
                         "form": 0
                     },
@@ -20099,6 +21993,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_BELLSPROUT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
@@ -20161,6 +22059,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_BELLSPROUT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ABRA",
                         "form": 0
                     },
@@ -20202,6 +22104,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_GOLDEEN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SEAKING",
                         "form": 0
                     },
@@ -20218,6 +22124,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -20246,6 +22156,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
                     },
@@ -20295,6 +22209,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
                     },
@@ -20343,6 +22261,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PIDGEY",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_BELLSPROUT",
                         "form": 0
@@ -20397,6 +22319,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_GOLDEEN",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_SEAKING",
                         "form": 0
                     },
@@ -20413,6 +22339,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -20441,6 +22371,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ETERNATUS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_ZACIAN",
                         "form": 1
                     },
@@ -20489,6 +22423,10 @@
             {
                 "type": "day",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ETERNATUS",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_ZACIAN",
                         "form": 1
@@ -20539,6 +22477,10 @@
                 "type": "night",
                 "encounters": [
                     {
+                        "name": "SPECIES_ETERNATUS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_ZACIAN",
                         "form": 1
                     },
@@ -20588,6 +22530,10 @@
                 "type": "surf",
                 "encounters": [
                     {
+                        "name": "SPECIES_LOTAD",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_CARVANHA",
                         "form": 0
                     },
@@ -20608,6 +22554,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_PALKIA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PALKIA",
                         "form": 0
@@ -20660,6 +22610,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_DIGLETT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DUGTRIO",
                         "form": 0
                     },
@@ -20709,6 +22663,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_DIGLETT",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_DUGTRIO",
                         "form": 0
                     },
@@ -20729,6 +22687,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DIGLETT",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_DIGLETT",
                         "form": 0
@@ -20785,6 +22747,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_GRAVELER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -20834,6 +22800,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_GRAVELER",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
                     },
@@ -20882,6 +22852,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_GRAVELER",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_GOLBAT",
                         "form": 0
@@ -20938,6 +22912,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_DARUMAKA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TRUBBISH",
                         "form": 0
                     },
@@ -20987,6 +22965,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_DARUMAKA",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_TRUBBISH",
                         "form": 0
                     },
@@ -21035,6 +23017,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_DARUMAKA",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_TRUBBISH",
                         "form": 0
@@ -21091,6 +23077,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_CATERPIE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PIDGEY",
                         "form": 0
                     },
@@ -21140,6 +23130,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_CATERPIE",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_PIDGEY",
                         "form": 0
                     },
@@ -21188,6 +23182,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_CATERPIE",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_PIDGEY",
                         "form": 0
@@ -21244,6 +23242,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_RESHIRAM",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_HEATRAN",
                         "form": 0
                     },
@@ -21293,6 +23295,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_RESHIRAM",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_HEATRAN",
                         "form": 0
                     },
@@ -21341,6 +23347,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_RESHIRAM",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_HEATRAN",
                         "form": 0
@@ -21402,6 +23412,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZAPDOS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_LOPUNNY",
                         "form": 1
                     },
@@ -21451,6 +23465,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_ZAPDOS",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_LOPUNNY",
                         "form": 1
                     },
@@ -21499,6 +23517,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_ZAPDOS",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_LOPUNNY",
                         "form": 1
@@ -21553,6 +23575,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_PSYDUCK",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -21569,6 +23595,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -21597,6 +23627,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_TYRANITAR",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_HYDREIGON",
                         "form": 0
                     },
@@ -21646,6 +23680,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_TYRANITAR",
+                        "form": 1
+                    },
+                    {
                         "name": "SPECIES_HYDREIGON",
                         "form": 0
                     },
@@ -21694,6 +23732,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_TYRANITAR",
+                        "form": 1
+                    },
                     {
                         "name": "SPECIES_HYDREIGON",
                         "form": 0
@@ -21748,6 +23790,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_PSYDUCK",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -21764,6 +23810,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0
@@ -21792,6 +23842,10 @@
                 "type": "morning",
                 "encounters": [
                     {
+                        "name": "SPECIES_KORAIDON",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ZAMAZENTA",
                         "form": 1
                     },
@@ -21841,6 +23895,10 @@
                 "type": "day",
                 "encounters": [
                     {
+                        "name": "SPECIES_KORAIDON",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_ZAMAZENTA",
                         "form": 1
                     },
@@ -21889,6 +23947,10 @@
             {
                 "type": "night",
                 "encounters": [
+                    {
+                        "name": "SPECIES_KORAIDON",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_ZAMAZENTA",
                         "form": 1
@@ -21943,6 +24005,10 @@
                         "form": 0
                     },
                     {
+                        "name": "SPECIES_PSYDUCK",
+                        "form": 0
+                    },
+                    {
                         "name": "SPECIES_GOLDUCK",
                         "form": 0
                     },
@@ -21959,6 +24025,10 @@
             {
                 "type": "oldRod",
                 "encounters": [
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
                     {
                         "name": "SPECIES_MAGIKARP",
                         "form": 0

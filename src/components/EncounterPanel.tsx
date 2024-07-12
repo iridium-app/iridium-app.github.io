@@ -22,16 +22,28 @@ function EncounterPanel({
           <div className="encoutner-method__header">
             {EncounterData.GetMethodNiceName(method.type)}
           </div>
-          {method.encounters.map((encounter, index) => (
-            <div
-              className="encounter-method__encounter"
-              key={"encounter-method__encounter-" + index}
-            >
-              <button onClick={() => setSelectedMon(Dex.GetDexInfo(encounter))}>
-                <MonImage formName={FormTable.GetFormName(encounter)} />
-              </button>
-            </div>
-          ))}
+          {EncounterData.GetFinalizedArray(method).map(
+            (encounterWithRate, index) => (
+              <div
+                className="encounter-method__encounter"
+                key={"encounter-method__encounter-" + index}
+              >
+                <button
+                  onClick={() =>
+                    setSelectedMon(Dex.GetDexInfo(encounterWithRate.encounter))
+                  }
+                >
+                  <MonImage
+                    formName={FormTable.GetFormName(
+                      encounterWithRate.encounter
+                    )}
+                    size={60}
+                  />
+                </button>
+                <div>{encounterWithRate.rate}%</div>
+              </div>
+            )
+          )}
         </div>
       ))}
     </div>
