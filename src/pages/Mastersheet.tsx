@@ -15,8 +15,20 @@ import EncounterData from "../data/EncounterData";
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
   const [selectedMon, setSelectedMon] = useState(Dex.GetNone());
-  const mastersheetData =
+  const [trainerFilter, setTrainerFilter] = useState(false);
+  const [encounterFilter, setEncounterFilter] = useState(false);
+
+  var mastersheetData =
     difficulty === "casual" ? mastersheet.casual : mastersheet.elite;
+  if (trainerFilter)
+    mastersheetData = mastersheetData.filter((element) => {
+      return element.type !== "trainer";
+    });
+  if (encounterFilter)
+    mastersheetData = mastersheetData.filter((element) => {
+      return element.type !== "encounter";
+    });
+
   // const [searchList, setSearchList] = useState(Dex.Dict);
   var rightPanelOpen = selectedMon !== Dex.GetNone();
 
@@ -26,6 +38,10 @@ function Mastersheet() {
 
   return (
     <div className="mastersheet">
+      <div className="filter-panel-temp">
+        <button onClick={() => setTrainerFilter(!trainerFilter)}>Filter Trainers</button>
+        <button onClick={() => setEncounterFilter(!encounterFilter)}>Filter Encounters</button>
+      </div>
       <div
         className="left-panel"
         style={
@@ -37,10 +53,7 @@ function Mastersheet() {
         <div className="left-panel__gutter">
           {mastersheetData.map((panel) =>
             panel.type === "trainer" ? (
-              <TrainerPanel
-                key={"trainer_" + panel.id}
-                trainerId={panel.id}
-              />
+              <TrainerPanel key={"trainer_" + panel.id} trainerId={panel.id} />
             ) : (
               <EncounterPanel
                 key={"encounter_" + panel.id}

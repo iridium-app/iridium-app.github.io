@@ -51,6 +51,10 @@
   height: 95vh;
 }
 
+.filter-panel-temp {
+  position: absolute;
+}
+
 .left-panel {
   background-color: gray;
   grid-area: var(--grid);
