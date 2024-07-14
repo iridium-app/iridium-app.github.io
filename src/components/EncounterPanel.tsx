@@ -37,7 +37,7 @@ function EncounterPanel({
                     formName={FormTable.GetFormName(
                       encounterWithRate.encounter
                     )}
-                    size={60}
+                    size={50}
                   />
                 </button>
                 <div>{encounterWithRate.rate}%</div>
