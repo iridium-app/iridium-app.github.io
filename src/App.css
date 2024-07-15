@@ -170,6 +170,7 @@
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   color: black;
+  border-radius: 12px;
 }
 
 .trainer-mon-panel__box {
@@ -177,8 +178,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  border: 2px solid;
   min-height: 200px;
+  border: 3px solid;
+  border-radius: 12px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(153,41,234,1) 0%, rgba(88,8,251,1) 100%);
+
 }
 
 .trainer-mon-panel__box__images {
