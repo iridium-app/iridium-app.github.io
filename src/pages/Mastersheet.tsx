@@ -36,12 +36,26 @@ function Mastersheet() {
     setSelectedMon(Dex.GetNone());
   };
 
+  const encounterFilterBtnClick = () => {
+    setEncounterFilter(!encounterFilter);
+  };
+
   return (
     <div className="mastersheet">
       <div className="filter-panel-temp">
         <div>Filters</div>
-        <button onClick={() => setEncounterFilter(!encounterFilter)}>Hide Encounters</button>
-        <button onClick={() => setTrainerFilter(!trainerFilter)}>Hide Trainers</button>
+        <button
+          className={encounterFilter ? "filter-btn pressed" : "filter-btn"}
+          onClick={encounterFilterBtnClick}
+        >
+          Hide Encounters
+        </button>
+        <button
+          className={trainerFilter ? "filter-btn pressed" : "filter-btn"}
+          onClick={() => setTrainerFilter(!trainerFilter)}
+        >
+          Hide Trainers
+        </button>
       </div>
       <div
         className="left-panel"

@@ -316,6 +316,23 @@ div.left-panel::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.filter-btn {
+  border-radius:24px;
+  background-color: white;
+}
+
+.filter-btn:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.pressed {
+  background-color: gray;
+}
+
+.pressed:hover {
+  background-color: rgb(36, 36, 36)
+}
+
 @media only screen and (max-width: 600px) {
   .trainer-mon-panel {
     display: flex;
