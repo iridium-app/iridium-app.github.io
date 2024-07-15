@@ -39,14 +39,15 @@ function Mastersheet() {
   return (
     <div className="mastersheet">
       <div className="filter-panel-temp">
-        <button onClick={() => setTrainerFilter(!trainerFilter)}>Filter Trainers</button>
-        <button onClick={() => setEncounterFilter(!encounterFilter)}>Filter Encounters</button>
+        <div>Filters</div>
+        <button onClick={() => setEncounterFilter(!encounterFilter)}>Hide Encounters</button>
+        <button onClick={() => setTrainerFilter(!trainerFilter)}>Hide Trainers</button>
       </div>
       <div
         className="left-panel"
         style={
           {
-            "--grid": rightPanelOpen ? "1 / 1 / 1 / 9" : "1 / 1 / 1 / 13",
+            "--left-panel-span": rightPanelOpen ? "6" : "8",
           } as React.CSSProperties
         }
       >
