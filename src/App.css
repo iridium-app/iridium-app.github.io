@@ -317,7 +317,7 @@ div.left-panel::-webkit-scrollbar-thumb {
 }
 
 .filter-btn {
-  border-radius:24px;
+  border-radius: 24px;
   background-color: white;
 }
 
@@ -330,21 +330,20 @@ div.left-panel::-webkit-scrollbar-thumb {
 }
 
 .pressed:hover {
-  background-color: rgb(36, 36, 36)
+  background-color: rgb(36, 36, 36);
 }
 
-@media only screen and (max-width: 600px) {
-  .trainer-mon-panel {
-    display: flex;
-    flex-direction: column;
+@media only screen and (max-width: 1800px) {
+  .left-panel {
+    grid-column: 3 / span 12;
   }
-  .trainer-mon-panel__stats {
-    display: none;
-  }
-  .trainer-mon-panel__moves {
-    margin-left: 20px;
+  .right-panel {
+    position: absolute;
+    right: 0;
+    height: 100%;
   }
 }
+
 
 @media only screen and (max-width: 1200px) {
   .trainer-panel {
@@ -358,13 +357,24 @@ div.left-panel::-webkit-scrollbar-thumb {
   }
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 600px) {
   .left-panel {
-    grid-column: 3 / span 12;
+    grid-column: 1 / span 12;
   }
-  .right-panel {
-    position: absolute;
-    right: 0;
-    height: 100%;
+  .trainer-mon-panel {
+    display: flex;
+    flex-direction: column;
+  }
+  .trainer-mon-panel__stats {
+    display: none;
+  }
+  .trainer-mon-panel__moves {
+    margin-left: 20px;
+  }
+  .encounter-method {
+    grid-column: span 3;
+  }
+  .filter-panel-temp {
+    display: none;
   }
 }
