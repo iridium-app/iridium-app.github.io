@@ -5,12 +5,13 @@ import Dex from "../data/Dex";
 import MoveData from "../data/MoveData";
 import TrainerPanel from "../components/TrainerPanel";
 import Utility from "../Utility";
-import mastersheet from "../data/mastersheet.json";
 
 import "../App.css";
 import TypeImage from "../components/TypeImage";
 import EncounterPanel from "../components/EncounterPanel";
 import EncounterData from "../data/EncounterData";
+import TableOfContents from "../components/TableOfContents";
+import MastersheetData from "../data/MastersheetData";
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
@@ -18,8 +19,7 @@ function Mastersheet() {
   const [trainerFilter, setTrainerFilter] = useState(false);
   const [encounterFilter, setEncounterFilter] = useState(false);
 
-  var mastersheetData =
-    difficulty === "casual" ? mastersheet.casual : mastersheet.elite;
+  var mastersheetData = MastersheetData.GetPanels(difficulty);
   if (trainerFilter)
     mastersheetData = mastersheetData.filter((element) => {
       return element.type !== "trainer";
@@ -42,7 +42,7 @@ function Mastersheet() {
 
   return (
     <div className="mastersheet">
-      <div className="filter-panel-temp">
+      <div className="left-panel">
         <div>Filters</div>
         <button
           className={encounterFilter ? "filter-btn pressed" : "filter-btn"}
@@ -56,16 +56,17 @@ function Mastersheet() {
         >
           Hide Trainers
         </button>
+        <TableOfContents />
       </div>
       <div
-        className="left-panel"
+        className="middle-panel"
         style={
           {
-            "--left-panel-span": rightPanelOpen ? "6" : "8",
+            "--middle-panel-span": rightPanelOpen ? "6" : "8",
           } as React.CSSProperties
         }
       >
-        <div className="left-panel__gutter">
+        <div className="middle-panel__gutter">
           {mastersheetData.map((panel) =>
             panel.type === "trainer" ? (
               <TrainerPanel key={"trainer_" + panel.id} trainerId={panel.id} />
@@ -74,6 +75,7 @@ function Mastersheet() {
                 key={"encounter_" + panel.id}
                 setSelectedMon={setSelectedMon}
                 encounterInfo={EncounterData.GetInfo(panel.id)}
+                encounterId={panel.id}
               />
             )
           )}

@@ -52,7 +52,7 @@
   background-color: gray;
 }
 
-.filter-panel-temp {
+.left-panel {
   grid-column: 1 / span 2;
   display: flex;
   flex-direction: column;
@@ -61,34 +61,34 @@
   font-size: x-large;
 }
 
-.filter-panel-temp > button {
+.left-panel > button {
   margin-top: 3vh;
 }
 
-.left-panel {
-  grid-column: 3 / span var(--left-panel-span);
+.middle-panel {
+  grid-column: 3 / span var(--middle-panel-span);
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: auto;
 }
 
-div.left-panel::-webkit-scrollbar {
+div.middle-panel::-webkit-scrollbar {
   background-color: black;
   scrollbar-width: 10 px;
 }
 
-div.left-panel::-webkit-scrollbar-track {
+div.middle-panel::-webkit-scrollbar-track {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
 }
 
-div.left-panel::-webkit-scrollbar-thumb {
+div.middle-panel::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
 }
 
-.left-panel__gutter {
+.middle-panel__gutter {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
@@ -97,7 +97,7 @@ div.left-panel::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
-.left-panel > div {
+.middle-panel > div {
   color: white;
 }
 
@@ -210,8 +210,8 @@ div.left-panel::-webkit-scrollbar-thumb {
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0) 0%,
-    rgba(153, 41, 234, 1) 0%,
-    rgba(88, 8, 251, 1) 100%
+    hsl(275, 0%, 54%) 100%,
+    hsl(260, 0%, 51%) 100%
   );
 }
 
@@ -311,6 +311,12 @@ div.left-panel::-webkit-scrollbar-thumb {
   height: 65%;
 }
 
+/* Table of Contents */
+.table-of-contents{
+  display: flex;
+  flex-direction: column;
+}
+
 /* Misc */
 .hidden {
   display: none;
@@ -334,7 +340,7 @@ div.left-panel::-webkit-scrollbar-thumb {
 }
 
 @media only screen and (max-width: 1800px) {
-  .left-panel {
+  .middle-panel {
     grid-column: 3 / span 12;
   }
   .right-panel {
@@ -358,7 +364,7 @@ div.left-panel::-webkit-scrollbar-thumb {
 }
 
 @media only screen and (max-width: 600px) {
-  .left-panel {
+  .middle-panel {
     grid-column: 1 / span 12;
   }
   .trainer-mon-panel {
@@ -374,7 +380,7 @@ div.left-panel::-webkit-scrollbar-thumb {
   .encounter-method {
     grid-column: span 3;
   }
-  .filter-panel-temp {
+  .left-panel {
     display: none;
   }
 }

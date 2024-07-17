@@ -7,12 +7,14 @@ import MonImage from "./MonImage";
 function EncounterPanel({
   encounterInfo,
   setSelectedMon,
+  encounterId,
 }: {
   encounterInfo: EncounterInfo;
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
+  encounterId: number;
 }) {
   return (
-    <div className="encounter-panel">
+    <div className="encounter-panel" id={"encounter_" + encounterId}>
       <div className="encounter-panel__header">{encounterInfo.name}</div>
       {encounterInfo.methods.map((method) => (
         <div

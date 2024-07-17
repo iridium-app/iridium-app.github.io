@@ -20,7 +20,10 @@
     { "type": "trainer", "id": 71 },
     {
       "type": "trainer",
-      "id": 497
+      "id": 497,
+      "subtypes": [
+        "boss"
+      ]
     },
     {
       "type": "trainer",

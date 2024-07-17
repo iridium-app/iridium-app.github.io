@@ -4,9 +4,10 @@ import TrainerMonPanel from "./TrainerMonPanel";
 
 function TrainerPanel({ trainerId }: { trainerId: number }) {
   const trainer = TrainerData.Dict[trainerId];
-  
+
   return (
     <div
+      id={"trainer_" + trainerId}
       className="trainer-panel"
       style={{ "--numMons": trainer.numMons } as React.CSSProperties}
     >
