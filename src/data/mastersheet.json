@@ -1,5 +1,7 @@
 {
   "casual": [
+    { "type": "encounter", "id": 0 },
+    { "type": "encounter", "id": 1 },
     { "type": "trainer", "id": 4 },
     {
       "type": "trainer",

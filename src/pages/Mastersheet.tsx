@@ -56,7 +56,7 @@ function Mastersheet() {
         >
           Hide Trainers
         </button>
-        <TableOfContents />
+        <TableOfContents filteredMastersheet={mastersheetData}/>
       </div>
       <div
         className="middle-panel"

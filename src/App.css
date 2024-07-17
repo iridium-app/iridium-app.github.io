@@ -313,6 +313,7 @@ div.middle-panel::-webkit-scrollbar-thumb {
 
 /* Table of Contents */
 .table-of-contents{
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
 }

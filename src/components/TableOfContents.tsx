@@ -1,15 +1,14 @@
 import { useContext } from "react";
 import { UserContext } from "../App";
-import MastersheetData from "../data/MastersheetData";
+import MastersheetData, { Panel } from "../data/MastersheetData";
 
-function TableOfContents() {
+function TableOfContents( {filteredMastersheet}: {filteredMastersheet: Panel[]} ) {
   const { difficulty } = useContext(UserContext);
-  const mastersheetData = MastersheetData.GetPanels(difficulty);
 
   return (
     <div className="table-of-contents">
       <div className="table-of-contents__header">Table of Contents</div>
-      {mastersheetData.map((panel) => (
+      {filteredMastersheet.map((panel) => (
         <button
           onClick={() =>
             document.querySelector("#" + panel.type + "_" + panel.id)?.scrollIntoView()
