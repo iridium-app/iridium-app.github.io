@@ -1,0 +1,27 @@
+{
+    "casual": [
+        {
+            "name": "Area Name",
+            "type": "Town, Route, Cave, etc.",
+            "encounters": [
+                0, 1, 2
+            ],
+            "trainers": [
+                {
+                    "id": 1,
+                    "subtype": "single"
+                },
+                {
+                    "id": 2,
+                    "subtype": "double"
+                }
+            ],
+            "items": [
+                0, 1, 2
+            ]
+        }
+    ],
+    "elite": [
+
+    ]
+}

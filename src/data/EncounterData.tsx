@@ -21,11 +21,11 @@ export type EncounterWithRate = {
 };
 
 const EncounterRateMappings: { [key: string]: number[] } = {
-  morning: [20, 20, 10, 10, 10, 10, 5, 5, 4, 4, 1, 1],
-  day: [20, 20, 10, 10, 10, 10, 5, 5, 4, 4, 1, 1],
-  night: [20, 20, 10, 10, 10, 10, 5, 5, 4, 4, 1, 1],
-  oldRod: [60, 30, 5, 4, 1],
-  surf: [60, 30, 5, 4, 1],
+  grass: [10, 10, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5],
+  // day: [10, 10, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5],
+  // night: [10, 10, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5],
+  oldRod: [40, 20, 20, 10, 10],
+  surf: [40, 20, 20, 10, 10],
 };
 
 class EncounterData {
@@ -37,12 +37,12 @@ class EncounterData {
 
   static GetMethodNiceName(type: string) {
     switch (type) {
-      case "morning":
-        return "Morning";
-      case "day":
-        return "Day";
-      case "night":
-        return "Night";
+      case "grass":
+        return "Grass";
+      // case "day":
+      //   return "Day";
+      // case "night":
+      //   return "Night";
       case "surf":
         return "Surf";
       case "oldRod":

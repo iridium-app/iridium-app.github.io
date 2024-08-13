@@ -4861,7 +4861,7 @@
         "basePower": "0",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "Prevents sleep on\\grounded Pokemon for 5 turns. Boosts electric moves. "
+        "description": "Prevents sleep on grounded Pokemon for 5 turns. Boosts electric moves. "
     },
     "MOVE_DAZZLING_GLEAM": {
         "name": "Dazzling Gleam",
@@ -6644,12 +6644,12 @@
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "80",
         "type": "TYPE_POISON",
-        "pp": "10",
+        "pp": "15",
         "description": "---"
     },
     "MOVE_PSYSHIELD_BASH": {
         "name": "Psyshield Bash",
-        "damageCategory": "SPLIT_PHYSICAL",
+        "damageCategory": "SPLIT_SPECIAL",
         "basePower": "70",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
@@ -6780,7 +6780,7 @@
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "60",
         "type": "TYPE_GHOST",
-        "pp": "10",
+        "pp": "15",
         "description": "---"
     },
     "MOVE_CEASELESS_EDGE": {
@@ -7100,7 +7100,7 @@
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "50",
         "type": "TYPE_BUG",
-        "pp": "10",
+        "pp": "20",
         "description": "---"
     },
     "MOVE_TRAILBLAZE": {
@@ -7108,7 +7108,7 @@
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "50",
         "type": "TYPE_GRASS",
-        "pp": "10",
+        "pp": "20",
         "description": "---"
     },
     "MOVE_CHILLING_WATER": {

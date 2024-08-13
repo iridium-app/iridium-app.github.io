@@ -1,43 +1,20 @@
 {
   "casual": [
-    { "type": "encounter", "id": 0 },
-    { "type": "encounter", "id": 1 },
-    { "type": "trainer", "id": 4 },
-    {
-      "type": "trainer",
-      "id": 5
-    },
-    {
-      "type": "trainer",
-      "id": 267
-    },
-    {
-      "type": "trainer",
-      "id": 65
-    }
+    { "type": "encounter", "id": 138 },
+    { "type": "encounter", "id": 136 },
+    { "type": "encounter", "id": 111 },
+    { "type": "encounter", "id": 104 },
+    { "type": "encounter", "id": 86 },
+    { "type": "encounter", "id": 96 },
+    { "type": "encounter", "id": 103 }
   ],
   "elite": [
-    { "type": "encounter", "id": 0 },
-    { "type": "encounter", "id": 1 },
-    { "type": "trainer", "id": 71 },
-    {
-      "type": "trainer",
-      "id": 497,
-      "subtypes": [
-        "boss"
-      ]
-    },
-    {
-      "type": "trainer",
-      "id": 496
-    },
-    {
-      "type": "trainer",
-      "id": 27
-    },
-    {
-      "type": "trainer",
-      "id": 688
-    }
+    { "type": "encounter", "id": 138 },
+    { "type": "encounter", "id": 136 },
+    { "type": "encounter", "id": 111 },
+    { "type": "encounter", "id": 104 },
+    { "type": "encounter", "id": 86 },
+    { "type": "encounter", "id": 96 },
+    { "type": "encounter", "id": 103 }
   ]
 }
