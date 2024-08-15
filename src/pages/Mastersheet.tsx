@@ -3,15 +3,13 @@ import { UserContext } from "../App";
 
 import Dex from "../data/Dex";
 import MoveData from "../data/MoveData";
-import TrainerPanel from "../components/TrainerPanel";
 import Utility from "../Utility";
 
 import "../App.css";
 import TypeImage from "../components/TypeImage";
-import EncounterPanel from "../components/EncounterPanel";
-import EncounterData from "../data/EncounterData";
 import TableOfContents from "../components/TableOfContents";
 import MastersheetData from "../data/MastersheetData";
+import MastersheetEntryPanel from "../components/MastersheetEntryPanel";
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
@@ -19,15 +17,15 @@ function Mastersheet() {
   const [trainerFilter, setTrainerFilter] = useState(false);
   const [encounterFilter, setEncounterFilter] = useState(false);
 
-  var mastersheetData = MastersheetData.GetPanels(difficulty);
-  if (trainerFilter)
-    mastersheetData = mastersheetData.filter((element) => {
-      return element.type !== "trainer";
-    });
-  if (encounterFilter)
-    mastersheetData = mastersheetData.filter((element) => {
-      return element.type !== "encounter";
-    });
+  var mastersheetData = MastersheetData.GetMastersheetEntries(difficulty);
+  // if (trainerFilter)
+  //   mastersheetData = mastersheetData.filter((element) => {
+  //     return element.type !== "trainer";
+  //   });
+  // if (encounterFilter)
+  //   mastersheetData = mastersheetData.filter((element) => {
+  //     return element.type !== "encounter";
+  //   });
 
   // const [searchList, setSearchList] = useState(Dex.Dict);
   var rightPanelOpen = selectedMon !== Dex.GetNone();
@@ -56,7 +54,7 @@ function Mastersheet() {
         >
           Hide Trainers
         </button>
-        <TableOfContents filteredMastersheet={mastersheetData}/>
+        <TableOfContents filteredMastersheet={mastersheetData} />
       </div>
       <div
         className="middle-panel"
@@ -67,18 +65,12 @@ function Mastersheet() {
         }
       >
         <div className="middle-panel__gutter">
-          {mastersheetData.map((panel) =>
-            panel.type === "trainer" ? (
-              <TrainerPanel key={"trainer_" + panel.id} trainerId={panel.id} />
-            ) : (
-              <EncounterPanel
-                key={"encounter_" + panel.id}
-                setSelectedMon={setSelectedMon}
-                encounterInfo={EncounterData.GetInfo(panel.id)}
-                encounterId={panel.id}
-              />
-            )
-          )}
+          {mastersheetData.map((entry) => (
+            <MastersheetEntryPanel
+              key={"entry-panel_" + entry.id}
+              entry={entry}
+            />
+          ))}
           {/*{" "}
         <form onSubmit={onSubmit}>
           <label>
@@ -217,6 +209,7 @@ function Mastersheet() {
                   src={Utility.GetDamageCategoryPath(
                     MoveData.Dict[move.name].damageCategory
                   )}
+                  alt={MoveData.Dict[move.name].damageCategory + "_image"}
                 ></img>
               </div>
             </div>

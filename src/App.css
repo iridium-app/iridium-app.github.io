@@ -89,12 +89,8 @@ div.middle-panel::-webkit-scrollbar-thumb {
 }
 
 .middle-panel__gutter {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
-  width: 100%;
+  display:flex;
+  flex-direction: column;
 }
 
 .middle-panel > div {
@@ -140,6 +136,15 @@ div.middle-panel::-webkit-scrollbar-thumb {
 }
 .move-row__power {
   grid-area: 1 / 11 / 2 / 13;
+}
+
+/* Entry Panel */
+.entry-panel {
+  display: flex;
+  flex-direction: column;
+}
+.entry-panel__header {
+  grid-column:  span 12;
 }
 
 /* Encounter Panel */

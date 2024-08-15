@@ -1,27 +1,41 @@
 {
-    "casual": [
+  "casual": [
+    {
+      "id": 1,
+      "name": "Area Name",
+      "type": "Town, Route, Cave, etc.",
+      "encounters": [
         {
-            "name": "Area Name",
-            "type": "Town, Route, Cave, etc.",
-            "encounters": [
-                0, 1, 2
-            ],
-            "trainers": [
-                {
-                    "id": 1,
-                    "subtype": "single"
-                },
-                {
-                    "id": 2,
-                    "subtype": "double"
-                }
-            ],
-            "items": [
-                0, 1, 2
-            ]
+          "id": 1,
+          "subtype": "gift"
+        },
+        {
+          "id": 2,
+          "subtype": "standard"
         }
-    ],
-    "elite": [
-
-    ]
+      ],
+      "trainers": [
+        {
+          "id": 1,
+          "subtype": "single"
+        },
+        {
+          "id": 2,
+          "subtype": "double"
+        }
+      ],
+      "items": [0, 1, 2]
+    }
+  ],
+  "elite": []
 }
+
+
+
+{ "type": "encounter", "id": 138 },
+{ "type": "encounter", "id": 136 },
+{ "type": "encounter", "id": 111 },
+{ "type": "encounter", "id": 104 },
+{ "type": "encounter", "id": 86 },
+{ "type": "encounter", "id": 96 },
+{ "type": "encounter", "id": 103 }

@@ -1329,6 +1329,36 @@
                     "MOVE_TAKE_DOWN",
                     "MOVE_MILK_DRINK"
                 ]
+            },
+            {
+                "level": "41",
+                "monWithForm": {
+                    "name": "SPECIES_AUDINO",
+                    "form": 1
+                },
+                "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_HEALER",
+                "moveset": [
+                    "MOVE_PROTECT",
+                    "MOVE_WISH",
+                    "MOVE_TOXIC",
+                    "MOVE_FLAMETHROWER"
+                ]
+            },
+            {
+                "level": "42",
+                "monWithForm": {
+                    "name": "SPECIES_REGIGIGAS",
+                    "form": 0
+                },
+                "item": "ITEM_CHOPLE_BERRY",
+                "ability": "ABILITY_PRESSURE",
+                "moveset": [
+                    "MOVE_CRUSH_GRIP",
+                    "MOVE_ICE_PUNCH",
+                    "MOVE_DRAIN_PUNCH",
+                    "MOVE_BULK_UP"
+                ]
             }
         ]
     },
@@ -6961,6 +6991,21 @@
                     "MOVE_GIGA_DRAIN",
                     "MOVE_KNOCK_OFF"
                 ]
+            },
+            {
+                "level": "21",
+                "monWithForm": {
+                    "name": "SPECIES_OVERQWIL",
+                    "form": 0
+                },
+                "item": "ITEM_BLACK_SLUDGE",
+                "ability": "ABILITY_INTIMIDATE",
+                "moveset": [
+                    "MOVE_VENOSHOCK",
+                    "MOVE_TOXIC",
+                    "MOVE_SPIKES",
+                    "MOVE_TOXIC_SPIKES"
+                ]
             }
         ]
     },
@@ -9197,6 +9242,21 @@
                     "MOVE_ROCK_THROW",
                     "MOVE_FURY_CUTTER",
                     "MOVE_SHARPEN",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "6",
+                "monWithForm": {
+                    "name": "SPECIES_CRANIDOS",
+                    "form": 0
+                },
+                "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_MOLD_BREAKER",
+                "moveset": [
+                    "MOVE_HEADBUTT",
+                    "MOVE_FOCUS_ENERGY",
+                    "MOVE_ROCK_POLISH",
                     "MOVE_NONE"
                 ]
             }
@@ -16797,6 +16857,21 @@
             {
                 "level": "75",
                 "monWithForm": {
+                    "name": "SPECIES_ROTOM",
+                    "form": 1
+                },
+                "item": "ITEM_CHARTI_BERRY",
+                "ability": "ABILITY_LEVITATE",
+                "moveset": [
+                    "MOVE_OVERHEAT",
+                    "MOVE_FOUL_PLAY",
+                    "MOVE_NASTY_PLOT",
+                    "MOVE_VOLT_SWITCH"
+                ]
+            },
+            {
+                "level": "75",
+                "monWithForm": {
                     "name": "SPECIES_REGIELEKI",
                     "form": 0
                 },
@@ -17318,6 +17393,36 @@
                     "MOVE_ICE_FANG",
                     "MOVE_BULK_UP"
                 ]
+            },
+            {
+                "level": "27",
+                "monWithForm": {
+                    "name": "SPECIES_ROTOM",
+                    "form": 5
+                },
+                "item": "ITEM_FOCUS_BAND",
+                "ability": "ABILITY_LEVITATE",
+                "moveset": [
+                    "MOVE_LEAF_STORM",
+                    "MOVE_VOLT_SWITCH",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_WILL_O_WISP"
+                ]
+            },
+            {
+                "level": "25",
+                "monWithForm": {
+                    "name": "SPECIES_KYOGRE",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_DRIZZLE",
+                "moveset": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_NONE",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
             }
         ]
     },
@@ -17384,6 +17489,21 @@
                     "MOVE_PSYSHOCK",
                     "MOVE_FOUL_PLAY",
                     "MOVE_WILL_O_WISP"
+                ]
+            },
+            {
+                "level": "37",
+                "monWithForm": {
+                    "name": "SPECIES_GRIMMSNARL",
+                    "form": 0
+                },
+                "item": "ITEM_LIGHT_CLAY",
+                "ability": "ABILITY_PRANKSTER",
+                "moveset": [
+                    "MOVE_REFLECT",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_FAKE_OUT",
+                    "MOVE_SPIRIT_BREAK"
                 ]
             }
         ]
@@ -17569,6 +17689,21 @@
             {
                 "level": "75",
                 "monWithForm": {
+                    "name": "SPECIES_METAGROSS",
+                    "form": 0
+                },
+                "item": "ITEM_METAGROSSITE",
+                "ability": "ABILITY_TOUGH_CLAWS",
+                "moveset": [
+                    "MOVE_EXPLOSION",
+                    "MOVE_METEOR_MASH",
+                    "MOVE_ICE_PUNCH",
+                    "MOVE_EARTHQUAKE"
+                ]
+            },
+            {
+                "level": "75",
+                "monWithForm": {
                     "name": "SPECIES_DELPHOX",
                     "form": 0
                 },
@@ -17751,19 +17886,66 @@
         "name": "Iris",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
-        "party": []
+        "party": [
+            {
+                "level": "3",
+                "monWithForm": {
+                    "name": "SPECIES_AXEW",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_MOLD_BREAKER",
+                "moveset": [
+                    "MOVE_SCRATCH",
+                    "MOVE_LEER",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            }
+        ]
     },
     "496": {
         "name": "Steven",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
-        "party": []
+        "party": [
+            {
+                "level": "2",
+                "monWithForm": {
+                    "name": "SPECIES_BELDUM",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_LIGHT_METAL",
+                "moveset": [
+                    "MOVE_TAKE_DOWN",
+                    "MOVE_NONE",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            }
+        ]
     },
     "497": {
         "name": "Red",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
+            {
+                "level": "75",
+                "monWithForm": {
+                    "name": "SPECIES_BLASTOISE",
+                    "form": 1
+                },
+                "item": "ITEM_BLASTOISINITE",
+                "ability": "ABILITY_MEGA_LAUNCHER",
+                "moveset": [
+                    "MOVE_FAKE_OUT",
+                    "MOVE_SHELL_SMASH",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM"
+                ]
+            },
             {
                 "level": "75",
                 "monWithForm": {
@@ -17846,6 +18028,21 @@
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
+            {
+                "level": "75",
+                "monWithForm": {
+                    "name": "SPECIES_ARCANINE",
+                    "form": 0
+                },
+                "item": "ITEM_CHARCOAL",
+                "ability": "ABILITY_INTIMIDATE",
+                "moveset": [
+                    "MOVE_RAGING_FURY",
+                    "MOVE_WILD_CHARGE",
+                    "MOVE_EXTREME_SPEED",
+                    "MOVE_SNARL"
+                ]
+            },
             {
                 "level": "75",
                 "monWithForm": {
@@ -17983,6 +18180,21 @@
             {
                 "level": "75",
                 "monWithForm": {
+                    "name": "SPECIES_NECROZMA",
+                    "form": 3
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_NEUROFORCE",
+                "moveset": [
+                    "MOVE_PRISMATIC_LASER",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_REFLECT",
+                    "MOVE_MORNING_SUN"
+                ]
+            },
+            {
+                "level": "75",
+                "monWithForm": {
                     "name": "SPECIES_ZACIAN",
                     "form": 1
                 },
@@ -18062,6 +18274,21 @@
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
+            {
+                "level": "75",
+                "monWithForm": {
+                    "name": "SPECIES_SPIRITOMB",
+                    "form": 0
+                },
+                "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_FILTER",
+                "moveset": [
+                    "MOVE_SNARL",
+                    "MOVE_FOUL_PLAY",
+                    "MOVE_PAIN_SPLIT",
+                    "MOVE_HYPNOSIS"
+                ]
+            },
             {
                 "level": "75",
                 "monWithForm": {
@@ -25155,6 +25382,21 @@
                     "MOVE_MUDDY_WATER",
                     "MOVE_SLUDGE_WAVE",
                     "MOVE_RECOVER"
+                ]
+            },
+            {
+                "level": "70",
+                "monWithForm": {
+                    "name": "SPECIES_ALTARIA",
+                    "form": 0
+                },
+                "item": "ITEM_ALTARIANITE",
+                "ability": "ABILITY_NATURAL_CURE",
+                "moveset": [
+                    "MOVE_DRACO_METEOR",
+                    "MOVE_HYPER_VOICE",
+                    "MOVE_HURRICANE",
+                    "MOVE_HEAT_WAVE"
                 ]
             }
         ]

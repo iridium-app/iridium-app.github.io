@@ -1,20 +1,33 @@
 {
   "casual": [
-    { "type": "encounter", "id": 138 },
-    { "type": "encounter", "id": 136 },
-    { "type": "encounter", "id": 111 },
-    { "type": "encounter", "id": 104 },
-    { "type": "encounter", "id": 86 },
-    { "type": "encounter", "id": 96 },
-    { "type": "encounter", "id": 103 }
+    {
+      "id": 1,
+      "name": "Caelestia Lab",
+      "type": 2,
+      "encounters": [
+        {
+          "id": 1,
+          "subtype": "gift"
+        }
+      ],
+      "trainers": [],
+      "items": []
+    },
+    {
+      "id": 2,
+      "name": "Caelestia Village",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 138,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+        { "id": 495, "subtype": "single" },
+        { "id": 496, "subtype": "single" }
+      ]
+    }
   ],
-  "elite": [
-    { "type": "encounter", "id": 138 },
-    { "type": "encounter", "id": 136 },
-    { "type": "encounter", "id": 111 },
-    { "type": "encounter", "id": 104 },
-    { "type": "encounter", "id": 86 },
-    { "type": "encounter", "id": 96 },
-    { "type": "encounter", "id": 103 }
-  ]
+  "elite": []
 }

@@ -1,0 +1,32 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Starter",
+    "choices": [
+      { "name": "SPECIES_BULBASAUR", "form": 0 },
+      { "name": "SPECIES_CHARMANDER", "form": 0 },
+      { "name": "SPECIES_SQUIRTLE", "form": 0 },
+      { "name": "SPECIES_CHIKORITA", "form": 0 },
+      { "name": "SPECIES_CYNDAQUIL", "form": 0 },
+      { "name": "SPECIES_TOTODILE", "form": 0 },
+      { "name": "SPECIES_TREECKO", "form": 0 },
+      { "name": "SPECIES_TORCHIC", "form": 0 },
+      { "name": "SPECIES_MUDKIP", "form": 0 },
+      { "name": "SPECIES_TURTWIG", "form": 0 },
+      { "name": "SPECIES_CHIMCHAR", "form": 0 },
+      { "name": "SPECIES_PIPLUP", "form": 0 },
+      { "name": "SPECIES_SNIVY", "form": 0 },
+      { "name": "SPECIES_TEPIG", "form": 0 },
+      { "name": "SPECIES_OSHAWOTT", "form": 0 },
+      { "name": "SPECIES_CHESPIN", "form": 0 },
+      { "name": "SPECIES_FENNEKIN", "form": 0 },
+      { "name": "SPECIES_FROAKIE", "form": 0 },
+      { "name": "SPECIES_ROWLET", "form": 0 },
+      { "name": "SPECIES_LITTEN", "form": 0 },
+      { "name": "SPECIES_POPPLIO", "form": 0 },
+      { "name": "SPECIES_GROOKEY", "form": 0 },
+      { "name": "SPECIES_SCORBUNNY", "form": 0 },
+      { "name": "SPECIES_SOBBLE", "form": 0 }
+    ]
+  }
+}
