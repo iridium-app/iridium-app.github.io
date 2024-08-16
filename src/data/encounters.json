@@ -10548,57 +10548,107 @@
     },
     "134": {
         "id": "134",
-        "name": "VICTORY_ROAD",
+        "name": "King's Cavern",
         "methods": [
             {
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_GRAVELER",
+                        "name": "SPECIES_RALTS",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLBAT",
+                        "name": "SPECIES_RALTS",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GRAVELER",
+                        "name": "SPECIES_SPRITZEE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLBAT",
+                        "name": "SPECIES_SWIRLIX",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DONPHAN",
+                        "name": "SPECIES_MILCERY",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DONPHAN",
+                        "name": "SPECIES_ZUBAT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ONIX",
+                        "name": "SPECIES_WOOBAT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ONIX",
+                        "name": "SPECIES_NOIBAT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ONIX",
+                        "name": "SPECIES_SPRITZEE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_RHYHORN",
+                        "name": "SPECIES_SWIRLIX",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ONIX",
+                        "name": "SPECIES_GEODUDE",
+                        "form": 1
+                    },
+                    {
+                        "name": "SPECIES_TOXEL",
+                        "form": 0
+                    }
+                ]
+            },
+            {
+                "type": "surf",
+                "encounters": [
+                    {
+                        "name": "SPECIES_FINNEON",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_RHYHORN",
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_FEEBAS",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_MAGIKARP",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_FEEBAS",
+                        "form": 0
+                    }
+                ]
+            },
+            {
+                "type": "oldRod",
+                "encounters": [
+                    {
+                        "name": "SPECIES_CLAMPERL",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_BINACLE",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SHELLDER",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_TYMPOLE",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_HORSEA",
                         "form": 0
                     }
                 ]
@@ -10607,57 +10657,57 @@
     },
     "135": {
         "id": "135",
-        "name": "VICTORY_ROAD",
+        "name": "Caelestia Springs",
         "methods": [
             {
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_DARUMAKA",
+                        "name": "SPECIES_GRUBBIN",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_TRUBBISH",
+                        "name": "SPECIES_GRUBBIN",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ZORUA",
+                        "name": "SPECIES_NIDORAN_F",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SANDSHREW",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_MINCCINO",
+                        "name": "SPECIES_NIDORAN_M",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ESPURR",
+                        "name": "SPECIES_WIMPOD",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SPRITZEE",
+                        "name": "SPECIES_SPINARAK",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SWIRLIX",
+                        "name": "SPECIES_VENIPEDE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOOMY",
+                        "name": "SPECIES_SEWADDLE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOOMY",
+                        "name": "SPECIES_GOSSIFLEUR",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SPRITZEE",
+                        "name": "SPECIES_GOSSIFLEUR",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SWIRLIX",
+                        "name": "SPECIES_YAMPER",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_JOLTIK",
                         "form": 0
                     }
                 ]

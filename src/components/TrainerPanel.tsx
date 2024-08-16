@@ -12,6 +12,7 @@ function TrainerPanel({ trainerId }: { trainerId: number }) {
       style={{ "--numMons": trainer.numMons } as React.CSSProperties}
     >
       <div className="trainer-panel__header">{trainer.name.toUpperCase()}</div>
+      {trainer.battleType == "DOUBLE_BATTLE" ? <div className="trainer-panel__header">(Double)</div> : ""}
       {trainer.party.map((mon, i) => (
         <TrainerMonPanel
           key={"trainer-mon-panel-" + trainer.name + "-" + mon.monWithForm.name}

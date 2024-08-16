@@ -15,37 +15,40 @@ function EncounterPanel({
 }) {
   return (
     <div className="encounter-panel" id={"encounter_" + encounterId}>
-      <div className="encounter-panel__header">{encounterInfo.name}</div>
       {encounterInfo.methods.map((method) => (
         <div
           className="encounter-method"
           key={"encounter-method-" + method.type}
         >
-          <div className="encoutner-method__header">
+          <div className="encounter-method__header">
             {EncounterData.GetMethodNiceName(method.type)}
           </div>
-          {EncounterData.GetFinalizedArray(method).map(
-            (encounterWithRate, index) => (
-              <div
-                className="encounter-method__encounter"
-                key={"encounter-method__encounter-" + index}
-              >
-                <button
-                  onClick={() =>
-                    setSelectedMon(Dex.GetDexInfo(encounterWithRate.encounter))
-                  }
+          <div className="encounter-method__encounters-list">
+            {EncounterData.GetFinalizedArray(method).map(
+              (encounterWithRate, index) => (
+                <div
+                  className="encounter-method__encounter"
+                  key={"encounter-method__encounter-" + index}
                 >
-                  <MonImage
-                    formName={FormTable.GetFormName(
-                      encounterWithRate.encounter
-                    )}
-                    size={50}
-                  />
-                </button>
-                <div>{encounterWithRate.rate}%</div>
-              </div>
-            )
-          )}
+                  <button
+                    onClick={() =>
+                      setSelectedMon(
+                        Dex.GetDexInfo(encounterWithRate.encounter)
+                      )
+                    }
+                  >
+                    <MonImage
+                      formName={FormTable.GetFormName(
+                        encounterWithRate.encounter
+                      )}
+                      size={50}
+                    />
+                  </button>
+                  <div>{encounterWithRate.rate}%</div>
+                </div>
+              )
+            )}
+          </div>
         </div>
       ))}
     </div>

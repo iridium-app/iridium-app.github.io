@@ -46,22 +46,59 @@
         ]
     },
     "2": {
-        "name": "Silver",
-        "numMons": "1",
+        "name": "Lilly",
+        "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "5",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_CYNDAQUIL",
+                    "name": "SPECIES_PATRAT",
                     "form": 0
                 },
-                "moveset": []
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_KEEN_EYE",
+                "moveset": [
+                    "MOVE_TACKLE",
+                    "MOVE_LEER",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "4",
+                "monWithForm": {
+                    "name": "SPECIES_POOCHYENA",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_INTIMIDATE",
+                "moveset": [
+                    "MOVE_TACKLE",
+                    "MOVE_HOWL",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "4",
+                "monWithForm": {
+                    "name": "SPECIES_MINCCINO",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_TECHNICIAN",
+                "moveset": [
+                    "MOVE_POUND",
+                    "MOVE_BABY_DOLL_EYES",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
             }
         ]
     },
     "3": {
-        "name": "Silver",
+        "name": "Jack",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -76,29 +113,29 @@
         ]
     },
     "4": {
-        "name": "Wade",
-        "numMons": "3",
+        "name": "Billy",
+        "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
             {
-                "level": "22",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_YANMEGA",
+                    "name": "SPECIES_COMBEE",
                     "form": 0
                 },
                 "item": "ITEM_NONE",
                 "ability": "ABILITY_SPEED_BOOST",
                 "moveset": [
-                    "MOVE_U_TURN",
-                    "MOVE_OMINOUS_WIND",
-                    "MOVE_ANCIENT_POWER",
-                    "MOVE_SILVER_WIND"
+                    "MOVE_GUST",
+                    "MOVE_STRING_SHOT",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "21",
+                "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_CHARJABUG",
+                    "name": "SPECIES_PINECO",
                     "form": 0
                 },
                 "item": "ITEM_LEFTOVERS",
@@ -109,71 +146,56 @@
                     "MOVE_ELECTROWEB",
                     "MOVE_STRUGGLE_BUG"
                 ]
-            },
-            {
-                "level": "22",
-                "monWithForm": {
-                    "name": "SPECIES_ACCELGOR",
-                    "form": 0
-                },
-                "item": "ITEM_LIECHI_BERRY",
-                "ability": "ABILITY_SWARM",
-                "moveset": [
-                    "MOVE_SILVER_WIND",
-                    "MOVE_ENDURE",
-                    "MOVE_REVERSAL",
-                    "MOVE_GIGA_DRAIN"
-                ]
             }
         ]
     },
     "5": {
-        "name": "Victoria",
-        "numMons": "3",
+        "name": "Kellen",
+        "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "39",
+                "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_STOUTLAND",
+                    "name": "SPECIES_PANPOUR",
                     "form": 0
                 },
-                "item": "ITEM_EJECT_BUTTON",
-                "ability": "ABILITY_INTIMIDATE",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_TORRENT",
                 "moveset": [
-                    "MOVE_TAKE_DOWN",
-                    "MOVE_WILD_CHARGE",
-                    "MOVE_BODY_SLAM",
-                    "MOVE_PSYCHIC_FANGS"
+                    "MOVE_SCRATCH",
+                    "MOVE_WATER_GUN",
+                    "MOVE_GROWL",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "40",
+                "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_PIDGEOT",
+                    "name": "SPECIES_PANSEAR",
                     "form": 0
                 },
-                "item": "ITEM_CHARTI_BERRY",
-                "ability": "ABILITY_BIG_PECKS",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_BLAZE",
                 "moveset": [
-                    "MOVE_FLY",
-                    "MOVE_U_TURN",
-                    "MOVE_SECRET_POWER",
-                    "MOVE_ROOST"
+                    "MOVE_FURY_SWIPES",
+                    "MOVE_EMBER",
+                    "MOVE_LEER",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "38",
+                "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_AMBIPOM",
+                    "name": "SPECIES_PANSAGE",
                     "form": 0
                 },
-                "item": "ITEM_LIFE_ORB",
-                "ability": "ABILITY_SCRAPPY",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_OVERGROW",
                 "moveset": [
-                    "MOVE_FAKE_OUT",
-                    "MOVE_GIGA_IMPACT",
-                    "MOVE_NONE",
+                    "MOVE_POUND",
+                    "MOVE_LEAFAGE",
+                    "MOVE_TAIL_WHIP",
                     "MOVE_NONE"
                 ]
             }

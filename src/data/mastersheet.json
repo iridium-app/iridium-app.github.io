@@ -27,6 +27,48 @@
         { "id": 495, "subtype": "single" },
         { "id": 496, "subtype": "single" }
       ]
+    },
+    {
+      "id": 2,
+      "name": "Caelestia Springs",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 135,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+      ]
+    },
+    {
+      "id": 3,
+      "name": "King's Cavern",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 134,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Stardust Hills",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 136,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+        { "id": 2, "subtype": "single" },
+        { "id": 5, "subtype": "single" },
+        { "id": 4, "subtype": "double" }
+      ]
     }
   ],
   "elite": []

@@ -13,7 +13,7 @@ function TableOfContents({
           onClick={() =>
             document
               .querySelector(
-                "#" + mastersheetEntry.type + "_" + mastersheetEntry.id
+                "#entry_" + mastersheetEntry.id
               )
               ?.scrollIntoView()
           }

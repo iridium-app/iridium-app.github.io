@@ -1,9 +1,17 @@
 import Dex, { MonWithForm } from "./Dex";
 import encounterData from "./encounters.json";
+import giftEncounterData from "./giftEncounters.json";
+
 let x: unknown = encounterData;
-interface IDictionary {
+interface IDictionaryStandard {
   [index: number]: EncounterInfo;
 }
+
+let y: unknown = giftEncounterData;
+interface IDictionaryGift {
+  [index: number]: GiftInfo;
+}
+
 export type EncounterInfo = {
   id: number;
   name: string;
@@ -20,6 +28,12 @@ export type EncounterWithRate = {
   encounter: MonWithForm;
 };
 
+export type GiftInfo = {
+  id: number;
+  name: string;
+  choices: MonWithForm[];
+};
+
 const EncounterRateMappings: { [key: string]: number[] } = {
   grass: [10, 10, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5],
   // day: [10, 10, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5],
@@ -29,10 +43,15 @@ const EncounterRateMappings: { [key: string]: number[] } = {
 };
 
 class EncounterData {
-  private static Dict: IDictionary = x as { string: EncounterInfo };
+  private static Dict: IDictionaryStandard = x as { string: EncounterInfo };
+  private static GiftDict: IDictionaryGift = y as { string: GiftInfo };
 
   static GetInfo(id: number) {
     return this.Dict[id];
+  }
+
+  static GetStarters() {
+    return this.GiftDict[1].choices;
   }
 
   static GetMethodNiceName(type: string) {

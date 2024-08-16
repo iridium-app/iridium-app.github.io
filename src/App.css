@@ -67,9 +67,6 @@
 
 .middle-panel {
   grid-column: 3 / span var(--middle-panel-span);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   overflow: auto;
 }
 
@@ -89,7 +86,7 @@ div.middle-panel::-webkit-scrollbar-thumb {
 }
 
 .middle-panel__gutter {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -142,34 +139,54 @@ div.middle-panel::-webkit-scrollbar-thumb {
 .entry-panel {
   display: flex;
   flex-direction: column;
+  background-color: darkgray;
+  border-radius: 15px;
+  margin-top: 24px;
 }
 .entry-panel__header {
-  grid-column:  span 12;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.entry-panel__starter-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 24px;
 }
 
 /* Encounter Panel */
 .encounter-panel {
-  grid-column: 3 / span 8;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 
 .encounter-panel__header {
-  grid-column: span 6;
   font-size: xx-large;
   text-align: center;
 }
 
 .encounter-method {
-  grid-column: span 2;
-  border-right: 2px solid #000000;
-  margin-left: 24px;
+  margin: 24px;
   font-size: x-large;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.encounter-method__header {
+  grid-column: span 2;
+}
+
+.encounter-method__encounters-list {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .encounter-method__encounter {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -200,6 +217,7 @@ div.middle-panel::-webkit-scrollbar-thumb {
   grid-row-gap: 24px;
   color: black;
   border-radius: 12px;
+  margin: 12px;
 }
 
 .trainer-mon-panel__box {
@@ -317,7 +335,7 @@ div.middle-panel::-webkit-scrollbar-thumb {
 }
 
 /* Table of Contents */
-.table-of-contents{
+.table-of-contents {
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
@@ -355,7 +373,6 @@ div.middle-panel::-webkit-scrollbar-thumb {
     height: 100%;
   }
 }
-
 
 @media only screen and (max-width: 1200px) {
   .trainer-panel {

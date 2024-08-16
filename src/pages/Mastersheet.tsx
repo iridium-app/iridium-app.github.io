@@ -69,6 +69,7 @@ function Mastersheet() {
             <MastersheetEntryPanel
               key={"entry-panel_" + entry.id}
               entry={entry}
+              setSelectedMon={setSelectedMon}
             />
           ))}
           {/*{" "}
