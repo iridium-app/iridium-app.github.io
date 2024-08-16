@@ -18,14 +18,6 @@ function Mastersheet() {
   const [encounterFilter, setEncounterFilter] = useState(false);
 
   var mastersheetData = MastersheetData.GetMastersheetEntries(difficulty);
-  // if (trainerFilter)
-  //   mastersheetData = mastersheetData.filter((element) => {
-  //     return element.type !== "trainer";
-  //   });
-  // if (encounterFilter)
-  //   mastersheetData = mastersheetData.filter((element) => {
-  //     return element.type !== "encounter";
-  //   });
 
   // const [searchList, setSearchList] = useState(Dex.Dict);
   var rightPanelOpen = selectedMon !== Dex.GetNone();
@@ -70,6 +62,8 @@ function Mastersheet() {
               key={"entry-panel_" + entry.id}
               entry={entry}
               setSelectedMon={setSelectedMon}
+              trainerFilter={trainerFilter}
+              encounterFilter={encounterFilter}
             />
           ))}
           {/*{" "}

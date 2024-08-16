@@ -2,6 +2,8 @@ import { ReactNode } from "react";
 import {
   MastersheetEntryType,
   MastersheetEntry,
+  Encounter,
+  Trainer,
 } from "../data/MastersheetData";
 import TrainerPanel from "./TrainerPanel";
 import EncounterPanel from "./EncounterPanel";
@@ -12,14 +14,16 @@ import FormTable from "../data/FormTable";
 
 function renderSwitch(
   entry: MastersheetEntry,
-  setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>
+  setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>,
+  encounters: Encounter[],
+  trainers: Trainer[]
 ): ReactNode {
   switch (entry.type) {
     case MastersheetEntryType.standardArea:
       return (
         <>
           <div className="entry-panel__header">{entry.name}</div>
-          {entry.trainers.length > 1 ? (
+          {trainers.length > 0 ? (
             <div className="entry-panel__trainers">
               <div className="trainer-panel__header">Trainers</div>
               {entry.trainers.map((trainer) => (
@@ -32,17 +36,21 @@ function renderSwitch(
           ) : (
             ""
           )}
-          <div className="entry-panel__encounters">
-            <div className="encounter-panel__header">Encounter</div>
-            {entry.encounters.map((encounter) => (
-              <EncounterPanel
-                key={"encounter_" + encounter.id}
-                setSelectedMon={setSelectedMon}
-                encounterInfo={EncounterData.GetInfo(encounter.id)}
-                encounterId={encounter.id}
-              />
-            ))}
-          </div>
+          {encounters.length > 0 ? (
+            <div className="entry-panel__encounters">
+              <div className="encounter-panel__header">Encounter</div>
+              {entry.encounters.map((encounter) => (
+                <EncounterPanel
+                  key={"encounter_" + encounter.id}
+                  setSelectedMon={setSelectedMon}
+                  encounterInfo={EncounterData.GetInfo(encounter.id)}
+                  encounterId={encounter.id}
+                />
+              ))}
+            </div>
+          ) : (
+            ""
+          )}
         </>
       );
     case MastersheetEntryType.starterLab:
@@ -64,13 +72,23 @@ function renderSwitch(
 function MastersheetEntryPanel({
   entry,
   setSelectedMon,
+  encounterFilter,
+  trainerFilter,
 }: {
   entry: MastersheetEntry;
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
+  encounterFilter: boolean;
+  trainerFilter: boolean;
 }) {
+  const encounters = encounterFilter ? [] : entry.encounters;
+  const trainers = trainerFilter ? [] : entry.trainers;
+
   return (
     <div id={"entry_" + entry.id} className="entry-panel">
-      {renderSwitch(entry, setSelectedMon)}
+      {(encounters.length === 0 && trainers.length === 0) ||
+      (encounterFilter && entry.type === MastersheetEntryType.starterLab)
+        ? ""
+        : renderSwitch(entry, setSelectedMon, encounters, trainers)}
     </div>
   );
 }

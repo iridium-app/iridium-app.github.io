@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Caelestia Springs",
       "type": 1,
       "encounters": [
@@ -38,11 +38,10 @@
           "subtype": "standard"
         }
       ],
-      "trainers": [
-      ]
+      "trainers": []
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "King's Cavern",
       "type": 1,
       "encounters": [
@@ -51,11 +50,10 @@
           "subtype": "standard"
         }
       ],
-      "trainers": [
-      ]
+      "trainers": []
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Stardust Hills",
       "type": 1,
       "encounters": [
@@ -71,5 +69,74 @@
       ]
     }
   ],
-  "elite": []
+  "elite": [
+    {
+      "id": 1,
+      "name": "Caelestia Lab",
+      "type": 2,
+      "encounters": [
+        {
+          "id": 1,
+          "subtype": "gift"
+        }
+      ],
+      "trainers": [],
+      "items": []
+    },
+    {
+      "id": 2,
+      "name": "Caelestia Village",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 138,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+        { "id": 495, "subtype": "single" },
+        { "id": 496, "subtype": "single" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Caelestia Springs",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 135,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": []
+    },
+    {
+      "id": 4,
+      "name": "King's Cavern",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 134,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": []
+    },
+    {
+      "id": 5,
+      "name": "Stardust Hills",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 136,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+        { "id": 2, "subtype": "single" },
+        { "id": 5, "subtype": "single" },
+        { "id": 4, "subtype": "double" }
+      ]
+    }
+  ]
 }
