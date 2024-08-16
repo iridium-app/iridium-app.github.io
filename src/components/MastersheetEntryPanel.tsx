@@ -59,7 +59,7 @@ function renderSwitch(
           <div className="entry-panel__header">{entry.name}</div>
           <div className="entry-panel__starter-list">
             {EncounterData.GetStarters().map((starter) => (
-              <button onClick={() => setSelectedMon(Dex.GetDexInfo(starter))}>
+              <button key={"starter-list-" + starter.name} onClick={() => setSelectedMon(Dex.GetDexInfo(starter))}>
                 <MonImage formName={FormTable.GetFormName(starter)} size={50} />
               </button>
             ))}

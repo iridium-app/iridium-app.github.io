@@ -10,11 +10,10 @@ function TableOfContents({
       <div className="table-of-contents__header">Table of Contents</div>
       {filteredMastersheet.map((mastersheetEntry) => (
         <button
+          key={"entry_" + mastersheetEntry.id}
           onClick={() =>
             document
-              .querySelector(
-                "#entry_" + mastersheetEntry.id
-              )
+              .querySelector("#entry_" + mastersheetEntry.id)
               ?.scrollIntoView()
           }
         >

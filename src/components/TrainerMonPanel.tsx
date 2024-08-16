@@ -1,7 +1,6 @@
 import Utility from "../Utility";
 import Dex, { DexInfo } from "../data/Dex";
 import FormTable from "../data/FormTable";
-import MoveData from "../data/MoveData";
 import ItemImage from "./ItemImage";
 import MonImage from "./MonImage";
 import MoveDisplay from "./MoveDisplay";
@@ -58,8 +57,8 @@ function TrainerMonPanel({
         <StatDisplay mon={dexInfo} />
       </div>
       <div className="trainer-mon-panel__moves">
-        {mon.moveset.map((move) => (
-          <MoveDisplay key={"move-display-" + move} moveName={move} />
+        {mon.moveset.map((move, index) => (
+          <MoveDisplay key={"move-display-" + index + "-" + move} moveName={move} />
         ))}
       </div>
     </div>
