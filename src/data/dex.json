@@ -55962,23 +55962,6 @@
         },
         "abilities": [
             "ABILITY_TORRENT"
-        ]
-    },
-    "SPECIES_DEWOTT": {
-        "name": "Dewott",
-        "types": [
-            "TYPE_WATER"
-        ],
-        "baseStats": {
-            "hp": 75,
-            "attack": 75,
-            "defense": 60,
-            "specialAttack": 83,
-            "specialDefense": 60,
-            "speed": 60
-        },
-        "abilities": [
-            "ABILITY_TORRENT"
         ],
         "levelUpLearnset": [
             {
@@ -56012,7 +55995,26 @@
             {
                 "name": "MOVE_WHIRLPOOL",
                 "level": 20
-            },
+            }
+        ]
+    },
+    "SPECIES_DEWOTT": {
+        "name": "Dewott",
+        "types": [
+            "TYPE_WATER"
+        ],
+        "baseStats": {
+            "hp": 75,
+            "attack": 75,
+            "defense": 60,
+            "specialAttack": 83,
+            "specialDefense": 60,
+            "speed": 60
+        },
+        "abilities": [
+            "ABILITY_TORRENT"
+        ],
+        "levelUpLearnset": [
             {
                 "name": "MOVE_TACKLE",
                 "level": 1
