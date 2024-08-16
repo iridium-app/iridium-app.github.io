@@ -46,11 +46,11 @@
                 "level": 3
             },
             {
-                "name": "MOVE_LEECH_SEED",
+                "name": "MOVE_POISON_POWDER",
                 "level": 5
             },
             {
-                "name": "MOVE_ACID_SPRAY",
+                "name": "MOVE_ACID",
                 "level": 8
             },
             {
@@ -58,7 +58,7 @@
                 "level": 12
             },
             {
-                "name": "MOVE_POISON_POWDER",
+                "name": "MOVE_HEADBUTT",
                 "level": 15
             },
             {
@@ -70,7 +70,7 @@
                 "level": 18
             },
             {
-                "name": "MOVE_HEADBUTT",
+                "name": "MOVE_LEECH_SEED",
                 "level": 21
             },
             {
@@ -166,11 +166,11 @@
                 "level": 4
             },
             {
-                "name": "MOVE_LEECH_SEED",
+                "name": "MOVE_POISON_POWDER",
                 "level": 6
             },
             {
-                "name": "MOVE_ACID_SPRAY",
+                "name": "MOVE_ACID",
                 "level": 9
             },
             {
@@ -178,7 +178,7 @@
                 "level": 13
             },
             {
-                "name": "MOVE_POISON_POWDER",
+                "name": "MOVE_HEADBUTT",
                 "level": 16
             },
             {
@@ -190,7 +190,7 @@
                 "level": 19
             },
             {
-                "name": "MOVE_HEADBUTT",
+                "name": "MOVE_LEECH_SEED",
                 "level": 22
             },
             {

@@ -63,6 +63,7 @@
         }
       ],
       "trainers": [
+        { "id": 3, "subtype": "boss" },
         { "id": 2, "subtype": "single" },
         { "id": 5, "subtype": "single" },
         { "id": 4, "subtype": "double" }

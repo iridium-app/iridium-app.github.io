@@ -99,16 +99,53 @@
     },
     "3": {
         "name": "Jack",
-        "numMons": "1",
+        "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
                 "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_TOTODILE",
+                    "name": "SPECIES_DROWZEE",
                     "form": 0
                 },
-                "moveset": []
+                "item": "ITEM_JABOCA_BERRY",
+                "ability": "ABILITY_INNER_FOCUS",
+                "moveset": [
+                    "MOVE_PSYWAVE",
+                    "MOVE_NIGHT_SHADE",
+                    "MOVE_POISON_GAS",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "5",
+                "monWithForm": {
+                    "name": "SPECIES_CROAGUNK",
+                    "form": 0
+                },
+                "item": "ITEM_ROWAP_BERRY",
+                "ability": "ABILITY_POISON_TOUCH",
+                "moveset": [
+                    "MOVE_SUPER_FANG",
+                    "MOVE_PURSUIT",
+                    "MOVE_FAKE_OUT",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "5",
+                "monWithForm": {
+                    "name": "SPECIES_BUNNELBY",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_CHEEK_POUCH",
+                "moveset": [
+                    "MOVE_SUPER_FANG",
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_ENDEAVOR"
+                ]
             }
         ]
     },
@@ -202,38 +239,53 @@
         ]
     },
     "6": {
-        "name": "Cole",
-        "numMons": "2",
-        "battleType": "DOUBLE_BATTLE",
+        "name": "Lilly",
+        "numMons": "3",
+        "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "20",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_GROWLITHE",
-                    "form": 1
+                    "name": "SPECIES_PATRAT",
+                    "form": 0
                 },
-                "item": "ITEM_SHUCA_BERRY",
-                "ability": "ABILITY_INTIMIDATE",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_KEEN_EYE",
                 "moveset": [
-                    "MOVE_BITE",
-                    "MOVE_ROCK_TOMB",
-                    "MOVE_FLAME_CHARGE",
-                    "MOVE_SMART_STRIKE"
+                    "MOVE_TACKLE",
+                    "MOVE_LEER",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "21",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_LUXIO",
+                    "name": "SPECIES_POOCHYENA",
                     "form": 0
                 },
-                "item": "ITEM_MAGNET",
+                "item": "ITEM_NONE",
                 "ability": "ABILITY_INTIMIDATE",
                 "moveset": [
-                    "MOVE_SPARK",
-                    "MOVE_ICE_FANG",
-                    "MOVE_SNARL",
-                    "MOVE_QUICK_ATTACK"
+                    "MOVE_TACKLE",
+                    "MOVE_HOWL",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "4",
+                "monWithForm": {
+                    "name": "SPECIES_MINCCINO",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_TECHNICIAN",
+                "moveset": [
+                    "MOVE_POUND",
+                    "MOVE_BABY_DOLL_EYES",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
                 ]
             }
         ]

@@ -20,7 +20,7 @@ class MoveData {
     const mapping = nameMapping.find(
       (mapping) => mapping.niceName === niceName
     );
-    if (mapping != undefined) {
+    if (mapping !== undefined) {
       return mapping.hgeName;
     }
     return "";

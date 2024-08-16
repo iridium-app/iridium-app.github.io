@@ -6,6 +6,7 @@ function MonImage({ formName, size }: { formName: string; size: number }) {
       className="mon-sprite"
       style={{ width: size + "px" } as React.CSSProperties}
       title={Utility.GetNiceName(formName)}
+      alt={formName}
       src={
         "/sprites/pokemon/" +
         formName.replace("SPECIES_", "").toLowerCase() +
