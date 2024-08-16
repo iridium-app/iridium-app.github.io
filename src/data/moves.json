@@ -4584,7 +4584,7 @@
         "description": "---"
     },
     "MOVE_PARABOLIC_CHARGE": {
-        "name": "ParabolicCharge\", \"Parabolic Charge",
+        "name": "Parabolic Charge",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "65",
         "type": "TYPE_ELECTRIC",
@@ -4856,7 +4856,7 @@
         "description": "---"
     },
     "MOVE_ELECTRIC_TERRAIN": {
-        "name": "ElectricTerrain\", \"Electric Terrain",
+        "name": "Electric Terrain",
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_ELECTRIC",
@@ -4976,7 +4976,7 @@
         "description": "Blasts both foes. Don't miss!"
     },
     "MOVE_PRECIPICE_BLADES": {
-        "name": "Precipice Blade\", \"Precipice Blades",
+        "name": "Precipice Blades",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "120",
         "type": "TYPE_GROUND",
@@ -5016,7 +5016,7 @@
         "description": "---"
     },
     "MOVE_ALL_OUT_PUMMELING_PHYSICAL": {
-        "name": "All-Out Pummel\", \"All-Out Pummeling",
+        "name": "All-Out Pummeling",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_FIGHTING",
@@ -5024,7 +5024,7 @@
         "description": "---"
     },
     "MOVE_ALL_OUT_PUMMELING_SPECIAL": {
-        "name": "All-Out Pummel\", \"All-Out Pummeling",
+        "name": "All-Out Pummeling",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_FIGHTING",
@@ -5032,7 +5032,7 @@
         "description": "---"
     },
     "MOVE_SUPERSONIC_SKYSTRIKE_PHYSICAL": {
-        "name": "Super Skystrike\", \"Supersonic Skystrike",
+        "name": "Supersonic Skystrike",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_FLYING",
@@ -5040,7 +5040,7 @@
         "description": "---"
     },
     "MOVE_SUPERSONIC_SKYSTRIKE_SPECIAL": {
-        "name": "Super Skystrike\", \"Supersonic Skystrike",
+        "name": "Supersonic Skystrike",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_FLYING",
@@ -5080,7 +5080,7 @@
         "description": "---"
     },
     "MOVE_CONTINENTAL_CRUSH_PHYSICAL": {
-        "name": "Continent Crush\", \"Continental Crush",
+        "name": "Continental Crush",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_ROCK",
@@ -5088,7 +5088,7 @@
         "description": "---"
     },
     "MOVE_CONTINENTAL_CRUSH_SPECIAL": {
-        "name": "Continent Crush\", \"Continental Crush",
+        "name": "Continental Crush",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_ROCK",
@@ -5112,7 +5112,7 @@
         "description": "---"
     },
     "MOVE_NEVER_ENDING_NIGHTMARE_PHYSICAL": {
-        "name": "EndlessNitemare\", \"Never-Ending Nightmare",
+        "name": "Never-Ending Nightmare",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_GHOST",
@@ -5120,7 +5120,7 @@
         "description": "---"
     },
     "MOVE_NEVER_ENDING_NIGHTMARE_SPECIAL": {
-        "name": "EndlessNitemare\", \"Never-Ending Nightmare",
+        "name": "Never-Ending Nightmare",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_GHOST",
@@ -5144,7 +5144,7 @@
         "description": "---"
     },
     "MOVE_INFERNO_OVERDRIVE_PHYSICAL": {
-        "name": "Inferno Drive\", \"Inferno Overdrive",
+        "name": "Inferno Overdrive",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_FIRE",
@@ -5152,7 +5152,7 @@
         "description": "---"
     },
     "MOVE_INFERNO_OVERDRIVE_SPECIAL": {
-        "name": "Inferno Drive\", \"Inferno Overdrive",
+        "name": "Inferno Overdrive",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_FIRE",
@@ -5208,7 +5208,7 @@
         "description": "---"
     },
     "MOVE_SHATTERED_PSYCHE_PHYSICAL": {
-        "name": "ShatteredPsyche\", \"Shattered Psyche",
+        "name": "Shattered Psyche",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_PSYCHIC",
@@ -5216,7 +5216,7 @@
         "description": "---"
     },
     "MOVE_SHATTERED_PSYCHE_SPECIAL": {
-        "name": "ShatteredPsyche\", \"Shattered Psyche",
+        "name": "Shattered Psyche",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_PSYCHIC",
@@ -5240,7 +5240,7 @@
         "description": "---"
     },
     "MOVE_DEVASTATING_DRAKE_PHYSICAL": {
-        "name": "Ultimate Drake\", \"Devastating Drake",
+        "name": "Devastating Drake",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_DRAGON",
@@ -5248,7 +5248,7 @@
         "description": "---"
     },
     "MOVE_DEVASTATING_DRAKE_SPECIAL": {
-        "name": "Ultimate Drake\", \"Devastating Drake",
+        "name": "Devastating Drake",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_DRAGON",
@@ -5256,7 +5256,7 @@
         "description": "---"
     },
     "MOVE_BLACK_HOLE_ECLIPSE_PHYSICAL": {
-        "name": "Black Eclipse\", \"Black Hole Eclipse",
+        "name": "Black Hole Eclipse",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "0",
         "type": "TYPE_DARK",
@@ -5264,7 +5264,7 @@
         "description": "---"
     },
     "MOVE_BLACK_HOLE_ECLIPSE_SPECIAL": {
-        "name": "Black Eclipse\", \"Black Hole Eclipse",
+        "name": "Black Hole Eclipse",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_DARK",
@@ -5304,7 +5304,7 @@
         "description": "---"
     },
     "MOVE_FIRST_IMPRESSION": {
-        "name": "FirstImpression\", \"First Impression",
+        "name": "First Impression",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "90",
         "type": "TYPE_BUG",
@@ -5512,7 +5512,7 @@
         "description": "---"
     },
     "MOVE_REVELATION_DANCE": {
-        "name": "RevelationDance\", \"Revelation Dance",
+        "name": "Revelation Dance",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "90",
         "type": "TYPE_NORMAL",
@@ -5584,7 +5584,7 @@
         "description": "---"
     },
     "MOVE_SINISTER_ARROW_RAID": {
-        "name": "Sinister Raid\", \"Sinister Arrow Raid",
+        "name": "Sinister Arrow Raid",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "180",
         "type": "TYPE_GHOST",
@@ -5592,7 +5592,7 @@
         "description": "---"
     },
     "MOVE_MALICIOUS_MOONSAULT": {
-        "name": "Moonsault\", \"Malicious Moonsault",
+        "name": "Malicious Moonsault",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "180",
         "type": "TYPE_DARK",
@@ -5600,7 +5600,7 @@
         "description": "---"
     },
     "MOVE_OCEANIC_OPERETTA": {
-        "name": "OceanicOperetta\", \"Oceanic Operetta",
+        "name": "Oceanic Operetta",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "195",
         "type": "TYPE_WATER",
@@ -5608,7 +5608,7 @@
         "description": "---"
     },
     "MOVE_GUARDIAN_OF_ALOLA": {
-        "name": "Alolan Guardian\", \"Guardian of Alola",
+        "name": "Guardian of Alola",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_FAIRY",
@@ -5616,7 +5616,7 @@
         "description": "---"
     },
     "MOVE_SOUL_STEALING_7_STAR_STRIKE": {
-        "name": "7-Star Strike\", \"Soul-Stealing 7-Star Strike",
+        "name": "Soul-Stealing 7-Star Strike",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "195",
         "type": "TYPE_GHOST",
@@ -5624,7 +5624,7 @@
         "description": "---"
     },
     "MOVE_STOKED_SPARKSURFER": {
-        "name": "Sparksurfer\", \"Stoked Sparksurfer",
+        "name": "Stoked Sparksurfer",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "175",
         "type": "TYPE_ELECTRIC",
@@ -5632,7 +5632,7 @@
         "description": "---"
     },
     "MOVE_PULVERIZING_PANCAKE": {
-        "name": "Pulver-Pancake\", \"Pulverizing Pancake",
+        "name": "Pulverizing Pancake",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "210",
         "type": "TYPE_NORMAL",
@@ -5640,7 +5640,7 @@
         "description": "---"
     },
     "MOVE_EXTREME_EVOBOOST": {
-        "name": "ExtremeEvoboost\", \"Extreme Evoboost",
+        "name": "Extreme Evoboost",
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_NORMAL",
@@ -5648,7 +5648,7 @@
         "description": "---"
     },
     "MOVE_GENESIS_SUPERNOVA": {
-        "name": "OriginSupernova\", \"Genesis Supernova",
+        "name": "Genesis Supernova",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "185",
         "type": "TYPE_PSYCHIC",
@@ -5680,7 +5680,7 @@
         "description": "Breaks screens."
     },
     "MOVE_STOMPING_TANTRUM": {
-        "name": "Stomp Tantrum\", \"Stomping Tantrum",
+        "name": "Stomping Tantrum",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "75",
         "type": "TYPE_GROUND",
@@ -5760,7 +5760,7 @@
         "description": "---"
     },
     "MOVE_NATURES_MADNESS": {
-        "name": "Nature\u2019sMadness\", \"Nature\u2019s Madness",
+        "name": "Nature\u2019s Madness",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "0",
         "type": "TYPE_FAIRY",
@@ -5776,7 +5776,7 @@
         "description": "---"
     },
     "MOVE_10_000_000_VOLT_THUNDERBOLT": {
-        "name": "10,000,000 Bolt\", \"10,000,000 Volt Thunderbolt",
+        "name": "10,000,000 Volt Thunderbolt",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "195",
         "type": "TYPE_ELECTRIC",
@@ -5808,7 +5808,7 @@
         "description": "---"
     },
     "MOVE_LIGHT_THAT_BURNS_THE_SKY": {
-        "name": "LightBurnSky\", \"Light That Burns the Sky",
+        "name": "Light That Burns the Sky",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "200",
         "type": "TYPE_PSYCHIC",
@@ -5816,7 +5816,7 @@
         "description": "Light that burns my eyes."
     },
     "MOVE_SEARING_SUNRAZE_SMASH": {
-        "name": "Sunraze Smash\", \"Searing Sunraze Smash",
+        "name": "Searing Sunraze Smash",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "200",
         "type": "TYPE_STEEL",
@@ -5824,7 +5824,7 @@
         "description": "---"
     },
     "MOVE_MENACING_MOONRAZE_MAELSTROM": {
-        "name": "Moonraze Storm\", \"Menacing Moonraze Maelstrom",
+        "name": "Menacing Moonraze Maelstrom",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "200",
         "type": "TYPE_GHOST",
@@ -5832,7 +5832,7 @@
         "description": "---"
     },
     "MOVE_LETS_SNUGGLE_FOREVER": {
-        "name": "Let\u2019s Snuggle\", \"Let\u2019s Snuggle Forever",
+        "name": "Let\u2019s Snuggle Forever",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "190",
         "type": "TYPE_FAIRY",
@@ -5840,7 +5840,7 @@
         "description": "---"
     },
     "MOVE_SPLINTERED_STORMSHARDS": {
-        "name": "Stormshards\", \"Splintered Stormshards",
+        "name": "Splintered Stormshards",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "190",
         "type": "TYPE_ROCK",
@@ -5848,7 +5848,7 @@
         "description": "---"
     },
     "MOVE_CLANGOROUS_SOULBLAZE": {
-        "name": "Clang Soulblaze\", \"Clangorous Soulblaze",
+        "name": "Clangorous Soulblaze",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "185",
         "type": "TYPE_DRAGON",
@@ -5960,7 +5960,7 @@
         "description": "---"
     },
     "MOVE_DOUBLE_IRON_BASH": {
-        "name": "Double IronBash\", \"Double Iron Bash",
+        "name": "Double Iron Bash",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "60",
         "type": "TYPE_STEEL",
@@ -6480,7 +6480,7 @@
         "description": "---"
     },
     "MOVE_BURNING_JEALOUSY": {
-        "name": "BurningJealousy\", \"Burning Jealousy",
+        "name": "Burning Jealousy",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "70",
         "type": "TYPE_FIRE",
@@ -6672,7 +6672,7 @@
         "description": "---"
     },
     "MOVE_SPRINGTIDE_STORM": {
-        "name": "SpringtideStorm\", \"Springtide Storm",
+        "name": "Springtide Storm",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "100",
         "type": "TYPE_FAIRY",
@@ -6792,7 +6792,7 @@
         "description": "---"
     },
     "MOVE_BLEAKWIND_STORM": {
-        "name": "BleakwindStorm\",\"Bleakwind Storm",
+        "name": "Bleakwind Storm",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "100",
         "type": "TYPE_FLYING",
@@ -6800,7 +6800,7 @@
         "description": "Hits both foes. "
     },
     "MOVE_WILDBOLT_STORM": {
-        "name": "WildboltStorm\",\"Wildbolt Storm",
+        "name": "Wildbolt Storm",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "100",
         "type": "TYPE_ELECTRIC",
@@ -6808,7 +6808,7 @@
         "description": "---"
     },
     "MOVE_SANDSEAR_STORM": {
-        "name": "SandsearStorm\",\"Sandsear Storm",
+        "name": "Sandsear Storm",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "100",
         "type": "TYPE_GROUND",
@@ -6928,7 +6928,7 @@
         "description": "---"
     },
     "MOVE_REVIVAL_BLESSING": {
-        "name": "RevivalBlessing\", \"Revival Blessing",
+        "name": "Revival Blessing",
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_NORMAL",
@@ -7048,7 +7048,7 @@
         "description": "---"
     },
     "MOVE_COLLISION_COURSE": {
-        "name": "ColisionCourse\",\"Collision Course",
+        "name": "Collision Course",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "100",
         "type": "TYPE_FIGHTING",
@@ -7072,7 +7072,7 @@
         "description": "The user creates a decoy using its own HP, then swaps places with a party Pok\u00e9mon in waiting."
     },
     "MOVE_CHILLY_RECEPTION": {
-        "name": "ChillyReception\", \"Chilly Reception",
+        "name": "Chilly Reception",
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_ICE",
