@@ -11,7 +11,8 @@
         },
         {
           "id": 2,
-          "subtype": "standard"
+          "subtype": "standard",
+          "optional": false
         }
       ],
       "trainers": [

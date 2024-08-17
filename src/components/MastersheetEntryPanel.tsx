@@ -92,8 +92,20 @@ function MastersheetEntryPanel({
     >
       <div className="entry-panel__header">
         <div className="entry-panel__header-text">{entry.name}</div>
-        <button className="entry-panel__hide-button" onClick={() => setHidden(!hidden)}>
-          <img className="minimize-sprite" src={hidden ? "/ui/maximize.png" : "/ui/minimize.png"}/>
+        <button
+          className="entry-panel__hide-button"
+          onClick={() => {
+            setHidden(!hidden);
+            // if (hidden) {
+            //   document.querySelector("#entry_" + entry.id)?.scrollIntoView();
+            // }
+          }}
+        >
+          <img
+            className="minimize-sprite"
+            alt="minimize-button"
+            src={hidden ? "/ui/maximize.png" : "/ui/minimize.png"}
+          />
         </button>
       </div>
       {(encounters.length === 0 && trainers.length === 0) ||
