@@ -1,74 +1,5 @@
 {
   "casual": [
-    {
-      "id": 1,
-      "name": "Caelestia Lab",
-      "type": 2,
-      "encounters": [
-        {
-          "id": 1,
-          "subtype": "gift"
-        }
-      ],
-      "trainers": [],
-      "items": []
-    },
-    {
-      "id": 2,
-      "name": "Caelestia Village",
-      "type": 1,
-      "encounters": [
-        {
-          "id": 138,
-          "subtype": "standard"
-        }
-      ],
-      "trainers": [
-        { "id": 495, "subtype": "single" },
-        { "id": 496, "subtype": "single" }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Caelestia Springs",
-      "type": 1,
-      "encounters": [
-        {
-          "id": 135,
-          "subtype": "standard"
-        }
-      ],
-      "trainers": []
-    },
-    {
-      "id": 4,
-      "name": "King's Cavern",
-      "type": 1,
-      "encounters": [
-        {
-          "id": 134,
-          "subtype": "standard"
-        }
-      ],
-      "trainers": []
-    },
-    {
-      "id": 5,
-      "name": "Stardust Hills",
-      "type": 1,
-      "encounters": [
-        {
-          "id": 136,
-          "subtype": "standard"
-        }
-      ],
-      "trainers": [
-        { "id": 3, "subtype": "boss" },
-        { "id": 2, "subtype": "single" },
-        { "id": 5, "subtype": "single" },
-        { "id": 4, "subtype": "double" }
-      ]
-    }
   ],
   "elite": [
     {
@@ -95,8 +26,8 @@
         }
       ],
       "trainers": [
-        { "id": 495, "subtype": "single" },
-        { "id": 496, "subtype": "single" }
+        { "id": 495, "subtype": "single", "mandatory": true },
+        { "id": 496, "subtype": "single", "mandatory": true }
       ]
     },
     {
@@ -134,9 +65,10 @@
         }
       ],
       "trainers": [
-        { "id": 2, "subtype": "single" },
-        { "id": 5, "subtype": "single" },
-        { "id": 4, "subtype": "double" }
+        { "id": 3, "subtype": "boss", "mandatory": false},
+        { "id": 2, "subtype": "standard", "mandatory": true },
+        { "id": 5, "subtype": "standard", "mandatory": true },
+        { "id": 4, "subtype": "standard", "mandatory": true }
       ]
     }
   ]

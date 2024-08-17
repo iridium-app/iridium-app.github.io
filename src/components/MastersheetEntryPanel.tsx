@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 import {
   MastersheetEntryType,
   MastersheetEntry,
@@ -22,14 +22,13 @@ function renderSwitch(
     case MastersheetEntryType.standardArea:
       return (
         <>
-          <div className="entry-panel__header">{entry.name}</div>
           {trainers.length > 0 ? (
             <div className="entry-panel__trainers">
               <div className="trainer-panel__header">Trainers</div>
               {entry.trainers.map((trainer) => (
                 <TrainerPanel
                   key={"trainer_" + trainer.id}
-                  trainerId={trainer.id}
+                  mastersheetTrainer={trainer}
                 />
               ))}
             </div>
@@ -56,10 +55,12 @@ function renderSwitch(
     case MastersheetEntryType.starterLab:
       return (
         <>
-          <div className="entry-panel__header">{entry.name}</div>
           <div className="entry-panel__starter-list">
             {EncounterData.GetStarters().map((starter) => (
-              <button key={"starter-list-" + starter.name} onClick={() => setSelectedMon(Dex.GetDexInfo(starter))}>
+              <button
+                key={"starter-list-" + starter.name}
+                onClick={() => setSelectedMon(Dex.GetDexInfo(starter))}
+              >
                 <MonImage formName={FormTable.GetFormName(starter)} size={50} />
               </button>
             ))}
@@ -80,11 +81,21 @@ function MastersheetEntryPanel({
   encounterFilter: boolean;
   trainerFilter: boolean;
 }) {
+  const [hidden, setHidden] = useState(false);
   const encounters = encounterFilter ? [] : entry.encounters;
   const trainers = trainerFilter ? [] : entry.trainers;
 
   return (
-    <div id={"entry_" + entry.id} className="entry-panel">
+    <div
+      id={"entry_" + entry.id}
+      className={hidden ? "entry-panel entry-panel-hidden" : "entry-panel"}
+    >
+      <div className="entry-panel__header">
+        <div className="entry-panel__header-text">{entry.name}</div>
+        <button className="entry-panel__hide-button" onClick={() => setHidden(!hidden)}>
+          <img className="minimize-sprite" src={hidden ? "/ui/maximize.png" : "/ui/minimize.png"}/>
+        </button>
+      </div>
       {(encounters.length === 0 && trainers.length === 0) ||
       (encounterFilter && entry.type === MastersheetEntryType.starterLab)
         ? ""

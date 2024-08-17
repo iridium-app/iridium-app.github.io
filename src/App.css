@@ -143,9 +143,29 @@ div.middle-panel::-webkit-scrollbar-thumb {
   border-radius: 15px;
   margin-top: 24px;
 }
+
+.entry-panel-hidden {
+  height: 50px;
+  overflow: hidden;
+}
+
 .entry-panel__header {
   font-size: xx-large;
   text-align: center;
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.entry-panel__header-text {
+  grid-column: 3;
+}
+
+.entry-panel__hide-button {
+  grid-column: 5;
+  background-color: unset;
+  border: unset;
+  justify-self: end;
+  padding-right: 24px;
 }
 
 .entry-panel__starter-list {
@@ -361,6 +381,10 @@ div.middle-panel::-webkit-scrollbar-thumb {
 
 .pressed:hover {
   background-color: rgb(36, 36, 36);
+}
+
+.minimize-sprite {
+  max-width: 48px;
 }
 
 @media only screen and (max-width: 1800px) {

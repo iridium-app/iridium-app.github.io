@@ -13,6 +13,7 @@ export type Encounter = {
 export type Trainer = {
   id: number;
   subtype: string;
+  mandatory: boolean
 }
 
 export type MastersheetEntry = {
