@@ -8,9 +8,8 @@ import {
 import TrainerPanel from "./TrainerPanel";
 import EncounterPanel from "./EncounterPanel";
 import EncounterData from "../data/EncounterData";
-import Dex, { DexInfo } from "../data/Dex";
-import MonImage from "./MonImage";
-import FormTable from "../data/FormTable";
+import { DexInfo } from "../data/Dex";
+import StarterLabPanel from "./specialPanels/StarterLabPanel";
 
 function renderSwitch(
   entry: MastersheetEntry,
@@ -43,7 +42,7 @@ function renderSwitch(
                   key={"encounter_" + encounter.id}
                   setSelectedMon={setSelectedMon}
                   encounterInfo={EncounterData.GetInfo(encounter.id)}
-                  encounterId={encounter.id}
+                  encounter={encounter}
                 />
               ))}
             </div>
@@ -54,18 +53,7 @@ function renderSwitch(
       );
     case MastersheetEntryType.starterLab:
       return (
-        <>
-          <div className="entry-panel__starter-list">
-            {EncounterData.GetStarters().map((starter) => (
-              <button
-                key={"starter-list-" + starter.name}
-                onClick={() => setSelectedMon(Dex.GetDexInfo(starter))}
-              >
-                <MonImage formName={FormTable.GetFormName(starter)} size={50} />
-              </button>
-            ))}
-          </div>
-        </>
+        <StarterLabPanel setSelectedMon={setSelectedMon} />
       );
   }
 }

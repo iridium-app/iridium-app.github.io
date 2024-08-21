@@ -6,18 +6,18 @@ import Mastersheet from "./pages/Mastersheet";
 import Nav from "./pages/Nav";
 import usePersistedState from "use-persisted-state-hook";
 import Dev from "./pages/Dev";
+import EncounterList, { UserDataContext } from "./data/UserData";
 
-export type GlobalContext = {
-  difficulty: string;
-  setDifficulty: (d: string) => void;
-};
-export const UserContext = React.createContext<GlobalContext>({
+export const UserContext = React.createContext<UserDataContext>({
   difficulty: "casual",
   setDifficulty: () => {},
+  encounterList: new EncounterList([]),
+  setEncounterList: () => {}
 });
 
 function App() {
   const [difficulty, setDifficulty] = usePersistedState("difficulty", "casual");
+  const [encounterList, setEncounterList] = usePersistedState("encounterList", new EncounterList([]));
   // const onSubmit = (event: React.FormEvent) => {
   //   event.preventDefault();
   // };
@@ -31,7 +31,7 @@ function App() {
     <div className="app">
       <HashRouter>
         <UserContext.Provider
-          value={{ difficulty: difficulty, setDifficulty: setDifficulty }}
+          value={{ difficulty: difficulty, setDifficulty: setDifficulty, encounterList: encounterList, setEncounterList: setEncounterList }}
         >
           <Routes>
             <Route path="/" element={<Nav />}>

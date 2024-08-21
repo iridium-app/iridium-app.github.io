@@ -152,7 +152,7 @@ div.middle-panel::-webkit-scrollbar-thumb {
 .entry-panel__header {
   font-size: xx-large;
   text-align: center;
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
@@ -169,10 +169,16 @@ div.middle-panel::-webkit-scrollbar-thumb {
 }
 
 .entry-panel__starter-list {
+  align-self: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 24px;
+}
+
+.entry-panel__starter {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Encounter Panel */
@@ -208,6 +214,12 @@ div.middle-panel::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.encounter-panel__caught {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Trainer Panel */
@@ -385,6 +397,10 @@ div.middle-panel::-webkit-scrollbar-thumb {
 
 .minimize-sprite {
   max-width: 48px;
+}
+
+.center {
+  align-self: center;
 }
 
 @media only screen and (max-width: 1800px) {
