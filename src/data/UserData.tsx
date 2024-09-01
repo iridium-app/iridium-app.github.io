@@ -5,6 +5,8 @@ export type UserDataContext = {
   setDifficulty: (d: string) => void;
   encounterList: EncounterList;
   setEncounterList: (encounterList: EncounterList) => void;
+  completedTrainerList: number[];
+  setCompletedTrainerList: (completedTrainerList: number[]) => void;
 };
 
 export type Encounter = {

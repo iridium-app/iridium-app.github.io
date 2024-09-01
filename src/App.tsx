@@ -12,12 +12,21 @@ export const UserContext = React.createContext<UserDataContext>({
   difficulty: "casual",
   setDifficulty: () => {},
   encounterList: new EncounterList([]),
-  setEncounterList: () => {}
+  setEncounterList: () => {},
+  completedTrainerList: [],
+  setCompletedTrainerList: () => [],
 });
 
 function App() {
   const [difficulty, setDifficulty] = usePersistedState("difficulty", "casual");
-  const [encounterList, setEncounterList] = usePersistedState("encounterList", new EncounterList([]));
+  const [encounterList, setEncounterList] = usePersistedState(
+    "encounterList",
+    new EncounterList([])
+  );
+  const [completedTrainerList, setCompletedTrainerList] = usePersistedState(
+    "completedTrainerList",
+    [] as number[]
+  );
   // const onSubmit = (event: React.FormEvent) => {
   //   event.preventDefault();
   // };
@@ -31,7 +40,14 @@ function App() {
     <div className="app">
       <HashRouter>
         <UserContext.Provider
-          value={{ difficulty: difficulty, setDifficulty: setDifficulty, encounterList: encounterList, setEncounterList: setEncounterList }}
+          value={{
+            difficulty: difficulty,
+            setDifficulty: setDifficulty,
+            encounterList: encounterList,
+            setEncounterList: setEncounterList,
+            completedTrainerList: completedTrainerList,
+            setCompletedTrainerList: setCompletedTrainerList,
+          }}
         >
           <Routes>
             <Route path="/" element={<Nav />}>

@@ -52,9 +52,7 @@ function renderSwitch(
         </>
       );
     case MastersheetEntryType.starterLab:
-      return (
-        <StarterLabPanel setSelectedMon={setSelectedMon} />
-      );
+      return <StarterLabPanel setSelectedMon={setSelectedMon} />;
   }
 }
 
