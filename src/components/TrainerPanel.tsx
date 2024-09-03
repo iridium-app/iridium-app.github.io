@@ -26,7 +26,7 @@ function TrainerPanel({ mastersheetTrainer }: { mastersheetTrainer: Trainer }) {
     >
       <div className="trainer-panel__header">
         {trainer.name.toUpperCase()}
-        <button
+        <button className="trainer-panel__complete-button"
           onClick={() => CompleteToggleOnClick(hide, mastersheetTrainer.id)}
         >
           {hide ? "Undo" : "Mark Completed"}
