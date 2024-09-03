@@ -34,15 +34,14 @@ function Mastersheet() {
   };
 
   const clearDataOnClick = () => {
-    setEncounterList(new EncounterList([]))
-    setCompletedTrainerList([])
-  }
+    setEncounterList(new EncounterList([]));
+    setCompletedTrainerList([]);
+  };
 
   return (
     <div className="mastersheet">
       <div className="left-panel">
-        <button onClick={clearDataOnClick}>Clear Data</button>
-        -
+        <button onClick={clearDataOnClick}>Clear Data</button>-
         <div>Filters</div>
         <button
           className={encounterFilter ? "filter-btn pressed" : "filter-btn"}

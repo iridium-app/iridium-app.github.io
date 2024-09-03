@@ -77,12 +77,18 @@ function EncounterPanel({
       ) : (
         <div className="encounter-panel__caught">
           <MonImage formName={caught.monWithForm.name} size={80} />
-          <button onClick={() =>
-            setEncounterList({
-              ...encounterList,
-              Encounters: encounterList.Encounters.filter(e => e.id !== encounter.id),
-            })
-          }>Undo</button>
+          <button
+            onClick={() =>
+              setEncounterList({
+                ...encounterList,
+                Encounters: encounterList.Encounters.filter(
+                  (e) => e.id !== encounter.id
+                ),
+              })
+            }
+          >
+            Undo
+          </button>
         </div>
       )}
     </div>

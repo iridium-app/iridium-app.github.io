@@ -8,13 +8,13 @@ type MastersheetJson = {
 export type Encounter = {
   id: number;
   subtype: string;
-}
+};
 
 export type Trainer = {
   id: number;
   subtype: string;
-  mandatory: boolean
-}
+  mandatory: boolean;
+};
 
 export type MastersheetEntry = {
   id: number;
@@ -27,7 +27,7 @@ export type MastersheetEntry = {
 
 export enum MastersheetEntryType {
   standardArea = 1,
-  starterLab = 2
+  starterLab = 2,
 }
 
 class MastersheetData {
