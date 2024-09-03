@@ -70,6 +70,71 @@
         { "id": 5, "subtype": "standard", "mandatory": true },
         { "id": 4, "subtype": "standard", "mandatory": true }
       ]
+    },
+    {
+      "id": 6,
+      "name": "Fall Fjord",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 111,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mt. Colden Foothills",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 104,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Starlit Cavern",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 86,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+      ]
+    },
+    {
+      "id": 9,
+      "name": "White Forest",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 96,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Penumbra Grove",
+      "type": 1,
+      "encounters": [
+        {
+          "id": 103,
+          "subtype": "standard"
+        }
+      ],
+      "trainers": [
+      ]
     }
   ]
 }
