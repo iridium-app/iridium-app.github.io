@@ -247,10 +247,6 @@ div.middle-panel::-webkit-scrollbar-thumb {
   align-items: center
 }
 
-.trainer-panel__complete-button {
-  
-}
-
 .trainer-mon-panel {
   grid-column: span 3;
   min-height: 50px;

@@ -10,12 +10,15 @@ import TypeImage from "../components/TypeImage";
 import TableOfContents from "../components/TableOfContents";
 import MastersheetData from "../data/MastersheetData";
 import MastersheetEntryPanel from "../components/MastersheetEntryPanel";
+import EncounterList from "../data/UserData";
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
   const [selectedMon, setSelectedMon] = useState(Dex.GetNone());
   const [trainerFilter, setTrainerFilter] = useState(false);
   const [encounterFilter, setEncounterFilter] = useState(false);
+  const { setEncounterList } = useContext(UserContext);
+  const { setCompletedTrainerList } = useContext(UserContext);
 
   var mastersheetData = MastersheetData.GetMastersheetEntries(difficulty);
 
@@ -26,17 +29,24 @@ function Mastersheet() {
     setSelectedMon(Dex.GetNone());
   };
 
-  const encounterFilterBtnClick = () => {
+  const encounterFilterOnClick = () => {
     setEncounterFilter(!encounterFilter);
   };
+
+  const clearDataOnClick = () => {
+    setEncounterList(new EncounterList([]))
+    setCompletedTrainerList([])
+  }
 
   return (
     <div className="mastersheet">
       <div className="left-panel">
+        <button onClick={clearDataOnClick}>Clear Data</button>
+        -
         <div>Filters</div>
         <button
           className={encounterFilter ? "filter-btn pressed" : "filter-btn"}
-          onClick={encounterFilterBtnClick}
+          onClick={encounterFilterOnClick}
         >
           Hide Encounters
         </button>
