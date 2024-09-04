@@ -664,12 +664,12 @@
         "description": "The foe is stricken by a shock wave. This attack always inflicts 40 HP damage."
     },
     "MOVE_FIRE_SPIN": {
-        "name": "Fire Vortex",
+        "name": "Fire Spin",
         "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "50",
+        "basePower": "35",
         "type": "TYPE_FIRE",
         "pp": "10",
-        "description": "A blazing fire swirls around the foe. It has a high critical-hit ratio."
+        "description": "A blazing fire swirls around the foe. Binds the target. "
     },
     "MOVE_THUNDER_SHOCK": {
         "name": "Thunder Shock",
@@ -1162,7 +1162,7 @@
     "MOVE_BUBBLE": {
         "name": "Bubble",
         "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "35",
+        "basePower": "40",
         "type": "TYPE_WATER",
         "pp": "10",
         "description": "A spray of countless bubbles is jetted at the foe. It may also lower the target\u2019s Speed stat."
@@ -2000,12 +2000,12 @@
         "description": "The user hits with a punch that may lower the target\u2019s Defense. It can also smash cracked boulders."
     },
     "MOVE_WHIRLPOOL": {
-        "name": "Aqua Vortex",
+        "name": "Whirlpool",
         "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "50",
+        "basePower": "35",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "A harsh whirlpool swirls around the foe. It has a high critical-hit ratio."
+        "description": "A harsh whirlpool swirls around the foe. Binds the target. "
     },
     "MOVE_BEAT_UP": {
         "name": "Beat Up",
@@ -2624,12 +2624,12 @@
         "description": "The user attacks the foe with an uppercut thrown skyward with force. "
     },
     "MOVE_SAND_TOMB": {
-        "name": "Sand Vortex",
+        "name": "Sand Tomb",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "50",
+        "basePower": "35",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "A harsh sandstorm swirls around the foe. It has a high critical-hit ratio."
+        "description": "A harsh sandstorm swirls around the foe. Binds the target. "
     },
     "MOVE_SHEER_COLD": {
         "name": "Permafrost",
@@ -5389,7 +5389,7 @@
         "basePower": "40",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "Slams the foe with a flurry of leaves. That's it. "
     },
     "MOVE_SPOTLIGHT": {
         "name": "Spotlight",
@@ -6450,10 +6450,10 @@
     "MOVE_GRASSY_GLIDE": {
         "name": "Grassy Glide",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "70",
+        "basePower": "55",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "+1 priority on Grassy Terrain. "
     },
     "MOVE_RISING_VOLTAGE": {
         "name": "Rising Voltage",

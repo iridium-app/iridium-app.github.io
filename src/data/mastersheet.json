@@ -1,6 +1,5 @@
 {
-  "casual": [
-  ],
+  "casual": [],
   "elite": [
     {
       "id": 1,
@@ -65,10 +64,11 @@
         }
       ],
       "trainers": [
-        { "id": 3, "subtype": "boss", "mandatory": false},
+        { "id": 3, "subtype": "boss", "mandatory": false },
         { "id": 2, "subtype": "standard", "mandatory": true },
         { "id": 5, "subtype": "standard", "mandatory": true },
-        { "id": 4, "subtype": "standard", "mandatory": true }
+        { "id": 4, "subtype": "standard", "mandatory": true },
+        { "id": 14, "subtype": "standard", "mandatory": true }
       ]
     },
     {
@@ -82,6 +82,13 @@
         }
       ],
       "trainers": [
+        { "id": 7, "subtype": "standard", "mandatory": true },
+        { "id": 8, "subtype": "standard", "mandatory": true },
+        { "id": 9, "subtype": "standard", "mandatory": true },
+        { "id": 10, "subtype": "standard", "mandatory": true },
+        { "id": 11, "subtype": "standard", "mandatory": true },
+        { "id": 12, "subtype": "standard", "mandatory": true },
+        { "id": 13, "subtype": "standard", "mandatory": false }
       ]
     },
     {
@@ -94,8 +101,7 @@
           "subtype": "standard"
         }
       ],
-      "trainers": [
-      ]
+      "trainers": []
     },
     {
       "id": 8,
@@ -107,8 +113,7 @@
           "subtype": "standard"
         }
       ],
-      "trainers": [
-      ]
+      "trainers": []
     },
     {
       "id": 9,
@@ -120,8 +125,7 @@
           "subtype": "standard"
         }
       ],
-      "trainers": [
-      ]
+      "trainers": [{ "id": 19, "suybtype": "standard", "mandatory": true }]
     },
     {
       "id": 10,
@@ -133,8 +137,7 @@
           "subtype": "standard"
         }
       ],
-      "trainers": [
-      ]
+      "trainers": []
     }
   ]
 }
