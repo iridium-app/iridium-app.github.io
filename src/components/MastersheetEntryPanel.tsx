@@ -3,7 +3,7 @@ import {
   MastersheetEntryType,
   MastersheetEntry,
   Encounter,
-  Trainer,
+  Battle,
 } from "../data/MastersheetData";
 import TrainerPanel from "./TrainerPanel";
 import EncounterPanel from "./EncounterPanel";
@@ -15,7 +15,7 @@ function renderSwitch(
   entry: MastersheetEntry,
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>,
   encounters: Encounter[],
-  trainers: Trainer[]
+  trainers: Battle[]
 ): ReactNode {
   switch (entry.type) {
     case MastersheetEntryType.standardArea:
@@ -24,10 +24,10 @@ function renderSwitch(
           {trainers.length > 0 ? (
             <div className="entry-panel__trainers">
               <div className="trainer-panel__header">Trainers</div>
-              {entry.trainers.map((trainer) => (
+              {entry.battles.map((trainer) => (
                 <TrainerPanel
                   key={"trainer_" + trainer.id}
-                  mastersheetTrainer={trainer}
+                  battle={trainer}
                 />
               ))}
             </div>
@@ -69,7 +69,7 @@ function MastersheetEntryPanel({
 }) {
   const [hidden, setHidden] = useState(false);
   const encounters = encounterFilter ? [] : entry.encounters;
-  const trainers = trainerFilter ? [] : entry.trainers;
+  const trainers = trainerFilter ? [] : entry.battles;
 
   return (
     <div

@@ -1,14 +1,15 @@
 import { useContext } from "react";
-import { Trainer } from "../data/MastersheetData";
+import { Battle, MultiBattle } from "../data/MastersheetData";
 import TrainerData from "../data/TrainerData";
 import TrainerMonPanel from "./TrainerMonPanel";
 import { UserContext } from "../App";
 
-function TrainerPanel({ mastersheetTrainer }: { mastersheetTrainer: Trainer }) {
-  const trainer = TrainerData.Dict[mastersheetTrainer.id];
+function TrainerPanel({ battle: battle }: { battle: Battle }) {
+  const trainer = TrainerData.Dict[battle.id];
+  const trainerName = battle.subtype === "multi" ? (battle as MultiBattle).name.toUpperCase() : trainer.name.toUpperCase();
   const { completedTrainerList, setCompletedTrainerList } =
     useContext(UserContext);
-  const hide = completedTrainerList.includes(mastersheetTrainer.id);
+  const hide = completedTrainerList.includes(battle.id);
 
   function CompleteToggleOnClick(hide: boolean, id: number) {
     if (hide) {
@@ -20,15 +21,15 @@ function TrainerPanel({ mastersheetTrainer }: { mastersheetTrainer: Trainer }) {
 
   return (
     <div
-      id={"trainer_" + mastersheetTrainer.id}
+      id={"trainer_" + battle.id}
       className={"trainer-panel" + (hide ? " trainer-panel-hidden" : "")}
       style={{ "--numMons": trainer.numMons } as React.CSSProperties}
     >
       <div className="trainer-panel__header">
-        {trainer.name.toUpperCase()}
+        {trainerName}
         <button
           className="trainer-panel__complete-button"
-          onClick={() => CompleteToggleOnClick(hide, mastersheetTrainer.id)}
+          onClick={() => CompleteToggleOnClick(hide, battle.id)}
         >
           {hide ? "Undo" : "Mark Completed"}
         </button>
@@ -38,14 +39,19 @@ function TrainerPanel({ mastersheetTrainer }: { mastersheetTrainer: Trainer }) {
       ) : (
         ""
       )}
-      {mastersheetTrainer.mandatory ? (
+      {battle.mandatory ? (
         ""
       ) : (
         <div className="trainer-panel__header">(Optional)</div>
       )}
+      {battle.subtype === "multi" ? (
+        <div className="trainer-panel__header">(Ally)</div>
+      ) : (
+        ""
+      )}
       {trainer.party.map((mon, i) => (
         <TrainerMonPanel
-          key={"trainer-mon-panel-" + trainer.name + "-" + mon.monWithForm.name}
+          key={"trainer-mon-panel-" + trainer.name + "-" + mon.monWithForm.name + "-" + mon.monWithForm.form}
           mon={mon}
           column={i % 2 === 0 ? "left" : "right"}
         />

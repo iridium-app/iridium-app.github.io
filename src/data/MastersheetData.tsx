@@ -10,18 +10,38 @@ export type Encounter = {
   subtype: string;
 };
 
-export type Trainer = {
-  id: number;
-  subtype: string;
-  mandatory: boolean;
-};
+export class Battle {
+  constructor(
+    public id: number,
+    public subtype: string,
+    public mandatory: boolean
+  ) {
+    this.id = id;
+    this.subtype = subtype;
+    this.mandatory = mandatory;
+  }
+}
+
+export class MultiBattle extends Battle {
+  constructor(
+    public id: number,
+    public subtype: string,
+    public mandatory: boolean,
+    public name: string,
+    public enemyIds: number[]
+  ) {
+    super(id, subtype, mandatory);
+    this.name = name;
+    this.enemyIds = enemyIds;
+  }
+}
 
 export type MastersheetEntry = {
   id: number;
   name: string;
   type: MastersheetEntryType;
   encounters: Encounter[];
-  trainers: Trainer[];
+  battles: Battle[];
   items: number[];
 };
 
