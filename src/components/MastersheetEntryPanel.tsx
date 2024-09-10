@@ -5,11 +5,11 @@ import {
   Encounter,
   Battle,
 } from "../data/MastersheetData";
-import TrainerPanel from "./TrainerPanel";
 import EncounterPanel from "./EncounterPanel";
 import EncounterData from "../data/EncounterData";
 import { DexInfo } from "../data/Dex";
 import StarterLabPanel from "./specialPanels/StarterLabPanel";
+import BattlePanel from "./BattlePanel";
 
 function renderSwitch(
   entry: MastersheetEntry,
@@ -23,9 +23,9 @@ function renderSwitch(
         <>
           {trainers.length > 0 ? (
             <div className="entry-panel__trainers">
-              <div className="trainer-panel__header">Trainers</div>
+              <div className="trainer-panel__header">Battles</div>
               {entry.battles.map((trainer) => (
-                <TrainerPanel
+                <BattlePanel
                   key={"trainer_" + trainer.id}
                   battle={trainer}
                 />
