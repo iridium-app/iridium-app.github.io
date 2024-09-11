@@ -40,6 +40,7 @@ export type MastersheetEntry = {
   id: number;
   name: string;
   type: MastersheetEntryType;
+  areaEffect: string;
   encounters: Encounter[];
   battles: Battle[];
   items: number[];

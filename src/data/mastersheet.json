@@ -5,137 +5,116 @@
       "id": 1,
       "name": "Caelestia Lab",
       "type": 2,
-      "encounters": [
-        {
-          "id": 1,
-          "subtype": "gift"
-        }
-      ],
+      "encounters": [{ "id": 1, "subtype": "gift" }],
       "battles": [],
-      "items": []
+      "items": [],
+      "areaEffect": "none"
     },
     {
       "id": 2,
       "name": "Caelestia Village",
       "type": 1,
-      "encounters": [
-        {
-          "id": 138,
-          "subtype": "standard"
-        }
-      ],
+      "encounters": [{ "id": 138, "subtype": "standard" }],
       "battles": [
         { "id": 495, "subtype": "standard", "mandatory": true },
         { "id": 496, "subtype": "standard", "mandatory": true }
-      ]
+      ],
+      "areaEffect": "none"
     },
     {
       "id": 3,
       "name": "Caelestia Springs",
       "type": 1,
-      "encounters": [
-        {
-          "id": 135,
-          "subtype": "standard"
-        }
-      ],
-      "battles": []
+      "encounters": [{ "id": 135, "subtype": "standard" }],
+      "battles": [],
+      "areaEffect": "none"
     },
     {
       "id": 4,
       "name": "King's Cavern",
       "type": 1,
-      "encounters": [
-        {
-          "id": 134,
-          "subtype": "standard"
-        }
-      ],
-      "battles": []
+      "encounters": [{ "id": 134, "subtype": "standard" }],
+      "battles": [],
+      "areaEffect": "none"
     },
     {
       "id": 5,
       "name": "Stardust Hills",
       "type": 1,
-      "encounters": [
-        {
-          "id": 136,
-          "subtype": "standard"
-        }
-      ],
+      "encounters": [{ "id": 136, "subtype": "standard" }],
       "battles": [
         { "id": 3, "subtype": "boss", "mandatory": false },
         { "id": 2, "subtype": "standard", "mandatory": true },
         { "id": 5, "subtype": "standard", "mandatory": true },
         { "id": 4, "subtype": "standard", "mandatory": true },
         { "id": 14, "subtype": "standard", "mandatory": true }
-      ]
+      ],
+      "areaEffect": "none"
     },
     {
       "id": 6,
       "name": "Fall Fjord",
       "type": 1,
-      "encounters": [
-        {
-          "id": 111,
-          "subtype": "standard"
-        }
-      ],
+      "encounters": [{ "id": 111, "subtype": "standard" }],
       "battles": [
         { "id": 7, "subtype": "standard", "mandatory": true },
         { "id": 8, "subtype": "standard", "mandatory": true },
         { "id": 9, "subtype": "standard", "mandatory": true },
-        { "id": 11, "subtype": "multi", "mandatory": true, "name": "Fall Fjord Plasma Tag", "enemyIds": [10, 12] },
+        {
+          "id": 11,
+          "subtype": "multi",
+          "mandatory": true,
+          "name": "Fall Fjord Plasma Tag",
+          "enemyIds": [10, 12]
+        },
         { "id": 13, "subtype": "standard", "mandatory": false }
-      ]
+      ],
+      "areaEffect": "none"
     },
     {
       "id": 7,
       "name": "Mt. Colden Foothills",
       "type": 1,
-      "encounters": [
-        {
-          "id": 104,
-          "subtype": "standard"
-        }
-      ],
-      "battles": []
+      "encounters": [{ "id": 104, "subtype": "standard" }],
+      "battles": [],
+      "areaEffect": "none"
     },
     {
       "id": 8,
       "name": "Starlit Cavern",
       "type": 1,
-      "encounters": [
-        {
-          "id": 86,
-          "subtype": "standard"
-        }
-      ],
-      "battles": []
+      "encounters": [{ "id": 86, "subtype": "standard" }],
+      "battles": [],
+      "areaEffect": "none"
     },
     {
       "id": 9,
       "name": "White Forest",
       "type": 1,
-      "encounters": [
-        {
-          "id": 96,
-          "subtype": "standard"
-        }
-      ],
-      "battles": [{ "id": 19, "subtype": "standard", "mandatory": true }]
+      "encounters": [{ "id": 96, "subtype": "standard" }],
+      "battles": [{ "id": 19, "subtype": "standard", "mandatory": true }],
+      "areaEffect": "none"
     },
     {
       "id": 10,
       "name": "Penumbra Grove",
       "type": 1,
-      "encounters": [
-        {
-          "id": 103,
-          "subtype": "standard"
-        }
-      ],
-      "battles": []
+      "encounters": [{ "id": 103, "subtype": "standard" }],
+      "battles": [],
+      "areaEffect": "none"
+    },
+    {
+      "id": 11,
+      "name": "White Treehollow",
+      "type": 1,
+      "areaEffect": "Automatic Grassy Terrain",
+      "encounters": [],
+      "battles": [
+        { "id": 15, "subtype": "standard", "mandatory": true },
+        { "id": 16, "subtype": "standard", "mandatory": true },
+        { "id": 18, "subtype": "standard", "mandatory": true },
+        { "id": 17, "subtype": "boss", "mandatory": true }
+      ]
     }
   ]
 }

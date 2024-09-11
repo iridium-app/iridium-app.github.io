@@ -5373,7 +5373,7 @@
         "basePower": "0",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "Recovers HP equal to foe's Attack stat. Lowers foe's Attack one stage. "
     },
     "MOVE_SOLAR_BLADE": {
         "name": "Solar Blade",

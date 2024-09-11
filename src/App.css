@@ -169,6 +169,10 @@ div.middle-panel::-webkit-scrollbar-thumb {
   padding-right: 24px;
 }
 
+.entry-panel__effect {
+  grid-column: 1 / span 5;
+}
+
 .entry-panel__starter-list {
   align-self: center;
   display: flex;

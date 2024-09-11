@@ -93,6 +93,7 @@ function MastersheetEntryPanel({
             src={hidden ? "/ui/maximize.png" : "/ui/minimize.png"}
           />
         </button>
+        {entry.areaEffect !== "none" ? <div className="entry-panel__effect">({entry.areaEffect})</div> : ""}
       </div>
       {(encounters.length === 0 && trainers.length === 0) ||
       (encounterFilter && entry.type === MastersheetEntryType.starterLab)

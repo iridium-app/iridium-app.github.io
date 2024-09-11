@@ -53693,11 +53693,11 @@
         ],
         "levelUpLearnset": [
             {
-                "name": "MOVE_SEISMIC_TOSS",
+                "name": "MOVE_GRASSY_GLIDE",
                 "level": 1
             },
             {
-                "name": "MOVE_COSMIC_POWER",
+                "name": "MOVE_STRENGTH_SAP",
                 "level": 1
             },
             {
@@ -56947,76 +56947,76 @@
         ],
         "levelUpLearnset": [
             {
-                "name": "MOVE_SCRATCH",
+                "name": "MOVE_BEAT_UP",
+                "level": 1
+            },
+            {
+                "name": "MOVE_COVET",
                 "level": 1
             },
             {
                 "name": "MOVE_GROWL",
                 "level": 1
-            },
-            {
-                "name": "MOVE_GROWL",
-                "level": 3
-            },
-            {
-                "name": "MOVE_SAND_ATTACK",
-                "level": 6
-            },
-            {
-                "name": "MOVE_ASSIST",
-                "level": 6
-            },
-            {
-                "name": "MOVE_FAKE_OUT",
-                "level": 12
-            },
-            {
-                "name": "MOVE_FURY_SWIPES",
-                "level": 12
-            },
-            {
-                "name": "MOVE_PURSUIT",
-                "level": 15
-            },
-            {
-                "name": "MOVE_TORMENT",
-                "level": 17
-            },
-            {
-                "name": "MOVE_ASSURANCE",
-                "level": 24
-            },
-            {
-                "name": "MOVE_HONE_CLAWS",
-                "level": 24
-            },
-            {
-                "name": "MOVE_SLASH",
-                "level": 30
-            },
-            {
-                "name": "MOVE_CAPTIVATE",
-                "level": 33
-            },
-            {
-                "name": "MOVE_SUCKER_PUNCH",
-                "level": 36
-            },
-            {
-                "name": "MOVE_NASTY_PLOT",
-                "level": 36
-            },
-            {
-                "name": "MOVE_NIGHT_SLASH",
-                "level": 36
             },
             {
                 "name": "MOVE_SNATCH",
-                "level": 39
+                "level": 4
+            },
+            {
+                "name": "MOVE_SNARL",
+                "level": 7
+            },
+            {
+                "name": "MOVE_DRAINING_KISS",
+                "level": 9
+            },
+            {
+                "name": "MOVE_CHARM",
+                "level": 12
+            },
+            {
+                "name": "MOVE_FAKE_OUT",
+                "level": 15
+            },
+            {
+                "name": "MOVE_PURSUIT",
+                "level": 17
+            },
+            {
+                "name": "MOVE_NIGHT_SLASH",
+                "level": 20
+            },
+            {
+                "name": "MOVE_BURNING_JEALOUSY",
+                "level": 23
+            },
+            {
+                "name": "MOVE_ENCORE",
+                "level": 26
+            },
+            {
+                "name": "MOVE_ASSIST",
+                "level": 28
             },
             {
                 "name": "MOVE_PLAY_ROUGH",
-                "level": 44
+                "level": 30
+            },
+            {
+                "name": "MOVE_DARK_PULSE",
+                "level": 33
+            },
+            {
+                "name": "MOVE_TRICK",
+                "level": 36
+            },
+            {
+                "name": "MOVE_FOUL_PLAY",
+                "level": 38
+            },
+            {
+                "name": "MOVE_MOONBLAST",
+                "level": 41
             }
         ]
     },
@@ -57039,88 +57039,128 @@
         ],
         "levelUpLearnset": [
             {
-                "name": "MOVE_SCRATCH",
+                "name": "MOVE_PARTING_SHOT",
+                "level": 0
+            },
+            {
+                "name": "MOVE_PARTING_SHOT",
                 "level": 1
-            },
-            {
-                "name": "MOVE_GROWL",
-                "level": 1
-            },
-            {
-                "name": "MOVE_SAND_ATTACK",
-                "level": 1
-            },
-            {
-                "name": "MOVE_FAKE_OUT",
-                "level": 1
-            },
-            {
-                "name": "MOVE_ASSIST",
-                "level": 1
-            },
-            {
-                "name": "MOVE_GROWL",
-                "level": 3
-            },
-            {
-                "name": "MOVE_ASSIST",
-                "level": 6
-            },
-            {
-                "name": "MOVE_SAND_ATTACK",
-                "level": 10
-            },
-            {
-                "name": "MOVE_FURY_SWIPES",
-                "level": 12
-            },
-            {
-                "name": "MOVE_PURSUIT",
-                "level": 15
-            },
-            {
-                "name": "MOVE_TORMENT",
-                "level": 17
-            },
-            {
-                "name": "MOVE_FAKE_OUT",
-                "level": 22
-            },
-            {
-                "name": "MOVE_ASSURANCE",
-                "level": 26
-            },
-            {
-                "name": "MOVE_HONE_CLAWS",
-                "level": 27
-            },
-            {
-                "name": "MOVE_SLASH",
-                "level": 34
-            },
-            {
-                "name": "MOVE_TAUNT",
-                "level": 38
-            },
-            {
-                "name": "MOVE_SUCKER_PUNCH",
-                "level": 43
             },
             {
                 "name": "MOVE_NASTY_PLOT",
-                "level": 44
+                "level": 1
             },
             {
-                "name": "MOVE_NIGHT_SLASH",
-                "level": 44
+                "name": "MOVE_COPYCAT",
+                "level": 1
+            },
+            {
+                "name": "MOVE_HONE_CLAWS",
+                "level": 1
+            },
+            {
+                "name": "MOVE_SEED_BOMB",
+                "level": 1
+            },
+            {
+                "name": "MOVE_BEAT_UP",
+                "level": 1
+            },
+            {
+                "name": "MOVE_COVET",
+                "level": 1
+            },
+            {
+                "name": "MOVE_GROWL",
+                "level": 1
             },
             {
                 "name": "MOVE_SNATCH",
-                "level": 47
+                "level": 4
+            },
+            {
+                "name": "MOVE_SNARL",
+                "level": 7
+            },
+            {
+                "name": "MOVE_DRAINING_KISS",
+                "level": 9
+            },
+            {
+                "name": "MOVE_CHARM",
+                "level": 12
+            },
+            {
+                "name": "MOVE_FAKE_OUT",
+                "level": 15
+            },
+            {
+                "name": "MOVE_PURSUIT",
+                "level": 17
+            },
+            {
+                "name": "MOVE_NIGHT_SLASH",
+                "level": 20
+            },
+            {
+                "name": "MOVE_BURNING_JEALOUSY",
+                "level": 23
+            },
+            {
+                "name": "MOVE_ENCORE",
+                "level": 26
+            },
+            {
+                "name": "MOVE_ASSIST",
+                "level": 28
             },
             {
                 "name": "MOVE_PLAY_ROUGH",
-                "level": 54
+                "level": 30
+            },
+            {
+                "name": "MOVE_DARK_PULSE",
+                "level": 33
+            },
+            {
+                "name": "MOVE_TRICK",
+                "level": 36
+            },
+            {
+                "name": "MOVE_FOUL_PLAY",
+                "level": 38
+            },
+            {
+                "name": "MOVE_MOONBLAST",
+                "level": 41
+            },
+            {
+                "name": "MOVE_FOLLOW_ME",
+                "level": 44
+            },
+            {
+                "name": "MOVE_HELPING_HAND",
+                "level": 47
+            },
+            {
+                "name": "MOVE_BADDY_BAD",
+                "level": 51
+            },
+            {
+                "name": "MOVE_PSYCHIC_NOISE",
+                "level": 53
+            },
+            {
+                "name": "MOVE_GUNK_SHOT",
+                "level": 56
+            },
+            {
+                "name": "MOVE_SUCKER_PUNCH",
+                "level": 59
+            },
+            {
+                "name": "MOVE_BATON_PASS",
+                "level": 61
             }
         ]
     },
@@ -78661,76 +78701,80 @@
         ],
         "levelUpLearnset": [
             {
-                "name": "MOVE_ASTONISH",
-                "level": 1
-            },
-            {
-                "name": "MOVE_TACKLE",
-                "level": 1
-            },
-            {
-                "name": "MOVE_CONFUSE_RAY",
-                "level": 1
-            },
-            {
                 "name": "MOVE_BRANCH_POKE",
-                "level": 4
+                "level": 1
             },
             {
                 "name": "MOVE_ASTONISH",
-                "level": 5
-            },
-            {
-                "name": "MOVE_CONFUSE_RAY",
-                "level": 12
-            },
-            {
-                "name": "MOVE_LEECH_SEED",
-                "level": 15
+                "level": 1
             },
             {
                 "name": "MOVE_GROWTH",
-                "level": 16
+                "level": 1
             },
             {
-                "name": "MOVE_FEINT_ATTACK",
-                "level": 19
+                "name": "MOVE_CONFUSE_RAY",
+                "level": 4
             },
             {
-                "name": "MOVE_HEX",
-                "level": 20
-            },
-            {
-                "name": "MOVE_WILL_O_WISP",
-                "level": 23
+                "name": "MOVE_POWER_UP_PUNCH",
+                "level": 7
             },
             {
                 "name": "MOVE_INGRAIN",
-                "level": 27
+                "level": 9
             },
             {
-                "name": "MOVE_CURSE",
+                "name": "MOVE_FEINT_ATTACK",
+                "level": 12
+            },
+            {
+                "name": "MOVE_BULLET_SEED",
+                "level": 15
+            },
+            {
+                "name": "MOVE_SHADOW_SNEAK",
+                "level": 17
+            },
+            {
+                "name": "MOVE_GRASSY_TERRAIN",
+                "level": 20
+            },
+            {
+                "name": "MOVE_FOUL_PLAY",
+                "level": 23
+            },
+            {
+                "name": "MOVE_LEECH_SEED",
+                "level": 26
+            },
+            {
+                "name": "MOVE_FORESTS_CURSE",
+                "level": 28
+            },
+            {
+                "name": "MOVE_SKITTER_SMACK",
                 "level": 30
             },
             {
                 "name": "MOVE_HORN_LEECH",
-                "level": 40
+                "level": 31
             },
             {
-                "name": "MOVE_PHANTOM_FORCE",
-                "level": 40
+                "name": "MOVE_SHADOW_CLAW",
+                "level": 33
             },
             {
-                "name": "MOVE_DESTINY_BOND",
-                "level": 43
+                "name": "MOVE_WILL_O_WISP",
+                "level": 36
             },
             {
-                "name": "MOVE_FORESTS_CURSE",
-                "level": 44
+                "name": "MOVE_POISON_JAB",
+                "level": 38
             },
             {
-                "name": "MOVE_WOOD_HAMMER",
-                "level": 46
+                "name": "MOVE_RECYCLE",
+                "level": 42
             }
         ]
     },
@@ -78754,19 +78798,19 @@
         ],
         "levelUpLearnset": [
             {
-                "name": "MOVE_SHADOW_CLAW",
+                "name": "MOVE_CURSE",
                 "level": 0
             },
             {
-                "name": "MOVE_SHADOW_CLAW",
+                "name": "MOVE_CURSE",
                 "level": 1
             },
             {
-                "name": "MOVE_ASTONISH",
-                "level": 1
+                "name": "MOVE_PHANTOM_FORCE",
+                "level": 0
             },
             {
-                "name": "MOVE_TACKLE",
+                "name": "MOVE_PHANTOM_FORCE",
                 "level": 1
             },
             {
@@ -78774,76 +78818,120 @@
                 "level": 1
             },
             {
-                "name": "MOVE_LEECH_SEED",
-                "level": 1
-            },
-            {
-                "name": "MOVE_HORN_LEECH",
-                "level": 1
-            },
-            {
-                "name": "MOVE_CONFUSE_RAY",
-                "level": 1
-            },
-            {
-                "name": "MOVE_GROWTH",
-                "level": 1
-            },
-            {
                 "name": "MOVE_ASTONISH",
-                "level": 5
+                "level": 1
             },
             {
-                "name": "MOVE_CONFUSE_RAY",
-                "level": 12
+                "name": "MOVE_ROCK_SLIDE",
+                "level": 1
+            },
+            {
+                "name": "MOVE_DRAIN_PUNCH",
+                "level": 1
             },
             {
                 "name": "MOVE_GROWTH",
-                "level": 16
+                "level": 1
             },
             {
-                "name": "MOVE_FEINT_ATTACK",
-                "level": 19
+                "name": "MOVE_CONFUSE_RAY",
+                "level": 4
             },
             {
-                "name": "MOVE_HEX",
-                "level": 20
-            },
-            {
-                "name": "MOVE_WILL_O_WISP",
-                "level": 23
-            },
-            {
-                "name": "MOVE_LEECH_SEED",
-                "level": 23
+                "name": "MOVE_POWER_UP_PUNCH",
+                "level": 7
             },
             {
                 "name": "MOVE_INGRAIN",
-                "level": 27
+                "level": 9
             },
             {
-                "name": "MOVE_CURSE",
+                "name": "MOVE_FEINT_ATTACK",
+                "level": 12
+            },
+            {
+                "name": "MOVE_BULLET_SEED",
+                "level": 15
+            },
+            {
+                "name": "MOVE_SHADOW_SNEAK",
+                "level": 17
+            },
+            {
+                "name": "MOVE_SYNTHESIS",
+                "level": 20
+            },
+            {
+                "name": "MOVE_FOUL_PLAY",
+                "level": 23
+            },
+            {
+                "name": "MOVE_LEECH_SEED",
+                "level": 26
+            },
+            {
+                "name": "MOVE_FORESTS_CURSE",
+                "level": 28
+            },
+            {
+                "name": "MOVE_SKITTER_SMACK",
                 "level": 30
             },
             {
                 "name": "MOVE_HORN_LEECH",
-                "level": 40
+                "level": 31
             },
             {
-                "name": "MOVE_PHANTOM_FORCE",
-                "level": 40
+                "name": "MOVE_SHADOW_CLAW",
+                "level": 33
             },
             {
-                "name": "MOVE_DESTINY_BOND",
-                "level": 43
+                "name": "MOVE_WILL_O_WISP",
+                "level": 36
             },
             {
-                "name": "MOVE_FORESTS_CURSE",
-                "level": 44
+                "name": "MOVE_POISON_JAB",
+                "level": 38
+            },
+            {
+                "name": "MOVE_RECYCLE",
+                "level": 42
+            },
+            {
+                "name": "MOVE_LEAF_BLADE",
+                "level": 45
+            },
+            {
+                "name": "MOVE_PAIN_SPLIT",
+                "level": 48
+            },
+            {
+                "name": "MOVE_WORRY_SEED",
+                "level": 51
+            },
+            {
+                "name": "MOVE_KNOCK_OFF",
+                "level": 53
+            },
+            {
+                "name": "MOVE_SWORDS_DANCE",
+                "level": 55
+            },
+            {
+                "name": "MOVE_GUNK_SHOT",
+                "level": 58
             },
             {
                 "name": "MOVE_WOOD_HAMMER",
-                "level": 46
+                "level": 62
+            },
+            {
+                "name": "MOVE_POLTERGEIST",
+                "level": 65
+            },
+            {
+                "name": "MOVE_DESTINY_BOND",
+                "level": 68
             }
         ]
     },
@@ -90764,8 +90852,28 @@
         ],
         "levelUpLearnset": [
             {
-                "name": "MOVE_STRUGGLE_BUG",
+                "name": "MOVE_INFESTATION",
                 "level": 1
+            },
+            {
+                "name": "MOVE_STRING_SHOT",
+                "level": 1
+            },
+            {
+                "name": "MOVE_CONFUSION",
+                "level": 1
+            },
+            {
+                "name": "MOVE_STICKY_WEB",
+                "level": 4
+            },
+            {
+                "name": "MOVE_HIDDEN_POWER",
+                "level": 7
+            },
+            {
+                "name": "MOVE_STRUGGLE_BUG",
+                "level": 9
             }
         ]
     },
@@ -90790,6 +90898,14 @@
         "levelUpLearnset": [
             {
                 "name": "MOVE_REFLECT",
+                "level": 0
+            },
+            {
+                "name": "MOVE_LIGHT_SCREEN",
+                "level": 0
+            },
+            {
+                "name": "MOVE_REFLECT",
                 "level": 1
             },
             {
@@ -90797,12 +90913,52 @@
                 "level": 1
             },
             {
+                "name": "MOVE_INFESTATION",
+                "level": 1
+            },
+            {
+                "name": "MOVE_STRING_SHOT",
+                "level": 1
+            },
+            {
                 "name": "MOVE_CONFUSION",
                 "level": 1
             },
             {
+                "name": "MOVE_STICKY_WEB",
+                "level": 4
+            },
+            {
+                "name": "MOVE_HIDDEN_POWER",
+                "level": 7
+            },
+            {
                 "name": "MOVE_STRUGGLE_BUG",
-                "level": 1
+                "level": 9
+            },
+            {
+                "name": "MOVE_CHARGE_BEAM",
+                "level": 12
+            },
+            {
+                "name": "MOVE_PSYBEAM",
+                "level": 15
+            },
+            {
+                "name": "MOVE_RECOVER",
+                "level": 18
+            },
+            {
+                "name": "MOVE_TRICK_ROOM",
+                "level": 22
+            },
+            {
+                "name": "MOVE_SIGNAL_BEAM",
+                "level": 25
+            },
+            {
+                "name": "MOVE_BODY_PRESS",
+                "level": 28
             }
         ]
     },
@@ -90826,7 +90982,35 @@
         ],
         "levelUpLearnset": [
             {
+                "name": "MOVE_EXPANDING_FORCE",
+                "level": 0
+            },
+            {
+                "name": "MOVE_CALM_MIND",
+                "level": 0
+            },
+            {
+                "name": "MOVE_EXPANDING_FORCE",
+                "level": 1
+            },
+            {
+                "name": "MOVE_INSTRUCT",
+                "level": 1
+            },
+            {
+                "name": "MOVE_CALM_MIND",
+                "level": 1
+            },
+            {
                 "name": "MOVE_REFLECT",
+                "level": 1
+            },
+            {
+                "name": "MOVE_COSMIC_POWER",
+                "level": 1
+            },
+            {
+                "name": "MOVE_IRON_DEFENSE",
                 "level": 1
             },
             {
@@ -90834,60 +91018,112 @@
                 "level": 1
             },
             {
+                "name": "MOVE_INFESTATION",
+                "level": 1
+            },
+            {
+                "name": "MOVE_STRING_SHOT",
+                "level": 1
+            },
+            {
                 "name": "MOVE_CONFUSION",
                 "level": 1
             },
             {
-                "name": "MOVE_STRUGGLE_BUG",
-                "level": 1
-            },
-            {
-                "name": "MOVE_CONFUSE_RAY",
+                "name": "MOVE_STICKY_WEB",
                 "level": 4
             },
             {
-                "name": "MOVE_MAGIC_COAT",
-                "level": 8
+                "name": "MOVE_HIDDEN_POWER",
+                "level": 7
             },
             {
-                "name": "MOVE_AGILITY",
+                "name": "MOVE_STRUGGLE_BUG",
+                "level": 9
+            },
+            {
+                "name": "MOVE_CHARGE_BEAM",
                 "level": 12
             },
             {
                 "name": "MOVE_PSYBEAM",
-                "level": 16
+                "level": 15
             },
             {
-                "name": "MOVE_HYPNOSIS",
-                "level": 20
+                "name": "MOVE_RECOVER",
+                "level": 18
             },
             {
-                "name": "MOVE_ALLY_SWITCH",
-                "level": 24
+                "name": "MOVE_TRICK_ROOM",
+                "level": 22
             },
             {
-                "name": "MOVE_BUG_BUZZ",
+                "name": "MOVE_SIGNAL_BEAM",
+                "level": 25
+            },
+            {
+                "name": "MOVE_BODY_PRESS",
                 "level": 28
             },
             {
-                "name": "MOVE_MIRROR_COAT",
-                "level": 32
+                "name": "MOVE_BUG_BUZZ",
+                "level": 33
             },
             {
-                "name": "MOVE_PSYCHIC",
+                "name": "MOVE_GIGA_DRAIN",
                 "level": 36
             },
             {
-                "name": "MOVE_AFTER_YOU",
-                "level": 40
-            },
-            {
-                "name": "MOVE_CALM_MIND",
-                "level": 44
-            },
-            {
                 "name": "MOVE_PSYCHIC_TERRAIN",
+                "level": 39
+            },
+            {
+                "name": "MOVE_TELEPORT",
+                "level": 42
+            },
+            {
+                "name": "MOVE_PSYCHIC",
+                "level": 45
+            },
+            {
+                "name": "MOVE_ALLY_SWITCH",
                 "level": 48
+            },
+            {
+                "name": "MOVE_TAIL_GLOW",
+                "level": 52
+            },
+            {
+                "name": "MOVE_MIRROR_COAT",
+                "level": 56
+            },
+            {
+                "name": "MOVE_THUNDERBOLT",
+                "level": 58
+            },
+            {
+                "name": "MOVE_ENERGY_BALL",
+                "level": 62
+            },
+            {
+                "name": "MOVE_U_TURN",
+                "level": 66
+            },
+            {
+                "name": "MOVE_QUIVER_DANCE",
+                "level": 69
+            },
+            {
+                "name": "MOVE_BATON_PASS",
+                "level": 73
+            },
+            {
+                "name": "MOVE_METEOR_BEAM",
+                "level": 76
+            },
+            {
+                "name": "MOVE_PSYCHO_BOOST",
+                "level": 79
             }
         ]
     },
@@ -105232,55 +105468,71 @@
             },
             {
                 "name": "MOVE_GROWL",
-                "level": 6
+                "level": 1
             },
             {
-                "name": "MOVE_ECHOED_VOICE",
+                "name": "MOVE_ICE_BALL",
+                "level": 4
+            },
+            {
+                "name": "MOVE_RAPID_SPIN",
+                "level": 7
+            },
+            {
+                "name": "MOVE_HEAVY_SLAM",
                 "level": 9
             },
             {
-                "name": "MOVE_ICE_SHARD",
+                "name": "MOVE_SNOWSCAPE",
                 "level": 12
             },
             {
-                "name": "MOVE_REST",
+                "name": "MOVE_ICE_SHARD",
                 "level": 15
             },
             {
-                "name": "MOVE_TAKE_DOWN",
-                "level": 19
+                "name": "MOVE_YAWN",
+                "level": 17
             },
             {
-                "name": "MOVE_FLAIL",
-                "level": 25
+                "name": "MOVE_ICE_FANG",
+                "level": 20
+            },
+            {
+                "name": "MOVE_THUNDER_FANG",
+                "level": 23
+            },
+            {
+                "name": "MOVE_REST",
+                "level": 26
+            },
+            {
+                "name": "MOVE_SLEEP_TALK",
+                "level": 26
             },
             {
                 "name": "MOVE_AVALANCHE",
-                "level": 27
-            },
-            {
-                "name": "MOVE_BOUNCE",
-                "level": 31
+                "level": 28
             },
             {
                 "name": "MOVE_BODY_SLAM",
-                "level": 36
+                "level": 30
             },
             {
-                "name": "MOVE_AMNESIA",
-                "level": 40
+                "name": "MOVE_AURORA_VEIL",
+                "level": 33
             },
             {
                 "name": "MOVE_ICE_SPINNER",
-                "level": 44
+                "level": 36
             },
             {
-                "name": "MOVE_DOUBLE_EDGE",
-                "level": 49
+                "name": "MOVE_HIGH_HORSEPOWER",
+                "level": 38
             },
             {
-                "name": "MOVE_BLIZZARD",
-                "level": 53
+                "name": "MOVE_ENTRAINMENT",
+                "level": 41
             }
         ]
     },
@@ -105303,6 +105555,22 @@
         ],
         "levelUpLearnset": [
             {
+                "name": "MOVE_SPIKY_SHIELD",
+                "level": 0
+            },
+            {
+                "name": "MOVE_SPIKY_SHIELD",
+                "level": 1
+            },
+            {
+                "name": "MOVE_STEEL_ROLLER",
+                "level": 1
+            },
+            {
+                "name": "MOVE_BOUNCE",
+                "level": 1
+            },
+            {
                 "name": "MOVE_POWDER_SNOW",
                 "level": 1
             },
@@ -105312,55 +105580,103 @@
             },
             {
                 "name": "MOVE_GROWL",
-                "level": 6
+                "level": 1
             },
             {
-                "name": "MOVE_ECHOED_VOICE",
+                "name": "MOVE_ICE_BALL",
+                "level": 4
+            },
+            {
+                "name": "MOVE_RAPID_SPIN",
+                "level": 7
+            },
+            {
+                "name": "MOVE_HEAVY_SLAM",
                 "level": 9
             },
             {
-                "name": "MOVE_ICE_SHARD",
+                "name": "MOVE_SNOWSCAPE",
                 "level": 12
             },
             {
-                "name": "MOVE_REST",
+                "name": "MOVE_ICE_SHARD",
                 "level": 15
             },
             {
-                "name": "MOVE_TAKE_DOWN",
-                "level": 19
+                "name": "MOVE_YAWN",
+                "level": 17
             },
             {
-                "name": "MOVE_FLAIL",
-                "level": 25
+                "name": "MOVE_ICE_FANG",
+                "level": 20
+            },
+            {
+                "name": "MOVE_THUNDER_FANG",
+                "level": 23
+            },
+            {
+                "name": "MOVE_REST",
+                "level": 26
+            },
+            {
+                "name": "MOVE_SLEEP_TALK",
+                "level": 26
             },
             {
                 "name": "MOVE_AVALANCHE",
-                "level": 27
-            },
-            {
-                "name": "MOVE_BOUNCE",
-                "level": 31
+                "level": 28
             },
             {
                 "name": "MOVE_BODY_SLAM",
-                "level": 36
+                "level": 30
             },
             {
-                "name": "MOVE_AMNESIA",
-                "level": 40
+                "name": "MOVE_AURORA_VEIL",
+                "level": 33
             },
             {
                 "name": "MOVE_ICE_SPINNER",
-                "level": 44
+                "level": 36
             },
             {
-                "name": "MOVE_DOUBLE_EDGE",
+                "name": "MOVE_HIGH_HORSEPOWER",
+                "level": 38
+            },
+            {
+                "name": "MOVE_ENTRAINMENT",
+                "level": 41
+            },
+            {
+                "name": "MOVE_ICICLE_CRASH",
+                "level": 45
+            },
+            {
+                "name": "MOVE_PLAY_ROUGH",
                 "level": 49
             },
             {
-                "name": "MOVE_BLIZZARD",
-                "level": 53
+                "name": "MOVE_HELPING_HAND",
+                "level": 51
+            },
+            {
+                "name": "MOVE_LIQUIDATION",
+                "level": 54
+            },
+            {
+                "name": "MOVE_SLACK_OFF",
+                "level": 58
+            },
+            {
+                "name": "MOVE_SUPERPOWER",
+                "level": 62
+            },
+            {
+                "name": "MOVE_MOUNTAIN_GALE",
+                "level": 65
+            },
+            {
+                "name": "MOVE_BELLY_DRUM",
+                "level": 70
             }
         ]
     },
