@@ -12,10 +12,21 @@ function renderSwitch(battle: Battle, hide: boolean): ReactNode {
     case "standard":
       return (
         <>
-          <TrainerPanel
-            trainer={mainTrainer}
-            hide={hide}
-          />
+          <TrainerPanel trainer={mainTrainer} hide={hide} showName={false} />
+        </>
+      );
+    case "multi":
+      return (
+        <>
+          <TrainerPanel trainer={mainTrainer} hide={hide} showName={true} />
+          {(battle as MultiBattle).enemyIds.map((id) => (
+            <TrainerPanel
+              key={id}
+              trainer={TrainerData.Dict[id]}
+              hide={hide}
+              showName={true}
+            />
+          ))}
         </>
       );
   }
@@ -27,7 +38,7 @@ function GetBattleName(battle: Battle): string {
     : TrainerData.Dict[battle.id].name.toUpperCase();
 }
 
-function BattlePanel({ battle: battle }: { battle: Battle }) {
+function BattlePanel({ battle }: { battle: Battle }) {
   const { completedTrainerList, setCompletedTrainerList } =
     useContext(UserContext);
   const hide = completedTrainerList.includes(battle.id);

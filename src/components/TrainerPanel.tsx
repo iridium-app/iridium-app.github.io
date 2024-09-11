@@ -2,11 +2,13 @@ import { TrainerInfo } from "../data/TrainerData";
 import TrainerMonPanel from "./TrainerMonPanel";
 
 function TrainerPanel({
-  trainer: trainer,
-  hide: hide,
+  trainer,
+  hide,
+  showName,
 }: {
   trainer: TrainerInfo;
   hide: boolean;
+  showName: boolean;
 }) {
   return (
     <div
@@ -14,7 +16,9 @@ function TrainerPanel({
       className={"trainer-panel" + (hide ? " trainer-panel-hidden" : "")}
       style={{ "--numMons": trainer.numMons } as React.CSSProperties}
     >
-      <div className="trainer-panel__header"></div>
+      <div className="trainer-panel__header">
+        {showName ? trainer.name : ""}
+      </div>
       {trainer.battleType === "DOUBLE_BATTLE" ? (
         <div className="trainer-panel__header">(Double)</div>
       ) : (
