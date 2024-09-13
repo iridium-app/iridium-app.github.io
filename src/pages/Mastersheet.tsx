@@ -106,6 +106,7 @@ function Mastersheet() {
         </button>
         <a
           target="_blank"
+          rel="noreferrer"
           href={"https://bulbapedia.bulbagarden.net/wiki/" + selectedMon.name}
         >
           <div className="">{selectedMon.name}</div>

@@ -5,6 +5,7 @@ function ItemImage({ itemName }: { itemName: string }) {
     <a
       href={"https://bulbapedia.bulbagarden.net/wiki/" + ItemData.Dict[itemName]?.name}
       target="_blank"
+      rel="noreferrer"
     >
       <img
         className={
