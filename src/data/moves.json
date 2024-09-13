@@ -380,7 +380,7 @@
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_NORMAL",
-        "pp": "10",
+        "pp": "5",
         "description": "A soothing lullaby is sung in a calming voice that puts the foe into a deep slumber."
     },
     "MOVE_SUPERSONIC": {
@@ -1460,7 +1460,7 @@
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_NORMAL",
-        "pp": "5",
+        "pp": "1",
         "description": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession."
     },
     "MOVE_MACH_PUNCH": {
@@ -1580,7 +1580,7 @@
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_FIGHTING",
-        "pp": "5",
+        "pp": "2",
         "description": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession."
     },
     "MOVE_BONE_RUSH": {
@@ -1682,7 +1682,7 @@
     "MOVE_FURY_CUTTER": {
         "name": "Fury Cutter",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "40",
+        "basePower": "35",
         "type": "TYPE_BUG",
         "pp": "10",
         "description": "The foe is slashed with scythes or claws. Its power increases if it hits in succession."
@@ -3568,11 +3568,11 @@
         "description": "If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat."
     },
     "MOVE_STEALTH_ROCK": {
-        "name": "Accelerock",
+        "name": "Stealth Rock",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "40",
+        "basePower": "0",
         "type": "TYPE_ROCK",
-        "pp": "10",
+        "pp": "3",
         "description": "The user shoots tiny shards of sharp stone at the foe. +1 priority."
     },
     "MOVE_GRASS_KNOT": {
@@ -4573,7 +4573,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "Letting out a roar, the user intimidates the target and lowers both its Attack and Sp. Atk stats."
     },
     "MOVE_ION_DELUGE": {
         "name": "Ion Deluge",
@@ -4621,7 +4621,7 @@
         "basePower": "40",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "---"
+        "description": "With a charming cry, the user does emotional damage. This attack never misses."
     },
     "MOVE_PARTING_SHOT": {
         "name": "Parting Shot",
@@ -4629,7 +4629,7 @@
         "basePower": "0",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "---"
+        "description": "With a threat, the user lowers the foe\u2019s Attack and Sp. Atk, and then switches with a party Pok\u00e9mon."
     },
     "MOVE_TOPSY_TURVY": {
         "name": "Topsy-Turvy",
@@ -4813,7 +4813,7 @@
         "basePower": "0",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user generates an eerie impulse. Exposing the foe to it harshly lowers the foe\u2019s Sp. Atk stat."
     },
     "MOVE_VENOM_DRENCH": {
         "name": "Venom Drench",
@@ -5316,7 +5316,7 @@
         "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_POISON",
-        "pp": "10",
+        "pp": "2",
         "description": "---"
     },
     "MOVE_SPIRIT_SHACKLE": {
@@ -5749,7 +5749,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "Drops target's Atk and Sp. Atk by one stage. "
     },
     "MOVE_ZING_ZAP": {
         "name": "Zing Zap",
@@ -7341,7 +7341,7 @@
         "basePower": "80",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks the foe using its angelic voice. This confuses the foe if it boosted its stats this turn."
     },
     "MOVE_TEMPER_FLARE": {
         "name": "Temper Flare",

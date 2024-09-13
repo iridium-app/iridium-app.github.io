@@ -163,7 +163,7 @@
                 "item": "ITEM_NONE",
                 "ability": "ABILITY_SPEED_BOOST",
                 "moveset": [
-                    "MOVE_GUST",
+                    "MOVE_AIR_CUTTER",
                     "MOVE_STRING_SHOT",
                     "MOVE_STRUGGLE_BUG",
                     "MOVE_NONE"
@@ -179,9 +179,9 @@
                 "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
                     "MOVE_ROLLOUT",
-                    "MOVE_HELPING_HAND",
                     "MOVE_ELECTROWEB",
-                    "MOVE_STRUGGLE_BUG"
+                    "MOVE_STRUGGLE_BUG",
+                    "MOVE_NONE"
                 ]
             }
         ]
@@ -394,7 +394,7 @@
                 "ability": "ABILITY_MERCILESS",
                 "moveset": [
                     "MOVE_TOXIC",
-                    "MOVE_ACID_SPRAY",
+                    "MOVE_WATER_PULSE",
                     "MOVE_PROTECT",
                     "MOVE_STOCKPILE"
                 ]
@@ -468,9 +468,9 @@
                 "ability": "ABILITY_STURDY",
                 "moveset": [
                     "MOVE_ROCK_SMASH",
-                    "MOVE_HARDEN",
                     "MOVE_METAL_CLAW",
-                    "MOVE_ROCK_TOMB"
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_NONE"
                 ]
             }
         ]
@@ -584,7 +584,7 @@
                 ]
             },
             {
-                "level": "4",
+                "level": "5",
                 "monWithForm": {
                     "name": "SPECIES_SNOM",
                     "form": 0
@@ -599,7 +599,7 @@
                 ]
             },
             {
-                "level": "4",
+                "level": "6",
                 "monWithForm": {
                     "name": "SPECIES_RALTS",
                     "form": 0
@@ -696,7 +696,7 @@
                 "item": "ITEM_APICOT_BERRY",
                 "ability": "ABILITY_STICKY_HOLD",
                 "moveset": [
-                    "MOVE_STUFF_CHEEKS",
+                    "MOVE_BULLDOZE",
                     "MOVE_ACID_SPRAY",
                     "MOVE_SHOCK_WAVE",
                     "MOVE_BULLET_SEED"
@@ -731,7 +731,7 @@
                     "form": 0
                 },
                 "item": "ITEM_GRASSY_SEED",
-                "ability": "ABILITY_EFFECT_SPORE",
+                "ability": "ABILITY_GRASS_PELT",
                 "moveset": [
                     "MOVE_BULK_UP",
                     "MOVE_STOMP",
@@ -748,7 +748,7 @@
                 "item": "ITEM_ORAN_BERRY",
                 "ability": "ABILITY_HARVEST",
                 "moveset": [
-                    "MOVE_CURSE",
+                    "MOVE_WILL_O_WISP",
                     "MOVE_LEECH_SEED",
                     "MOVE_NIGHT_SHADE",
                     "MOVE_BULLET_SEED"
@@ -906,98 +906,68 @@
         ]
     },
     "20": {
-        "name": "Volkner",
-        "numMons": "6",
+        "name": "Duncan",
+        "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "65",
+                "level": "8",
                 "monWithForm": {
-                    "name": "SPECIES_LUXRAY",
+                    "name": "SPECIES_HOPPIP",
                     "form": 0
                 },
-                "item": "ITEM_AIR_BALLOON",
-                "ability": "ABILITY_INTIMIDATE",
+                "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_CHLOROPHYLL",
                 "moveset": [
-                    "MOVE_WILD_CHARGE",
-                    "MOVE_SUPERPOWER",
-                    "MOVE_ELECTROWEB",
-                    "MOVE_PROTECT"
+                    "MOVE_U_TURN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_FAIRY_WIND",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "64",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_THUNDURUS",
+                    "name": "SPECIES_PICHU",
                     "form": 0
                 },
-                "item": "ITEM_SITRUS_BERRY",
-                "ability": "ABILITY_PRANKSTER",
+                "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_STATIC",
                 "moveset": [
-                    "MOVE_WILDBOLT_STORM",
-                    "MOVE_SWAGGER",
-                    "MOVE_THUNDER_WAVE",
-                    "MOVE_HIDDEN_POWER"
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_NUZZLE",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "65",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_ROTOM",
-                    "form": 2
+                    "name": "SPECIES_DIGLETT",
+                    "form": 0
                 },
-                "item": "ITEM_LIFE_ORB",
-                "ability": "ABILITY_LEVITATE",
+                "item": "ITEM_CHERI_BERRY",
+                "ability": "ABILITY_ARENA_TRAP",
                 "moveset": [
-                    "MOVE_HYDRO_PUMP",
-                    "MOVE_THUNDERBOLT",
-                    "MOVE_RAIN_DANCE",
-                    "MOVE_PROTECT"
+                    "MOVE_STEALTH_ROCK",
+                    "MOVE_ROCK_THROW",
+                    "MOVE_SAND_TOMB",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "65",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_EELEKTROSS",
+                    "name": "SPECIES_WINGULL",
                     "form": 0
                 },
-                "item": "ITEM_SITRUS_BERRY",
-                "ability": "ABILITY_LEVITATE",
+                "item": "ITEM_WACAN_BERRY",
+                "ability": "ABILITY_RAIN_DISH",
                 "moveset": [
-                    "MOVE_DISCHARGE",
-                    "MOVE_DRAGON_PULSE",
-                    "MOVE_FLAMETHROWER",
-                    "MOVE_SCALD"
-                ]
-            },
-            {
-                "level": "65",
-                "monWithForm": {
-                    "name": "SPECIES_TAPU_KOKO",
-                    "form": 0
-                },
-                "item": "ITEM_SHUCA_BERRY",
-                "ability": "ABILITY_ELECTRIC_SURGE",
-                "moveset": [
-                    "MOVE_WILD_CHARGE",
-                    "MOVE_PLAY_ROUGH",
-                    "MOVE_BRAVE_BIRD",
-                    "MOVE_U_TURN"
-                ]
-            },
-            {
-                "level": "64",
-                "monWithForm": {
-                    "name": "SPECIES_MANECTRIC",
-                    "form": 0
-                },
-                "item": "ITEM_MANECTITE",
-                "ability": "ABILITY_LEVITATE",
-                "moveset": [
-                    "MOVE_DISCHARGE",
-                    "MOVE_OVERHEAT",
-                    "MOVE_VOLT_SWITCH",
-                    "MOVE_HIDDEN_POWER"
+                    "MOVE_WATER_GUN",
+                    "MOVE_GUST",
+                    "MOVE_MUD_SLAP",
+                    "MOVE_NONE"
                 ]
             }
         ]

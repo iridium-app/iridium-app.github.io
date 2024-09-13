@@ -19712,7 +19712,7 @@
                 "level": 1
             },
             {
-                "name": "MOVE_DEFENSE_CURL",
+                "name": "MOVE_DOUBLE_SLAP",
                 "level": 4
             },
             {
@@ -28327,16 +28327,16 @@
                 "level": 3
             },
             {
-                "name": "MOVE_FLAME_CHARGE",
-                "level": 9
+                "name": "MOVE_PECK",
+                "level": 5
             },
             {
                 "name": "MOVE_DETECT",
-                "level": 12
+                "level": 7
             },
             {
-                "name": "MOVE_SAND_ATTACK",
-                "level": 12
+                "name": "MOVE_FIRE_SPIN",
+                "level": 9
             },
             {
                 "name": "MOVE_QUICK_ATTACK",
@@ -28351,7 +28351,7 @@
                 "level": 18
             },
             {
-                "name": "MOVE_FIRE_SPIN",
+                "name": "MOVE_INCINERATE",
                 "level": 19
             },
             {
@@ -53701,16 +53701,16 @@
                 "level": 1
             },
             {
-                "name": "MOVE_NATURAL_GIFT",
+                "name": "MOVE_PARTING_SHOT",
                 "level": 1
             },
             {
-                "name": "MOVE_PUNISHMENT",
+                "name": "MOVE_NOBLE_ROAR",
                 "level": 1
             },
             {
-                "name": "MOVE_GRAVITY",
-                "level": 10
+                "name": "MOVE_TEARFUL_LOOK",
+                "level": 1
             },
             {
                 "name": "MOVE_EARTH_POWER",
