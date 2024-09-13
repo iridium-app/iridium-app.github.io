@@ -104,7 +104,12 @@ function Mastersheet() {
         <button className="right-panel__close-btn" onClick={closeBtnOnClick}>
           CLOSE
         </button>
-        <div className="">{selectedMon.name}</div>
+        <a
+          target="_blank"
+          href={"https://bulbapedia.bulbagarden.net/wiki/" + selectedMon.name}
+        >
+          <div className="">{selectedMon.name}</div>
+        </a>
         <div className="stat-block">
           <div className="stat-row">
             <div className="stat-row__name">HP:</div>

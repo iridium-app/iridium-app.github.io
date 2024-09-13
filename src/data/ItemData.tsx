@@ -7,6 +7,7 @@ interface IDictionary {
 export type ItemInfo = {
   id: number;
   name: string;
+  description: string;
 };
 
 class ItemData {
