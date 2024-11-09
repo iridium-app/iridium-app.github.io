@@ -262,7 +262,7 @@ div.middle-panel::-webkit-scrollbar-thumb {
 
 .trainer-panel-hidden {
   height: 75px;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .trainer-panel__header {

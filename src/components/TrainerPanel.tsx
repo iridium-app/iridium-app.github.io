@@ -19,7 +19,7 @@ function TrainerPanel({
     > 
       <div className="trainer-panel__header">
         {showName ? Utility.GetNiceTrainerName(trainer) : ""}
-        <img className="mon-sprite" src={Utility.GetTrainerImage(trainer)} />
+        <img className={hide ? "hidden" : "mon-sprite"} src={Utility.GetTrainerImage(trainer)} />
       </div>
       {trainer.battleType === "DOUBLE_BATTLE" ? (
         <div className="trainer-panel__header">(Double)</div>
