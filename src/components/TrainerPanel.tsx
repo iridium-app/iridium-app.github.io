@@ -1,4 +1,5 @@
 import { TrainerInfo } from "../data/TrainerData";
+import Utility from "../Utility";
 import TrainerMonPanel from "./TrainerMonPanel";
 
 function TrainerPanel({
@@ -15,9 +16,10 @@ function TrainerPanel({
       id={"trainer_" + trainer.name}
       className={"trainer-panel" + (hide ? " trainer-panel-hidden" : "")}
       style={{ "--numMons": trainer.numMons } as React.CSSProperties}
-    >
+    > 
       <div className="trainer-panel__header">
-        {showName ? trainer.name : ""}
+        {showName ? Utility.GetNiceTrainerName(trainer) : ""}
+        <img className="mon-sprite" src={Utility.GetTrainerImage(trainer)} />
       </div>
       {trainer.battleType === "DOUBLE_BATTLE" ? (
         <div className="trainer-panel__header">(Double)</div>

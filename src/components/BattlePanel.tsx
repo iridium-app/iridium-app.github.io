@@ -3,6 +3,7 @@ import { UserContext } from "../App";
 import { Battle, MultiBattle } from "../data/MastersheetData";
 import TrainerData from "../data/TrainerData";
 import TrainerPanel from "./TrainerPanel";
+import Utility from "../Utility";
 
 function renderSwitch(battle: Battle, hide: boolean): ReactNode {
   const mainTrainer = TrainerData.Dict[battle.id];
@@ -12,7 +13,7 @@ function renderSwitch(battle: Battle, hide: boolean): ReactNode {
     case "standard":
       return (
         <>
-          <TrainerPanel trainer={mainTrainer} hide={hide} showName={false} />
+          <TrainerPanel trainer={mainTrainer} hide={hide} showName={true} />
         </>
       );
     case "multi":
@@ -35,7 +36,7 @@ function renderSwitch(battle: Battle, hide: boolean): ReactNode {
 function GetBattleName(battle: Battle): string {
   return battle.subtype === "multi"
     ? (battle as MultiBattle).name.toUpperCase()
-    : TrainerData.Dict[battle.id].name.toUpperCase();
+    : "";//Utility.GetNiceTrainerName(TrainerData.Dict[battle.id]);
 }
 
 function BattlePanel({ battle }: { battle: Battle }) {

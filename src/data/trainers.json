@@ -1,6 +1,7 @@
 {
     "0": {
         "name": "-",
+        "class": "PKMN_TRAINER_0",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16,6 +17,7 @@
     },
     "1": {
         "name": "PLACE_HOLD",
+        "class": "PKMN_TRAINER_10",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -47,6 +49,7 @@
     },
     "2": {
         "name": "Lilly",
+        "class": "SCHOOL_KID_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -99,6 +102,7 @@
     },
     "3": {
         "name": "Jack",
+        "class": "ROUGHNECK",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -151,6 +155,7 @@
     },
     "4": {
         "name": "Billy",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -188,6 +193,7 @@
     },
     "5": {
         "name": "Kellen",
+        "class": "ACE_TRAINER_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -240,6 +246,7 @@
     },
     "6": {
         "name": "Lilly",
+        "class": "SCHOOL_KID_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -292,6 +299,7 @@
     },
     "7": {
         "name": "Gabe",
+        "class": "CAMPER",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -329,6 +337,7 @@
     },
     "8": {
         "name": "Yake",
+        "class": "YOUNGSTER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -381,6 +390,7 @@
     },
     "9": {
         "name": "Willy",
+        "class": "FISHERMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -403,6 +413,7 @@
     },
     "10": {
         "name": "P-001",
+        "class": "PLASMA_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -440,6 +451,7 @@
     },
     "11": {
         "name": "Iris",
+        "class": "IRIS",
         "numMons": "2",
         "battleType": "0",
         "party": [
@@ -477,6 +489,7 @@
     },
     "12": {
         "name": "P-002",
+        "class": "PLASMA_F",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -514,6 +527,7 @@
     },
     "13": {
         "name": "Gizzle",
+        "class": "ROUGHNECK",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
@@ -565,6 +579,7 @@
     },
     "14": {
         "name": "Stu",
+        "class": "YOUNGSTER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -617,6 +632,7 @@
     },
     "15": {
         "name": "Juniper",
+        "class": "AROMA_LADY",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -630,7 +646,7 @@
                 "ability": "ABILITY_OWN_TEMPO",
                 "moveset": [
                     "MOVE_FAKE_OUT",
-                    "MOVE_BUBBLE",
+                    "MOVE_WHIRLPOOL",
                     "MOVE_ICY_WIND",
                     "MOVE_RAZOR_LEAF"
                 ]
@@ -654,6 +670,7 @@
     },
     "16": {
         "name": "Rosemary",
+        "class": "AROMA_LADY",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -664,7 +681,7 @@
                     "form": 0
                 },
                 "item": "ITEM_JABOCA_BERRY",
-                "ability": "ABILITY_RIPEN",
+                "ability": "ABILITY_GLUTTONY",
                 "moveset": [
                     "MOVE_RECYCLE",
                     "MOVE_GRASSY_GLIDE",
@@ -696,7 +713,7 @@
                 "item": "ITEM_APICOT_BERRY",
                 "ability": "ABILITY_STICKY_HOLD",
                 "moveset": [
-                    "MOVE_BULLDOZE",
+                    "MOVE_MUD_SHOT",
                     "MOVE_ACID_SPRAY",
                     "MOVE_SHOCK_WAVE",
                     "MOVE_BULLET_SEED"
@@ -706,6 +723,7 @@
     },
     "17": {
         "name": "Gardenia",
+        "class": "GARDENIA",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -725,18 +743,18 @@
                 ]
             },
             {
-                "level": "8",
+                "level": "9",
                 "monWithForm": {
-                    "name": "SPECIES_SKIDDO",
+                    "name": "SPECIES_APPLIN",
                     "form": 0
                 },
-                "item": "ITEM_GRASSY_SEED",
-                "ability": "ABILITY_GRASS_PELT",
+                "item": "ITEM_AGUAV_BERRY",
+                "ability": "ABILITY_GLUTTONY",
                 "moveset": [
-                    "MOVE_BULK_UP",
-                    "MOVE_STOMP",
-                    "MOVE_TRAILBLAZE",
-                    "MOVE_DIG"
+                    "MOVE_GRASSY_GLIDE",
+                    "MOVE_DRAGON_BREATH",
+                    "MOVE_DEFENSE_CURL",
+                    "MOVE_ROLLOUT"
                 ]
             },
             {
@@ -763,10 +781,10 @@
                 "item": "ITEM_TERRAIN_EXTENDER",
                 "ability": "ABILITY_SOUNDPROOF",
                 "moveset": [
+                    "MOVE_SHOCK_WAVE",
                     "MOVE_GRASS_KNOT",
                     "MOVE_GRASSY_TERRAIN",
-                    "MOVE_ELECTROWEB",
-                    "MOVE_ROLLOUT"
+                    "MOVE_ICE_BALL"
                 ]
             },
             {
@@ -776,7 +794,7 @@
                     "form": 0
                 },
                 "item": "ITEM_BLACK_SLUDGE",
-                "ability": "ABILITY_HARVEST",
+                "ability": "ABILITY_GRASS_PELT",
                 "moveset": [
                     "MOVE_INGRAIN",
                     "MOVE_SWIFT",
@@ -788,6 +806,7 @@
     },
     "18": {
         "name": "Ivy",
+        "class": "AROMA_LADY",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -816,7 +835,7 @@
                 "ability": "ABILITY_BLAZE",
                 "moveset": [
                     "MOVE_FAKE_OUT",
-                    "MOVE_INCINERATE",
+                    "MOVE_FLAME_CHARGE",
                     "MOVE_VACUUM_WAVE",
                     "MOVE_GRASS_KNOT"
                 ]
@@ -824,22 +843,23 @@
             {
                 "level": "8",
                 "monWithForm": {
-                    "name": "SPECIES_TOEDSCOOL",
+                    "name": "SPECIES_FOONGUS",
                     "form": 0
                 },
                 "item": "ITEM_WISE_GLASSES",
                 "ability": "ABILITY_EFFECT_SPORE",
                 "moveset": [
-                    "MOVE_MUD_SHOT",
+                    "MOVE_STUN_SPORE",
                     "MOVE_GRASSY_GLIDE",
                     "MOVE_ACID_SPRAY",
-                    "MOVE_RAGE_POWDER"
+                    "MOVE_FOLLOW_ME"
                 ]
             }
         ]
     },
     "19": {
         "name": "G-004",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -907,6 +927,7 @@
     },
     "20": {
         "name": "Duncan",
+        "class": "ACE_TRAINER_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -973,104 +994,76 @@
         ]
     },
     "21": {
-        "name": "Flint",
-        "numMons": "6",
-        "battleType": "SINGLE_BATTLE",
+        "name": "Matt",
+        "class": "FLINT",
+        "numMons": "4",
+        "battleType": "DOUBLE_BATTLE",
         "party": [
             {
-                "level": "55",
+                "level": "11",
                 "monWithForm": {
-                    "name": "SPECIES_HOUNDOOM",
+                    "name": "SPECIES_DODUO",
                     "form": 0
                 },
-                "item": "ITEM_HOUNDOOMINITE",
-                "ability": "ABILITY_SOLAR_POWER",
+                "item": "ITEM_MUSCLE_BAND",
+                "ability": "ABILITY_TANGLED_FEET",
                 "moveset": [
-                    "MOVE_SOLAR_BEAM",
-                    "MOVE_DARK_PULSE",
-                    "MOVE_LAVA_PLUME",
-                    "MOVE_PSYCHIC_FANGS"
+                    "MOVE_PLUCK",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING",
+                    "MOVE_PURSUIT"
                 ]
             },
             {
-                "level": "54",
+                "level": "11",
                 "monWithForm": {
-                    "name": "SPECIES_MAGMORTAR",
+                    "name": "SPECIES_ELECTRIKE",
                     "form": 0
                 },
-                "item": "ITEM_LIFE_ORB",
-                "ability": "ABILITY_FLAME_BODY",
+                "item": "ITEM_WISE_GLASSES",
+                "ability": "ABILITY_LIGHTNING_ROD",
                 "moveset": [
-                    "MOVE_FLAMETHROWER",
-                    "MOVE_THUNDERBOLT",
-                    "MOVE_SCORCHING_SANDS",
-                    "MOVE_FOCUS_BLAST"
+                    "MOVE_SHOCK_WAVE",
+                    "MOVE_SNARL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SWIFT"
                 ]
             },
             {
-                "level": "54",
+                "level": "11",
                 "monWithForm": {
-                    "name": "SPECIES_INFERNAPE",
+                    "name": "SPECIES_TRAPINCH",
                     "form": 0
                 },
-                "item": "ITEM_FOCUS_SASH",
-                "ability": "ABILITY_BLAZE",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_ARENA_TRAP",
                 "moveset": [
-                    "MOVE_THUNDER_PUNCH",
-                    "MOVE_RAGING_FURY",
-                    "MOVE_CLOSE_COMBAT",
-                    "MOVE_BULK_UP"
+                    "MOVE_BUG_BITE",
+                    "MOVE_BITE",
+                    "MOVE_EARTH_POWER",
+                    "MOVE_PROTECT"
                 ]
             },
             {
-                "level": "52",
+                "level": "12",
                 "monWithForm": {
-                    "name": "SPECIES_INCINEROAR",
+                    "name": "SPECIES_PAWNIARD",
                     "form": 0
                 },
-                "item": "ITEM_EJECT_BUTTON",
-                "ability": "ABILITY_INTIMIDATE",
+                "item": "ITEM_DARK_GEM",
+                "ability": "ABILITY_DEFIANT",
                 "moveset": [
-                    "MOVE_FAKE_OUT",
-                    "MOVE_FLARE_BLITZ",
-                    "MOVE_SUNNY_DAY",
-                    "MOVE_U_TURN"
-                ]
-            },
-            {
-                "level": "53",
-                "monWithForm": {
-                    "name": "SPECIES_CERULEDGE",
-                    "form": 0
-                },
-                "item": "ITEM_SHUCA_BERRY",
-                "ability": "ABILITY_WEAK_ARMOR",
-                "moveset": [
-                    "MOVE_BITTER_BLADE",
-                    "MOVE_PHANTOM_FORCE",
-                    "MOVE_SHADOW_SNEAK",
-                    "MOVE_SWORDS_DANCE"
-                ]
-            },
-            {
-                "level": "56",
-                "monWithForm": {
-                    "name": "SPECIES_RESHIRAM",
-                    "form": 0
-                },
-                "item": "ITEM_ASSAULT_VEST",
-                "ability": "ABILITY_TURBOBLAZE",
-                "moveset": [
-                    "MOVE_BLUE_FLARE",
-                    "MOVE_DRACO_METEOR",
-                    "MOVE_THUNDERBOLT",
-                    "MOVE_EARTH_POWER"
+                    "MOVE_PURSUIT",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_POWER_UP_PUNCH"
                 ]
             }
         ]
     },
     "22": {
         "name": "Cassie",
+        "class": "AROMA_LADY",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1123,6 +1116,7 @@
     },
     "23": {
         "name": "Larry",
+        "class": "POKE_MANIAC",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1138,6 +1132,7 @@
     },
     "24": {
         "name": "Alan",
+        "class": "SCHOOL_KID_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1153,6 +1148,7 @@
     },
     "25": {
         "name": "Russel",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -1205,6 +1201,7 @@
     },
     "26": {
         "name": "Roland",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1257,6 +1254,7 @@
     },
     "27": {
         "name": "Liz",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1309,6 +1307,7 @@
     },
     "28": {
         "name": "Jake",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1355,6 +1354,7 @@
     },
     "29": {
         "name": "Rod",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1407,6 +1407,7 @@
     },
     "30": {
         "name": "Whitney",
+        "class": "WHITNEY",
         "numMons": "6",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -1504,6 +1505,7 @@
     },
     "31": {
         "name": "Morty",
+        "class": "MORTY",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1586,6 +1588,7 @@
     },
     "32": {
         "name": "Pryce",
+        "class": "PRYCE",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1668,6 +1671,7 @@
     },
     "33": {
         "name": "Jasmine",
+        "class": "JASMINE",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1765,6 +1769,7 @@
     },
     "34": {
         "name": "Chuck",
+        "class": "CHUCK",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1817,6 +1822,7 @@
     },
     "35": {
         "name": "Clair",
+        "class": "CLAIR",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1880,6 +1886,7 @@
     },
     "36": {
         "name": "Desmond",
+        "class": "PKMN_BREEDER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1917,6 +1924,7 @@
     },
     "37": {
         "name": "Preston",
+        "class": "GENTLEMAN",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -1969,6 +1977,7 @@
     },
     "38": {
         "name": "Colette",
+        "class": "TEACHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -1984,6 +1993,7 @@
     },
     "39": {
         "name": "Coppy",
+        "class": "PKMN_BREEDER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2051,6 +2061,7 @@
     },
     "40": {
         "name": "sauceyaTTa",
+        "class": "PKMN_TRAINER_11",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2148,6 +2159,7 @@
     },
     "41": {
         "name": "sauceyaTTa",
+        "class": "PKMN_TRAINER_11",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -2245,6 +2257,7 @@
     },
     "42": {
         "name": "Nathan",
+        "class": "PSYCHIC_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2297,6 +2310,7 @@
     },
     "43": {
         "name": "Guide Gent",
+        "class": "ELDER",
         "numMons": "4",
         "battleType": "0",
         "party": [
@@ -2364,6 +2378,7 @@
     },
     "44": {
         "name": "Derek",
+        "class": "POKEFAN_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2384,6 +2399,7 @@
     },
     "45": {
         "name": "Ruth",
+        "class": "POKEFAN_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2404,6 +2420,7 @@
     },
     "46": {
         "name": "Martha",
+        "class": "MEDIUM",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -2441,6 +2458,7 @@
     },
     "47": {
         "name": "Mikey",
+        "class": "YOUNGSTER",
         "numMons": "3",
         "battleType": "0",
         "party": [
@@ -2493,6 +2511,7 @@
     },
     "48": {
         "name": "Rob",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2516,6 +2535,7 @@
     },
     "49": {
         "name": "Albert",
+        "class": "YOUNGSTER",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -2568,6 +2588,7 @@
     },
     "50": {
         "name": "Abe",
+        "class": "BIRD_KEEPER_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2583,6 +2604,7 @@
     },
     "51": {
         "name": "Nico",
+        "class": "SAGE",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2635,6 +2657,7 @@
     },
     "52": {
         "name": "Edmond",
+        "class": "SAGE",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2687,6 +2710,7 @@
     },
     "53": {
         "name": "Jin",
+        "class": "SAGE",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -2739,6 +2763,7 @@
     },
     "54": {
         "name": "Troy",
+        "class": "SAGE",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2791,6 +2816,7 @@
     },
     "55": {
         "name": "Neal",
+        "class": "SAGE",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2843,6 +2869,7 @@
     },
     "56": {
         "name": "Gordon",
+        "class": "YOUNGSTER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2858,6 +2885,7 @@
     },
     "57": {
         "name": "Ralph",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2910,6 +2938,7 @@
     },
     "58": {
         "name": "Arnold",
+        "class": "FISHERMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2925,6 +2954,7 @@
     },
     "59": {
         "name": "Kyle",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2956,6 +2986,7 @@
     },
     "60": {
         "name": "Henry",
+        "class": "FISHERMAN",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -2979,6 +3010,7 @@
     },
     "61": {
         "name": "Anthony",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3031,6 +3063,7 @@
     },
     "62": {
         "name": "Samuel",
+        "class": "YOUNGSTER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3083,6 +3116,7 @@
     },
     "63": {
         "name": "Mickey",
+        "class": "GALACTIC_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3098,6 +3132,7 @@
     },
     "64": {
         "name": "Ian",
+        "class": "YOUNGSTER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3135,6 +3170,7 @@
     },
     "65": {
         "name": "Gina",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -3187,6 +3223,7 @@
     },
     "66": {
         "name": "Todd",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3202,6 +3239,7 @@
     },
     "67": {
         "name": "Benny",
+        "class": "BUG_CATCHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3233,6 +3271,7 @@
     },
     "68": {
         "name": "Al",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3256,6 +3295,7 @@
     },
     "69": {
         "name": "Josh",
+        "class": "BUG_CATCHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3271,6 +3311,7 @@
     },
     "70": {
         "name": "Samantha",
+        "class": "BEAUTY",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3323,6 +3364,7 @@
     },
     "71": {
         "name": "Cathy",
+        "class": "BEAUTY",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -3375,6 +3417,7 @@
     },
     "72": {
         "name": "Bryan",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3412,6 +3455,7 @@
     },
     "73": {
         "name": "Theo",
+        "class": "BIRD_KEEPER_1",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3459,6 +3503,7 @@
     },
     "74": {
         "name": "Ivan",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3490,6 +3535,7 @@
     },
     "75": {
         "name": "Elliot",
+        "class": "CAMPER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3513,6 +3559,7 @@
     },
     "76": {
         "name": "Brooke",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3533,6 +3580,7 @@
     },
     "77": {
         "name": "Kim",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3548,6 +3596,7 @@
     },
     "78": {
         "name": "Arnie",
+        "class": "BUG_CATCHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3563,6 +3612,7 @@
     },
     "79": {
         "name": "Ken",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3586,6 +3636,7 @@
     },
     "80": {
         "name": "Dirk",
+        "class": "POLICEMAN",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3609,6 +3660,7 @@
     },
     "81": {
         "name": "Tori & Til",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -3632,6 +3684,7 @@
     },
     "82": {
         "name": "Toby",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3663,6 +3716,7 @@
     },
     "83": {
         "name": "Cindy",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3683,6 +3737,7 @@
     },
     "84": {
         "name": "Barry",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3703,6 +3758,7 @@
     },
     "85": {
         "name": "Paula",
+        "class": "SWIMMER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3726,6 +3782,7 @@
     },
     "86": {
         "name": "Randall",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3772,6 +3829,7 @@
     },
     "87": {
         "name": "Mickey",
+        "class": "SAGE",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3787,6 +3845,7 @@
     },
     "88": {
         "name": "Mickey",
+        "class": "SAGE",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3834,6 +3893,7 @@
     },
     "89": {
         "name": "Grace",
+        "class": "MEDIUM",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3901,6 +3961,7 @@
     },
     "90": {
         "name": "Kaylee",
+        "class": "SWIMMER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3947,6 +4008,7 @@
     },
     "91": {
         "name": "Susie",
+        "class": "SWIMMER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3980,6 +4042,7 @@
     },
     "92": {
         "name": "Denise",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -3995,6 +4058,7 @@
     },
     "93": {
         "name": "Kara",
+        "class": "SWIMMER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4018,6 +4082,7 @@
     },
     "94": {
         "name": "Wendy",
+        "class": "SWIMMER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4051,6 +4116,7 @@
     },
     "95": {
         "name": "Charlie",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4082,6 +4148,7 @@
     },
     "96": {
         "name": "George",
+        "class": "SWIMMER_M",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4137,6 +4204,7 @@
     },
     "97": {
         "name": "Berke",
+        "class": "SWIMMER_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4152,6 +4220,7 @@
     },
     "98": {
         "name": "Ronald",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4175,6 +4244,7 @@
     },
     "99": {
         "name": "Matthew",
+        "class": "SWIMMER_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4190,6 +4260,7 @@
     },
     "100": {
         "name": "Anthony",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -4242,6 +4313,7 @@
     },
     "101": {
         "name": "G-130",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4294,6 +4366,7 @@
     },
     "102": {
         "name": "Gaven",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4340,6 +4413,7 @@
     },
     "103": {
         "name": "Blake",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4386,6 +4460,7 @@
     },
     "104": {
         "name": "Brian",
+        "class": "ACE_TRAINER_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4406,6 +4481,7 @@
     },
     "105": {
         "name": "Mickey",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4437,6 +4513,7 @@
     },
     "106": {
         "name": "Mickey",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4468,6 +4545,7 @@
     },
     "107": {
         "name": "Mickey",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4499,6 +4577,7 @@
     },
     "108": {
         "name": "Ryan",
+        "class": "ACE_TRAINER_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4566,6 +4645,7 @@
     },
     "109": {
         "name": "Alton",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4597,6 +4677,7 @@
     },
     "110": {
         "name": "Paulo",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4649,6 +4730,7 @@
     },
     "111": {
         "name": "Mike",
+        "class": "ACE_TRAINER_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4664,6 +4746,7 @@
     },
     "112": {
         "name": "Cody",
+        "class": "ACE_TRAINER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4687,6 +4770,7 @@
     },
     "113": {
         "name": "Jamie",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4720,6 +4804,7 @@
     },
     "114": {
         "name": "Reena",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4751,6 +4836,7 @@
     },
     "115": {
         "name": "Megan",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4797,6 +4883,7 @@
     },
     "116": {
         "name": "Lois",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4830,6 +4917,7 @@
     },
     "117": {
         "name": "Lola",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -4882,6 +4970,7 @@
     },
     "118": {
         "name": "Kate",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4905,6 +4994,7 @@
     },
     "119": {
         "name": "Fran",
+        "class": "ACE_TRAINER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4920,6 +5010,7 @@
     },
     "120": {
         "name": "Irene",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -4943,6 +5034,7 @@
     },
     "121": {
         "name": "Kelly",
+        "class": "ACE_TRAINER_F",
         "numMons": "4",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -5010,6 +5102,7 @@
     },
     "122": {
         "name": "Marvin",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5056,6 +5149,7 @@
     },
     "123": {
         "name": "Tully",
+        "class": "FISHERMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5071,6 +5165,7 @@
     },
     "124": {
         "name": "Wilton",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5102,6 +5197,7 @@
     },
     "125": {
         "name": "Edgar",
+        "class": "FISHERMAN",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5135,6 +5231,7 @@
     },
     "126": {
         "name": "Andre",
+        "class": "FISHERMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5150,6 +5247,7 @@
     },
     "127": {
         "name": "Raymond",
+        "class": "FISHERMAN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5189,6 +5287,7 @@
     },
     "128": {
         "name": "Jonah",
+        "class": "FISHERMAN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5228,6 +5327,7 @@
     },
     "129": {
         "name": "Shane",
+        "class": "POKE_MANIAC",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5251,6 +5351,7 @@
     },
     "130": {
         "name": "Beckett",
+        "class": "POKE_MANIAC",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5266,6 +5367,7 @@
     },
     "131": {
         "name": "Brent",
+        "class": "POKE_MANIAC",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5289,6 +5391,7 @@
     },
     "132": {
         "name": "Ron",
+        "class": "POKE_MANIAC",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5304,6 +5407,7 @@
     },
     "133": {
         "name": "Morgan",
+        "class": "POKE_MANIAC",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5327,6 +5431,7 @@
     },
     "134": {
         "name": "Benjamin",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5358,6 +5463,7 @@
     },
     "135": {
         "name": "Johnny",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5389,6 +5495,7 @@
     },
     "136": {
         "name": "Linda",
+        "class": "LASS",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5441,6 +5548,7 @@
     },
     "137": {
         "name": "Vance",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5464,6 +5572,7 @@
     },
     "138": {
         "name": "Mickey",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5479,6 +5588,7 @@
     },
     "139": {
         "name": "Debra",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5494,6 +5604,7 @@
     },
     "140": {
         "name": "Doug",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5517,6 +5628,7 @@
     },
     "141": {
         "name": "Mickey",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5532,6 +5644,7 @@
     },
     "142": {
         "name": "Gina",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5563,6 +5676,7 @@
     },
     "143": {
         "name": "Erik",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5594,6 +5708,7 @@
     },
     "144": {
         "name": "Michael",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5625,6 +5740,7 @@
     },
     "145": {
         "name": "Parry",
+        "class": "HIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5640,6 +5756,7 @@
     },
     "146": {
         "name": "Timothy",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5673,6 +5790,7 @@
     },
     "147": {
         "name": "Ted",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5688,6 +5806,7 @@
     },
     "148": {
         "name": "Lloyd",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5703,6 +5822,7 @@
     },
     "149": {
         "name": "Dean",
+        "class": "CAMPER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5726,6 +5846,7 @@
     },
     "150": {
         "name": "Sid",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5757,6 +5878,7 @@
     },
     "151": {
         "name": "Erin",
+        "class": "PICNICKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5780,6 +5902,7 @@
     },
     "152": {
         "name": "Hope",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5795,6 +5918,7 @@
     },
     "153": {
         "name": "Sharon",
+        "class": "PICNICKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5818,6 +5942,7 @@
     },
     "154": {
         "name": "Bailey",
+        "class": "HIKER",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5865,6 +5990,7 @@
     },
     "155": {
         "name": "Anthony",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5896,6 +6022,7 @@
     },
     "156": {
         "name": "Yoshi",
+        "class": "BLACK_BELT",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5948,6 +6075,7 @@
     },
     "157": {
         "name": "Lao",
+        "class": "BLACK_BELT",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5968,6 +6096,7 @@
     },
     "158": {
         "name": "Kiyo",
+        "class": "BLACK_BELT",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -5991,6 +6120,7 @@
     },
     "159": {
         "name": "Lung",
+        "class": "BLACK_BELT",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6043,6 +6173,7 @@
     },
     "160": {
         "name": "Naoko",
+        "class": "TRAINER_N",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6064,6 +6195,7 @@
     },
     "161": {
         "name": "Sayo",
+        "class": "TRAINER_N",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6085,6 +6217,7 @@
     },
     "162": {
         "name": "Zuki",
+        "class": "TRAINER_N",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6106,6 +6239,7 @@
     },
     "163": {
         "name": "Kuni",
+        "class": "TRAINER_N",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6127,6 +6261,7 @@
     },
     "164": {
         "name": "Miki",
+        "class": "TRAINER_N",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6148,6 +6283,7 @@
     },
     "165": {
         "name": "Mickey",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6163,6 +6299,7 @@
     },
     "166": {
         "name": "Mickey",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6178,6 +6315,7 @@
     },
     "167": {
         "name": "Mickey",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6193,6 +6331,7 @@
     },
     "168": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6224,6 +6363,7 @@
     },
     "169": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6247,6 +6387,7 @@
     },
     "170": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6278,6 +6419,7 @@
     },
     "171": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6309,6 +6451,7 @@
     },
     "172": {
         "name": "Brent",
+        "class": "POKE_MANIAC",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6340,6 +6483,7 @@
     },
     "173": {
         "name": "Brent",
+        "class": "POKE_MANIAC",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6379,6 +6523,7 @@
     },
     "174": {
         "name": "Mickey",
+        "class": "BIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6410,6 +6555,7 @@
     },
     "175": {
         "name": "Bethany",
+        "class": "MEDIUM",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6425,6 +6571,7 @@
     },
     "176": {
         "name": "Margaret",
+        "class": "MEDIUM",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6440,6 +6587,7 @@
     },
     "177": {
         "name": "Ethel",
+        "class": "MEDIUM",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6455,6 +6603,7 @@
     },
     "178": {
         "name": "Jack",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6478,6 +6627,7 @@
     },
     "179": {
         "name": "Kipp",
+        "class": "SCHOOL_KID_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6517,6 +6667,7 @@
     },
     "180": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6532,6 +6683,7 @@
     },
     "181": {
         "name": "William",
+        "class": "POKEFAN_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6547,6 +6699,7 @@
     },
     "182": {
         "name": "Beverly",
+        "class": "POKEFAN_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6562,6 +6715,7 @@
     },
     "183": {
         "name": "Alice",
+        "class": "LASS",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6608,6 +6762,7 @@
     },
     "184": {
         "name": "Krise",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6631,6 +6786,7 @@
     },
     "185": {
         "name": "G-145",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6683,6 +6839,7 @@
     },
     "186": {
         "name": "G-152",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -6735,6 +6892,7 @@
     },
     "187": {
         "name": "G-220",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6787,6 +6945,7 @@
     },
     "188": {
         "name": "G-233",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -6839,6 +6998,7 @@
     },
     "189": {
         "name": "G-248",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6891,6 +7051,7 @@
     },
     "190": {
         "name": "G-261",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6943,6 +7104,7 @@
     },
     "191": {
         "name": "G-270",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -6995,6 +7157,7 @@
     },
     "192": {
         "name": "G-298",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -7047,6 +7210,7 @@
     },
     "193": {
         "name": "G-326",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7084,6 +7248,7 @@
     },
     "194": {
         "name": "Mickey",
+        "class": "GALACTIC_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7099,6 +7264,7 @@
     },
     "195": {
         "name": "G-370",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7151,6 +7317,7 @@
     },
     "196": {
         "name": "G-401",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7203,6 +7370,7 @@
     },
     "197": {
         "name": "G-420",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -7270,6 +7438,7 @@
     },
     "198": {
         "name": "G-452",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7307,6 +7476,7 @@
     },
     "199": {
         "name": "G-481",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -7359,6 +7529,7 @@
     },
     "200": {
         "name": "G-484",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -7396,6 +7567,7 @@
     },
     "201": {
         "name": "Andrew",
+        "class": "POKE_MANIAC",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7419,6 +7591,7 @@
     },
     "202": {
         "name": "Calvin",
+        "class": "POKE_MANIAC",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7434,6 +7607,7 @@
     },
     "203": {
         "name": "Phillip",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7457,6 +7631,7 @@
     },
     "204": {
         "name": "Leonard",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7480,6 +7655,7 @@
     },
     "205": {
         "name": "Nick",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7526,6 +7702,7 @@
     },
     "206": {
         "name": "Gwen",
+        "class": "ACE_TRAINER_F",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7565,6 +7742,7 @@
     },
     "207": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7580,6 +7758,7 @@
     },
     "208": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7595,6 +7774,7 @@
     },
     "209": {
         "name": "Cassie",
+        "class": "BEAUTY",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7647,6 +7827,7 @@
     },
     "210": {
         "name": "Caroline",
+        "class": "BEAUTY",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7678,6 +7859,7 @@
     },
     "211": {
         "name": "Huey",
+        "class": "SAILOR",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7701,6 +7883,7 @@
     },
     "212": {
         "name": "Terrell",
+        "class": "SAILOR",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7716,6 +7899,7 @@
     },
     "213": {
         "name": "Kent",
+        "class": "SAILOR",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7749,6 +7933,7 @@
     },
     "214": {
         "name": "Roberto",
+        "class": "SAILOR",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7780,6 +7965,7 @@
     },
     "215": {
         "name": "Connie",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -7817,6 +8003,7 @@
     },
     "216": {
         "name": "G-495",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7869,6 +8056,7 @@
     },
     "217": {
         "name": "Denis",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7921,6 +8109,7 @@
     },
     "218": {
         "name": "G-499",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -7973,6 +8162,7 @@
     },
     "219": {
         "name": "G-504",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -8025,6 +8215,7 @@
     },
     "220": {
         "name": "G-521",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8077,6 +8268,7 @@
     },
     "221": {
         "name": "Mickey",
+        "class": "GALACTIC_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8092,6 +8284,7 @@
     },
     "222": {
         "name": "G-534",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8144,6 +8337,7 @@
     },
     "223": {
         "name": "G-547",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8196,6 +8390,7 @@
     },
     "224": {
         "name": "G-559",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8248,6 +8443,7 @@
     },
     "225": {
         "name": "Mickey",
+        "class": "GALACTIC_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8263,6 +8459,7 @@
     },
     "226": {
         "name": "Mickey",
+        "class": "GALACTIC_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8278,6 +8475,7 @@
     },
     "227": {
         "name": "G-604",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8315,6 +8513,7 @@
     },
     "228": {
         "name": "G-603",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8367,6 +8566,7 @@
     },
     "229": {
         "name": "Mickey",
+        "class": "GALACTIC_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8390,6 +8590,7 @@
     },
     "230": {
         "name": "Franklin",
+        "class": "PSYCHIC_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8442,6 +8643,7 @@
     },
     "231": {
         "name": "Edward",
+        "class": "GENTLEMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8457,6 +8659,7 @@
     },
     "232": {
         "name": "Vincent",
+        "class": "GUITARIST",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8503,6 +8706,7 @@
     },
     "233": {
         "name": "Eric",
+        "class": "SUPER_NERD",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8526,6 +8730,7 @@
     },
     "234": {
         "name": "Eoin",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8557,6 +8762,7 @@
     },
     "235": {
         "name": "Noland",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8580,6 +8786,7 @@
     },
     "236": {
         "name": "Shaye",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8626,6 +8833,7 @@
     },
     "237": {
         "name": "Carol",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8672,6 +8880,7 @@
     },
     "238": {
         "name": "Stanly",
+        "class": "SAILOR",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8703,6 +8912,7 @@
     },
     "239": {
         "name": "Jeff",
+        "class": "SAILOR",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8726,6 +8936,7 @@
     },
     "240": {
         "name": "Garrett",
+        "class": "SAILOR",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8741,6 +8952,7 @@
     },
     "241": {
         "name": "Kenneth",
+        "class": "SAILOR",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8780,6 +8992,7 @@
     },
     "242": {
         "name": "Fritz",
+        "class": "JUGGLER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8826,6 +9039,7 @@
     },
     "243": {
         "name": "Katie",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8841,6 +9055,7 @@
     },
     "244": {
         "name": "Lance",
+        "class": "STEVEN",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -8938,6 +9153,7 @@
     },
     "245": {
         "name": "Will",
+        "class": "ELITE_FOUR_0",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9015,6 +9231,7 @@
     },
     "246": {
         "name": "Karen",
+        "class": "ELITE_FOUR_1",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9092,6 +9309,7 @@
     },
     "247": {
         "name": "Koga",
+        "class": "ELITE_FOUR_2",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9169,6 +9387,7 @@
     },
     "248": {
         "name": "Ed",
+        "class": "BUG_CATCHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9200,6 +9419,7 @@
     },
     "249": {
         "name": "Don",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9223,6 +9443,7 @@
     },
     "250": {
         "name": "Kenji",
+        "class": "BLACK_BELT",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9262,6 +9483,7 @@
     },
     "251": {
         "name": "Nob",
+        "class": "BLACK_BELT",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -9314,6 +9536,7 @@
     },
     "252": {
         "name": "Harold",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9337,6 +9560,7 @@
     },
     "253": {
         "name": "Brock",
+        "class": "BROCK",
         "numMons": "4",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -9404,6 +9628,7 @@
     },
     "254": {
         "name": "Misty",
+        "class": "MARLON",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9467,6 +9692,7 @@
     },
     "255": {
         "name": "Lt. Surge",
+        "class": "TATE_AND_LIZA",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9544,6 +9770,7 @@
     },
     "256": {
         "name": "Erika",
+        "class": "BROKEN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9607,6 +9834,7 @@
     },
     "257": {
         "name": "Janine",
+        "class": "WINONA",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9684,6 +9912,7 @@
     },
     "258": {
         "name": "Cynthia",
+        "class": "CYNTHIA_OPPONENT",
         "numMons": "5",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -9766,6 +9995,7 @@
     },
     "259": {
         "name": "Blaine",
+        "class": "HANNAH",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9815,6 +10045,7 @@
     },
     "260": {
         "name": "Red",
+        "class": "RED",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9897,6 +10128,7 @@
     },
     "261": {
         "name": "Blue",
+        "class": "BLUE",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -9979,6 +10211,7 @@
     },
     "262": {
         "name": "Red",
+        "class": "RED",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10076,6 +10309,7 @@
     },
     "263": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10135,6 +10369,7 @@
     },
     "264": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10220,6 +10455,7 @@
     },
     "265": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10235,6 +10471,7 @@
     },
     "266": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10266,6 +10503,7 @@
     },
     "267": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10325,6 +10563,7 @@
     },
     "268": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10410,6 +10649,7 @@
     },
     "269": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10441,6 +10681,7 @@
     },
     "270": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10500,6 +10741,7 @@
     },
     "271": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10572,6 +10814,7 @@
     },
     "272": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10657,6 +10900,7 @@
     },
     "273": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10688,6 +10932,7 @@
     },
     "274": {
         "name": "Todd",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10719,6 +10964,7 @@
     },
     "275": {
         "name": "Todd",
+        "class": "CAMPER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10758,6 +11004,7 @@
     },
     "276": {
         "name": "Liz",
+        "class": "PICNICKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10781,6 +11028,7 @@
     },
     "277": {
         "name": "Liz",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10812,6 +11060,7 @@
     },
     "278": {
         "name": "Kenji",
+        "class": "BLACK_BELT",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10851,12 +11100,14 @@
     },
     "279": {
         "name": "Joey",
+        "class": "YOUNGSTER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": []
     },
     "280": {
         "name": "Joey",
+        "class": "YOUNGSTER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10877,6 +11128,7 @@
     },
     "281": {
         "name": "Richard",
+        "class": "FIREBREATHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10892,6 +11144,7 @@
     },
     "282": {
         "name": "Ned",
+        "class": "FIREBREATHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10923,6 +11176,7 @@
     },
     "283": {
         "name": "Orson",
+        "class": "BURGLAR",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10956,6 +11210,7 @@
     },
     "284": {
         "name": "Corey",
+        "class": "BURGLAR",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -10995,6 +11250,7 @@
     },
     "285": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11080,6 +11336,7 @@
     },
     "286": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11165,6 +11422,7 @@
     },
     "287": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11250,6 +11508,7 @@
     },
     "288": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11322,6 +11581,7 @@
     },
     "289": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11394,6 +11654,7 @@
     },
     "290": {
         "name": "Li",
+        "class": "ELDER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11425,6 +11686,7 @@
     },
     "291": {
         "name": "Debbie",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11440,6 +11702,7 @@
     },
     "292": {
         "name": "Mickey",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11455,6 +11718,7 @@
     },
     "293": {
         "name": "Nicole",
+        "class": "SWIMMER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11486,6 +11750,7 @@
     },
     "294": {
         "name": "Lori",
+        "class": "SWIMMER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11532,6 +11797,7 @@
     },
     "295": {
         "name": "Mickey",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11547,6 +11813,7 @@
     },
     "296": {
         "name": "Nikki",
+        "class": "SWIMMER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11570,6 +11837,7 @@
     },
     "297": {
         "name": "Diana",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11590,6 +11858,7 @@
     },
     "298": {
         "name": "Briana",
+        "class": "SWIMMER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11623,6 +11892,7 @@
     },
     "299": {
         "name": "Hank",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11646,6 +11916,7 @@
     },
     "300": {
         "name": "Roy",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11669,6 +11940,7 @@
     },
     "301": {
         "name": "Boris",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11700,6 +11972,7 @@
     },
     "302": {
         "name": "Bob",
+        "class": "BIRD_KEEPER_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11715,6 +11988,7 @@
     },
     "303": {
         "name": "Jose",
+        "class": "BIRD_KEEPER_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11730,6 +12004,7 @@
     },
     "304": {
         "name": "Mickey",
+        "class": "CAMPER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11769,6 +12044,7 @@
     },
     "305": {
         "name": "Mickey",
+        "class": "CAMPER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11808,6 +12084,7 @@
     },
     "306": {
         "name": "Mickey",
+        "class": "CAMPER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11847,6 +12124,7 @@
     },
     "307": {
         "name": "Mickey",
+        "class": "CAMPER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11886,6 +12164,7 @@
     },
     "308": {
         "name": "Jerry",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11906,6 +12185,7 @@
     },
     "309": {
         "name": "Dwayne",
+        "class": "BIKER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11945,6 +12225,7 @@
     },
     "310": {
         "name": "Harris",
+        "class": "BIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11960,6 +12241,7 @@
     },
     "311": {
         "name": "Zeke",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -11983,6 +12265,7 @@
     },
     "312": {
         "name": "Charles",
+        "class": "BIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12014,6 +12297,7 @@
     },
     "313": {
         "name": "Reese",
+        "class": "BIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12029,6 +12313,7 @@
     },
     "314": {
         "name": "Joel",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12052,6 +12337,7 @@
     },
     "315": {
         "name": "Glenn",
+        "class": "BIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12083,6 +12369,7 @@
     },
     "316": {
         "name": "Herman",
+        "class": "PSYCHIC_M",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -12135,6 +12422,7 @@
     },
     "317": {
         "name": "Fidel",
+        "class": "PSYCHIC_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12155,6 +12443,7 @@
     },
     "318": {
         "name": "Burt",
+        "class": "FIREBREATHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12188,6 +12477,7 @@
     },
     "319": {
         "name": "Bill",
+        "class": "FIREBREATHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12211,6 +12501,7 @@
     },
     "320": {
         "name": "Martin",
+        "class": "FISHERMAN",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12234,6 +12525,7 @@
     },
     "321": {
         "name": "Stephen",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12265,6 +12557,7 @@
     },
     "322": {
         "name": "Barney",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12296,6 +12589,7 @@
     },
     "323": {
         "name": "Tully",
+        "class": "FISHERMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12311,6 +12605,7 @@
     },
     "324": {
         "name": "Tully",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12342,6 +12637,7 @@
     },
     "325": {
         "name": "Wilton",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12373,6 +12669,7 @@
     },
     "326": {
         "name": "Jo & Zoe",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -12406,6 +12703,7 @@
     },
     "327": {
         "name": "Danny",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12437,6 +12735,7 @@
     },
     "328": {
         "name": "Tommy",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12470,6 +12769,7 @@
     },
     "329": {
         "name": "Dudley",
+        "class": "SCHOOL_KID_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12486,6 +12786,7 @@
     },
     "330": {
         "name": "Joe",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12511,6 +12812,7 @@
     },
     "331": {
         "name": "Billy",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12542,6 +12844,7 @@
     },
     "332": {
         "name": "Heidi",
+        "class": "PICNICKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12565,6 +12868,7 @@
     },
     "333": {
         "name": "Edna",
+        "class": "PICNICKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12588,6 +12892,7 @@
     },
     "334": {
         "name": "Gina",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12619,6 +12924,7 @@
     },
     "335": {
         "name": "Erin",
+        "class": "PICNICKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12642,6 +12948,7 @@
     },
     "336": {
         "name": "Tanya",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12662,6 +12969,7 @@
     },
     "337": {
         "name": "Gregory",
+        "class": "GENTLEMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12708,6 +13016,7 @@
     },
     "338": {
         "name": "Mickey",
+        "class": "GENTLEMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12723,6 +13032,7 @@
     },
     "339": {
         "name": "Wai",
+        "class": "BLACK_BELT",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12754,6 +13064,7 @@
     },
     "340": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12769,6 +13080,7 @@
     },
     "341": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12784,6 +13096,7 @@
     },
     "342": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12799,6 +13112,7 @@
     },
     "343": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12814,6 +13128,7 @@
     },
     "344": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12829,6 +13144,7 @@
     },
     "345": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12844,6 +13160,7 @@
     },
     "346": {
         "name": "Julia",
+        "class": "BEAUTY",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12890,6 +13207,7 @@
     },
     "347": {
         "name": "Mickey",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12905,6 +13223,7 @@
     },
     "348": {
         "name": "Robert",
+        "class": "POKEFAN_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12920,6 +13239,7 @@
     },
     "349": {
         "name": "Joshua",
+        "class": "POKEFAN_M",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -12975,6 +13295,7 @@
     },
     "350": {
         "name": "Carter",
+        "class": "POKEFAN_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13006,6 +13327,7 @@
     },
     "351": {
         "name": "Trevor",
+        "class": "POKEFAN_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13021,6 +13343,7 @@
     },
     "352": {
         "name": "Georgia",
+        "class": "POKEFAN_F",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13068,6 +13391,7 @@
     },
     "353": {
         "name": "G-620",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13105,6 +13429,7 @@
     },
     "354": {
         "name": "Laura",
+        "class": "LASS",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13139,6 +13464,7 @@
     },
     "355": {
         "name": "Shannon",
+        "class": "LASS",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13170,6 +13496,7 @@
     },
     "356": {
         "name": "Michelle",
+        "class": "LASS",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13216,6 +13543,7 @@
     },
     "357": {
         "name": "Clarke",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13239,6 +13567,7 @@
     },
     "358": {
         "name": "Kenny",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13270,6 +13599,7 @@
     },
     "359": {
         "name": "Jim",
+        "class": "HIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13285,6 +13615,7 @@
     },
     "360": {
         "name": "Arnie",
+        "class": "BUG_CATCHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13300,6 +13631,7 @@
     },
     "361": {
         "name": "Kevin",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13352,6 +13684,7 @@
     },
     "362": {
         "name": "Quinn",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13385,6 +13718,7 @@
     },
     "363": {
         "name": "Emma",
+        "class": "ACE_TRAINER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13400,6 +13734,7 @@
     },
     "364": {
         "name": "Sam",
+        "class": "SUPER_NERD",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13425,6 +13760,7 @@
     },
     "365": {
         "name": "Tyrone",
+        "class": "SUPER_NERD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13456,6 +13792,7 @@
     },
     "366": {
         "name": "Pat",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13477,6 +13814,7 @@
     },
     "367": {
         "name": "Shawn",
+        "class": "SUPER_NERD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13511,6 +13849,7 @@
     },
     "368": {
         "name": "Rebecca",
+        "class": "MEDIUM",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13544,6 +13883,7 @@
     },
     "369": {
         "name": "Darcy",
+        "class": "MEDIUM",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13577,6 +13917,7 @@
     },
     "370": {
         "name": "Jerome",
+        "class": "SWIMMER_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13616,6 +13957,7 @@
     },
     "371": {
         "name": "Tucker",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13639,6 +13981,7 @@
     },
     "372": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13670,6 +14013,7 @@
     },
     "373": {
         "name": "Frankie",
+        "class": "SWIMMER_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13685,6 +14029,7 @@
     },
     "374": {
         "name": "Tyson",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13718,6 +14063,7 @@
     },
     "375": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13749,6 +14095,7 @@
     },
     "376": {
         "name": "Mickey",
+        "class": "SWIMMER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13780,6 +14127,7 @@
     },
     "377": {
         "name": "Parker",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13813,6 +14161,7 @@
     },
     "378": {
         "name": "Warren",
+        "class": "YOUNGSTER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13836,6 +14185,7 @@
     },
     "379": {
         "name": "Jimmy",
+        "class": "YOUNGSTER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13867,6 +14217,7 @@
     },
     "380": {
         "name": "Owen",
+        "class": "YOUNGSTER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13882,6 +14233,7 @@
     },
     "381": {
         "name": "Jason",
+        "class": "YOUNGSTER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13905,6 +14257,7 @@
     },
     "382": {
         "name": "Hillary",
+        "class": "TEACHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13928,6 +14281,7 @@
     },
     "383": {
         "name": "Peter",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13959,6 +14313,7 @@
     },
     "384": {
         "name": "Daniel",
+        "class": "HIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -13974,6 +14329,7 @@
     },
     "385": {
         "name": "Dara & Dia",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -13997,6 +14353,7 @@
     },
     "386": {
         "name": "Greg",
+        "class": "PSYCHIC_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14017,6 +14374,7 @@
     },
     "387": {
         "name": "Amy & Mimi",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -14040,6 +14398,7 @@
     },
     "388": {
         "name": "Walt",
+        "class": "FIREBREATHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14063,6 +14422,7 @@
     },
     "389": {
         "name": "Nelson",
+        "class": "PSYCHIC_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14096,6 +14456,7 @@
     },
     "390": {
         "name": "Ray",
+        "class": "FIREBREATHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14111,6 +14472,7 @@
     },
     "391": {
         "name": "Issac",
+        "class": "POKE_MANIAC",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14131,6 +14493,7 @@
     },
     "392": {
         "name": "Donald",
+        "class": "POKE_MANIAC",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14154,6 +14517,7 @@
     },
     "393": {
         "name": "Teru",
+        "class": "SUPER_NERD",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14193,6 +14557,7 @@
     },
     "394": {
         "name": "Mickey",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14224,6 +14589,7 @@
     },
     "395": {
         "name": "Mark",
+        "class": "PSYCHIC_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14270,6 +14636,7 @@
     },
     "396": {
         "name": "Horton",
+        "class": "JUGGLER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14316,6 +14683,7 @@
     },
     "397": {
         "name": "Chad",
+        "class": "SCHOOL_KID_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14331,6 +14699,7 @@
     },
     "398": {
         "name": "Valerie",
+        "class": "BEAUTY",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14364,6 +14733,7 @@
     },
     "399": {
         "name": "Lyle",
+        "class": "FIREBREATHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14395,6 +14765,7 @@
     },
     "400": {
         "name": "Dana",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14428,6 +14799,7 @@
     },
     "401": {
         "name": "Alfred",
+        "class": "GENTLEMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14443,6 +14815,7 @@
     },
     "402": {
         "name": "Tiffany",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14463,6 +14836,7 @@
     },
     "403": {
         "name": "Spencer",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14494,6 +14868,7 @@
     },
     "404": {
         "name": "G-931",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14546,6 +14921,7 @@
     },
     "405": {
         "name": "G-967",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14598,6 +14974,7 @@
     },
     "406": {
         "name": "Zach",
+        "class": "POKE_MANIAC",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14665,6 +15042,7 @@
     },
     "407": {
         "name": "Allen",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14717,6 +15095,7 @@
     },
     "408": {
         "name": "Cybil",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14769,6 +15148,7 @@
     },
     "409": {
         "name": "Brandon",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14821,6 +15201,7 @@
     },
     "410": {
         "name": "G-971",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -14858,6 +15239,7 @@
     },
     "411": {
         "name": "G-980",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14910,6 +15292,7 @@
     },
     "412": {
         "name": "G-982",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -14962,6 +15345,7 @@
     },
     "413": {
         "name": "G-991",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -15014,6 +15398,7 @@
     },
     "414": {
         "name": "G-999",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15081,6 +15466,7 @@
     },
     "415": {
         "name": "Jared",
+        "class": "PSYCHIC_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15127,6 +15513,7 @@
     },
     "416": {
         "name": "Jo & Zoe",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -15160,6 +15547,7 @@
     },
     "417": {
         "name": "Jenn",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15183,6 +15571,7 @@
     },
     "418": {
         "name": "Bruno",
+        "class": "ELITE_FOUR_3",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15260,6 +15649,7 @@
     },
     "419": {
         "name": "Ellen",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15283,6 +15673,7 @@
     },
     "420": {
         "name": "Perry",
+        "class": "BIRD_KEEPER_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15298,6 +15689,7 @@
     },
     "421": {
         "name": "Bret",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15321,6 +15713,7 @@
     },
     "422": {
         "name": "Rodney",
+        "class": "PSYCHIC_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15344,6 +15737,7 @@
     },
     "423": {
         "name": "Jeremy",
+        "class": "POKEFAN_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15375,6 +15769,7 @@
     },
     "424": {
         "name": "Colin",
+        "class": "POKEFAN_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15395,6 +15790,7 @@
     },
     "425": {
         "name": "Meg & Peg",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -15418,6 +15814,7 @@
     },
     "426": {
         "name": "Meg & Peg",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -15441,6 +15838,7 @@
     },
     "427": {
         "name": "Shirley",
+        "class": "TEACHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15464,6 +15862,7 @@
     },
     "428": {
         "name": "Nate",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15487,6 +15886,7 @@
     },
     "429": {
         "name": "Ricky",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15512,6 +15912,7 @@
     },
     "430": {
         "name": "Jack",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15535,6 +15936,7 @@
     },
     "431": {
         "name": "Jack",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15558,6 +15960,7 @@
     },
     "432": {
         "name": "Alan",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15581,6 +15984,7 @@
     },
     "433": {
         "name": "Alan",
+        "class": "SCHOOL_KID_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15620,6 +16024,7 @@
     },
     "434": {
         "name": "Chad",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15643,6 +16048,7 @@
     },
     "435": {
         "name": "Chad",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15666,6 +16072,7 @@
     },
     "436": {
         "name": "Beverly",
+        "class": "POKEFAN_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15681,6 +16088,7 @@
     },
     "437": {
         "name": "Beverly",
+        "class": "POKEFAN_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15696,6 +16104,7 @@
     },
     "438": {
         "name": "Derek",
+        "class": "POKEFAN_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15719,6 +16128,7 @@
     },
     "439": {
         "name": "Derek",
+        "class": "POKEFAN_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15758,6 +16168,7 @@
     },
     "440": {
         "name": "Huey",
+        "class": "SAILOR",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15781,6 +16192,7 @@
     },
     "441": {
         "name": "Huey",
+        "class": "SAILOR",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15804,6 +16216,7 @@
     },
     "442": {
         "name": "Mickey",
+        "class": "LASS",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15819,6 +16232,7 @@
     },
     "443": {
         "name": "Mickey",
+        "class": "LASS",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15834,6 +16248,7 @@
     },
     "444": {
         "name": "Reena",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15865,6 +16280,7 @@
     },
     "445": {
         "name": "Reena",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15896,6 +16312,7 @@
     },
     "446": {
         "name": "Jose",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15919,6 +16336,7 @@
     },
     "447": {
         "name": "Vance",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15942,6 +16360,7 @@
     },
     "448": {
         "name": "Vance",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15973,6 +16392,7 @@
     },
     "449": {
         "name": "Arnie",
+        "class": "BUG_CATCHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -15993,6 +16413,7 @@
     },
     "450": {
         "name": "Wilton",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16024,6 +16445,7 @@
     },
     "451": {
         "name": "Parry",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16047,6 +16469,7 @@
     },
     "452": {
         "name": "Parry",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16070,6 +16493,7 @@
     },
     "453": {
         "name": "Erin",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16101,6 +16525,7 @@
     },
     "454": {
         "name": "Irwin",
+        "class": "JUGGLER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16140,6 +16565,7 @@
     },
     "455": {
         "name": "Irwin",
+        "class": "JUGGLER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16179,6 +16605,7 @@
     },
     "456": {
         "name": "Gaven",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16225,6 +16652,7 @@
     },
     "457": {
         "name": "Gaven",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16271,6 +16699,7 @@
     },
     "458": {
         "name": "Jamie",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16304,6 +16733,7 @@
     },
     "459": {
         "name": "Jamie",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16337,6 +16767,7 @@
     },
     "460": {
         "name": "Wade",
+        "class": "BUG_CATCHER",
         "numMons": "4",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -16396,6 +16827,7 @@
     },
     "461": {
         "name": "Wade",
+        "class": "BUG_CATCHER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16455,6 +16887,7 @@
     },
     "462": {
         "name": "P-101",
+        "class": "PLASMA_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16470,6 +16903,7 @@
     },
     "463": {
         "name": "Ghetsis",
+        "class": "GHETSIS",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16485,6 +16919,7 @@
     },
     "464": {
         "name": "Dana",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16518,6 +16953,7 @@
     },
     "465": {
         "name": "Dana",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16551,6 +16987,7 @@
     },
     "466": {
         "name": "Tiffany",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16571,6 +17008,7 @@
     },
     "467": {
         "name": "Tiffany",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16591,6 +17029,7 @@
     },
     "468": {
         "name": "Ross",
+        "class": "SCIENTIST_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16643,6 +17082,7 @@
     },
     "469": {
         "name": "Mitch",
+        "class": "SCIENTIST_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16695,6 +17135,7 @@
     },
     "470": {
         "name": "Gregg",
+        "class": "SCIENTIST_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16747,6 +17188,7 @@
     },
     "471": {
         "name": "Garett",
+        "class": "SCIENTIST_1",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -16784,6 +17226,7 @@
     },
     "472": {
         "name": "Trenton",
+        "class": "SCIENTIST_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16804,6 +17247,7 @@
     },
     "473": {
         "name": "Mickey",
+        "class": "SUPER_NERD",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16827,6 +17271,7 @@
     },
     "474": {
         "name": "Mickey",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16842,6 +17287,7 @@
     },
     "475": {
         "name": "Mickey",
+        "class": "SUPER_NERD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16873,6 +17319,7 @@
     },
     "476": {
         "name": "Mickey",
+        "class": "SUPER_NERD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16904,6 +17351,7 @@
     },
     "477": {
         "name": "Mickey",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16924,6 +17372,7 @@
     },
     "478": {
         "name": "Jupiter",
+        "class": "JUPITER",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16991,6 +17440,7 @@
     },
     "479": {
         "name": "Jupiter",
+        "class": "JUPITER",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -17088,6 +17538,7 @@
     },
     "480": {
         "name": "Diana",
+        "class": "SKIER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17140,6 +17591,7 @@
     },
     "481": {
         "name": "Jill",
+        "class": "SKIER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17155,6 +17607,7 @@
     },
     "482": {
         "name": "Deandre",
+        "class": "BOARDER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17186,6 +17639,7 @@
     },
     "483": {
         "name": "Patton",
+        "class": "BOARDER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17209,6 +17663,7 @@
     },
     "484": {
         "name": "Gerardo",
+        "class": "BOARDER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17255,6 +17710,7 @@
     },
     "485": {
         "name": "Cyrus",
+        "class": "CYRUS",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17337,6 +17793,7 @@
     },
     "486": {
         "name": "Saturn",
+        "class": "SATURN",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17404,6 +17861,7 @@
     },
     "487": {
         "name": "Mars",
+        "class": "MARS",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17471,6 +17929,7 @@
     },
     "488": {
         "name": "Jupiter",
+        "class": "JUPITER",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17568,6 +18027,7 @@
     },
     "489": {
         "name": "Mars",
+        "class": "MARS",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17650,6 +18110,7 @@
     },
     "490": {
         "name": "Cyrus",
+        "class": "CYRUS",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17732,6 +18193,7 @@
     },
     "491": {
         "name": "Jupiter",
+        "class": "IRIS_OLD",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17823,6 +18285,7 @@
     },
     "492": {
         "name": "Mars",
+        "class": "MARS",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17920,6 +18383,7 @@
     },
     "493": {
         "name": "Edith",
+        "class": "MEDIUM",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -17972,6 +18436,7 @@
     },
     "494": {
         "name": "Georgina",
+        "class": "MEDIUM",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -18024,6 +18489,7 @@
     },
     "495": {
         "name": "Iris",
+        "class": "IRIS",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18046,6 +18512,7 @@
     },
     "496": {
         "name": "Steven",
+        "class": "STEVEN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18068,6 +18535,7 @@
     },
     "497": {
         "name": "Red",
+        "class": "RED",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18165,6 +18633,7 @@
     },
     "498": {
         "name": "Blue",
+        "class": "BLUE",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18262,6 +18731,7 @@
     },
     "499": {
         "name": "G-630",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18314,6 +18784,7 @@
     },
     "500": {
         "name": "Darkrai",
+        "class": "DARKRAI",
         "numMons": "6",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -18411,6 +18882,7 @@
     },
     "501": {
         "name": "Cynthia",
+        "class": "CYNTHIA_OPPONENT",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18508,6 +18980,7 @@
     },
     "502": {
         "name": "Clea & Gil",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -18541,6 +19014,7 @@
     },
     "503": {
         "name": "Jack",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18587,6 +19061,7 @@
     },
     "504": {
         "name": "Mickey",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18633,6 +19108,7 @@
     },
     "505": {
         "name": "Alan",
+        "class": "SCHOOL_KID_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18672,6 +19148,7 @@
     },
     "506": {
         "name": "Mickey",
+        "class": "SCHOOL_KID_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18731,6 +19208,7 @@
     },
     "507": {
         "name": "Chad",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18764,6 +19242,7 @@
     },
     "508": {
         "name": "Mickey",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18797,6 +19276,7 @@
     },
     "509": {
         "name": "Huey",
+        "class": "SAILOR",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18830,6 +19310,7 @@
     },
     "510": {
         "name": "Joey",
+        "class": "YOUNGSTER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18850,6 +19331,7 @@
     },
     "511": {
         "name": "Mickey",
+        "class": "YOUNGSTER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18870,6 +19352,7 @@
     },
     "512": {
         "name": "Wade",
+        "class": "BUG_CATCHER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18929,6 +19412,7 @@
     },
     "513": {
         "name": "Arnie",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18962,6 +19446,7 @@
     },
     "514": {
         "name": "Mickey",
+        "class": "BUG_CATCHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -18982,6 +19467,7 @@
     },
     "515": {
         "name": "Ralph",
+        "class": "FISHERMAN",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19005,6 +19491,7 @@
     },
     "516": {
         "name": "Mickey",
+        "class": "FISHERMAN",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19038,6 +19525,7 @@
     },
     "517": {
         "name": "Tully",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19084,6 +19572,7 @@
     },
     "518": {
         "name": "Liz",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19115,6 +19604,7 @@
     },
     "519": {
         "name": "Mickey",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19161,6 +19651,7 @@
     },
     "520": {
         "name": "Gina",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19192,6 +19683,7 @@
     },
     "521": {
         "name": "Mickey",
+        "class": "PICNICKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19238,6 +19730,7 @@
     },
     "522": {
         "name": "Tiffany",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19258,6 +19751,7 @@
     },
     "523": {
         "name": "Anthony",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -19310,6 +19804,7 @@
     },
     "524": {
         "name": "Mickey",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19356,6 +19851,7 @@
     },
     "525": {
         "name": "Todd",
+        "class": "CAMPER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19395,6 +19891,7 @@
     },
     "526": {
         "name": "Mickey",
+        "class": "CAMPER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19454,6 +19951,7 @@
     },
     "527": {
         "name": "Irwin",
+        "class": "JUGGLER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19513,6 +20011,7 @@
     },
     "528": {
         "name": "Dana",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19546,6 +20045,7 @@
     },
     "529": {
         "name": "Mickey",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19579,6 +20079,7 @@
     },
     "530": {
         "name": "Brent",
+        "class": "POKE_MANIAC",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19618,6 +20119,7 @@
     },
     "531": {
         "name": "Mickey",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -19651,6 +20153,7 @@
     },
     "532": {
         "name": "Mickey",
+        "class": "BUG_CATCHER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19710,6 +20213,7 @@
     },
     "533": {
         "name": "Wayne",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19733,6 +20237,7 @@
     },
     "534": {
         "name": "Kimberly",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19748,6 +20253,7 @@
     },
     "535": {
         "name": "Marigold",
+        "class": "POKEFAN_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19763,6 +20269,7 @@
     },
     "536": {
         "name": "Bertrand",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19794,6 +20301,7 @@
     },
     "537": {
         "name": "Harrison",
+        "class": "POKE_MANIAC",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19817,6 +20325,7 @@
     },
     "538": {
         "name": "Hugh",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19837,6 +20346,7 @@
     },
     "539": {
         "name": "Markus",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19857,6 +20367,7 @@
     },
     "540": {
         "name": "Rex",
+        "class": "POKEFAN_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19872,6 +20383,7 @@
     },
     "541": {
         "name": "Andy",
+        "class": "POKEFAN_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19887,6 +20399,7 @@
     },
     "542": {
         "name": "Mickey",
+        "class": "SAGE",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19920,6 +20433,7 @@
     },
     "543": {
         "name": "Mickey",
+        "class": "SAGE",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19953,6 +20467,7 @@
     },
     "544": {
         "name": "Mickey",
+        "class": "SAGE",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -19986,6 +20501,7 @@
     },
     "545": {
         "name": "French",
+        "class": "ACE_TRAINER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20021,6 +20537,7 @@
     },
     "546": {
         "name": "Sherman",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20054,6 +20571,7 @@
     },
     "547": {
         "name": "Bruce",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20085,6 +20603,7 @@
     },
     "548": {
         "name": "Manford",
+        "class": "BLACK_BELT",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20152,6 +20671,7 @@
     },
     "549": {
         "name": "Zac & Jen",
+        "class": "DOUBLE_TEAM",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -20185,6 +20705,7 @@
     },
     "550": {
         "name": "Ander",
+        "class": "BLACK_BELT",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20216,6 +20737,7 @@
     },
     "551": {
         "name": "Dwight",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20239,6 +20761,7 @@
     },
     "552": {
         "name": "Regis",
+        "class": "YOUNGSTER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20262,6 +20785,7 @@
     },
     "553": {
         "name": "Moe & Lulu",
+        "class": "YOUNG_COUPLE",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -20285,6 +20809,7 @@
     },
     "554": {
         "name": "Milton",
+        "class": "GENTLEMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20300,6 +20825,7 @@
     },
     "555": {
         "name": "Justin",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20323,6 +20849,7 @@
     },
     "556": {
         "name": "Gail",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20346,6 +20873,7 @@
     },
     "557": {
         "name": "Vic & Tara",
+        "class": "YOUNG_COUPLE",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -20379,6 +20907,7 @@
     },
     "558": {
         "name": "Kyler",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20410,6 +20939,7 @@
     },
     "559": {
         "name": "Tim & Sue",
+        "class": "YOUNG_COUPLE",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -20433,6 +20963,7 @@
     },
     "560": {
         "name": "Clark",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20448,6 +20979,7 @@
     },
     "561": {
         "name": "Tanner",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20463,6 +20995,7 @@
     },
     "562": {
         "name": "Piper",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20478,6 +21011,7 @@
     },
     "563": {
         "name": "Ginger",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20493,6 +21027,7 @@
     },
     "564": {
         "name": "Clarice",
+        "class": "TEACHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20528,6 +21063,7 @@
     },
     "565": {
         "name": "Josh",
+        "class": "BIRD_KEEPER_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20543,6 +21079,7 @@
     },
     "566": {
         "name": "Connor",
+        "class": "SCHOOL_KID_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20564,6 +21101,7 @@
     },
     "567": {
         "name": "Torin",
+        "class": "SCHOOL_KID_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20587,6 +21125,7 @@
     },
     "568": {
         "name": "Travis",
+        "class": "SCHOOL_KID_M",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20607,6 +21146,7 @@
     },
     "569": {
         "name": "Kay & Tia",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -20640,6 +21180,7 @@
     },
     "570": {
         "name": "Boone",
+        "class": "POKEFAN_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20663,6 +21204,7 @@
     },
     "571": {
         "name": "Eleanor",
+        "class": "POKEFAN_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20686,6 +21228,7 @@
     },
     "572": {
         "name": "Dale",
+        "class": "BIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20702,6 +21245,7 @@
     },
     "573": {
         "name": "Jacob",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20725,6 +21269,7 @@
     },
     "574": {
         "name": "Aiden",
+        "class": "BIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20740,6 +21285,7 @@
     },
     "575": {
         "name": "Dan",
+        "class": "BIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20771,6 +21317,7 @@
     },
     "576": {
         "name": "Theron",
+        "class": "BIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20786,6 +21333,7 @@
     },
     "577": {
         "name": "Markey",
+        "class": "BIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20801,6 +21349,7 @@
     },
     "578": {
         "name": "Teddy",
+        "class": "BIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20816,6 +21365,7 @@
     },
     "579": {
         "name": "Ernest",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20839,6 +21389,7 @@
     },
     "580": {
         "name": "Pedro",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20860,6 +21411,7 @@
     },
     "581": {
         "name": "Adrian",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20875,6 +21427,7 @@
     },
     "582": {
         "name": "Cheyenne",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20890,6 +21443,7 @@
     },
     "583": {
         "name": "Bert",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20913,6 +21467,7 @@
     },
     "584": {
         "name": "Ernie",
+        "class": "BIRD_KEEPER_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20928,6 +21483,7 @@
     },
     "585": {
         "name": "Elmo",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20951,6 +21507,7 @@
     },
     "586": {
         "name": "Luis",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20974,6 +21531,7 @@
     },
     "587": {
         "name": "Leona",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -20989,6 +21547,7 @@
     },
     "588": {
         "name": "Mina",
+        "class": "SWIMMER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21020,6 +21579,7 @@
     },
     "589": {
         "name": "Murphy",
+        "class": "FISHERMAN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21059,6 +21619,7 @@
     },
     "590": {
         "name": "Liam",
+        "class": "FISHERMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21074,6 +21635,7 @@
     },
     "591": {
         "name": "Gideon",
+        "class": "FISHERMAN",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21107,6 +21669,7 @@
     },
     "592": {
         "name": "Chelan",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21127,6 +21690,7 @@
     },
     "593": {
         "name": "Kendra",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21142,6 +21706,7 @@
     },
     "594": {
         "name": "Esteban",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21165,6 +21730,7 @@
     },
     "595": {
         "name": "Duane",
+        "class": "SWIMMER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21188,6 +21754,7 @@
     },
     "596": {
         "name": "Kinsley",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21219,6 +21786,7 @@
     },
     "597": {
         "name": "Easton",
+        "class": "BIRD_KEEPER_1",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21258,6 +21826,7 @@
     },
     "598": {
         "name": "Day & Dani",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -21281,6 +21850,7 @@
     },
     "599": {
         "name": "Virgil",
+        "class": "CAMPER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21296,6 +21866,7 @@
     },
     "600": {
         "name": "Selina",
+        "class": "PICNICKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21311,6 +21882,7 @@
     },
     "601": {
         "name": "G-636",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -21348,6 +21920,7 @@
     },
     "602": {
         "name": "Jose",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21379,6 +21952,7 @@
     },
     "603": {
         "name": "Erin",
+        "class": "PICNICKER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21418,6 +21992,7 @@
     },
     "604": {
         "name": "Gaven",
+        "class": "ACE_TRAINER_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21464,6 +22039,7 @@
     },
     "605": {
         "name": "Kenji",
+        "class": "BLACK_BELT",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21503,6 +22079,7 @@
     },
     "606": {
         "name": "Parry",
+        "class": "HIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21526,6 +22103,7 @@
     },
     "607": {
         "name": "Reena",
+        "class": "ACE_TRAINER_F",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21572,6 +22150,7 @@
     },
     "608": {
         "name": "Wilton",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21603,6 +22182,7 @@
     },
     "609": {
         "name": "Jamie",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21636,6 +22216,7 @@
     },
     "610": {
         "name": "Derek",
+        "class": "POKEFAN_M",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21675,6 +22256,7 @@
     },
     "611": {
         "name": "Beverly",
+        "class": "POKEFAN_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21690,6 +22272,7 @@
     },
     "612": {
         "name": "Vance",
+        "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21721,6 +22304,7 @@
     },
     "613": {
         "name": "Krise",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21744,6 +22328,7 @@
     },
     "614": {
         "name": "Krise",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21767,6 +22352,7 @@
     },
     "615": {
         "name": "Krise",
+        "class": "LASS",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21790,6 +22376,7 @@
     },
     "616": {
         "name": "Ian",
+        "class": "YOUNGSTER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21813,6 +22400,7 @@
     },
     "617": {
         "name": "Ian",
+        "class": "YOUNGSTER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21836,6 +22424,7 @@
     },
     "618": {
         "name": "Ian",
+        "class": "YOUNGSTER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21859,6 +22448,7 @@
     },
     "619": {
         "name": "Walt",
+        "class": "FIREBREATHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21882,6 +22472,7 @@
     },
     "620": {
         "name": "Walt",
+        "class": "FIREBREATHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21905,6 +22496,7 @@
     },
     "621": {
         "name": "Walt",
+        "class": "FIREBREATHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21936,6 +22528,7 @@
     },
     "622": {
         "name": "Doug",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21959,6 +22552,7 @@
     },
     "623": {
         "name": "Doug",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -21982,6 +22576,7 @@
     },
     "624": {
         "name": "Doug",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22005,6 +22600,7 @@
     },
     "625": {
         "name": "G-625",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22057,6 +22653,7 @@
     },
     "626": {
         "name": "Rob",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22080,6 +22677,7 @@
     },
     "627": {
         "name": "Rob",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22103,6 +22701,7 @@
     },
     "628": {
         "name": "Reese",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22136,6 +22735,7 @@
     },
     "629": {
         "name": "Jenny",
+        "class": "BATTLE_GIRL",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22188,6 +22788,7 @@
     },
     "630": {
         "name": "Jessica",
+        "class": "BATTLE_GIRL",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22225,6 +22826,7 @@
     },
     "631": {
         "name": "Aiden",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22248,6 +22850,7 @@
     },
     "632": {
         "name": "Aiden",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22271,6 +22874,7 @@
     },
     "633": {
         "name": "Aiden",
+        "class": "BIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22302,6 +22906,7 @@
     },
     "634": {
         "name": "Ernest",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22325,6 +22930,7 @@
     },
     "635": {
         "name": "Ernest",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22348,6 +22954,7 @@
     },
     "636": {
         "name": "Ernest",
+        "class": "BIKER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22371,6 +22978,7 @@
     },
     "637": {
         "name": "Hillary",
+        "class": "TEACHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22394,6 +23002,7 @@
     },
     "638": {
         "name": "Hillary",
+        "class": "TEACHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22417,6 +23026,7 @@
     },
     "639": {
         "name": "Hillary",
+        "class": "TEACHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22440,6 +23050,7 @@
     },
     "640": {
         "name": "G-650",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22492,6 +23103,7 @@
     },
     "641": {
         "name": "G-658",
+        "class": "GALACTIC_F",
         "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22544,6 +23156,7 @@
     },
     "642": {
         "name": "G-671",
+        "class": "GALACTIC_M",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22596,6 +23209,7 @@
     },
     "643": {
         "name": "Kay & Tia",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22629,6 +23243,7 @@
     },
     "644": {
         "name": "Kay & Tia",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22662,6 +23277,7 @@
     },
     "645": {
         "name": "Kay & Tia",
+        "class": "TWINS",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22695,6 +23311,7 @@
     },
     "646": {
         "name": "Josh",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22718,6 +23335,7 @@
     },
     "647": {
         "name": "Josh",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22741,6 +23359,7 @@
     },
     "648": {
         "name": "Josh",
+        "class": "BIRD_KEEPER_1",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22764,6 +23383,7 @@
     },
     "649": {
         "name": "Torin",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22795,6 +23415,7 @@
     },
     "650": {
         "name": "Torin",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22826,6 +23447,7 @@
     },
     "651": {
         "name": "Torin",
+        "class": "SCHOOL_KID_M",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22857,6 +23479,7 @@
     },
     "652": {
         "name": "Tim & Sue",
+        "class": "YOUNG_COUPLE",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22880,6 +23503,7 @@
     },
     "653": {
         "name": "Tim & Sue",
+        "class": "YOUNG_COUPLE",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22913,6 +23537,7 @@
     },
     "654": {
         "name": "Tim & Sue",
+        "class": "YOUNG_COUPLE",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -22946,6 +23571,7 @@
     },
     "655": {
         "name": "Kenny",
+        "class": "HIKER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -22985,6 +23611,7 @@
     },
     "656": {
         "name": "Kenny",
+        "class": "HIKER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23024,6 +23651,7 @@
     },
     "657": {
         "name": "Kenny",
+        "class": "HIKER",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23063,6 +23691,7 @@
     },
     "658": {
         "name": "Tanner",
+        "class": "CAMPER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23086,6 +23715,7 @@
     },
     "659": {
         "name": "Tanner",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23117,6 +23747,7 @@
     },
     "660": {
         "name": "Tanner",
+        "class": "CAMPER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23148,6 +23779,7 @@
     },
     "661": {
         "name": "Kyle",
+        "class": "FISHERMAN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23179,6 +23811,7 @@
     },
     "662": {
         "name": "Kyle",
+        "class": "FISHERMAN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23218,6 +23851,7 @@
     },
     "663": {
         "name": "Kyle",
+        "class": "FISHERMAN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23257,6 +23891,7 @@
     },
     "664": {
         "name": "Kyler",
+        "class": "FISHERMAN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23296,6 +23931,7 @@
     },
     "665": {
         "name": "Kyler",
+        "class": "FISHERMAN",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23343,6 +23979,7 @@
     },
     "666": {
         "name": "Kyler",
+        "class": "FISHERMAN",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23398,6 +24035,7 @@
     },
     "667": {
         "name": "Cheryl",
+        "class": "PKMN_TRAINER_2",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23475,6 +24113,7 @@
     },
     "668": {
         "name": "Marley",
+        "class": "PKMN_TRAINER_4",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23552,6 +24191,7 @@
     },
     "669": {
         "name": "Mira",
+        "class": "PKMN_TRAINER_6",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23629,6 +24269,7 @@
     },
     "670": {
         "name": "Riley",
+        "class": "PKMN_TRAINER_3",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23706,6 +24347,7 @@
     },
     "671": {
         "name": "Buck",
+        "class": "PKMN_TRAINER_5",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23783,6 +24425,7 @@
     },
     "672": {
         "name": "Alfred",
+        "class": "GENTLEMAN",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23850,6 +24493,7 @@
     },
     "673": {
         "name": "Alfred",
+        "class": "GENTLEMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23865,6 +24509,7 @@
     },
     "674": {
         "name": "Alfred",
+        "class": "GENTLEMAN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23885,6 +24530,7 @@
     },
     "675": {
         "name": "Cynthia",
+        "class": "PKMN_TRAINER_14",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23937,6 +24583,7 @@
     },
     "676": {
         "name": "Cynthia",
+        "class": "PKMN_TRAINER_14",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -23989,6 +24636,7 @@
     },
     "677": {
         "name": "Eddie",
+        "class": "SAILOR",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24009,6 +24657,7 @@
     },
     "678": {
         "name": "Joy",
+        "class": "SWIMMER_F",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24029,6 +24678,7 @@
     },
     "679": {
         "name": "Callie",
+        "class": "BEAUTY",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24062,6 +24712,7 @@
     },
     "680": {
         "name": "Kassandra",
+        "class": "BEAUTY",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24095,6 +24746,7 @@
     },
     "681": {
         "name": "Arabella",
+        "class": "ACE_TRAINER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24128,6 +24780,7 @@
     },
     "682": {
         "name": "Bonita",
+        "class": "ACE_TRAINER_M",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24161,6 +24814,7 @@
     },
     "683": {
         "name": "Salma",
+        "class": "ACE_TRAINER_F",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24196,6 +24850,7 @@
     },
     "684": {
         "name": "Elan & Ida",
+        "class": "DOUBLE_TEAM",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -24231,6 +24886,7 @@
     },
     "685": {
         "name": "Edwin",
+        "class": "HIKER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24251,6 +24907,7 @@
     },
     "686": {
         "name": "Bryce",
+        "class": "BOARDER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24274,6 +24931,7 @@
     },
     "687": {
         "name": "Shaun",
+        "class": "BOARDER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24297,6 +24955,7 @@
     },
     "688": {
         "name": "Teresa",
+        "class": "SKIER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24349,6 +25008,7 @@
     },
     "689": {
         "name": "Cary",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24369,6 +25029,7 @@
     },
     "690": {
         "name": "Waldo",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24389,6 +25050,7 @@
     },
     "691": {
         "name": "Merle",
+        "class": "SUPER_NERD",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24409,6 +25071,7 @@
     },
     "692": {
         "name": "Lowell",
+        "class": "SCIENTIST_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24429,6 +25092,7 @@
     },
     "693": {
         "name": "Linden",
+        "class": "SCIENTIST_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24449,6 +25113,7 @@
     },
     "694": {
         "name": "Daniel",
+        "class": "SCIENTIST_1",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24469,6 +25134,7 @@
     },
     "695": {
         "name": "Dane",
+        "class": "BUG_CATCHER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24492,6 +25158,7 @@
     },
     "696": {
         "name": "Dion",
+        "class": "BUG_CATCHER",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24507,6 +25174,7 @@
     },
     "697": {
         "name": "Stacey",
+        "class": "BUG_CATCHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24538,6 +25206,7 @@
     },
     "698": {
         "name": "Ellis",
+        "class": "BUG_CATCHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24569,6 +25238,7 @@
     },
     "699": {
         "name": "Abner",
+        "class": "BUG_CATCHER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24600,6 +25270,7 @@
     },
     "700": {
         "name": "Giovanni",
+        "class": "ROCKET_BOSS",
         "numMons": "4",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24663,6 +25334,7 @@
     },
     "701": {
         "name": "Lance",
+        "class": "STEVEN",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24754,6 +25426,7 @@
     },
     "702": {
         "name": "Will",
+        "class": "ELITE_FOUR_0",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24845,6 +25518,7 @@
     },
     "703": {
         "name": "Koga",
+        "class": "ELITE_FOUR_2",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -24936,6 +25610,7 @@
     },
     "704": {
         "name": "Bruno",
+        "class": "ELITE_FOUR_3",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25027,6 +25702,7 @@
     },
     "705": {
         "name": "Karen",
+        "class": "ELITE_FOUR_1",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25118,6 +25794,7 @@
     },
     "706": {
         "name": "Saturn",
+        "class": "SATURN",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25200,6 +25877,7 @@
     },
     "707": {
         "name": "Darkrai",
+        "class": "DARKRAI",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25297,6 +25975,7 @@
     },
     "708": {
         "name": "Argenta",
+        "class": "ZINZOLIN",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25312,6 +25991,7 @@
     },
     "709": {
         "name": "Thorton",
+        "class": "GHETSIS",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25327,6 +26007,7 @@
     },
     "710": {
         "name": "Dahlia",
+        "class": "GARDENIA",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25342,6 +26023,7 @@
     },
     "711": {
         "name": "Darach",
+        "class": "ROXIE",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25357,6 +26039,7 @@
     },
     "712": {
         "name": "Volkner",
+        "class": "VOLKNER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25409,6 +26092,7 @@
     },
     "713": {
         "name": "Flint",
+        "class": "FLINT",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25461,6 +26145,7 @@
     },
     "714": {
         "name": "Whitney",
+        "class": "WHITNEY",
         "numMons": "5",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -25543,6 +26228,7 @@
     },
     "715": {
         "name": "Morty",
+        "class": "MORTY",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25634,6 +26320,7 @@
     },
     "716": {
         "name": "Pryce",
+        "class": "PRYCE",
         "numMons": "5",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25725,6 +26412,7 @@
     },
     "717": {
         "name": "Jasmine",
+        "class": "JASMINE",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25816,6 +26504,7 @@
     },
     "718": {
         "name": "Chuck",
+        "class": "CHUCK",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -25913,6 +26602,7 @@
     },
     "719": {
         "name": "Clair",
+        "class": "CLAIR",
         "numMons": "6",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -26010,6 +26700,7 @@
     },
     "720": {
         "name": "Brock",
+        "class": "BROCK",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26101,6 +26792,7 @@
     },
     "721": {
         "name": "Misty",
+        "class": "MARLON",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26192,6 +26884,7 @@
     },
     "722": {
         "name": "Lt. Surge",
+        "class": "TATE_AND_LIZA",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26283,6 +26976,7 @@
     },
     "723": {
         "name": "Erika",
+        "class": "BROKEN",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26374,6 +27068,7 @@
     },
     "724": {
         "name": "Janine",
+        "class": "WINONA",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26465,6 +27160,7 @@
     },
     "725": {
         "name": "Sabrina",
+        "class": "CYNTHIA_OPPONENT",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26556,6 +27252,7 @@
     },
     "726": {
         "name": "Blaine",
+        "class": "HANNAH",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26647,6 +27344,7 @@
     },
     "727": {
         "name": "Blue",
+        "class": "BLUE",
         "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26738,6 +27436,7 @@
     },
     "728": {
         "name": "Charlotte",
+        "class": "BEAUTY",
         "numMons": "1",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26753,6 +27452,7 @@
     },
     "729": {
         "name": "Duff & Eda",
+        "class": "YOUNG_COUPLE",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -26776,6 +27476,7 @@
     },
     "730": {
         "name": "Thom & Kae",
+        "class": "DOUBLE_TEAM",
         "numMons": "2",
         "battleType": "DOUBLE_BATTLE",
         "party": [
@@ -26809,6 +27510,7 @@
     },
     "731": {
         "name": "Devin",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26840,6 +27542,7 @@
     },
     "732": {
         "name": "Grant",
+        "class": "CAMPER",
         "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26863,6 +27566,7 @@
     },
     "733": {
         "name": "Lance",
+        "class": "STEVEN",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26912,6 +27616,7 @@
     },
     "734": {
         "name": "Clair",
+        "class": "CLAIR",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -26961,6 +27666,7 @@
     },
     "735": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -27010,6 +27716,7 @@
     },
     "736": {
         "name": "Silver",
+        "class": "IRIS_OLD",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -27059,6 +27766,7 @@
     },
     "737": {
         "name": "Silver",
+        "class": "IRIS",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [

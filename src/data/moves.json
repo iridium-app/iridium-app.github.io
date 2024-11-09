@@ -282,7 +282,7 @@
     "MOVE_WRAP": {
         "name": "Wrap",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "45",
+        "basePower": "35",
         "type": "TYPE_NORMAL",
         "pp": "10",
         "description": "A long body or vines are used to wrap and squeeze the foe for two to five turns. "
@@ -6429,7 +6429,7 @@
         "basePower": "120",
         "type": "TYPE_ROCK",
         "pp": "10",
-        "description": "---"
+        "description": "The user gathers space power on the first turn to raise its Sp. Atk, and then attacks on the next."
     },
     "MOVE_SHELL_SIDE_ARM": {
         "name": "Shell Side Arm",
@@ -7269,7 +7269,7 @@
         "basePower": "130",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user gathers electricity on the first turn to raise its Sp. Atk, and then attacks on the next."
     },
     "MOVE_TERA_STARSTORM": {
         "name": "Tera Starstorm",

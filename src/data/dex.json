@@ -79378,19 +79378,19 @@
             },
             {
                 "name": "MOVE_TACKLE",
-                "level": 1
+                "level": 3
             },
             {
-                "name": "MOVE_SCREECH",
-                "level": 1
+                "name": "MOVE_TWISTER",
+                "level": 5
+            },
+            {
+                "name": "MOVE_GUST",
+                "level": 7
             },
             {
                 "name": "MOVE_SUPERSONIC",
-                "level": 1
-            },
-            {
-                "name": "MOVE_ABSORB",
-                "level": 5
+                "level": 9
             },
             {
                 "name": "MOVE_GUST",
@@ -95135,28 +95135,28 @@
                 "level": 1
             },
             {
-                "name": "MOVE_AROMATIC_MIST",
-                "level": 1
+                "name": "MOVE_DISARMING_VOICE",
+                "level": 3
             },
             {
                 "name": "MOVE_SWEET_KISS",
-                "level": 4
+                "level": 5
             },
             {
-                "name": "MOVE_SWEET_SCENT",
+                "name": "MOVE_CHARM",
                 "level": 7
             },
             {
-                "name": "MOVE_MEGA_DRAIN",
-                "level": 10
+                "name": "MOVE_MISTY_EXPLOSION",
+                "level": 9
             },
             {
                 "name": "MOVE_CONFUSION",
-                "level": 13
+                "level": 12
             },
             {
                 "name": "MOVE_DRAINING_KISS",
-                "level": 16
+                "level": 15
             },
             {
                 "name": "MOVE_MAGICAL_LEAF",

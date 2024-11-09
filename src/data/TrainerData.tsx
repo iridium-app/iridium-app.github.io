@@ -5,6 +5,7 @@ interface IDictionary {
 }
 export type TrainerInfo = {
   name: string;
+  class: string;
   numMons: number;
   battleType: string;
   party: {
