@@ -50,7 +50,7 @@ function Dev() {
         output += "\n\t\t";
       }
 
-      const abilityName = Dex.GetAbilityHgeName(arr[2][i]);
+      const abilityName = Dex.GetHgeName(arr[2][i]);
       output += "ability " + abilityName;
       output += "\n\t\t";
 

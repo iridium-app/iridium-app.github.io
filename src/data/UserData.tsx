@@ -5,22 +5,22 @@ export type UserDataContext = {
   setDifficulty: (d: string) => void;
   encounterList: EncounterList;
   setEncounterList: (encounterList: EncounterList) => void;
-  completedTrainerList: number[];
-  setCompletedTrainerList: (completedTrainerList: number[]) => void;
+  completedTrainerList: string[];
+  setCompletedTrainerList: (completedTrainerList: string[]) => void;
 };
 
 export type Encounter = {
-  subtype: string;
-  id: number;
+  type: string;
+  id: string;
   monWithForm: MonWithForm;
 };
 
 class EncounterList {
-    public Encounters: Encounter[];
+  public Encounters: Encounter[];
 
-    constructor(encounters: Encounter[]) {
-        this.Encounters = encounters;
-    }
+  constructor(encounters: Encounter[]) {
+    this.Encounters = encounters;
+  }
 }
 
 export default EncounterList;

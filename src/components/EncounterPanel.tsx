@@ -17,10 +17,10 @@ function EncounterPanel({
   encounter: Encounter;
 }) {
   const { encounterList, setEncounterList } = useContext(UserContext);
-  const caught = encounterList.Encounters.find((e) => e.id === encounter.id);
+  const caught = encounterList.Encounters.find((e) => e.id === encounter.entryId);
 
   return (
-    <div className="encounter-panel" id={"encounter_" + encounter.id}>
+    <div className="encounter-panel" id={"encounter_" + encounter.entryId}>
       {caught === undefined ? (
         encounterInfo.methods.map((method) => (
           <div
@@ -53,18 +53,18 @@ function EncounterPanel({
                     </button>
                     <div>{encounterWithRate.rate}%</div>
                     <button
-                      onClick={() =>
-                        setEncounterList({
-                          ...encounterList,
-                          Encounters: encounterList.Encounters.concat([
-                            {
-                              subtype: encounter.subtype,
-                              id: encounter.id,
-                              monWithForm: encounterWithRate.encounter,
-                            },
-                          ]),
-                        })
-                      }
+                      // onClick={() =>
+                      //   setEncounterList({
+                      //     ...encounterList,
+                      //     Encounters: encounterList.Encounters.concat([
+                      //       {
+                      //         subtype: encounter.subtype,
+                      //         id: encounter.id,
+                      //         monWithForm: encounterWithRate.encounter,
+                      //       },
+                      //     ]),
+                      //   })
+                      // }
                     >
                       Catch
                     </button>
@@ -82,7 +82,7 @@ function EncounterPanel({
               setEncounterList({
                 ...encounterList,
                 Encounters: encounterList.Encounters.filter(
-                  (e) => e.id !== encounter.id
+                  (e) => e.id !== encounter.entryId
                 ),
               })
             }

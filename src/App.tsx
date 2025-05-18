@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import Mastersheet from "./pages/Mastersheet";
-import Nav from "./pages/Nav";
+import NavBar from "./components/NavBar";
 import usePersistedState from "use-persisted-state-hook";
 import Dev from "./pages/Dev";
 import EncounterList, { UserDataContext } from "./data/UserData";
@@ -25,7 +25,7 @@ function App() {
   );
   const [completedTrainerList, setCompletedTrainerList] = usePersistedState(
     "completedTrainerList",
-    [] as number[]
+    [] as string[]
   );
   // const onSubmit = (event: React.FormEvent) => {
   //   event.preventDefault();
@@ -38,6 +38,10 @@ function App() {
 
   return (
     <div className="app">
+      <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+        rel="stylesheet"
+      />
       <HashRouter>
         <UserContext.Provider
           value={{
@@ -50,7 +54,7 @@ function App() {
           }}
         >
           <Routes>
-            <Route path="/" element={<Nav />}>
+            <Route path="/" element={<NavBar />}>
               <Route index element={<Home />} />
               <Route path="/mastersheet" element={<Mastersheet />} />
               <Route path="/dev" element={<Dev />} />

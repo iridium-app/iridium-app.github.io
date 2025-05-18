@@ -50,14 +50,12 @@ class Dex {
     return "";
   }
 
-  static GetAbilityHgeName(niceName: string): string {
-    const mapping = nameMapping.find(
-      (mapping) => mapping.niceName === niceName
-    );
+  static GetNiceName(hgeName: string): string {
+    const mapping = nameMapping.find((mapping) => mapping.hgeName === hgeName);
     if (mapping !== undefined) {
-      return mapping.hgeName;
+      return mapping.niceName;
     }
-    return "";
+    return hgeName.replace(/_/g, " ").split(" ").slice(1).join(" ");
   }
 
   static GetNone(): DexInfo {
@@ -73,8 +71,7 @@ class Dex {
   }
 
   static Equals(a: MonWithForm, b: MonWithForm): boolean {
-    if (a.name === b.name && a.form === b.form)
-      return true;
+    if (a.name === b.name && a.form === b.form) return true;
     return false;
   }
 }

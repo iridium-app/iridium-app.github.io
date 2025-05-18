@@ -20,7 +20,7 @@ export type TrainerInfo = {
   }[];
 };
 
-class TrainerData {
+export class TrainerData {
   static Dict: IDictionary = x as { string: TrainerInfo };
 }
 

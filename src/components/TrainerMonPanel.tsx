@@ -40,7 +40,7 @@ function TrainerMonPanel({
           <div style={{ fontSize: "xx-large" }}>{mon.level}</div>
         </div>
         <div className="trainer-mon-panel__box__types">
-          {dexInfo.types.map((type) => (
+          {dexInfo.types?.map((type) => (
             <TypeImage
               key={"type-image-" + mon.monWithForm.name + "-" + type}
               type={type}
@@ -48,9 +48,9 @@ function TrainerMonPanel({
           ))}
         </div>
         <div className="trainer-mon-panel__box__ability">
-          {mon.ability
-            ? Utility.GetNiceName(mon.ability)
-            : Utility.GetNiceName(dexInfo.abilities[0])}
+          {/* {mon?.ability
+            ? Utility.GetNiceName(mon?.ability)
+            : Utility.GetNiceName(dexInfo?.abilities[0])} */}
         </div>
       </div>
       <div className="trainer-mon-panel__stats">
@@ -58,7 +58,10 @@ function TrainerMonPanel({
       </div>
       <div className="trainer-mon-panel__moves">
         {mon.moveset.map((move, index) => (
-          <MoveDisplay key={"move-display-" + index + "-" + move} moveName={move} />
+          <MoveDisplay
+            key={"move-display-" + index + "-" + move}
+            moveName={move}
+          />
         ))}
       </div>
     </div>

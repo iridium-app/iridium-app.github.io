@@ -4,6 +4,8 @@
   "homepage": "https://iridium-app.github.io",
   "private": true,
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@material/web": "^2.3.0",
     "@smogon/calc": "^0.10.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +15,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "console": "^0.7.2",
+    "pokesprite-images": "^2.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",

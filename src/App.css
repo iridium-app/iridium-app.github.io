@@ -1,17 +1,220 @@
 /* App */
 .app {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  background-color: #080d12;
   height: 100vh;
+}
+
+.material-symbols-outlined.md-48 {
+  font-size: 48px;
 }
 
 /* Nav */
 .nav {
-  position: absolute;
-  height: 5vh;
-  background-color: white;
-  width: 100vw;
+  grid-area: 1 / 1 / 2 / 2;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.nav-bottom {
+  padding-bottom: 2rem;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.nav-item:hover {
+  background-color: #2a2a2a;
+}
+
+.nav-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5rem;
+}
+
+.split-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.split-trainer {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Mastersheet */
+.mastersheet-view {
+  grid-column: 2 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  gap: 24px;
+  padding: 24px 0;
+}
+
+/* Mastersheet Area */
+.mastersheet-area {
+  background-color: gray;
+  width: 80%;
+  border-radius: 6px;
+}
+
+.mastersheet-battle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mastersheet-battle__mon-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.starter-detail-panel {
+  display: flex;
+  height: 100vh;
+}
+
+.starter-choices {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.starter-choice {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 16px;
+}
+
+.starter-choice:hover {
+  border: 2px solid white;
+  background-color: hsla(0, 0%, 100%, 0.85);
+}
+
+.entry-detail-panel {
+  grid-column: 4 /7;
+  box-sizing: border-box;
+}
+
+.standard-battle-detail {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.type-indicators {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mastersheet-entry:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mastersheet-entry.mastersheet-encounter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mastersheet-area__header {
+  font-size: xx-large;
+  text-align: center;
+}
+
+/* Multi View */
+.multi-view {
+  display: flex;
+  flex-direction: column;
+  grid-column: 7 / 11;
+  padding: 24px 0;
+  gap: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.encounter-entry {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 64px;
+}
+
+.encounter-entry:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.encounter-entry__catch-button {
+  border-radius: 4px;
+  aspect-ratio: 1 / 1;
+  height: 64px;
+}
+
+.encounter-entry__catch-button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.mon-multi-view__hero-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .difficulty-toggle {
@@ -38,18 +241,6 @@
 
 #tsvInput {
   height: 20vh;
-}
-
-/* Mastersheet */
-.mastersheet {
-  padding-top: 5vh;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  height: 95vh;
-  background-color: gray;
 }
 
 .left-panel {
@@ -124,16 +315,18 @@ div.middle-panel::-webkit-scrollbar-thumb {
   grid-row-gap: 0px;
 }
 .move-row__level {
-  grid-area: 1 / 2 / 2 / 4;
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
 }
 .move-row__name {
-  grid-area: 1 / 5 / 2 / 7;
+  grid-column: span 3;
 }
 .move-row__type {
-  grid-area: 1 / 8 / 2 / 10;
+  grid-column: span 3;
 }
 .move-row__power {
-  grid-area: 1 / 11 / 2 / 13;
+  grid-column: span 3;
 }
 
 /* Entry Panel */
@@ -183,7 +376,6 @@ div.middle-panel::-webkit-scrollbar-thumb {
 
 .entry-panel__starter {
   display: flex;
-  flex-direction: column;
 }
 
 /* Encounter Panel */
@@ -204,8 +396,8 @@ div.middle-panel::-webkit-scrollbar-thumb {
   grid-template-columns: repeat(6, 1fr);
 }
 
-.encounter-method__header {
-  grid-column: span 2;
+.encounter-method-list__header {
+  padding-bottom: 24px;
 }
 
 .encounter-method__encounters-list {
@@ -483,4 +675,58 @@ div.middle-panel::-webkit-scrollbar-thumb {
   .left-panel {
     display: none;
   }
+}
+
+.mon-hero-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.mon-hero-frame__top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.mon-hero-frame__right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  border: 2px solid white;
+  padding: 16px;
+  background-color: hsla(0, 100%, 50%, 0.05);
+  width: fit-content;
+}
+
+.type-indicators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-container {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.clear-button {
+  background-color: unset;
+  border: unset;
+  color: white;
+  font-size: 16px;
 }

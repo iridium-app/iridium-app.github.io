@@ -1,19 +1,20 @@
 import Dex, { MonWithForm } from "./Dex";
 import encounterData from "./encounters.json";
 import giftEncounterData from "./giftEncounters.json";
+import { Encounter, EncounterType } from "./MastersheetData";
 
 let x: unknown = encounterData;
 interface IDictionaryStandard {
-  [index: number]: EncounterInfo;
+  [index: string]: EncounterInfo;
 }
 
 let y: unknown = giftEncounterData;
 interface IDictionaryGift {
-  [index: number]: GiftInfo;
+  [index: string]: GiftInfo;
 }
 
 export type EncounterInfo = {
-  id: number;
+  id: string;
   name: string;
   methods: EncounterMethod[];
 };
@@ -29,8 +30,7 @@ export type EncounterWithRate = {
 };
 
 export type GiftInfo = {
-  id: number;
-  name: string;
+  id: string;
   choices: MonWithForm[];
 };
 
@@ -46,12 +46,21 @@ class EncounterData {
   private static Dict: IDictionaryStandard = x as { string: EncounterInfo };
   private static GiftDict: IDictionaryGift = y as { string: GiftInfo };
 
-  static GetInfo(id: number) {
+  static GetInfo(id: string) {
     return this.Dict[id];
   }
 
-  static GetStarters() {
-    return this.GiftDict[1].choices;
+  static GetGiftInfo(id: string) {
+    return this.GiftDict[id];
+  }
+
+  static GetInfoAgnostic(encounter: Encounter) {
+    switch (encounter.encounterType) {
+      case EncounterType.standard:
+        return this.Dict[encounter.encounterId];
+      case EncounterType.gift:
+        return this.GiftDict[encounter.encounterId];
+    }
   }
 
   static GetMethodNiceName(type: string) {
@@ -86,11 +95,9 @@ class EncounterData {
       }
     });
     return array.sort((a, b) => {
-        if (a.rate > b.rate)
-            return -1;
-        else if (a.rate < b.rate)
-            return 1;
-        return 0
+      if (a.rate > b.rate) return -1;
+      else if (a.rate < b.rate) return 1;
+      return 0;
     });
   }
 }

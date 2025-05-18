@@ -2,119 +2,257 @@
   "casual": [],
   "elite": [
     {
-      "id": 1,
       "name": "Caelestia Lab",
-      "type": 2,
-      "encounters": [{ "id": 1, "subtype": "gift" }],
-      "battles": [],
-      "items": [],
-      "areaEffect": "none"
-    },
-    {
-      "id": 2,
-      "name": "Caelestia Village",
-      "type": 1,
-      "encounters": [{ "id": 138, "subtype": "standard" }],
-      "battles": [
-        { "id": 495, "subtype": "standard", "mandatory": true },
-        { "id": 496, "subtype": "standard", "mandatory": true }
-      ],
-      "areaEffect": "none"
-    },
-    {
-      "id": 3,
-      "name": "Caelestia Springs",
-      "type": 1,
-      "encounters": [{ "id": 135, "subtype": "standard" }],
-      "battles": [],
-      "areaEffect": "none"
-    },
-    {
-      "id": 4,
-      "name": "King's Cavern",
-      "type": 1,
-      "encounters": [{ "id": 134, "subtype": "standard" }],
-      "battles": [],
-      "areaEffect": "none"
-    },
-    {
-      "id": 5,
-      "name": "Stardust Hills",
-      "type": 1,
-      "encounters": [{ "id": 136, "subtype": "standard" }],
-      "battles": [
-        { "id": 3, "subtype": "boss", "mandatory": false },
-        { "id": 2, "subtype": "standard", "mandatory": true },
-        { "id": 5, "subtype": "standard", "mandatory": true },
-        { "id": 4, "subtype": "standard", "mandatory": true },
-        { "id": 14, "subtype": "standard", "mandatory": true }
-      ],
-      "areaEffect": "none"
-    },
-    {
-      "id": 6,
-      "name": "Fall Fjord",
-      "type": 1,
-      "encounters": [{ "id": 111, "subtype": "standard" }],
-      "battles": [
-        { "id": 7, "subtype": "standard", "mandatory": true },
-        { "id": 8, "subtype": "standard", "mandatory": true },
-        { "id": 9, "subtype": "standard", "mandatory": true },
-        { "id": 20, "subtype": "standard", "mandatory": true },
+      "areaEffect": "none",
+      "entries": [
         {
-          "id": 11,
-          "subtype": "multi",
-          "mandatory": true,
-          "name": "Fall Fjord Plasma Tag",
-          "enemyIds": [10, 12]
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "gift",
+          "encounterId": "g1"
+        }
+      ]
+    },
+    {
+      "name": "Caelestia Village",
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "138"
         },
-        { "id": 13, "subtype": "standard", "mandatory": false }
-      ],
-      "areaEffect": "none"
+        {
+          "entryId": "2",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "495"
+        },
+        {
+          "entryId": "3",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "496"
+        }
+      ]
     },
     {
-      "id": 7,
+      "name": "Caelestia Springs",
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "135"
+        }
+      ]
+    },
+    {
+      "name": "King's Cavern",
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "134"
+        }
+      ]
+    },
+    {
+      "name": "Stardust Hills",
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "136"
+        },
+        {
+          "entryId": "2",
+          "type": "battle",
+          "mandatory": false,
+          "battleType": "boss",
+          "battleId": "3"
+        },
+        {
+          "entryId": "3",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "2"
+        },
+        {
+          "entryId": "4",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "5"
+        },
+        {
+          "entryId": "5",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "4"
+        },
+        {
+          "entryId": "6",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "14"
+        }
+      ]
+    },
+    {
+      "name": "Fall Fjord",
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "111"
+        },
+        {
+          "entryId": "2",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "7"
+        },
+        {
+          "entryId": "3",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "8"
+        },
+        {
+          "entryId": "4",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "9"
+        },
+        {
+          "entryId": "5",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "20"
+        },
+        {
+          "entryId": "6",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "multi",
+          "battleId": "11",
+          "name": "Fall Fjord Plasma Tag",
+          "enemyIds": ["10", "12"]
+        },
+        {
+          "entryId": "7",
+          "type": "battle",
+          "mandatory": false,
+          "battleType": "standard",
+          "battleId": "13"
+        }
+      ]
+    },
+    {
       "name": "Mt. Colden Foothills",
-      "type": 1,
-      "encounters": [{ "id": 104, "subtype": "standard" }],
-      "battles": [],
-      "areaEffect": "none"
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "104"
+        }
+      ]
     },
     {
-      "id": 8,
       "name": "Starlit Cavern",
-      "type": 1,
-      "encounters": [{ "id": 86, "subtype": "standard" }],
-      "battles": [],
-      "areaEffect": "none"
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "86"
+        }
+      ]
     },
     {
-      "id": 9,
       "name": "White Forest",
-      "type": 1,
-      "encounters": [{ "id": 96, "subtype": "standard" }],
-      "battles": [{ "id": 19, "subtype": "standard", "mandatory": true }],
-      "areaEffect": "none"
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "96"
+        },
+        {
+          "entryId": "2",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "19"
+        }
+      ]
     },
     {
-      "id": 10,
       "name": "Penumbra Grove",
-      "type": 1,
-      "encounters": [{ "id": 103, "subtype": "standard" }],
-      "battles": [],
-      "areaEffect": "none"
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "103"
+        }
+      ]
     },
     {
-      "id": 11,
       "name": "White Treehollow",
-      "type": 1,
       "areaEffect": "Automatic Grassy Terrain",
-      "encounters": [],
-      "battles": [
-        { "id": 15, "subtype": "standard", "mandatory": true },
-        { "id": 16, "subtype": "standard", "mandatory": true },
-        { "id": 18, "subtype": "standard", "mandatory": true },
-        { "id": 17, "subtype": "boss", "mandatory": true }
+      "entries": [
+        {
+          "entryId": "1",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "15"
+        },
+        {
+          "entryId": "2",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "16"
+        },
+        {
+          "entryId": "3",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "18"
+        },
+        {
+          "entryId": "4",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "boss",
+          "battleId": "17"
+        }
       ]
     }
   ]

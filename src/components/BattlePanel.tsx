@@ -6,45 +6,50 @@ import TrainerPanel from "./TrainerPanel";
 import Utility from "../Utility";
 
 function renderSwitch(battle: Battle, hide: boolean): ReactNode {
-  const mainTrainer = TrainerData.Dict[battle.id];
+  const mainTrainer = TrainerData.Dict[battle.entryId];
 
-  switch (battle.subtype) {
-    case "boss":
-    case "standard":
-      return (
-        <>
-          <TrainerPanel trainer={mainTrainer} hide={hide} showName={true} />
-        </>
-      );
-    case "multi":
-      return (
-        <>
-          <TrainerPanel trainer={mainTrainer} hide={hide} showName={true} />
-          {(battle as MultiBattle).enemyIds.map((id) => (
-            <TrainerPanel
-              key={id}
-              trainer={TrainerData.Dict[id]}
-              hide={hide}
-              showName={true}
-            />
-          ))}
-        </>
-      );
-  }
+  return (
+    <div></div>
+  )
+
+  // switch (battle.subtype) {
+  //   case "boss":
+  //   case "standard":
+  //     return (
+  //       <>
+  //         <TrainerPanel trainer={mainTrainer} hide={hide} showName={true} />
+  //       </>
+  //     );
+  //   case "multi":
+  //     return (
+  //       <>
+  //         <TrainerPanel trainer={mainTrainer} hide={hide} showName={true} />
+  //         {(battle as MultiBattle).enemyIds.map((id) => (
+  //           <TrainerPanel
+  //             key={id}
+  //             trainer={TrainerData.Dict[id]}
+  //             hide={hide}
+  //             showName={true}
+  //           />
+  //         ))}
+  //       </>
+  //     );
+  // }
 }
 
 function GetBattleName(battle: Battle): string {
-  return battle.subtype === "multi"
-    ? (battle as MultiBattle).name.toUpperCase()
-    : "";//Utility.GetNiceTrainerName(TrainerData.Dict[battle.id]);
+  // return battle.subtype === "multi"
+  //   ? (battle as MultiBattle).name.toUpperCase()
+  //   : "";//Utility.GetNiceTrainerName(TrainerData.Dict[battle.id]);
+  return "foo";
 }
 
 function BattlePanel({ battle }: { battle: Battle }) {
   const { completedTrainerList, setCompletedTrainerList } =
     useContext(UserContext);
-  const hide = completedTrainerList.includes(battle.id);
+  const hide = completedTrainerList.includes(battle.entryId);
 
-  function CompleteToggleOnClick(hide: boolean, id: number) {
+  function CompleteToggleOnClick(hide: boolean, id: string) {
     if (hide) {
       setCompletedTrainerList(completedTrainerList.filter((x) => x !== id));
     } else {
@@ -54,14 +59,14 @@ function BattlePanel({ battle }: { battle: Battle }) {
 
   return (
     <div
-      id={"battle" + battle.id}
+      id={"battle" + battle.entryId}
       className={"battle-panel" + (hide ? " battle-panel-hidden" : "")}
     >
       <div className="battle-panel__header">
         {GetBattleName(battle)}
         <button
           className="trainer-panel__complete-button"
-          onClick={() => CompleteToggleOnClick(hide, battle.id)}
+          onClick={() => CompleteToggleOnClick(hide, battle.entryId)}
         >
           {hide ? "Undo" : "Mark Completed"}
         </button>

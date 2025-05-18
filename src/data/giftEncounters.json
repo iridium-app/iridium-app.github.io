@@ -1,7 +1,6 @@
 {
-  "1": {
-    "id": 1,
-    "name": "Starter",
+  "g1": {
+    "id": "starter",
     "choices": [
       { "name": "SPECIES_BULBASAUR", "form": 0 },
       { "name": "SPECIES_CHARMANDER", "form": 0 },

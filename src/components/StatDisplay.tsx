@@ -2,7 +2,7 @@ import { DexInfo } from "../data/Dex";
 
 function StatDisplay({ mon }: { mon: DexInfo }) {
   return (
-    <div className="stat-display">
+    /* <div className="stat-display">
       <div className="stat-row">
         <div className="stat-row__name">HP:</div>
         <div className="stat-row__number">{mon.baseStats.hp}</div>
@@ -85,7 +85,8 @@ function StatDisplay({ mon }: { mon: DexInfo }) {
           }
         />
       </div>
-    </div>
+    </div> */
+    <div className="stat-display"></div>
   );
 }
 

@@ -1,54 +1,44 @@
 import mastersheet from "../data/mastersheet.json";
 
 type MastersheetJson = {
-  casual: MastersheetEntry[];
-  elite: MastersheetEntry[];
+  casual: Area[];
+  elite: Area[];
 };
 
-export type Encounter = {
-  id: number;
-  subtype: string;
-};
+export class Area {
+  name!: string;
+  areaEffect: string | undefined;
+  entries!: MastersheetEntry[];
+}
 
-export class Battle {
-  constructor(
-    public id: number,
-    public subtype: string,
-    public mandatory: boolean
-  ) {
-    this.id = id;
-    this.subtype = subtype;
-    this.mandatory = mandatory;
-  }
+export class MastersheetEntry {
+  entryId!: string;
+  type!: MastersheetEntryType;
+}
+
+export class Encounter extends MastersheetEntry {
+  encounterType!: EncounterType;
+  encounterId!: string;
+}
+
+export class Battle extends MastersheetEntry {
+  mandatory!: boolean;
+  battleId!: string;
+  battleType: string | undefined;
 }
 
 export class MultiBattle extends Battle {
-  constructor(
-    public id: number,
-    public subtype: string,
-    public mandatory: boolean,
-    public name: string,
-    public enemyIds: number[]
-  ) {
-    super(id, subtype, mandatory);
-    this.name = name;
-    this.enemyIds = enemyIds;
-  }
+  enemyIds!: number[];
 }
 
-export type MastersheetEntry = {
-  id: number;
-  name: string;
-  type: MastersheetEntryType;
-  areaEffect: string;
-  encounters: Encounter[];
-  battles: Battle[];
-  items: number[];
-};
-
 export enum MastersheetEntryType {
-  standardArea = 1,
-  starterLab = 2,
+  encounter = "encounter",
+  battle = "battle",
+}
+
+export enum EncounterType {
+  standard = "standard",
+  gift = "gift",
 }
 
 class MastersheetData {

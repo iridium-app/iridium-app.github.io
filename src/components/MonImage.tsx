@@ -1,10 +1,23 @@
 import Utility from "../Utility";
 
-function MonImage({ formName, size }: { formName: string; size: number }) {
+function MonImage({
+  formName,
+  size,
+  style = {},
+}: {
+  formName: string;
+  size: number;
+  style?: React.CSSProperties;
+}) {
   return (
     <img
       className="mon-sprite"
-      style={{ width: size + "px" } as React.CSSProperties}
+      style={
+        {
+          width: size + "px",
+          ...style,
+        } as React.CSSProperties
+      }
       title={Utility.GetNiceName(formName)}
       alt={formName}
       src={

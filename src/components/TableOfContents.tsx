@@ -1,14 +1,14 @@
-import { MastersheetEntry } from "../data/MastersheetData";
+import { Area } from "../data/MastersheetData";
 
 function TableOfContents({
   filteredMastersheet,
 }: {
-  filteredMastersheet: MastersheetEntry[];
+  filteredMastersheet: Area[];
 }) {
   return (
     <div className="table-of-contents">
       <div className="table-of-contents__header">Table of Contents</div>
-      {filteredMastersheet.map((mastersheetEntry) => (
+      {/* {filteredMastersheet.map((mastersheetEntry) => (
         <button
           key={"entry_" + mastersheetEntry.id}
           onClick={() =>
@@ -19,7 +19,7 @@ function TableOfContents({
         >
           {mastersheetEntry.name}
         </button>
-      ))}
+      ))} */}
     </div>
   );
 }
