@@ -1,5 +1,5 @@
-import item_data from "./items.json";
-import nameMapping from "./nameMapping.json";
+import item_data from "./json/items.json";
+import nameMapping from "./json/nameMapping.json";
 let x: unknown = item_data;
 interface IDictionary {
   [index: string]: ItemInfo;

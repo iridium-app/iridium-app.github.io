@@ -1,4 +1,8 @@
-import { Encounter, MastersheetEntry } from "../data/MastersheetData";
+import {
+  Encounter,
+  MastersheetEntry,
+  EncounterType,
+} from "../data/MastersheetData";
 import EncounterData from "../data/EncounterData";
 
 interface Props {
@@ -7,14 +11,21 @@ interface Props {
 }
 
 function MastersheetEncounter({ encounter, setSelectedEntry }: Props) {
-  const encounterInfo = EncounterData.GetInfo(encounter.entryId);
+  const encounterInfo =
+    encounter.encounterType == EncounterType.gift
+      ? EncounterData.GetGiftInfo(encounter.encounterId)
+      : EncounterData.GetInfo(encounter.encounterId);
 
   return (
     <div
       onClick={() => setSelectedEntry(encounter)}
       className="mastersheet-entry mastersheet-encounter"
     >
-      <div>{encounterInfo.name}</div>
+      <div>
+        {encounter.encounterType == EncounterType.gift
+          ? encounterInfo.name
+          : "Encounter"}
+      </div>
       <img src="/sprites/items/ITEM_POKE_BALL.png" />
     </div>
   );

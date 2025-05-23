@@ -4181,7 +4181,7 @@
      },
      {
           "hgeName": "SPECIES_IRON_THORNS",
-          "niceName": "Iron Thorn"
+          "niceName": "IronThorns"
      },
      {
           "hgeName": "SPECIES_FRIGIBAX",
@@ -4221,7 +4221,7 @@
      },
      {
           "hgeName": "SPECIES_ROARING_MOON",
-          "niceName": "Roar Moon"
+          "niceName": "RoarinMoon"
      },
      {
           "hgeName": "SPECIES_IRON_VALIANT",
@@ -4237,11 +4237,11 @@
      },
      {
           "hgeName": "SPECIES_WALKING_WAKE",
-          "niceName": "Walk Wake"
+          "niceName": "WalkngWake"
      },
      {
           "hgeName": "SPECIES_IRON_LEAVES",
-          "niceName": "Iron Leaf"
+          "niceName": "IronLeaves"
      },
      {
           "hgeName": "SPECIES_DIPPLIN",
@@ -4281,7 +4281,7 @@
      },
      {
           "hgeName": "SPECIES_GOUGING_FIRE",
-          "niceName": "GougedFire"
+          "niceName": "GouginFire"
      },
      {
           "hgeName": "SPECIES_RAGING_BOLT",
@@ -4573,6 +4573,54 @@
      },
      {
           "hgeName": "SPECIES_MAROWAK_ALOLAN",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_RATICATE_ALOLAN_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_MAROWAK_ALOLAN_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_GUMSHOOS_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_VIKAVOLT_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_RIBOMBEE_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_ARAQUANID_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_LURANTIS_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_SALAZZLE_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_TOGEDEMARU_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_MIMIKYU_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_MIMIKYU_BUSTED_LARGE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_KOMMO_O_LARGE",
           "niceName": "-----"
      },
      {
@@ -5156,6 +5204,14 @@
           "niceName": "-----"
      },
      {
+          "hgeName": "SPECIES_PIKACHU_PARTNER",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_EEVEE_PARTNER",
+          "niceName": "-----"
+     },
+     {
           "hgeName": "SPECIES_CRAMORANT_GULPING",
           "niceName": "-----"
      },
@@ -5312,6 +5368,26 @@
           "niceName": "-----"
      },
      {
+          "hgeName": "SPECIES_KLEAVOR_LORD",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_LILLIGANT_LADY",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_ARCANINE_LORD",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_ELECTRODE_LORD",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_AVALUGG_LORD",
+          "niceName": "-----"
+     },
+     {
           "hgeName": "SPECIES_UNFEZANT_FEMALE",
           "niceName": "-----"
      },
@@ -5376,10 +5452,6 @@
           "niceName": "-----"
      },
      {
-          "hgeName": "SPECIES_TERAPAGOS_TERASTAL",
-          "niceName": "-----"
-     },
-     {
           "hgeName": "SPECIES_WOOPER_PALDEAN",
           "niceName": "-----"
      },
@@ -5420,6 +5492,38 @@
           "niceName": "-----"
      },
      {
+          "hgeName": "SPECIES_KORAIDON_LIMITED_BUILD",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_KORAIDON_SPRINTING_BUILD",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_KORAIDON_SWIMMING_BUILD",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_KORAIDON_GLIDING_BUILD",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_MIRAIDON_LOW_POWER_MODE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_MIRAIDON_DRIVE_MODE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_MIRAIDON_AQUATIC_MODE",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_MIRAIDON_GLIDE_MODE",
+          "niceName": "-----"
+     },
+     {
           "hgeName": "SPECIES_POLTCHAGEIST_MASTERPIECE",
           "niceName": "-----"
      },
@@ -5440,11 +5544,31 @@
           "niceName": "-----"
      },
      {
-          "hgeName": "SPECIES_TERAPAGOS_STELLAR",
+          "hgeName": "SPECIES_OGERPON_TEAL_MASK_TERASTAL",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_OGERPON_HEARTHFLAME_MASK_TERASTAL",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_OGERPON_CORNERSTONE_MASK_TERASTAL",
           "niceName": "-----"
      },
      {
           "hgeName": "SPECIES_URSALUNA_BLOODMOON",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_TERAPAGOS_TERASTAL",
+          "niceName": "-----"
+     },
+     {
+          "hgeName": "SPECIES_TERAPAGOS_STELLAR",
           "niceName": "-----"
      },
      {
@@ -5493,7 +5617,7 @@
      },
      {
           "hgeName": "MOVE_VICE_GRIP",
-          "niceName": "Vise Grip"
+          "niceName": "Vice Grip"
      },
      {
           "hgeName": "MOVE_GUILLOTINE",
@@ -5809,7 +5933,7 @@
      },
      {
           "hgeName": "MOVE_FISSURE",
-          "niceName": "EarthShatter"
+          "niceName": "Fissure"
      },
      {
           "hgeName": "MOVE_DIG",
@@ -6249,7 +6373,7 @@
      },
      {
           "hgeName": "MOVE_OUTRAGE",
-          "niceName": "Supernova"
+          "niceName": "Outrage"
      },
      {
           "hgeName": "MOVE_SANDSTORM",
@@ -6369,7 +6493,7 @@
      },
      {
           "hgeName": "MOVE_SWEET_SCENT",
-          "niceName": "Fairy Breeze"
+          "niceName": "Sweet Scent"
      },
      {
           "hgeName": "MOVE_IRON_TAIL",
@@ -6497,7 +6621,7 @@
      },
      {
           "hgeName": "MOVE_MEMENTO",
-          "niceName": "Shadow Shift"
+          "niceName": "Memento"
      },
      {
           "hgeName": "MOVE_FACADE",
@@ -6713,7 +6837,7 @@
      },
      {
           "hgeName": "MOVE_ODOR_SLEUTH",
-          "niceName": "Quiver Crawl"
+          "niceName": "Odor Sleuth"
      },
      {
           "hgeName": "MOVE_ROCK_TOMB",
@@ -6765,7 +6889,7 @@
      },
      {
           "hgeName": "MOVE_SHEER_COLD",
-          "niceName": "Permafrost"
+          "niceName": "Sheer Cold"
      },
      {
           "hgeName": "MOVE_MUDDY_WATER",
@@ -6873,7 +6997,7 @@
      },
      {
           "hgeName": "MOVE_GRAVITY",
-          "niceName": "Black Hole"
+          "niceName": "Gravity"
      },
      {
           "hgeName": "MOVE_MIRACLE_EYE",
@@ -6905,7 +7029,7 @@
      },
      {
           "hgeName": "MOVE_FEINT",
-          "niceName": "Swift Strike"
+          "niceName": "Feint"
      },
      {
           "hgeName": "MOVE_PLUCK",
@@ -6941,7 +7065,7 @@
      },
      {
           "hgeName": "MOVE_EMBARGO",
-          "niceName": "Taxation"
+          "niceName": "Embargo"
      },
      {
           "hgeName": "MOVE_FLING",
@@ -6997,7 +7121,7 @@
      },
      {
           "hgeName": "MOVE_LAST_RESORT",
-          "niceName": "Star Prayer"
+          "niceName": "Last Resort"
      },
      {
           "hgeName": "MOVE_WORRY_SEED",
@@ -7293,7 +7417,7 @@
      },
      {
           "hgeName": "MOVE_LUNAR_DANCE",
-          "niceName": "New Moon"
+          "niceName": "Lunar Dance"
      },
      {
           "hgeName": "MOVE_CRUSH_GRIP",
@@ -12321,11 +12445,11 @@
      },
      {
           "hgeName": "ITEM_MASTERPIECE_TEACUP",
-          "niceName": "MasterfulTeacup"
+          "niceName": "Masterful Teacup"
      },
      {
           "hgeName": "ITEM_CORNERSTONE_MASK",
-          "niceName": "CornerstoneMask"
+          "niceName": "Cornerstone Mask"
      },
      {
           "hgeName": "ITEM_WELLSPRING_MASK",
@@ -12333,7 +12457,7 @@
      },
      {
           "hgeName": "ITEM_HEARTHFLAME_MASK",
-          "niceName": "HearthflameMask"
+          "niceName": "Hearthflame Mask"
      },
      {
           "hgeName": "ITEM_METAL_ALLOY",
@@ -13045,7 +13169,7 @@
      },
      {
           "hgeName": "ABILITY_STANCE_CHANGE",
-          "niceName": "Stance Change"
+          "niceName": "StanceChange"
      },
      {
           "hgeName": "ABILITY_GALE_WINGS",
@@ -13053,7 +13177,7 @@
      },
      {
           "hgeName": "ABILITY_MEGA_LAUNCHER",
-          "niceName": "Mega Launcher"
+          "niceName": "MegaLauncher"
      },
      {
           "hgeName": "ABILITY_GRASS_PELT",
@@ -13117,11 +13241,11 @@
      },
      {
           "hgeName": "ABILITY_EMERGENCY_EXIT",
-          "niceName": "Emergency Exit"
+          "niceName": "EmergencyExit"
      },
      {
           "hgeName": "ABILITY_WATER_COMPACTION",
-          "niceName": "Water Compaction"
+          "niceName": "WaterCompaction"
      },
      {
           "hgeName": "ABILITY_AS_ONE_SPECTRIER",
@@ -13261,7 +13385,7 @@
      },
      {
           "hgeName": "ABILITY_FULL_METAL_BODY",
-          "niceName": "Full Metal Body"
+          "niceName": "FullMetalBody"
      },
      {
           "hgeName": "ABILITY_SHADOW_SHIELD",
@@ -13277,7 +13401,7 @@
      },
      {
           "hgeName": "ABILITY_INTREPID_SWORD",
-          "niceName": "Intrepid Sword"
+          "niceName": "IntrepidSword"
      },
      {
           "hgeName": "ABILITY_DAUNTLESS_SHIELD",

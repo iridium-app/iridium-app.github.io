@@ -29,25 +29,46 @@
           "mandatory": true,
           "battleType": "standard",
           "battleId": "495"
-        },
-        {
-          "entryId": "3",
-          "type": "battle",
-          "mandatory": true,
-          "battleType": "standard",
-          "battleId": "496"
         }
       ]
     },
     {
-      "name": "Caelestia Springs",
+      "name": "Caelestia Meadows",
       "areaEffect": "none",
       "entries": [
         {
           "entryId": "1",
           "type": "encounter",
           "encounterType": "standard",
-          "encounterId": "135"
+          "encounterId": "139"
+        },
+        {
+          "entryId": "2",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "22"
+        },
+        {
+          "entryId": "3",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "double",
+          "battleId": "23"
+        },
+        {
+          "entryId": "4",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "24"
+        },
+        {
+          "entryId": "5",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "double",
+          "battleId": "25"
         }
       ]
     },

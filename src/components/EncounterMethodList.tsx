@@ -29,7 +29,6 @@ function EncounterMethodList({
         style={{
           display: "flex",
           flexDirection: "column",
-          gap: "1rem",
           width: "100%",
         }}
       >

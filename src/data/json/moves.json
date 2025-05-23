@@ -88,7 +88,7 @@
         "description": "Hard, pointed, and sharp claws rake the foe to inflict damage.  "
     },
     "MOVE_VICE_GRIP": {
-        "name": "Vise Grip",
+        "name": "Vice Grip",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "55",
         "type": "TYPE_STEEL",
@@ -98,10 +98,10 @@
     "MOVE_GUILLOTINE": {
         "name": "Guillotine",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "120",
-        "type": "TYPE_STEEL",
+        "basePower": "1",
+        "type": "TYPE_NORMAL",
         "pp": "5",
-        "description": "A vicious, tearing attack with pincers. Lower\u2019s user\u2019s defenses by one stage."
+        "description": "A vicious, tearing attack with pincers. The foe will faint instantly if this attack hits."
     },
     "MOVE_RAZOR_WIND": {
         "name": "Razor Wind",
@@ -243,7 +243,7 @@
         "name": "Horn Attack",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "65",
-        "type": "TYPE_GROUND",
+        "type": "TYPE_NORMAL",
         "pp": "10",
         "description": "The foe is jabbed with a sharply pointed horn to inflict damage. "
     },
@@ -251,17 +251,17 @@
         "name": "Fury Attack",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "20",
-        "type": "TYPE_FLYING",
+        "type": "TYPE_NORMAL",
         "pp": "10",
         "description": "The foe is jabbed repeatedly with a horn or beak two to five times in a row. "
     },
     "MOVE_HORN_DRILL": {
         "name": "Horn Drill",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "100",
-        "type": "TYPE_GROUND",
-        "pp": "10",
-        "description": "The foe is stabbed with a horn rotating like a drill. -1 user Speed."
+        "basePower": "1",
+        "type": "TYPE_NORMAL",
+        "pp": "5",
+        "description": "The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits."
     },
     "MOVE_TACKLE": {
         "name": "Tackle",
@@ -291,7 +291,7 @@
         "name": "Take Down",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "90",
-        "type": "TYPE_FIGHTING",
+        "type": "TYPE_NORMAL",
         "pp": "10",
         "description": "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little."
     },
@@ -540,7 +540,7 @@
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "1",
         "type": "TYPE_FIGHTING",
-        "pp": "10",
+        "pp": "20",
         "description": "A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes."
     },
     "MOVE_COUNTER": {
@@ -570,7 +570,7 @@
     "MOVE_ABSORB": {
         "name": "Absorb",
         "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "20",
+        "basePower": "35",
         "type": "TYPE_GRASS",
         "pp": "10",
         "description": "A nutrient-draining attack. The user\u2019s HP is restored by half the damage taken by the target."
@@ -720,12 +720,12 @@
         "description": "The user sets off an earthquake that hits all the Pok\u00e9mon in the battle. "
     },
     "MOVE_FISSURE": {
-        "name": "EarthShatter",
+        "name": "Fissure",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "100",
+        "basePower": "1",
         "type": "TYPE_GROUND",
         "pp": "5",
-        "description": "The user rips open a crevice in the ground and drops the foe in. 33% recoil."
+        "description": "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits."
     },
     "MOVE_DIG": {
         "name": "Dig",
@@ -1600,12 +1600,12 @@
         "description": "The user takes sure aim at the foe. It ensures the next attack does not fail to hit the target."
     },
     "MOVE_OUTRAGE": {
-        "name": "Supernova",
+        "name": "Outrage",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "75",
+        "basePower": "120",
         "type": "TYPE_DRAGON",
         "pp": "10",
-        "description": "The user bursts with a blaze of glory. 30% chance to burn targets. 33% recoil."
+        "description": "The user rampages and attacks for two to three turns. However, it then becomes confused."
     },
     "MOVE_SANDSTORM": {
         "name": "Sandstorm",
@@ -1840,17 +1840,17 @@
         "description": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes."
     },
     "MOVE_SWEET_SCENT": {
-        "name": "Fairy Breeze",
-        "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "45",
-        "type": "TYPE_FAIRY",
-        "pp": "10",
-        "description": "A sweet wind blows the foes away. That\u2019s about it."
+        "name": "Sweet Scent",
+        "damageCategory": "SPLIT_STATUS",
+        "basePower": "0",
+        "type": "TYPE_NORMAL",
+        "pp": "20",
+        "description": "A sweet scent that lowers the foe\u2019s evasiveness. It also lures wild Pok\u00e9mon if used in grass, etc."
     },
     "MOVE_IRON_TAIL": {
         "name": "Iron Tail",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "95",
+        "basePower": "100",
         "type": "TYPE_STEEL",
         "pp": "10",
         "description": "The foe is slammed with a steel-hard tail. It may also lower the target\u2019s Defense stat."
@@ -2096,12 +2096,12 @@
         "description": "The user shoots a sinister, bluish white flame at the foe to inflict a burn. "
     },
     "MOVE_MEMENTO": {
-        "name": "Shadow Shift",
-        "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "55",
-        "type": "TYPE_GHOST",
+        "name": "Memento",
+        "damageCategory": "SPLIT_STATUS",
+        "basePower": "0",
+        "type": "TYPE_DARK",
         "pp": "10",
-        "description": "The user terrorizes the foe with the power of shadows. 30% odds to lower Sp. Atk. ...spooky..."
+        "description": "The user faints upon using this move. In return, it sharply lowers the target\u2019s Attack and Sp. Atk."
     },
     "MOVE_FACADE": {
         "name": "Facade",
@@ -2528,12 +2528,12 @@
         "description": "The user attacks the foe at full power. The attack\u2019s recoil sharply reduces the user\u2019s Sp. Atk stat."
     },
     "MOVE_ODOR_SLEUTH": {
-        "name": "Quiver Crawl",
-        "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "55",
-        "type": "TYPE_BUG",
-        "pp": "10",
-        "description": "The user rapidly wiggles to hit the foe. Probably scares small children, too. 30% odds to raise Def."
+        "name": "Odor Sleuth",
+        "damageCategory": "SPLIT_STATUS",
+        "basePower": "0",
+        "type": "TYPE_NORMAL",
+        "pp": "40",
+        "description": "Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe."
     },
     "MOVE_ROCK_TOMB": {
         "name": "Rock Tomb",
@@ -2632,12 +2632,12 @@
         "description": "A harsh sandstorm swirls around the foe. Binds the target. "
     },
     "MOVE_SHEER_COLD": {
-        "name": "Permafrost",
-        "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "60",
+        "name": "Sheer Cold",
+        "damageCategory": "SPLIT_SPECIAL",
+        "basePower": "1",
         "type": "TYPE_ICE",
-        "pp": "10",
-        "description": "The foe is attacked with a blast of absolute-zero cold. The foe is likely to be frozen."
+        "pp": "5",
+        "description": "The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits."
     },
     "MOVE_MUDDY_WATER": {
         "name": "Muddy Water",
@@ -2749,7 +2749,7 @@
         "basePower": "60",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "The user endearingly approaches the foe, then steals the item the foe is holding. "
+        "description": "The user endearingly approaches the foe, then punches them in the mouth. "
     },
     "MOVE_VOLT_TACKLE": {
         "name": "Volt Tackle",
@@ -2848,12 +2848,12 @@
         "description": "The user lands and rests its body. It restores the user\u2019s HP by up to half of its max HP."
     },
     "MOVE_GRAVITY": {
-        "name": "Black Hole",
-        "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "60",
-        "type": "TYPE_FAIRY",
-        "pp": "10",
-        "description": "Using cosmic energy, the user drags all other Pokemon to the ground, lowering Speed."
+        "name": "Gravity",
+        "damageCategory": "SPLIT_STATUS",
+        "basePower": "0",
+        "type": "TYPE_PSYCHIC",
+        "pp": "5",
+        "description": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation."
     },
     "MOVE_MIRACLE_EYE": {
         "name": "Miracle Eye",
@@ -2912,7 +2912,7 @@
         "description": "The user draws power to attack by using its held Berry. The Berry determines its type and power."
     },
     "MOVE_FEINT": {
-        "name": "Swift Strike",
+        "name": "Feint",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "50",
         "type": "TYPE_NORMAL",
@@ -2984,12 +2984,12 @@
         "description": "If the foe has already taken some damage in the same turn, this attack\u2019s power is doubled."
     },
     "MOVE_EMBARGO": {
-        "name": "Taxation",
-        "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "65",
+        "name": "Embargo",
+        "damageCategory": "SPLIT_STATUS",
+        "basePower": "0",
         "type": "TYPE_DARK",
-        "pp": "10",
-        "description": "The user guzzles the foe\u2019s bank account dry, restoring 50% damage done. LIBERTY BABY!"
+        "pp": "15",
+        "description": "It prevents the foe from using its held item. Its Trainer is also prevented from using items on it."
     },
     "MOVE_FLING": {
         "name": "Fling",
@@ -3096,12 +3096,12 @@
         "description": "This attack\u2019s power increases the more the foe has powered up with stat changes. "
     },
     "MOVE_LAST_RESORT": {
-        "name": "Star Prayer",
+        "name": "Last Resort",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "60",
-        "type": "TYPE_FAIRY",
+        "basePower": "140",
+        "type": "TYPE_NORMAL",
         "pp": "5",
-        "description": "In desperation, the user makes a prayer to the heavens. May omniboost user\u2019s stats."
+        "description": "This move can be used only after the user has used all the other moves it knows in the battle."
     },
     "MOVE_WORRY_SEED": {
         "name": "Worry Seed",
@@ -3354,10 +3354,10 @@
     "MOVE_AVALANCHE": {
         "name": "Avalanche",
         "damageCategory": "SPLIT_PHYSICAL",
-        "basePower": "75",
+        "basePower": "60",
         "type": "TYPE_ICE",
         "pp": "10",
-        "description": "Large ice hunks are hurled at the foe to inflict damage. It may also make the target flinch."
+        "description": "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn."
     },
     "MOVE_ICE_SHARD": {
         "name": "Ice Shard",
@@ -3569,11 +3569,11 @@
     },
     "MOVE_STEALTH_ROCK": {
         "name": "Stealth Rock",
-        "damageCategory": "SPLIT_PHYSICAL",
+        "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_ROCK",
-        "pp": "3",
-        "description": "The user shoots tiny shards of sharp stone at the foe. +1 priority."
+        "pp": "20",
+        "description": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle."
     },
     "MOVE_GRASS_KNOT": {
         "name": "Grass Knot",
@@ -3688,12 +3688,12 @@
         "description": "The user tears the foe along with the space around it. This move has a high critical-hit ratio."
     },
     "MOVE_LUNAR_DANCE": {
-        "name": "New Moon",
-        "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "200",
-        "type": "TYPE_FAIRY",
-        "pp": "1",
-        "description": "The user sacrifices itself to annihilate everyone in sight. The moon dissapears, along with everyone else."
+        "name": "Lunar Dance",
+        "damageCategory": "SPLIT_STATUS",
+        "basePower": "0",
+        "type": "TYPE_PSYCHIC",
+        "pp": "10",
+        "description": "The user faints. In return, the Pok\u00e9mon taking its place will have its status and HP fully restored."
     },
     "MOVE_CRUSH_GRIP": {
         "name": "Crush Grip",
@@ -3969,7 +3969,7 @@
     },
     "MOVE_SIMPLE_BEAM": {
         "name": "Simple Beam",
-        "damageCategory": "SPLIT_SPECIAL",
+        "damageCategory": "SPLIT_STATUS",
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
@@ -4002,7 +4002,7 @@
     "MOVE_ECHOED_VOICE": {
         "name": "Echoed Voice",
         "damageCategory": "SPLIT_SPECIAL",
-        "basePower": "40",
+        "basePower": "35",
         "type": "TYPE_NORMAL",
         "pp": "10",
         "description": "The user attacks the target with a harsh echo. If used every turn, power increases."
@@ -4365,7 +4365,7 @@
         "basePower": "110",
         "type": "TYPE_FLYING",
         "pp": "10",
-        "description": "The foe is caught in a fierce wind. It may also confuse the foe."
+        "description": "The user attacks by wrapping its opponent in a fierce wind. This may also confuse the target."
     },
     "MOVE_HEAD_CHARGE": {
         "name": "Head Charge",
@@ -4493,7 +4493,7 @@
         "basePower": "100",
         "type": "TYPE_FIRE",
         "pp": "5",
-        "description": "The user brings down a huge flame. It does more damage when influenced by an enormous bolt."
+        "description": "The user brings down a giant flame. It does more damage when influenced by an enormous bolt."
     },
     "MOVE_FUSION_BOLT": {
         "name": "Fusion Bolt",
@@ -4509,7 +4509,7 @@
         "basePower": "100",
         "type": "TYPE_FIGHTING",
         "pp": "10",
-        "description": "---"
+        "description": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously."
     },
     "MOVE_MAT_BLOCK": {
         "name": "Mat Block",
@@ -4525,7 +4525,7 @@
         "basePower": "120",
         "type": "TYPE_POISON",
         "pp": "10",
-        "description": "---"
+        "description": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
     },
     "MOVE_ROTOTILLER": {
         "name": "Rototiller",
@@ -4541,7 +4541,7 @@
         "basePower": "0",
         "type": "TYPE_BUG",
         "pp": "10",
-        "description": "---"
+        "description": "The user weaves a web around the foe. It lowers the foes Speed upon switching in."
     },
     "MOVE_FELL_STINGER": {
         "name": "Fell Stinger",
@@ -4549,7 +4549,7 @@
         "basePower": "50",
         "type": "TYPE_BUG",
         "pp": "10",
-        "description": "---"
+        "description": "When the user knocks out a target with this move, the user's Attack stat rises drastically."
     },
     "MOVE_PHANTOM_FORCE": {
         "name": "Phantom Force",
@@ -4565,7 +4565,7 @@
         "basePower": "0",
         "type": "TYPE_GHOST",
         "pp": "10",
-        "description": "---"
+        "description": "The user takes the target trick-or-treating. This adds Ghost type to the target's type."
     },
     "MOVE_NOBLE_ROAR": {
         "name": "Noble Roar",
@@ -4573,7 +4573,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "Letting out a roar, the user intimidates the target and lowers both its Attack and Sp. Atk stats."
+        "description": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats."
     },
     "MOVE_ION_DELUGE": {
         "name": "Ion Deluge",
@@ -4597,7 +4597,7 @@
         "basePower": "0",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "The user puts a forest curse on the target. This adds Grass type to the target's type."
     },
     "MOVE_PETAL_BLIZZARD": {
         "name": "Petal Blizzard",
@@ -4605,7 +4605,7 @@
         "basePower": "90",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "The user stirs up a violent petal blizzard and attacks everything around it."
     },
     "MOVE_FREEZE_DRY": {
         "name": "Freeze-Dry",
@@ -4621,7 +4621,7 @@
         "basePower": "40",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "With a charming cry, the user does emotional damage. This attack never misses."
+        "description": "Letting out a charming cry, the user does emotional damage to opposing Pok\u00e9mon. This attack never misses."
     },
     "MOVE_PARTING_SHOT": {
         "name": "Parting Shot",
@@ -4629,7 +4629,7 @@
         "basePower": "0",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "With a threat, the user lowers the foe\u2019s Attack and Sp. Atk, and then switches with a party Pok\u00e9mon."
+        "description": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches out."
     },
     "MOVE_TOPSY_TURVY": {
         "name": "Topsy-Turvy",
@@ -4637,7 +4637,7 @@
         "basePower": "0",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "---"
+        "description": "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were."
     },
     "MOVE_DRAINING_KISS": {
         "name": "Draining Kiss",
@@ -4661,7 +4661,7 @@
         "basePower": "0",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "---"
+        "description": "The user raises the Defense stats of all Grass-type Pok\u00e9mon in battle with a mysterious power."
     },
     "MOVE_GRASSY_TERRAIN": {
         "name": "Grassy Terrain",
@@ -4717,7 +4717,7 @@
         "basePower": "140",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks everything around it with the destructive power of a terrible explosive sound."
     },
     "MOVE_FAIRY_LOCK": {
         "name": "Fairy Lock",
@@ -4765,7 +4765,7 @@
         "basePower": "110",
         "type": "TYPE_WATER",
         "pp": "5",
-        "description": "Just better scald."
+        "description": "The user immerses the target in superheated steam. This may also leave the target with a burn."
     },
     "MOVE_HYPERSPACE_HOLE": {
         "name": "Hyperspace Hole",
@@ -4781,7 +4781,7 @@
         "basePower": "15",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "---"
+        "description": "The user hits the target with throwing stars two to five times. This move always goes first."
     },
     "MOVE_MYSTICAL_FIRE": {
         "name": "Mystical Fire",
@@ -4805,7 +4805,7 @@
         "basePower": "0",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "---"
+        "description": "The user boosts the Sp. Def stat of an ally Pok\u00e9mon by using a mysterious aroma."
     },
     "MOVE_EERIE_IMPULSE": {
         "name": "Eerie Impulse",
@@ -4853,7 +4853,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "Using Happy Hour doubles the amount of prize money received after battle."
     },
     "MOVE_ELECTRIC_TERRAIN": {
         "name": "Electric Terrain",
@@ -4877,7 +4877,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The Pok\u00e9mon congratulates you on your special day!"
     },
     "MOVE_HOLD_HANDS": {
         "name": "Hold Hands",
@@ -4885,7 +4885,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user and an ally hold hands. This makes them very happy."
     },
     "MOVE_BABY_DOLL_EYES": {
         "name": "Baby-Doll Eyes",
@@ -4909,7 +4909,7 @@
         "basePower": "40",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user holds back when it attacks, and the target is left with at least 1 HP."
     },
     "MOVE_INFESTATION": {
         "name": "Infestation",
@@ -4917,7 +4917,7 @@
         "basePower": "20",
         "type": "TYPE_BUG",
         "pp": "10",
-        "description": "---"
+        "description": "The target is infested and attacked for four to five turns. The target can't flee during this time."
     },
     "MOVE_POWER_UP_PUNCH": {
         "name": "Power-Up Punch",
@@ -4925,7 +4925,7 @@
         "basePower": "40",
         "type": "TYPE_FIGHTING",
         "pp": "10",
-        "description": "+1 user Atk."
+        "description": "Striking opponents over and over makes the user's fists harder. Hitting a target raises Attack."
     },
     "MOVE_OBLIVION_WING": {
         "name": "Oblivion Wing",
@@ -4941,7 +4941,7 @@
         "basePower": "90",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "---"
+        "description": "This move can hit opposing Pok\u00e9mon that are in the air. Those Pok\u00e9mon are knocked down to the ground."
     },
     "MOVE_THOUSAND_WAVES": {
         "name": "Thousand Waves",
@@ -4949,7 +4949,7 @@
         "basePower": "90",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle."
     },
     "MOVE_LANDS_WRATH": {
         "name": "Land\u2019s Wrath",
@@ -4957,7 +4957,7 @@
         "basePower": "90",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "The land is angry. Hits both opponents."
+        "description": "The user gathers the energy of the land and focuses that power on opposing Pok\u00e9mon to inflict damage."
     },
     "MOVE_LIGHT_OF_RUIN": {
         "name": "Light of Ruin",
@@ -4965,7 +4965,7 @@
         "basePower": "140",
         "type": "TYPE_FAIRY",
         "pp": "5",
-        "description": "---"
+        "description": "Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user terribly."
     },
     "MOVE_ORIGIN_PULSE": {
         "name": "Origin Pulse",
@@ -4973,7 +4973,7 @@
         "basePower": "110",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "Blasts both foes. Don't miss!"
+        "description": "The user attacks opposing Pok\u00e9mon with countless beams of light that glow a deep and brilliant blue."
     },
     "MOVE_PRECIPICE_BLADES": {
         "name": "Precipice Blades",
@@ -4981,7 +4981,7 @@
         "basePower": "120",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "User slices the foe with sharp rocks. Groudon is happy."
+        "description": "The user attacks opposing Pok\u00e9mon by manifesting the power of the land in fearsome stone blades"
     },
     "MOVE_DRAGON_ASCENT": {
         "name": "Dragon Ascent",
@@ -5301,7 +5301,7 @@
         "basePower": "0",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "---"
+        "description": "The user restores its own HP by up to half its max HP. It regains more HP in a sandstorm."
     },
     "MOVE_FIRST_IMPRESSION": {
         "name": "First Impression",
@@ -5309,7 +5309,7 @@
         "basePower": "90",
         "type": "TYPE_BUG",
         "pp": "10",
-        "description": "Hit's first on user's first turn on the field."
+        "description": "Although this move has great power, it works only on the first turn each time the user enters battle."
     },
     "MOVE_BANEFUL_BUNKER": {
         "name": "Baneful Bunker",
@@ -5341,7 +5341,7 @@
         "basePower": "90",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "---"
+        "description": "The user bursts into song, emitting bubbles. Any Pok\u00e9mon suffering from a burn will be cured by their touch."
     },
     "MOVE_ICE_HAMMER": {
         "name": "Ice Hammer",
@@ -5349,7 +5349,7 @@
         "basePower": "100",
         "type": "TYPE_ICE",
         "pp": "10",
-        "description": "---"
+        "description": "The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however."
     },
     "MOVE_FLORAL_HEALING": {
         "name": "Floral Healing",
@@ -5357,7 +5357,7 @@
         "basePower": "0",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "---"
+        "description": "The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass."
     },
     "MOVE_HIGH_HORSEPOWER": {
         "name": "High Horsepower",
@@ -5365,7 +5365,7 @@
         "basePower": "95",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "Big ground damage."
+        "description": "The user fiercely attacks the target using its entire body."
     },
     "MOVE_STRENGTH_SAP": {
         "name": "Strength Sap",
@@ -5373,7 +5373,7 @@
         "basePower": "0",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "Recovers HP equal to foe's Attack stat. Lowers foe's Attack one stage. "
+        "description": "The user restores its HP by the same amount as the target's Attack stat. It also lowers the target's Attack stat."
     },
     "MOVE_SOLAR_BLADE": {
         "name": "Solar Blade",
@@ -5389,7 +5389,7 @@
         "basePower": "40",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "Slams the foe with a flurry of leaves. That's it. "
+        "description": "The user attacks by pelting the target with leaves."
     },
     "MOVE_SPOTLIGHT": {
         "name": "Spotlight",
@@ -5397,7 +5397,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user shines a spotlight on the target so that only the target will be attacked during the turn."
     },
     "MOVE_TOXIC_THREAD": {
         "name": "Toxic Thread",
@@ -5405,7 +5405,7 @@
         "basePower": "0",
         "type": "TYPE_POISON",
         "pp": "10",
-        "description": "---"
+        "description": "The user shoots poisonous threads to poison the target and lower the target's Speed stat."
     },
     "MOVE_LASER_FOCUS": {
         "name": "Laser Focus",
@@ -5413,7 +5413,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user concentrates intensely. The attack on the next turn always results in a critical hit."
     },
     "MOVE_GEAR_UP": {
         "name": "Gear Up",
@@ -5429,7 +5429,7 @@
         "basePower": "80",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks the target's throat, preventing the target from using sound-based moves for two turns."
     },
     "MOVE_POLLEN_PUFF": {
         "name": "Pollen Puff",
@@ -5445,7 +5445,7 @@
         "basePower": "80",
         "type": "TYPE_STEEL",
         "pp": "10",
-        "description": "---"
+        "description": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee."
     },
     "MOVE_PSYCHIC_TERRAIN": {
         "name": "Psychic Terrain",
@@ -5453,7 +5453,7 @@
         "basePower": "0",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "Blocks priority moves on grounded Pokemon. Boosts Psychic moves. "
+        "description": "This protects Pok\u00e9mon on the ground from priority moves and powers up Psychic-type moves for five turns."
     },
     "MOVE_LUNGE": {
         "name": "Lunge",
@@ -5461,7 +5461,7 @@
         "basePower": "80",
         "type": "TYPE_BUG",
         "pp": "10",
-        "description": "Lowers foe's Atk by one stage."
+        "description": "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat."
     },
     "MOVE_FIRE_LASH": {
         "name": "Fire Lash",
@@ -5469,7 +5469,7 @@
         "basePower": "80",
         "type": "TYPE_FIRE",
         "pp": "10",
-        "description": "---"
+        "description": "The user strikes the target with a burning lash. This also lowers the target's Defense stat."
     },
     "MOVE_POWER_TRIP": {
         "name": "Power Trip",
@@ -5485,7 +5485,7 @@
         "basePower": "130",
         "type": "TYPE_FIRE",
         "pp": "5",
-        "description": "---"
+        "description": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type."
     },
     "MOVE_SPEED_SWAP": {
         "name": "Speed Swap",
@@ -5493,7 +5493,7 @@
         "basePower": "0",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user exchanges Speed stats with the target."
     },
     "MOVE_SMART_STRIKE": {
         "name": "Smart Strike",
@@ -5501,7 +5501,7 @@
         "basePower": "70",
         "type": "TYPE_STEEL",
         "pp": "10",
-        "description": "---"
+        "description": "The user stabs the target with a sharp horn. This attack never misses."
     },
     "MOVE_PURIFY": {
         "name": "Purify",
@@ -5517,7 +5517,7 @@
         "basePower": "90",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks the target by dancing with all its might. This move becomes the same type as the user's type."
     },
     "MOVE_CORE_ENFORCER": {
         "name": "Core Enforcer",
@@ -5533,7 +5533,7 @@
         "basePower": "70",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat."
     },
     "MOVE_INSTRUCT": {
         "name": "Instruct",
@@ -5541,7 +5541,7 @@
         "basePower": "0",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user instructs the target to reuse the move last used by the target."
     },
     "MOVE_BEAK_BLAST": {
         "name": "Beak Blast",
@@ -5565,7 +5565,7 @@
         "basePower": "90",
         "type": "TYPE_DRAGON",
         "pp": "10",
-        "description": "---"
+        "description": "The user wields its body like a hammer to attack the target and inflict damage."
     },
     "MOVE_BRUTAL_SWING": {
         "name": "Brutal Swing",
@@ -5573,7 +5573,7 @@
         "basePower": "60",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "Brutally swings something around. Hits everyone."
+        "description": "The user swings its body around violently to inflict damage on everything in its vicinity."
     },
     "MOVE_AURORA_VEIL": {
         "name": "Aurora Veil",
@@ -5589,7 +5589,7 @@
         "basePower": "180",
         "type": "TYPE_GHOST",
         "pp": "1",
-        "description": "---"
+        "description": "The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force."
     },
     "MOVE_MALICIOUS_MOONSAULT": {
         "name": "Malicious Moonsault",
@@ -5597,7 +5597,7 @@
         "basePower": "180",
         "type": "TYPE_DARK",
         "pp": "1",
-        "description": "---"
+        "description": "The user, Incineroar, strengthens its body using its Z-Power and crashes into the target with full force."
     },
     "MOVE_OCEANIC_OPERETTA": {
         "name": "Oceanic Operetta",
@@ -5605,7 +5605,7 @@
         "basePower": "195",
         "type": "TYPE_WATER",
         "pp": "1",
-        "description": "---"
+        "description": "The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force."
     },
     "MOVE_GUARDIAN_OF_ALOLA": {
         "name": "Guardian of Alola",
@@ -5669,7 +5669,7 @@
         "basePower": "130",
         "type": "TYPE_FAIRY",
         "pp": "5",
-        "description": "Blasts opponent with lots of flowers. -2 Sp. Atk recoil."
+        "description": "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat."
     },
     "MOVE_PSYCHIC_FANGS": {
         "name": "Psychic Fangs",
@@ -5677,7 +5677,7 @@
         "basePower": "85",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "Breaks screens."
+        "description": "The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect."
     },
     "MOVE_STOMPING_TANTRUM": {
         "name": "Stomping Tantrum",
@@ -5701,7 +5701,7 @@
         "basePower": "40",
         "type": "TYPE_ROCK",
         "pp": "10",
-        "description": "---"
+        "description": "The user smashes into the target at high speed. This move always goes first."
     },
     "MOVE_LIQUIDATION": {
         "name": "Liquidation",
@@ -5717,7 +5717,7 @@
         "basePower": "160",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "User must recharge on the next turn."
+        "description": "The user shoots powerful lasers using\\rthe power of a prism. The user can't move on\\rthe next turn."
     },
     "MOVE_SPECTRAL_THIEF": {
         "name": "Spectral Thief",
@@ -5725,7 +5725,7 @@
         "basePower": "90",
         "type": "TYPE_GHOST",
         "pp": "10",
-        "description": "---"
+        "description": "The user hides in the target's shadow, steals the target's stat boosts, and then attacks"
     },
     "MOVE_SUNSTEEL_STRIKE": {
         "name": "Sunsteel Strike",
@@ -5757,7 +5757,7 @@
         "basePower": "80",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user crashes into the target, delivering a powerful electric shock. This may also make the target flinch."
     },
     "MOVE_NATURES_MADNESS": {
         "name": "Nature\u2019s Madness",
@@ -5765,7 +5765,7 @@
         "basePower": "0",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "Cuts opponent's HP by half."
+        "description": "The user hits the target with the full wrath of nature. This cuts the target's HP in half."
     },
     "MOVE_MULTI_ATTACK": {
         "name": "Multi-Attack",
@@ -5773,7 +5773,7 @@
         "basePower": "120",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "Cloaking itself in high energy, the user slams into the target. The memory held determines the move's type."
     },
     "MOVE_10_000_000_VOLT_THUNDERBOLT": {
         "name": "10,000,000 Volt Thunderbolt",
@@ -5789,7 +5789,7 @@
         "basePower": "150",
         "type": "TYPE_FIRE",
         "pp": "5",
-        "description": "---"
+        "description": "The user attacks everything around it by causing its own head to explode. This also damages the user."
     },
     "MOVE_PLASMA_FISTS": {
         "name": "Plasma Fists",
@@ -5885,7 +5885,7 @@
         "basePower": "0",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "---"
+        "description": "The more Pikachu loves its Trainer, the greater the move's power. It never misses."
     },
     "MOVE_BOUNCY_BUBBLE": {
         "name": "Bouncy Bubble",
@@ -5901,7 +5901,7 @@
         "basePower": "60",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user shoots a jolt of electricity to attack the target. This also leaves the target with paralysis."
     },
     "MOVE_SIZZLY_SLIDE": {
         "name": "Sizzly Slide",
@@ -5909,7 +5909,7 @@
         "basePower": "60",
         "type": "TYPE_FIRE",
         "pp": "10",
-        "description": "---"
+        "description": "The user cloaks itself in fire and charges at the target. This also leaves the target with a burn."
     },
     "MOVE_GLITZY_GLOW": {
         "name": "Glitzy Glow",
@@ -5957,7 +5957,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The more Eevee loves its Trainer, the greater the move's power. It never misses."
     },
     "MOVE_DOUBLE_IRON_BASH": {
         "name": "Double Iron Bash",
@@ -5981,7 +5981,7 @@
         "basePower": "100",
         "type": "TYPE_DRAGON",
         "pp": "5",
-        "description": "---"
+        "description": "The user condenses energy within its body and unleashes that energy from its core to inflict damage."
     },
     "MOVE_SNIPE_SHOT": {
         "name": "Snipe Shot",
@@ -6005,7 +6005,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user eats its held Berry, then sharply boosts its Defense stat."
     },
     "MOVE_NO_RETREAT": {
         "name": "No Retreat",
@@ -6013,7 +6013,7 @@
         "basePower": "0",
         "type": "TYPE_FIGHTING",
         "pp": "5",
-        "description": "---"
+        "description": "This move boosts all the user's stats but prevents the user from switching out or fleeing."
     },
     "MOVE_TAR_SHOT": {
         "name": "Tar Shot",
@@ -6029,7 +6029,7 @@
         "basePower": "0",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user scatters a cloud of magic powder that changes the target's type to Psychic."
     },
     "MOVE_DRAGON_DARTS": {
         "name": "Dragon Darts",
@@ -6037,7 +6037,7 @@
         "basePower": "50",
         "type": "TYPE_DRAGON",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks twice using Dreepy. If there are two opposing Pok\u00e9mon, this move hits each of them once."
     },
     "MOVE_TEATIME": {
         "name": "Teatime",
@@ -6045,7 +6045,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user has teatime with all the Pok\u00e9mon currently in the battle. Each Pok\u00e9mon eats its held Berry."
     },
     "MOVE_OCTOLOCK": {
         "name": "Octolock",
@@ -6077,7 +6077,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "With its mysterious power, the user swaps the effects on either side of the field."
     },
     "MOVE_MAX_FLARE": {
         "name": "Max Flare",
@@ -6229,7 +6229,7 @@
         "basePower": "0",
         "type": "TYPE_DRAGON",
         "pp": "5",
-        "description": "---"
+        "description": "The user boosts all its stats by using some of its own HP."
     },
     "MOVE_BODY_PRESS": {
         "name": "Body Press",
@@ -6245,7 +6245,7 @@
         "basePower": "0",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "---"
+        "description": "The user sharply boosts the target's Attack and Sp. Atk stats by decorating the target."
     },
     "MOVE_DRUM_BEATING": {
         "name": "Drum Beating",
@@ -6261,7 +6261,7 @@
         "basePower": "35",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "The user snares the target in a snap trap that inflicts damage for four to five turns."
     },
     "MOVE_PYRO_BALL": {
         "name": "Pyro Ball",
@@ -6277,7 +6277,7 @@
         "basePower": "100",
         "type": "TYPE_STEEL",
         "pp": "5",
-        "description": "Double damage on dynamaxed Pokemon."
+        "description": "The user wields a large, powerful sword using its whole body and cuts the target in a vigorous attack."
     },
     "MOVE_BEHEMOTH_BASH": {
         "name": "Behemoth Bash",
@@ -6285,7 +6285,7 @@
         "basePower": "100",
         "type": "TYPE_STEEL",
         "pp": "5",
-        "description": "Double damage on dynamaxed Pokemon."
+        "description": "The user's body becomes a firm shield and slams into the target fiercely."
     },
     "MOVE_AURA_WHEEL": {
         "name": "Aura Wheel",
@@ -6301,7 +6301,7 @@
         "basePower": "60",
         "type": "TYPE_DRAGON",
         "pp": "10",
-        "description": "Lowers opponents' attack by one."
+        "description": "The user swings its tough tail and attacks opposing Pok\u00e9mon. This also lowers their Attack stats."
     },
     "MOVE_BRANCH_POKE": {
         "name": "Branch Poke",
@@ -6309,7 +6309,7 @@
         "basePower": "40",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "Pokey pokey. Hey! Stop that!"
+        "description": "The user attacks the target by poking it with a sharply pointed branch."
     },
     "MOVE_OVERDRIVE": {
         "name": "Overdrive",
@@ -6333,7 +6333,7 @@
         "basePower": "80",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "---"
+        "description": "The user inflicts damage by dropping an apple from above. This also lowers the target's Defense stat."
     },
     "MOVE_SPIRIT_BREAK": {
         "name": "Spirit Break",
@@ -6349,7 +6349,7 @@
         "basePower": "90",
         "type": "TYPE_FAIRY",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks the target by emitting steam. This may also confuse the target."
     },
     "MOVE_LIFE_DEW": {
         "name": "Life Dew",
@@ -6373,7 +6373,7 @@
         "basePower": "80",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "---"
+        "description": "The user pretends to bow its head, but then it stabs the target with its hair. This attack never misses."
     },
     "MOVE_METEOR_ASSAULT": {
         "name": "Meteor Assault",
@@ -6381,7 +6381,7 @@
         "basePower": "150",
         "type": "TYPE_FIGHTING",
         "pp": "5",
-        "description": "---"
+        "description": "The user attacks wildly with its thick leek. The user can't move on the next turn."
     },
     "MOVE_ETERNABEAM": {
         "name": "Eternabeam",
@@ -6389,7 +6389,7 @@
         "basePower": "160",
         "type": "TYPE_DRAGON",
         "pp": "5",
-        "description": "User must recharge on turn two. That's a lotta damage!"
+        "description": "This is Eternatus's most powerful attack in its original form. The user can't move on the next turn."
     },
     "MOVE_STEEL_BEAM": {
         "name": "Steel Beam",
@@ -6397,7 +6397,7 @@
         "basePower": "140",
         "type": "TYPE_STEEL",
         "pp": "5",
-        "description": "---"
+        "description": "The user fires a beam of steel that it collected from its entire body. This also damages the user."
     },
     "MOVE_EXPANDING_FORCE": {
         "name": "Expanding Force",
@@ -6413,15 +6413,15 @@
         "basePower": "130",
         "type": "TYPE_STEEL",
         "pp": "5",
-        "description": "---"
+        "description": "The user attacks while destroying the terrain. This move fails if the ground hasn't turned into a terrain."
     },
     "MOVE_SCALE_SHOT": {
         "name": "Scale Shot",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "25",
         "type": "TYPE_DRAGON",
-        "pp": "10",
-        "description": "---"
+        "pp": "20",
+        "description": "The user attacks by shooting scales two to five times in a row. This raises Speed but lowers Defense."
     },
     "MOVE_METEOR_BEAM": {
         "name": "Meteor Beam",
@@ -6429,7 +6429,7 @@
         "basePower": "120",
         "type": "TYPE_ROCK",
         "pp": "10",
-        "description": "The user gathers space power on the first turn to raise its Sp. Atk, and then attacks on the next."
+        "description": "The user gathers energy from space to raise its Sp. Atk on the first turn, then attacks on the next."
     },
     "MOVE_SHELL_SIDE_ARM": {
         "name": "Shell Side Arm",
@@ -6437,7 +6437,7 @@
         "basePower": "90",
         "type": "TYPE_POISON",
         "pp": "10",
-        "description": "---"
+        "description": "This move is either physical or special, whichever will inflict more damage. This may also poison the target."
     },
     "MOVE_MISTY_EXPLOSION": {
         "name": "Misty Explosion",
@@ -6453,7 +6453,7 @@
         "basePower": "55",
         "type": "TYPE_GRASS",
         "pp": "10",
-        "description": "+1 priority on Grassy Terrain. "
+        "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain."
     },
     "MOVE_RISING_VOLTAGE": {
         "name": "Rising Voltage",
@@ -6477,7 +6477,7 @@
         "basePower": "70",
         "type": "TYPE_BUG",
         "pp": "10",
-        "description": "---"
+        "description": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat."
     },
     "MOVE_BURNING_JEALOUSY": {
         "name": "Burning Jealousy",
@@ -6501,7 +6501,7 @@
         "basePower": "110",
         "type": "TYPE_GHOST",
         "pp": "5",
-        "description": "---"
+        "description": "The user attacks by controlling the target's item. This move fails if the foe isn't holding an item."
     },
     "MOVE_CORROSIVE_GAS": {
         "name": "Corrosive Gas",
@@ -6509,7 +6509,7 @@
         "basePower": "0",
         "type": "TYPE_POISON",
         "pp": "10",
-        "description": "---"
+        "description": "The user surrounds everything around it with highly acidic gas and melts away items held by other Pok\u00e9mon."
     },
     "MOVE_COACHING": {
         "name": "Coaching",
@@ -6517,7 +6517,7 @@
         "basePower": "0",
         "type": "TYPE_FIGHTING",
         "pp": "10",
-        "description": "---"
+        "description": "The user properly coaches its ally Pok\u00e9mon, boosting their Attack and Defense stats."
     },
     "MOVE_FLIP_TURN": {
         "name": "Flip Turn",
@@ -6525,7 +6525,7 @@
         "basePower": "60",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "---"
+        "description": "After making its attack, the user rushes back to switch places with a party Pok\u00e9mon in waiting."
     },
     "MOVE_TRIPLE_AXEL": {
         "name": "Triple Axel",
@@ -6533,7 +6533,7 @@
         "basePower": "20",
         "type": "TYPE_ICE",
         "pp": "10",
-        "description": "---"
+        "description": "A consecutive three-kick attack that becomes more powerful with each successful hit."
     },
     "MOVE_DUAL_WINGBEAT": {
         "name": "Dual Wingbeat",
@@ -6541,7 +6541,7 @@
         "basePower": "40",
         "type": "TYPE_FLYING",
         "pp": "10",
-        "description": "Hits twice."
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row."
     },
     "MOVE_SCORCHING_SANDS": {
         "name": "Scorching Sands",
@@ -6549,7 +6549,7 @@
         "basePower": "70",
         "type": "TYPE_GROUND",
         "pp": "10",
-        "description": "30% chance to burn the target."
+        "description": "The user throws scorching sand at the target to attack. The target may also be left with a burn."
     },
     "MOVE_JUNGLE_HEALING": {
         "name": "Jungle Healing",
@@ -6565,7 +6565,7 @@
         "basePower": "80",
         "type": "TYPE_DARK",
         "pp": "5",
-        "description": "Always results in a critical hit."
+        "description": "The user strikes the target with a fierce blow. This move always lands a critical hit."
     },
     "MOVE_SURGING_STRIKES": {
         "name": "Surging Strikes",
@@ -6573,7 +6573,7 @@
         "basePower": "25",
         "type": "TYPE_WATER",
         "pp": "5",
-        "description": "Always results in a critical hit."
+        "description": "The user strikes the target with a flowing motion three times in a row. This move always lands a critical hit."
     },
     "MOVE_THUNDER_CAGE": {
         "name": "Thunder Cage",
@@ -6581,7 +6581,7 @@
         "basePower": "80",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user traps the target inside a cage of sparking electricity that inflicts damage for four to five turns."
     },
     "MOVE_DRAGON_ENERGY": {
         "name": "Dragon Energy",
@@ -6597,7 +6597,7 @@
         "basePower": "90",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "10% chance to freeze opponent."
+        "description": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen."
     },
     "MOVE_FIERY_WRATH": {
         "name": "Fiery Wrath",
@@ -6605,7 +6605,7 @@
         "basePower": "90",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "20% chance to flinch the foes."
+        "description": "The user transforms its wrath into a fire-like aura to attack. This may also make opposing Pok\u00e9mon flinch."
     },
     "MOVE_THUNDEROUS_KICK": {
         "name": "Thunderous Kick",
@@ -6621,7 +6621,7 @@
         "basePower": "130",
         "type": "TYPE_ICE",
         "pp": "5",
-        "description": "Shanks foes with ice hunks."
+        "description": "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pok\u00e9mon."
     },
     "MOVE_ASTRAL_BARRAGE": {
         "name": "Astral Barrage",
@@ -6629,7 +6629,7 @@
         "basePower": "120",
         "type": "TYPE_GHOST",
         "pp": "5",
-        "description": "Calrex go BRRRRRRRRRRRRRRRR."
+        "description": "The user attacks by sending a frightful amount of small ghosts at opposing Pok\u00e9mon."
     },
     "MOVE_EERIE_SPELL": {
         "name": "Eerie Spell",
@@ -6637,7 +6637,7 @@
         "basePower": "80",
         "type": "TYPE_PSYCHIC",
         "pp": "5",
-        "description": "---"
+        "description": "The user attacks with its tremendous psychic power. This also drains 3 PP from the move last used by the target."
     },
     "MOVE_DIRE_CLAW": {
         "name": "Dire Claw",
@@ -6645,7 +6645,7 @@
         "basePower": "80",
         "type": "TYPE_POISON",
         "pp": "15",
-        "description": "---"
+        "description": "The user lashes out at the target with ruinous claws. May also poison, paralyze, or sleep the target."
     },
     "MOVE_PSYSHIELD_BASH": {
         "name": "Psyshield Bash",
@@ -6653,7 +6653,7 @@
         "basePower": "70",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "---"
+        "description": "Cloaking itself in psychic energy, the user slams into the target. This also boosts the user\u2019s Defense stat."
     },
     "MOVE_POWER_SHIFT": {
         "name": "Power Shift",
@@ -6661,7 +6661,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user swaps its Attack and Defense stats."
     },
     "MOVE_STONE_AXE": {
         "name": "Stone Axe",
@@ -6685,7 +6685,7 @@
         "basePower": "70",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks by emitting a mysterious power. This also boosts the user\u2019s Sp. Atk stat."
     },
     "MOVE_RAGING_FURY": {
         "name": "Raging Fury",
@@ -6693,7 +6693,7 @@
         "basePower": "120",
         "type": "TYPE_FIRE",
         "pp": "10",
-        "description": "---"
+        "description": "The user rampages around spewing flames for two to three turns. The user then becomes confused."
     },
     "MOVE_WAVE_CRASH": {
         "name": "Wave Crash",
@@ -6709,7 +6709,7 @@
         "basePower": "150",
         "type": "TYPE_GRASS",
         "pp": "5",
-        "description": "---"
+        "description": "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user."
     },
     "MOVE_MOUNTAIN_GALE": {
         "name": "Mountain Gale",
@@ -6717,7 +6717,7 @@
         "basePower": "100",
         "type": "TYPE_ICE",
         "pp": "10",
-        "description": "---"
+        "description": "The user hurls giant chunks of ice at the target to inflict damage. This may also make the target flinch."
     },
     "MOVE_VICTORY_DANCE": {
         "name": "Victory Dance",
@@ -6725,7 +6725,7 @@
         "basePower": "0",
         "type": "TYPE_FIGHTING",
         "pp": "10",
-        "description": "---"
+        "description": "The user performs an intense dance to usher in victory, boosting its Attack, Defense, and Speed stats."
     },
     "MOVE_HEADLONG_RUSH": {
         "name": "Headlong Rush",
@@ -6733,7 +6733,7 @@
         "basePower": "120",
         "type": "TYPE_GROUND",
         "pp": "5",
-        "description": "---"
+        "description": "The user smashes into the target in a full-body tackle. This also lowers the user\u2019s Defense and Sp. Def."
     },
     "MOVE_BARB_BARRAGE": {
         "name": "Barb Barrage",
@@ -6757,7 +6757,7 @@
         "basePower": "75",
         "type": "TYPE_GHOST",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks the target with spine- chilling resentment. This also lowers the target\u2019s Attack stat."
     },
     "MOVE_SHELTER": {
         "name": "Shelter",
@@ -6765,7 +6765,7 @@
         "basePower": "0",
         "type": "TYPE_STEEL",
         "pp": "10",
-        "description": "---"
+        "description": "The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
     },
     "MOVE_TRIPLE_ARROWS": {
         "name": "Triple Arrows",
@@ -6797,7 +6797,7 @@
         "basePower": "100",
         "type": "TYPE_FLYING",
         "pp": "10",
-        "description": "Hits both foes. "
+        "description": "The user attacks with savagely cold winds. This may also lower the Speed stats of opposing Pok\u00e9mon."
     },
     "MOVE_WILDBOLT_STORM": {
         "name": "Wildbolt Storm",
@@ -6805,7 +6805,7 @@
         "basePower": "100",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user savagely attacks with lightning and wind. It may also leave opponents paralyzed."
     },
     "MOVE_SANDSEAR_STORM": {
         "name": "Sandsear Storm",
@@ -6829,7 +6829,7 @@
         "basePower": "0",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats."
     },
     "MOVE_TERA_BLAST": {
         "name": "Tera Blast",
@@ -6885,7 +6885,7 @@
         "basePower": "60",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "---"
+        "description": "The user summons a torrent around its fist and punches at blinding speed. It is sure to strike first."
     },
     "MOVE_SPICY_EXTRACT": {
         "name": "Spicy Extract",
@@ -6909,7 +6909,7 @@
         "basePower": "20",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user\u2019s fellows gather in droves to perform a combo attack that hits the target one to ten times in a row."
     },
     "MOVE_ICE_SPINNER": {
         "name": "Ice Spinner",
@@ -6949,14 +6949,14 @@
         "basePower": "30",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "---"
+        "description": "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row."
     },
     "MOVE_MORTAL_SPIN": {
         "name": "Mortal Spin",
         "damageCategory": "SPLIT_PHYSICAL",
         "basePower": "30",
         "type": "TYPE_POISON",
-        "pp": "10",
+        "pp": "15",
         "description": "---"
     },
     "MOVE_DOODLE": {
@@ -6973,7 +6973,7 @@
         "basePower": "0",
         "type": "TYPE_NORMAL",
         "pp": "10",
-        "description": "---"
+        "description": "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
     },
     "MOVE_KOWTOW_CLEAVE": {
         "name": "Kowtow Cleave",
@@ -6981,7 +6981,7 @@
         "basePower": "85",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "---"
+        "description": "The user slashes at the target after kowtowing to make the target let down its guard. This attack never misses."
     },
     "MOVE_FLOWER_TRICK": {
         "name": "Flower Trick",
@@ -7045,7 +7045,7 @@
         "basePower": "1",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "---"
+        "description": "The user summons a ruinous disaster. This cuts the target\u2019s HP in half."
     },
     "MOVE_COLLISION_COURSE": {
         "name": "Collision Course",
@@ -7093,7 +7093,7 @@
         "basePower": "0",
         "type": "TYPE_ICE",
         "pp": "10",
-        "description": "---"
+        "description": "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types."
     },
     "MOVE_POUNCE": {
         "name": "Pounce",
@@ -7101,7 +7101,7 @@
         "basePower": "50",
         "type": "TYPE_BUG",
         "pp": "20",
-        "description": "---"
+        "description": "The user attacks by pouncing on the target. This also lowers the target's Speed stat."
     },
     "MOVE_TRAILBLAZE": {
         "name": "Trailblaze",
@@ -7109,7 +7109,7 @@
         "basePower": "50",
         "type": "TYPE_GRASS",
         "pp": "20",
-        "description": "---"
+        "description": "The user attacks as if leaping out from tall grass. The user's nimble footwork raises its Speed stat."
     },
     "MOVE_CHILLING_WATER": {
         "name": "Chilling Water",
@@ -7133,7 +7133,7 @@
         "basePower": "40",
         "type": "TYPE_PSYCHIC",
         "pp": "10",
-        "description": "---"
+        "description": "The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row."
     },
     "MOVE_RAGE_FIST": {
         "name": "Rage Fist",
@@ -7141,7 +7141,7 @@
         "basePower": "50",
         "type": "TYPE_GHOST",
         "pp": "10",
-        "description": "---"
+        "description": "The user converts its rage into energy to attack. The more the user has been attacked, the greater the power."
     },
     "MOVE_ARMOR_CANNON": {
         "name": "Armor Cannon",
@@ -7149,7 +7149,7 @@
         "basePower": "120",
         "type": "TYPE_FIRE",
         "pp": "5",
-        "description": "---"
+        "description": "The user shoots its own armor out as blazing projectiles. It also cuts the user\u2019s Defense and Sp. Def stats."
     },
     "MOVE_BITTER_BLADE": {
         "name": "Bitter Blade",
@@ -7173,7 +7173,7 @@
         "basePower": "160",
         "type": "TYPE_STEEL",
         "pp": "5",
-        "description": "---"
+        "description": "The user swings its whole body around to attack with its huge hammer. This move can't be used twice in a row."
     },
     "MOVE_COMEUPPANCE": {
         "name": "Comeuppance",
@@ -7181,7 +7181,7 @@
         "basePower": "1",
         "type": "TYPE_DARK",
         "pp": "10",
-        "description": "---"
+        "description": "The user retaliates against the foe that last inflicted damage on it with much greater power."
     },
     "MOVE_AQUA_CUTTER": {
         "name": "Aqua Cutter",
@@ -7189,7 +7189,7 @@
         "basePower": "70",
         "type": "TYPE_WATER",
         "pp": "10",
-        "description": "---"
+        "description": "The user expels pressurized water to cut at the target like a blade. It has a high critical-hit ratio."
     },
     "MOVE_BLAZING_TORQUE": {
         "name": "Blazing Torque",
@@ -7237,14 +7237,14 @@
         "basePower": "140",
         "type": "TYPE_NORMAL",
         "pp": "5",
-        "description": "---"
+        "description": "The user unleashes the full brunt of its spirit from a full moon. This move can't be used twice in a row."
     },
     "MOVE_MATCHA_GOTCHA": {
         "name": "Matcha Gotcha",
         "damageCategory": "SPLIT_SPECIAL",
         "basePower": "80",
         "type": "TYPE_GRASS",
-        "pp": "10",
+        "pp": "15",
         "description": "---"
     },
     "MOVE_SYRUP_BOMB": {
@@ -7269,7 +7269,7 @@
         "basePower": "130",
         "type": "TYPE_ELECTRIC",
         "pp": "10",
-        "description": "The user gathers electricity on the first turn to raise its Sp. Atk, and then attacks on the next."
+        "description": "A two-turn attack. The user gathers light, then fires a high voltage shot on the second turn."
     },
     "MOVE_TERA_STARSTORM": {
         "name": "Tera Starstorm",
@@ -7285,7 +7285,7 @@
         "basePower": "80",
         "type": "TYPE_DRAGON",
         "pp": "5",
-        "description": "---"
+        "description": "The user shoots a beam of light. Sometimes the user's heads shoot in unison, doubling the move's power."
     },
     "MOVE_BURNING_BULWARK": {
         "name": "Burning Bulwark",
@@ -7293,7 +7293,7 @@
         "basePower": "0",
         "type": "TYPE_FIRE",
         "pp": "10",
-        "description": "---"
+        "description": "The user\u2019s intensely hot fur protects it from attacks and also burns any attacker that makes direct contact with it."
     },
     "MOVE_THUNDERCLAP": {
         "name": "Thunderclap",
@@ -7317,7 +7317,7 @@
         "basePower": "50",
         "type": "TYPE_STEEL",
         "pp": "10",
-        "description": "---"
+        "description": "The user attacks by launching particle blades at the target twice in a row. This attack never misses."
     },
     "MOVE_HARD_PRESS": {
         "name": "Hard Press",

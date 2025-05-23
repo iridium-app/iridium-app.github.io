@@ -7606,15 +7606,15 @@
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_COTTONEE",
+                        "name": "SPECIES_SKIDDO",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_COTTONEE",
+                        "name": "SPECIES_SKIDDO",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_APPLIN",
+                        "name": "SPECIES_FLABEBE",
                         "form": 0
                     },
                     {
@@ -7626,19 +7626,19 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SEEDOT",
+                        "name": "SPECIES_DEERLING",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SUNKERN",
+                        "name": "SPECIES_ODDISH",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_BOUNSWEET",
+                        "name": "SPECIES_SEWADDLE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_APPLIN",
+                        "name": "SPECIES_FLABEBE",
                         "form": 0
                     },
                     {
@@ -7646,11 +7646,11 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SKIDDO",
+                        "name": "SPECIES_FOONGUS",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_FLABEBE",
+                        "name": "SPECIES_FERROSEED",
                         "form": 0
                     }
                 ]
@@ -8045,19 +8045,19 @@
                         "form": 1
                     },
                     {
-                        "name": "SPECIES_KRICKETOT",
+                        "name": "SPECIES_NICKIT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_WURMPLE",
+                        "name": "SPECIES_POOCHYENA",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_CATERPIE",
+                        "name": "SPECIES_ZORUA",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_WEEDLE",
+                        "name": "SPECIES_MASCHIFF",
                         "form": 0
                     },
                     {
@@ -8069,11 +8069,11 @@
                         "form": 1
                     },
                     {
-                        "name": "SPECIES_NICKIT",
+                        "name": "SPECIES_VULLABY",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_POOCHYENA",
+                        "name": "SPECIES_MURKROW",
                         "form": 0
                     }
                 ]
@@ -8150,7 +8150,7 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SNOM",
+                        "name": "SPECIES_CETODDLE",
                         "form": 0
                     },
                     {
@@ -8162,8 +8162,8 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_BALTOY",
-                        "form": 0
+                        "name": "SPECIES_VULPIX",
+                        "form": 1
                     },
                     {
                         "name": "SPECIES_DARUMAKA",
@@ -8174,15 +8174,15 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SNOM",
+                        "name": "SPECIES_CETODDLE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SILICOBRA",
-                        "form": 0
+                        "name": "SPECIES_SANDSHREW",
+                        "form": 1
                     },
                     {
-                        "name": "SPECIES_GEODUDE",
+                        "name": "SPECIES_CUBCHOO",
                         "form": 0
                     }
                 ]
@@ -10489,58 +10489,58 @@
     },
     "133": {
         "id": "133",
-        "name": "DIGLETT\u2019S_CAVE",
+        "name": "The Wattlands",
         "methods": [
             {
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_PIKACHU",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_PIKACHU",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_PAWMI",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_MAREEP",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_ELECTRIKE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_BLITZLE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_ELEKID",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DIGLETT",
+                        "name": "SPECIES_TYNAMO",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DUGTRIO",
+                        "name": "SPECIES_PAWMI",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DUGTRIO",
+                        "name": "SPECIES_MAREEP",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DUGTRIO",
+                        "name": "SPECIES_MAGNEMITE",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_DUGTRIO",
-                        "form": 0
+                        "name": "SPECIES_VOLTORB",
+                        "form": 1
                     }
                 ]
             }
@@ -10679,7 +10679,7 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_WIMPOD",
+                        "name": "SPECIES_YAMPER",
                         "form": 0
                     },
                     {
@@ -10703,7 +10703,7 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_YAMPER",
+                        "name": "SPECIES_VENONAT",
                         "form": 0
                     },
                     {
@@ -10722,15 +10722,15 @@
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_HOPPIP",
+                        "name": "SPECIES_MINCCINO",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HOPPIP",
+                        "name": "SPECIES_MINCCINO",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_IGGLYBUFF",
+                        "name": "SPECIES_SNUBBULL",
                         "form": 0
                     },
                     {
@@ -10738,7 +10738,7 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HAPPINY",
+                        "name": "SPECIES_ZIGZAGOON",
                         "form": 0
                     },
                     {
@@ -10746,7 +10746,7 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ROOKIDEE",
+                        "name": "SPECIES_BUNNELBY",
                         "form": 0
                     },
                     {
@@ -10754,19 +10754,19 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_IGGLYBUFF",
-                        "form": 0
-                    },
-                    {
-                        "name": "SPECIES_SHINX",
-                        "form": 0
-                    },
-                    {
                         "name": "SPECIES_SWABLU",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_SCATTERBUG",
+                        "name": "SPECIES_COTTONEE",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SNUBBULL",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SHINX",
                         "form": 0
                     }
                 ]
@@ -10800,7 +10800,7 @@
                 "type": "oldRod",
                 "encounters": [
                     {
-                        "name": "SPECIES_ARROKUDA",
+                        "name": "SPECIES_FINNEON",
                         "form": 0
                     },
                     {
@@ -10825,57 +10825,57 @@
     },
     "137": {
         "id": "137",
-        "name": "Azalea Industries",
+        "name": "Mineshaft Tunnel",
         "methods": [
             {
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_RESHIRAM",
+                        "name": "SPECIES_TINKATINK",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HEATRAN",
+                        "name": "SPECIES_TINKATINK",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MOLTRES",
+                        "name": "SPECIES_MEOWTH",
+                        "form": 2
+                    },
+                    {
+                        "name": "SPECIES_ARON",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ENTEI",
+                        "name": "SPECIES_ARON",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_VICTINI",
+                        "name": "SPECIES_CUFANT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_BLACEPHALON",
+                        "name": "SPECIES_CUFANT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HO_OH",
+                        "name": "SPECIES_SHIELDON",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HO_OH",
+                        "name": "SPECIES_MEOWTH",
+                        "form": 2
+                    },
+                    {
+                        "name": "SPECIES_ARON",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_VOLCANION",
+                        "name": "SPECIES_SHIELDON",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_VOLCANION",
-                        "form": 0
-                    },
-                    {
-                        "name": "SPECIES_VOLCANION",
-                        "form": 0
-                    },
-                    {
-                        "name": "SPECIES_VOLCANION",
+                        "name": "SPECIES_SHIELDON",
                         "form": 0
                     }
                 ]
@@ -10910,15 +10910,15 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_ZIGZAGOON",
+                        "name": "SPECIES_DUCKLETT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_RATTATA",
+                        "name": "SPECIES_HOOTHOOT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_BIDOOF",
+                        "name": "SPECIES_ROOKIDEE",
                         "form": 0
                     },
                     {
@@ -10930,11 +10930,11 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_BUNNELBY",
+                        "name": "SPECIES_TAILLOW",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_BLIPBUG",
+                        "name": "SPECIES_WATTREL",
                         "form": 0
                     }
                 ]
@@ -10993,57 +10993,57 @@
     },
     "139": {
         "id": "139",
-        "name": "mahogany slum",
+        "name": "caelestia meadows",
         "methods": [
             {
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_ZAPDOS",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_LOPUNNY",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_URSHIFU",
+                        "name": "SPECIES_SUNKERN",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_URSHIFU",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_GALLADE",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_ZAMAZENTA",
+                        "name": "SPECIES_SUNKERN",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_VIRIZION",
+                        "name": "SPECIES_SEEDOT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_VIRIZION",
+                        "name": "SPECIES_APPLIN",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_COBALION",
+                        "name": "SPECIES_SMOLIV",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_TERRAKION",
+                        "name": "SPECIES_HOPPIP",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_COBALION",
+                        "name": "SPECIES_BLIPBUG",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_TERRAKION",
+                        "name": "SPECIES_WURMPLE",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SNOM",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SHROOMISH",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_AZURILL",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SMOLIV",
                         "form": 0
                     }
                 ]
@@ -11052,23 +11052,23 @@
                 "type": "surf",
                 "encounters": [
                     {
-                        "name": "SPECIES_PSYDUCK",
+                        "name": "SPECIES_MAGIKARP",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_PSYDUCK",
+                        "name": "SPECIES_FEEBAS",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLDUCK",
+                        "name": "SPECIES_FEEBAS",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLDUCK",
+                        "name": "SPECIES_ARROKUDA",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLDUCK",
+                        "name": "SPECIES_ARROKUDA",
                         "form": 0
                     }
                 ]
@@ -11077,23 +11077,23 @@
                 "type": "oldRod",
                 "encounters": [
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_LOTAD",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_WOOPER",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_WOOPER",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_WIGLETT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_WIGLETT",
                         "form": 0
                     }
                 ]
@@ -11102,57 +11102,57 @@
     },
     "140": {
         "id": "140",
-        "name": "TIMELESS REMNANT",
+        "name": "East Iridia Mines",
         "methods": [
             {
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_TYRANITAR",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_HYDREIGON",
+                        "name": "SPECIES_SKORUPI",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HOUNDOOM",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_HOUNDOOM",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_BANETTE",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_BANETTE",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_ABSOL",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_ABSOL",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_HOOPA",
+                        "name": "SPECIES_SKORUPI",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HOOPA",
+                        "name": "SPECIES_CROAGUNK",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HOOPA",
+                        "name": "SPECIES_STUNKY",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HOOPA",
+                        "name": "SPECIES_SILICOBRA",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_GEODUDE",
+                        "form": 1
+                    },
+                    {
+                        "name": "SPECIES_SANDILE",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SANDSHREW",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_CROAGUNK",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_STUNKY",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_RHYHORN",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_DRILBUR",
                         "form": 0
                     }
                 ]
@@ -11161,23 +11161,23 @@
                 "type": "surf",
                 "encounters": [
                     {
-                        "name": "SPECIES_PSYDUCK",
+                        "name": "SPECIES_ANORITH",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_PSYDUCK",
+                        "name": "SPECIES_KABUTO",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLDUCK",
+                        "name": "SPECIES_KABUTO",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLDUCK",
+                        "name": "SPECIES_LILEEP",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_GOLDUCK",
+                        "name": "SPECIES_LILEEP",
                         "form": 0
                     }
                 ]
@@ -11186,23 +11186,23 @@
                 "type": "oldRod",
                 "encounters": [
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_BARBOACH",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_SHELLDER",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_LUVDISC",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_POLIWAG",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_MAGIKARP",
+                        "name": "SPECIES_TYMPOLE",
                         "form": 0
                     }
                 ]

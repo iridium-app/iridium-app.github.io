@@ -18,9 +18,9 @@ function MastersheetBattle({ battle, setSelectedEntry }: Props) {
     >
       <img src={Utility.GetTrainerImage(trainerInfo)} />
       <div className="mastersheet-battle__mon-list">
-        {trainerInfo.party.map((mon) => (
+        {trainerInfo.party.map((mon, index) => (
           <MonImage
-            key={mon.monWithForm.name}
+            key={trainerInfo.name + "-mon-" + index}
             formName={mon.monWithForm.name}
             size={50}
           />

@@ -1,7 +1,7 @@
 {
     "0": {
         "name": "-",
-        "class": "PKMN_TRAINER_0",
+        "class": "JASPER",
         "numMons": "0",
         "battleType": "SINGLE_BATTLE",
         "party": [
@@ -16,31 +16,31 @@
         ]
     },
     "1": {
-        "name": "PLACE_HOLD",
-        "class": "PKMN_TRAINER_10",
+        "name": "Silver",
+        "class": "IRIS",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "1",
+                "level": "14",
                 "monWithForm": {
-                    "name": "SPECIES_ARCEUS",
+                    "name": "SPECIES_GASTLY",
                     "form": 0
                 },
                 "moveset": []
             },
             {
-                "level": "1",
+                "level": "16",
                 "monWithForm": {
-                    "name": "SPECIES_ETERNATUS",
+                    "name": "SPECIES_ZUBAT",
                     "form": 0
                 },
                 "moveset": []
             },
             {
-                "level": "1",
+                "level": "18",
                 "monWithForm": {
-                    "name": "SPECIES_ZERAORA",
+                    "name": "SPECIES_BAYLEEF",
                     "form": 0
                 },
                 "moveset": []
@@ -107,7 +107,7 @@
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "5",
+                "level": "9",
                 "monWithForm": {
                     "name": "SPECIES_DROWZEE",
                     "form": 0
@@ -122,7 +122,7 @@
                 ]
             },
             {
-                "level": "5",
+                "level": "9",
                 "monWithForm": {
                     "name": "SPECIES_CROAGUNK",
                     "form": 0
@@ -137,7 +137,7 @@
                 ]
             },
             {
-                "level": "5",
+                "level": "9",
                 "monWithForm": {
                     "name": "SPECIES_BUNNELBY",
                     "form": 0
@@ -156,35 +156,50 @@
     "4": {
         "name": "Billy",
         "class": "BUG_CATCHER",
-        "numMons": "2",
+        "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
             {
-                "level": "4",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_COMBEE",
+                    "name": "SPECIES_DWEBBLE",
                     "form": 0
                 },
                 "item": "ITEM_NONE",
-                "ability": "ABILITY_SPEED_BOOST",
+                "ability": "ABILITY_WEAK_ARMOR",
                 "moveset": [
-                    "MOVE_AIR_CUTTER",
-                    "MOVE_STRING_SHOT",
-                    "MOVE_STRUGGLE_BUG",
+                    "MOVE_ROCK_SMASH",
+                    "MOVE_ROCK_BLAST",
+                    "MOVE_SHELL_SMASH",
                     "MOVE_NONE"
                 ]
             },
             {
-                "level": "5",
+                "level": "8",
                 "monWithForm": {
-                    "name": "SPECIES_PINECO",
+                    "name": "SPECIES_VENONAT",
                     "form": 0
                 },
-                "item": "ITEM_LEFTOVERS",
-                "ability": "ABILITY_ROUGH_SKIN",
+                "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_COMPOUND_EYES",
                 "moveset": [
-                    "MOVE_ROLLOUT",
-                    "MOVE_ELECTROWEB",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_POISON_FANG",
+                    "MOVE_BUG_BITE",
+                    "MOVE_MEGA_DRAIN"
+                ]
+            },
+            {
+                "level": "8",
+                "monWithForm": {
+                    "name": "SPECIES_LARVESTA",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_FLAME_BODY",
+                "moveset": [
+                    "MOVE_FLAME_WHEEL",
+                    "MOVE_TRAILBLAZE",
                     "MOVE_STRUGGLE_BUG",
                     "MOVE_NONE"
                 ]
@@ -198,12 +213,12 @@
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "5",
+                "level": "7",
                 "monWithForm": {
                     "name": "SPECIES_PANPOUR",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
+                "item": "ITEM_RINDO_BERRY",
                 "ability": "ABILITY_TORRENT",
                 "moveset": [
                     "MOVE_SCRATCH",
@@ -213,7 +228,7 @@
                 ]
             },
             {
-                "level": "5",
+                "level": "8",
                 "monWithForm": {
                     "name": "SPECIES_PANSEAR",
                     "form": 0
@@ -228,16 +243,16 @@
                 ]
             },
             {
-                "level": "5",
+                "level": "9",
                 "monWithForm": {
                     "name": "SPECIES_PANSAGE",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
+                "item": "ITEM_ROWAP_BERRY",
                 "ability": "ABILITY_OVERGROW",
                 "moveset": [
                     "MOVE_POUND",
-                    "MOVE_LEAFAGE",
+                    "MOVE_VINE_WHIP",
                     "MOVE_TAIL_WHIP",
                     "MOVE_NONE"
                 ]
@@ -251,46 +266,46 @@
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "4",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_PATRAT",
+                    "name": "SPECIES_JIGGLYPUFF",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
-                "ability": "ABILITY_KEEN_EYE",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_COMPETITIVE",
                 "moveset": [
-                    "MOVE_TACKLE",
-                    "MOVE_LEER",
+                    "MOVE_FAIRY_WIND",
+                    "MOVE_METRONOME",
                     "MOVE_NONE",
                     "MOVE_NONE"
                 ]
             },
             {
-                "level": "4",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_POOCHYENA",
+                    "name": "SPECIES_TEDDIURSA",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
-                "ability": "ABILITY_INTIMIDATE",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_QUICK_FEET",
                 "moveset": [
-                    "MOVE_TACKLE",
-                    "MOVE_HOWL",
+                    "MOVE_FURY_SWIPES",
+                    "MOVE_METRONOME",
                     "MOVE_NONE",
                     "MOVE_NONE"
                 ]
             },
             {
-                "level": "4",
+                "level": "8",
                 "monWithForm": {
-                    "name": "SPECIES_MINCCINO",
+                    "name": "SPECIES_MAKUHITA",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
-                "ability": "ABILITY_TECHNICIAN",
+                "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_THICK_FAT",
                 "moveset": [
-                    "MOVE_POUND",
-                    "MOVE_BABY_DOLL_EYES",
+                    "MOVE_FAKE_OUT",
+                    "MOVE_METRONOME",
                     "MOVE_NONE",
                     "MOVE_NONE"
                 ]
@@ -300,36 +315,51 @@
     "7": {
         "name": "Gabe",
         "class": "CAMPER",
-        "numMons": "2",
+        "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
             {
-                "level": "7",
+                "level": "9",
                 "monWithForm": {
-                    "name": "SPECIES_VULPIX",
+                    "name": "SPECIES_GIBLE",
                     "form": 0
                 },
-                "item": "ITEM_PASSHO_BERRY",
-                "ability": "ABILITY_FLASH_FIRE",
+                "item": "ITEM_ROCKY_HELMET",
+                "ability": "ABILITY_ROUGH_SKIN",
                 "moveset": [
-                    "MOVE_BABY_DOLL_EYES",
-                    "MOVE_EMBER",
-                    "MOVE_WILL_O_WISP",
-                    "MOVE_QUICK_ATTACK"
+                    "MOVE_BULLDOZE",
+                    "MOVE_DRAGON_BREATH",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_AERIAL_ACE"
                 ]
             },
             {
-                "level": "7",
+                "level": "10",
                 "monWithForm": {
-                    "name": "SPECIES_VULPIX",
-                    "form": 1
+                    "name": "SPECIES_IMPIDIMP",
+                    "form": 0
                 },
-                "item": "ITEM_OCCA_BERRY",
+                "item": "ITEM_LIGHT_CLAY",
+                "ability": "ABILITY_PRANKSTER",
+                "moveset": [
+                    "MOVE_REFLECT",
+                    "MOVE_SNARL",
+                    "MOVE_DRAINING_KISS",
+                    "MOVE_THUNDER_WAVE"
+                ]
+            },
+            {
+                "level": "10",
+                "monWithForm": {
+                    "name": "SPECIES_TENTACOOL",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
                 "ability": "ABILITY_SNOW_CLOAK",
                 "moveset": [
-                    "MOVE_CHARM",
-                    "MOVE_SNARL",
-                    "MOVE_POWDER_SNOW",
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_ACID_SPRAY",
+                    "MOVE_ICY_WIND",
                     "MOVE_QUICK_ATTACK"
                 ]
             }
@@ -342,48 +372,48 @@
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "6",
+                "level": "9",
                 "monWithForm": {
-                    "name": "SPECIES_WOOPER",
-                    "form": 1
-                },
-                "item": "ITEM_IRON_BALL",
-                "ability": "ABILITY_WATER_ABSORB",
-                "moveset": [
-                    "MOVE_MUD_SHOT",
-                    "MOVE_ACID_SPRAY",
-                    "MOVE_ROCK_TOMB",
-                    "MOVE_TOXIC"
-                ]
-            },
-            {
-                "level": "7",
-                "monWithForm": {
-                    "name": "SPECIES_WIGLETT",
-                    "form": 0
-                },
-                "item": "ITEM_BINDING_BAND",
-                "ability": "ABILITY_GOOEY",
-                "moveset": [
-                    "MOVE_BULLDOZE",
-                    "MOVE_CHILLING_WATER",
-                    "MOVE_ENDURE",
-                    "MOVE_WRAP"
-                ]
-            },
-            {
-                "level": "7",
-                "monWithForm": {
-                    "name": "SPECIES_TYNAMO",
+                    "name": "SPECIES_FINIZEN",
                     "form": 0
                 },
                 "item": "ITEM_SALAC_BERRY",
-                "ability": "ABILITY_LEVITATE",
+                "ability": "ABILITY_WATER_VEIL",
                 "moveset": [
-                    "MOVE_CHARGE",
-                    "MOVE_THUNDER_SHOCK",
-                    "MOVE_TACKLE",
-                    "MOVE_THUNDER_WAVE"
+                    "MOVE_FLIP_TURN",
+                    "MOVE_ACROBATICS",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_DISARMING_VOICE"
+                ]
+            },
+            {
+                "level": "9",
+                "monWithForm": {
+                    "name": "SPECIES_SLOWPOKE",
+                    "form": 0
+                },
+                "item": "ITEM_EJECT_BUTTON",
+                "ability": "ABILITY_REGENERATOR",
+                "moveset": [
+                    "MOVE_BRINE",
+                    "MOVE_CONFUSION",
+                    "MOVE_SLACK_OFF",
+                    "MOVE_CHILLING_WATER"
+                ]
+            },
+            {
+                "level": "10",
+                "monWithForm": {
+                    "name": "SPECIES_CHINCHOU",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_VOLT_ABSORB",
+                "moveset": [
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_SHOCK_WAVE",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_CONFUSE_RAY"
                 ]
             }
         ]
@@ -391,22 +421,52 @@
     "9": {
         "name": "Willy",
         "class": "FISHERMAN",
-        "numMons": "1",
+        "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "8",
+                "level": "9",
                 "monWithForm": {
-                    "name": "SPECIES_MAREANIE",
+                    "name": "SPECIES_BRONZOR",
                     "form": 0
                 },
-                "item": "ITEM_ORAN_BERRY",
-                "ability": "ABILITY_MERCILESS",
+                "item": "ITEM_DAMP_ROCK",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
-                    "MOVE_TOXIC",
-                    "MOVE_WATER_PULSE",
-                    "MOVE_PROTECT",
-                    "MOVE_STOCKPILE"
+                    "MOVE_CONFUSION",
+                    "MOVE_ANCIENT_POWER",
+                    "MOVE_CHARGE_BEAM",
+                    "MOVE_RAIN_DANCE"
+                ]
+            },
+            {
+                "level": "8",
+                "monWithForm": {
+                    "name": "SPECIES_BUIZEL",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_SWIFT_SWIM",
+                "moveset": [
+                    "MOVE_SONIC_BOOM",
+                    "MOVE_PURSUIT",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "9",
+                "monWithForm": {
+                    "name": "SPECIES_CLAMPERL",
+                    "form": 0
+                },
+                "item": "ITEM_DEEP_SEA_TOOTH",
+                "ability": "ABILITY_SHELL_ARMOR",
+                "moveset": [
+                    "MOVE_WHIRLPOOL",
+                    "MOVE_IRON_DEFENSE",
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_NONE"
                 ]
             }
         ]
@@ -414,11 +474,11 @@
     "10": {
         "name": "P-001",
         "class": "PLASMA_M",
-        "numMons": "0",
+        "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "7",
+                "level": "10",
                 "monWithForm": {
                     "name": "SPECIES_MASCHIFF",
                     "form": 0
@@ -429,11 +489,11 @@
                     "MOVE_THUNDER_FANG",
                     "MOVE_SNARL",
                     "MOVE_SCARY_FACE",
-                    "MOVE_HOWL"
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "6",
+                "level": "10",
                 "monWithForm": {
                     "name": "SPECIES_PANCHAM",
                     "form": 0
@@ -452,37 +512,52 @@
     "11": {
         "name": "Iris",
         "class": "IRIS",
-        "numMons": "2",
+        "numMons": "3",
         "battleType": "0",
         "party": [
             {
-                "level": "8",
+                "level": "10",
                 "monWithForm": {
-                    "name": "SPECIES_AXEW",
+                    "name": "SPECIES_WOOLOO",
                     "form": 0
                 },
                 "item": "ITEM_ORAN_BERRY",
                 "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
-                    "MOVE_DRAGON_BREATH",
-                    "MOVE_BITE",
-                    "MOVE_LEER",
-                    "MOVE_CUT"
+                    "MOVE_TACKLE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_AGILITY",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "6",
+                "level": "9",
                 "monWithForm": {
-                    "name": "SPECIES_ARON",
+                    "name": "SPECIES_ARCHEN",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_DEFEATIST",
+                "moveset": [
+                    "MOVE_WING_ATTACK",
+                    "MOVE_ROCK_THROW",
+                    "MOVE_ROCK_SMASH",
+                    "MOVE_QUICK_ATTACK"
+                ]
+            },
+            {
+                "level": "10",
+                "monWithForm": {
+                    "name": "SPECIES_AXEW",
                     "form": 0
                 },
                 "item": "ITEM_SALAC_BERRY",
-                "ability": "ABILITY_STURDY",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
-                    "MOVE_ROCK_SMASH",
-                    "MOVE_METAL_CLAW",
-                    "MOVE_ROCK_TOMB",
-                    "MOVE_NONE"
+                    "MOVE_BITE",
+                    "MOVE_TRAILBLAZE",
+                    "MOVE_DRAGON_BREATH",
+                    "MOVE_ROCK_SMASH"
                 ]
             }
         ]
@@ -490,11 +565,11 @@
     "12": {
         "name": "P-002",
         "class": "PLASMA_F",
-        "numMons": "0",
+        "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "6",
+                "level": "9",
                 "monWithForm": {
                     "name": "SPECIES_AMAURA",
                     "form": 0
@@ -509,7 +584,7 @@
                 ]
             },
             {
-                "level": "7",
+                "level": "9",
                 "monWithForm": {
                     "name": "SPECIES_PONYTA",
                     "form": 1
@@ -531,48 +606,48 @@
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "8",
+                "level": "11",
+                "monWithForm": {
+                    "name": "SPECIES_PAWMO",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_VOLT_ABSORB",
+                "moveset": [
+                    "MOVE_FAKE_OUT",
+                    "MOVE_MACH_PUNCH",
+                    "MOVE_NUZZLE",
+                    "MOVE_SPARK"
+                ]
+            },
+            {
+                "level": "11",
                 "monWithForm": {
                     "name": "SPECIES_MEOWTH",
-                    "form": 1
+                    "form": 2
                 },
                 "item": "ITEM_ORAN_BERRY",
                 "ability": "ABILITY_TOUGH_CLAWS",
                 "moveset": [
                     "MOVE_FAKE_OUT",
-                    "MOVE_METRONOME",
                     "MOVE_METAL_CLAW",
-                    "MOVE_TRAILBLAZE"
+                    "MOVE_TRAILBLAZE",
+                    "MOVE_AERIAL_ACE"
                 ]
             },
             {
-                "level": "8",
-                "monWithForm": {
-                    "name": "SPECIES_SPINDA",
-                    "form": 0
-                },
-                "item": "ITEM_MENTAL_HERB",
-                "ability": "ABILITY_CONTRARY",
-                "moveset": [
-                    "MOVE_FAKE_OUT",
-                    "MOVE_METRONOME",
-                    "MOVE_ASSIST",
-                    "MOVE_MUD_SLAP"
-                ]
-            },
-            {
-                "level": "8",
+                "level": "10",
                 "monWithForm": {
                     "name": "SPECIES_GOTHITA",
                     "form": 0
                 },
-                "item": "ITEM_MUSCLE_BAND",
+                "item": "ITEM_ORAN_BERRY",
                 "ability": "ABILITY_SHADOW_TAG",
                 "moveset": [
                     "MOVE_FAKE_OUT",
-                    "MOVE_METRONOME",
-                    "MOVE_THUNDER_WAVE",
-                    "MOVE_CONFUSION"
+                    "MOVE_PSYBEAM",
+                    "MOVE_NASTY_PLOT",
+                    "MOVE_SHOCK_WAVE"
                 ]
             }
         ]
@@ -584,48 +659,48 @@
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "5",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_SUNKERN",
+                    "name": "SPECIES_PHANTUMP",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
-                "ability": "ABILITY_EARLY_BIRD",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_HARVEST",
                 "moveset": [
-                    "MOVE_LEECH_SEED",
-                    "MOVE_ABSORB",
-                    "MOVE_REST",
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_HEX",
+                    "MOVE_WILL_O_WISP",
                     "MOVE_NONE"
                 ]
             },
             {
-                "level": "5",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_SNOM",
+                    "name": "SPECIES_GLAMEOW",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
-                "ability": "ABILITY_ICE_SCALES",
+                "item": "ITEM_DARK_GEM",
+                "ability": "ABILITY_LIMBER",
                 "moveset": [
-                    "MOVE_POUNCE",
-                    "MOVE_ICY_WIND",
-                    "MOVE_REST",
-                    "MOVE_SNORE"
+                    "MOVE_HEADBUTT",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_FEINT_ATTACK",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "6",
+                "level": "7",
                 "monWithForm": {
-                    "name": "SPECIES_RALTS",
+                    "name": "SPECIES_GRIMER",
                     "form": 0
                 },
-                "item": "ITEM_CHESTO_BERRY",
-                "ability": "ABILITY_SYNCHRONIZE",
+                "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_POISON_TOUCH",
                 "moveset": [
-                    "MOVE_CONFUSION",
-                    "MOVE_DISARMING_VOICE",
-                    "MOVE_REST",
-                    "MOVE_FLASH"
+                    "MOVE_POISON_FANG",
+                    "MOVE_SHADOW_SNEAK",
+                    "MOVE_SHOCK_WAVE",
+                    "MOVE_POWER_UP_PUNCH"
                 ]
             }
         ]
@@ -633,26 +708,11 @@
     "15": {
         "name": "Juniper",
         "class": "AROMA_LADY",
-        "numMons": "2",
-        "battleType": "DOUBLE_BATTLE",
+        "numMons": "3",
+        "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "8",
-                "monWithForm": {
-                    "name": "SPECIES_LOMBRE",
-                    "form": 0
-                },
-                "item": "ITEM_ASSAULT_VEST",
-                "ability": "ABILITY_OWN_TEMPO",
-                "moveset": [
-                    "MOVE_FAKE_OUT",
-                    "MOVE_WHIRLPOOL",
-                    "MOVE_ICY_WIND",
-                    "MOVE_RAZOR_LEAF"
-                ]
-            },
-            {
-                "level": "8",
+                "level": "12",
                 "monWithForm": {
                     "name": "SPECIES_NUZLEAF",
                     "form": 0
@@ -662,8 +722,38 @@
                 "moveset": [
                     "MOVE_RAZOR_LEAF",
                     "MOVE_AIR_CUTTER",
-                    "MOVE_SNARL",
-                    "MOVE_SWIFT"
+                    "MOVE_KNOCK_OFF",
+                    "MOVE_LOW_SWEEP"
+                ]
+            },
+            {
+                "level": "11",
+                "monWithForm": {
+                    "name": "SPECIES_NUZLEAF",
+                    "form": 0
+                },
+                "item": "ITEM_ASSAULT_VEST",
+                "ability": "ABILITY_OWN_TEMPO",
+                "moveset": [
+                    "MOVE_FAKE_OUT",
+                    "MOVE_BRINE",
+                    "MOVE_ICY_WIND",
+                    "MOVE_RAZOR_LEAF"
+                ]
+            },
+            {
+                "level": "12",
+                "monWithForm": {
+                    "name": "SPECIES_FERROSEED",
+                    "form": 0
+                },
+                "item": "ITEM_LEFTOVERS",
+                "ability": "ABILITY_IRON_BARBS",
+                "moveset": [
+                    "MOVE_METAL_CLAW",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_THUNDER_WAVE"
                 ]
             }
         ]
@@ -675,48 +765,48 @@
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "8",
+                "level": "11",
                 "monWithForm": {
-                    "name": "SPECIES_APPLIN",
+                    "name": "SPECIES_SKIDDO",
                     "form": 0
                 },
-                "item": "ITEM_JABOCA_BERRY",
-                "ability": "ABILITY_GLUTTONY",
+                "item": "ITEM_GRASSY_SEED",
+                "ability": "ABILITY_GRASS_PELT",
                 "moveset": [
-                    "MOVE_RECYCLE",
-                    "MOVE_GRASSY_GLIDE",
-                    "MOVE_DEFENSE_CURL",
-                    "MOVE_ROLLOUT"
+                    "MOVE_SECRET_POWER",
+                    "MOVE_TRAILBLAZE",
+                    "MOVE_SYNTHESIS",
+                    "MOVE_MUD_SHOT"
                 ]
             },
             {
-                "level": "8",
+                "level": "12",
                 "monWithForm": {
-                    "name": "SPECIES_MORELULL",
+                    "name": "SPECIES_CACNEA",
                     "form": 0
                 },
-                "item": "ITEM_BIG_ROOT",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_ROUGH_SKIN",
+                "moveset": [
+                    "MOVE_GRASSY_GLIDE",
+                    "MOVE_THIEF",
+                    "MOVE_POWER_UP_PUNCH",
+                    "MOVE_SKITTER_SMACK"
+                ]
+            },
+            {
+                "level": "12",
+                "monWithForm": {
+                    "name": "SPECIES_FOONGUS",
+                    "form": 0
+                },
+                "item": "ITEM_BRIGHT_POWDER",
                 "ability": "ABILITY_EFFECT_SPORE",
                 "moveset": [
-                    "MOVE_LEECH_SEED",
-                    "MOVE_DRAINING_KISS",
-                    "MOVE_SWAGGER",
-                    "MOVE_STRENGTH_SAP"
-                ]
-            },
-            {
-                "level": "8",
-                "monWithForm": {
-                    "name": "SPECIES_GULPIN",
-                    "form": 0
-                },
-                "item": "ITEM_APICOT_BERRY",
-                "ability": "ABILITY_STICKY_HOLD",
-                "moveset": [
-                    "MOVE_MUD_SHOT",
-                    "MOVE_ACID_SPRAY",
-                    "MOVE_SHOCK_WAVE",
-                    "MOVE_BULLET_SEED"
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_VENOSHOCK",
+                    "MOVE_SPORE",
+                    "MOVE_SUBSTITUTE"
                 ]
             }
         ]
@@ -724,11 +814,11 @@
     "17": {
         "name": "Gardenia",
         "class": "GARDENIA",
-        "numMons": "5",
+        "numMons": "6",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "8",
+                "level": "12",
                 "monWithForm": {
                     "name": "SPECIES_TREECKO",
                     "form": 0
@@ -736,14 +826,14 @@
                 "item": "ITEM_GRASSY_SEED",
                 "ability": "ABILITY_UNBURDEN",
                 "moveset": [
-                    "MOVE_LEAFAGE",
+                    "MOVE_GRASSY_GLIDE",
                     "MOVE_BREAKING_SWIPE",
                     "MOVE_POWER_UP_PUNCH",
                     "MOVE_AERIAL_ACE"
                 ]
             },
             {
-                "level": "9",
+                "level": "12",
                 "monWithForm": {
                     "name": "SPECIES_APPLIN",
                     "form": 0
@@ -758,12 +848,12 @@
                 ]
             },
             {
-                "level": "8",
+                "level": "11",
                 "monWithForm": {
                     "name": "SPECIES_PHANTUMP",
                     "form": 0
                 },
-                "item": "ITEM_ORAN_BERRY",
+                "item": "ITEM_SITRUS_BERRY",
                 "ability": "ABILITY_HARVEST",
                 "moveset": [
                     "MOVE_WILL_O_WISP",
@@ -773,7 +863,7 @@
                 ]
             },
             {
-                "level": "8",
+                "level": "12",
                 "monWithForm": {
                     "name": "SPECIES_VOLTORB",
                     "form": 1
@@ -784,11 +874,11 @@
                     "MOVE_SHOCK_WAVE",
                     "MOVE_GRASS_KNOT",
                     "MOVE_GRASSY_TERRAIN",
-                    "MOVE_ICE_BALL"
+                    "MOVE_ROLLOUT"
                 ]
             },
             {
-                "level": "9",
+                "level": "13",
                 "monWithForm": {
                     "name": "SPECIES_ROSELIA",
                     "form": 0
@@ -798,8 +888,23 @@
                 "moveset": [
                     "MOVE_INGRAIN",
                     "MOVE_SWIFT",
-                    "MOVE_GRASSY_GLIDE",
+                    "MOVE_MEGA_DRAIN",
                     "MOVE_CROSS_POISON"
+                ]
+            },
+            {
+                "level": "12",
+                "monWithForm": {
+                    "name": "SPECIES_BONSLY",
+                    "form": 0
+                },
+                "item": "ITEM_CUSTAP_BERRY",
+                "ability": "ABILITY_STURDY",
+                "moveset": [
+                    "MOVE_GRASSY_GLIDE",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_ENDURE",
+                    "MOVE_SELF_DESTRUCT"
                 ]
             }
         ]
@@ -811,48 +916,48 @@
         "battleType": "DOUBLE_BATTLE",
         "party": [
             {
-                "level": "8",
+                "level": "12",
                 "monWithForm": {
-                    "name": "SPECIES_LILEEP",
+                    "name": "SPECIES_GROWLITHE",
+                    "form": 0
+                },
+                "item": "ITEM_HEAT_ROCK",
+                "ability": "ABILITY_INTIMIDATE",
+                "moveset": [
+                    "MOVE_FIRE_FANG",
+                    "MOVE_THUNDER_FANG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_SUNNY_DAY"
+                ]
+            },
+            {
+                "level": "11",
+                "monWithForm": {
+                    "name": "SPECIES_DEERLING",
+                    "form": 0
+                },
+                "item": "ITEM_MIRACLE_SEED",
+                "ability": "ABILITY_CHLOROPHYLL",
+                "moveset": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_HEADBUTT",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_HIDDEN_POWER"
+                ]
+            },
+            {
+                "level": "11",
+                "monWithForm": {
+                    "name": "SPECIES_PETILIL",
                     "form": 0
                 },
                 "item": "ITEM_ORAN_BERRY",
-                "ability": "ABILITY_STORM_DRAIN",
-                "moveset": [
-                    "MOVE_SOLAR_BEAM",
-                    "MOVE_METEOR_BEAM",
-                    "MOVE_RECOVER",
-                    "MOVE_NONE"
-                ]
-            },
-            {
-                "level": "8",
-                "monWithForm": {
-                    "name": "SPECIES_CHIMCHAR",
-                    "form": 0
-                },
-                "item": "ITEM_EJECT_BUTTON",
-                "ability": "ABILITY_BLAZE",
-                "moveset": [
-                    "MOVE_FAKE_OUT",
-                    "MOVE_FLAME_CHARGE",
-                    "MOVE_VACUUM_WAVE",
-                    "MOVE_GRASS_KNOT"
-                ]
-            },
-            {
-                "level": "8",
-                "monWithForm": {
-                    "name": "SPECIES_FOONGUS",
-                    "form": 0
-                },
-                "item": "ITEM_WISE_GLASSES",
                 "ability": "ABILITY_EFFECT_SPORE",
                 "moveset": [
                     "MOVE_STUN_SPORE",
-                    "MOVE_GRASSY_GLIDE",
-                    "MOVE_ACID_SPRAY",
-                    "MOVE_FOLLOW_ME"
+                    "MOVE_MEGA_DRAIN",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_SYNTHESIS"
                 ]
             }
         ]
@@ -860,11 +965,10 @@
     "19": {
         "name": "G-004",
         "class": "GALACTIC_F",
-        "numMons": "0",
         "battleType": "DOUBLE_BATTLE",
         "party": [
             {
-                "level": "8",
+                "level": "11",
                 "monWithForm": {
                     "name": "SPECIES_TRUBBISH",
                     "form": 0
@@ -872,14 +976,14 @@
                 "item": "ITEM_ROCKY_HELMET",
                 "ability": "ABILITY_AFTERMATH",
                 "moveset": [
-                    "MOVE_ENDURE",
-                    "MOVE_SPIKES",
-                    "MOVE_ACID_SPRAY",
-                    "MOVE_MUD_SHOT"
+                    "MOVE_SWAGGER",
+                    "MOVE_TOXIC_SPIKES",
+                    "MOVE_SLUDGE",
+                    "MOVE_PAYBACK"
                 ]
             },
             {
-                "level": "7",
+                "level": "12",
                 "monWithForm": {
                     "name": "SPECIES_MIENFOO",
                     "form": 0
@@ -890,11 +994,11 @@
                     "MOVE_FAKE_OUT",
                     "MOVE_U_TURN",
                     "MOVE_ROCK_SMASH",
-                    "MOVE_NONE"
+                    "MOVE_AERIAL_ACE"
                 ]
             },
             {
-                "level": "7",
+                "level": "11",
                 "monWithForm": {
                     "name": "SPECIES_JOLTIK",
                     "form": 0
@@ -909,7 +1013,7 @@
                 ]
             },
             {
-                "level": "7",
+                "level": "11",
                 "monWithForm": {
                     "name": "SPECIES_CUFANT",
                     "form": 0
@@ -917,9 +1021,9 @@
                 "item": "ITEM_EVIOLITE",
                 "ability": "ABILITY_SHEER_FORCE",
                 "moveset": [
-                    "MOVE_DEFENSE_CURL",
-                    "MOVE_ROLLOUT",
-                    "MOVE_WHIRLWIND",
+                    "MOVE_BULLDOZE",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_BRUTAL_SWING",
                     "MOVE_ROCK_SMASH"
                 ]
             }
@@ -1062,443 +1166,433 @@
         ]
     },
     "22": {
-        "name": "Cassie",
+        "name": "Olivia",
         "class": "AROMA_LADY",
-        "numMons": "3",
+        "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "23",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_GROVYLE",
+                    "name": "SPECIES_SMOLIV",
                     "form": 0
                 },
-                "item": "ITEM_FOCUS_BAND",
-                "ability": "ABILITY_OVERGROW",
+                "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_EARLY_BIRD",
                 "moveset": [
-                    "MOVE_LEAF_BLADE",
-                    "MOVE_U_TURN",
-                    "MOVE_CRUNCH",
-                    "MOVE_DIG"
+                    "MOVE_FLAIL",
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_ENDURE",
+                    "MOVE_GRASSY_TERRAIN"
                 ]
             },
             {
-                "level": "24",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_ELDEGOSS",
+                    "name": "SPECIES_SKIDDO",
                     "form": 0
                 },
-                "item": "ITEM_FOCUS_BAND",
-                "ability": "ABILITY_REGENERATOR",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_GRASS_PELT",
                 "moveset": [
-                    "MOVE_GIGA_DRAIN",
-                    "MOVE_U_TURN",
-                    "MOVE_STUN_SPORE",
-                    "MOVE_BUG_BUZZ"
-                ]
-            },
-            {
-                "level": "23",
-                "monWithForm": {
-                    "name": "SPECIES_PARASECT",
-                    "form": 0
-                },
-                "item": "ITEM_FOCUS_BAND",
-                "ability": "ABILITY_DRY_SKIN",
-                "moveset": [
-                    "MOVE_SEED_BOMB",
-                    "MOVE_LEECH_LIFE",
-                    "MOVE_SPORE",
-                    "MOVE_BRICK_BREAK"
+                    "MOVE_VINE_WHIP",
+                    "MOVE_BULK_UP",
+                    "MOVE_ROLLOUT",
+                    "MOVE_NONE"
                 ]
             }
         ]
     },
     "23": {
-        "name": "Larry",
-        "class": "POKE_MANIAC",
-        "numMons": "1",
-        "battleType": "SINGLE_BATTLE",
-        "party": [
-            {
-                "level": "11",
-                "monWithForm": {
-                    "name": "SPECIES_SLOWPOKE",
-                    "form": 0
-                },
-                "moveset": []
-            }
-        ]
-    },
-    "24": {
-        "name": "Alan",
-        "class": "SCHOOL_KID_M",
-        "numMons": "1",
-        "battleType": "SINGLE_BATTLE",
-        "party": [
-            {
-                "level": "17",
-                "monWithForm": {
-                    "name": "SPECIES_TANGELA",
-                    "form": 0
-                },
-                "moveset": []
-            }
-        ]
-    },
-    "25": {
-        "name": "Russel",
-        "class": "HIKER",
+        "name": "Timmy",
+        "class": "BUG_CATCHER",
         "numMons": "3",
         "battleType": "DOUBLE_BATTLE",
         "party": [
             {
-                "level": "57",
+                "level": "3",
                 "monWithForm": {
-                    "name": "SPECIES_GASTRODON",
+                    "name": "SPECIES_WURMPLE",
                     "form": 0
                 },
-                "item": "ITEM_SITRUS_BERRY",
-                "ability": "ABILITY_STORM_DRAIN",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_SHIELD_DUST",
                 "moveset": [
-                    "MOVE_MUDDY_WATER",
-                    "MOVE_YAWN",
-                    "MOVE_EARTH_POWER",
-                    "MOVE_RECOVER"
+                    "MOVE_BUG_BITE",
+                    "MOVE_POISON_STING",
+                    "MOVE_STRING_SHOT",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "57",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_RHYPERIOR",
+                    "name": "SPECIES_SPINARAK",
                     "form": 0
                 },
-                "item": "ITEM_RINDO_BERRY",
-                "ability": "ABILITY_SOLID_ROCK",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_SNIPER",
                 "moveset": [
-                    "MOVE_ROCK_WRECKER",
-                    "MOVE_EARTHQUAKE",
-                    "MOVE_ICE_PUNCH",
-                    "MOVE_SWORDS_DANCE"
+                    "MOVE_POISON_STING",
+                    "MOVE_RAGE_POWDER",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "56",
+                "level": "4",
                 "monWithForm": {
-                    "name": "SPECIES_MAMOSWINE",
+                    "name": "SPECIES_SPEWPA",
                     "form": 0
                 },
-                "item": "ITEM_FOCUS_SASH",
-                "ability": "ABILITY_THICK_FAT",
+                "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_FRIEND_GUARD",
                 "moveset": [
-                    "MOVE_HIGH_HORSEPOWER",
-                    "MOVE_ROCK_SLIDE",
-                    "MOVE_ICICLE_CRASH",
-                    "MOVE_ICE_SHARD"
+                    "MOVE_POUNCE",
+                    "MOVE_ELECTROWEB",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            }
+        ]
+    },
+    "24": {
+        "name": "Benjamin",
+        "class": "YOUNGSTER",
+        "numMons": "3",
+        "battleType": "SINGLE_BATTLE",
+        "party": [
+            {
+                "level": "4",
+                "monWithForm": {
+                    "name": "SPECIES_ZIGZAGOON",
+                    "form": 0
+                },
+                "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_GLUTTONY",
+                "moveset": [
+                    "MOVE_TACKLE",
+                    "MOVE_PURSUIT",
+                    "MOVE_WORK_UP",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "4",
+                "monWithForm": {
+                    "name": "SPECIES_SKITTY",
+                    "form": 0
+                },
+                "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_NORMALIZE",
+                "moveset": [
+                    "MOVE_FAKE_OUT",
+                    "MOVE_ICY_WIND",
+                    "MOVE_FEINT_ATTACK",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "4",
+                "monWithForm": {
+                    "name": "SPECIES_WOOLOO",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_FLUFFY",
+                "moveset": [
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_PAYBACK",
+                    "MOVE_STOMP",
+                    "MOVE_NONE"
+                ]
+            }
+        ]
+    },
+    "25": {
+        "name": "Dickson",
+        "class": "ROUGHNECK",
+        "numMons": "3",
+        "battleType": "DOUBLE_BATTLE",
+        "party": [
+            {
+                "level": "4",
+                "monWithForm": {
+                    "name": "SPECIES_KOFFING",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_LEVITATE",
+                "moveset": [
+                    "MOVE_POISON_GAS",
+                    "MOVE_SMOG",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "3",
+                "monWithForm": {
+                    "name": "SPECIES_VAROOM",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_SHED_SKIN",
+                "moveset": [
+                    "MOVE_ACID_SPRAY",
+                    "MOVE_PARTING_SHOT",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "5",
+                "monWithForm": {
+                    "name": "SPECIES_NICKIT",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_UNBURDEN",
+                "moveset": [
+                    "MOVE_PURSUIT",
+                    "MOVE_MUD_SHOT",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
                 ]
             }
         ]
     },
     "26": {
-        "name": "Roland",
-        "class": "CAMPER",
+        "name": "Jeremy",
+        "class": "HIKER",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "57",
+                "level": "6",
                 "monWithForm": {
-                    "name": "SPECIES_KABUTOPS",
+                    "name": "SPECIES_WATTREL",
                     "form": 0
                 },
-                "item": "ITEM_CHOICE_SCARF",
-                "ability": "ABILITY_SWIFT_SWIM",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_COMPETITIVE",
                 "moveset": [
-                    "MOVE_LIQUIDATION",
-                    "MOVE_ROCK_SLIDE",
-                    "MOVE_LOW_KICK",
-                    "MOVE_LEECH_LIFE"
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_GUST",
+                    "MOVE_SWIFT",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "57",
+                "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_BRAVIARY",
-                    "form": 1
+                    "name": "SPECIES_BALTOY",
+                    "form": 0
                 },
-                "item": "ITEM_SITRUS_BERRY",
-                "ability": "ABILITY_TINTED_LENS",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_LEVITATE",
                 "moveset": [
-                    "MOVE_PSYCHIC",
-                    "MOVE_AIR_SLASH",
-                    "MOVE_HEAT_WAVE",
-                    "MOVE_DAZZLING_GLEAM"
+                    "MOVE_SELF_DESTRUCT",
+                    "MOVE_ROCK_POLISH",
+                    "MOVE_CONFUSION",
+                    "MOVE_SAND_TOMB"
                 ]
             },
             {
-                "level": "56",
+                "level": "6",
                 "monWithForm": {
-                    "name": "SPECIES_RAPIDASH",
-                    "form": 1
+                    "name": "SPECIES_ROCKRUFF",
+                    "form": 0
                 },
-                "item": "ITEM_BABIRI_BERRY",
-                "ability": "ABILITY_ANTICIPATION",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_STEADFAST",
                 "moveset": [
-                    "MOVE_MOONBLAST",
-                    "MOVE_LUNAR_DANCE",
-                    "MOVE_PSYSHOCK",
-                    "MOVE_CALM_MIND"
+                    "MOVE_TRAILBLAZE",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_NONE",
+                    "MOVE_NONE"
                 ]
             }
         ]
     },
     "27": {
-        "name": "Liz",
-        "class": "PICNICKER",
-        "numMons": "3",
+        "name": "Hayden",
+        "class": "HIKER",
+        "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "56",
+                "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_EXEGGUTOR",
-                    "form": 1
-                },
-                "item": "ITEM_YACHE_BERRY",
-                "ability": "ABILITY_HARVEST",
-                "moveset": [
-                    "MOVE_SUNNY_DAY",
-                    "MOVE_SOLAR_BEAM",
-                    "MOVE_DRACO_METEOR",
-                    "MOVE_PSYCHIC"
-                ]
-            },
-            {
-                "level": "55",
-                "monWithForm": {
-                    "name": "SPECIES_SAWSBUCK",
-                    "form": 2
-                },
-                "item": "ITEM_LIFE_ORB",
-                "ability": "ABILITY_CHLOROPHYLL",
-                "moveset": [
-                    "MOVE_HORN_LEECH",
-                    "MOVE_HIGH_JUMP_KICK",
-                    "MOVE_HIGH_HORSEPOWER",
-                    "MOVE_WILD_CHARGE"
-                ]
-            },
-            {
-                "level": "56",
-                "monWithForm": {
-                    "name": "SPECIES_GOLDUCK",
+                    "name": "SPECIES_NOSEPASS",
                     "form": 0
                 },
-                "item": "ITEM_WACAN_BERRY",
-                "ability": "ABILITY_CLOUD_NINE",
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_STURDY",
                 "moveset": [
-                    "MOVE_HYDRO_PUMP",
-                    "MOVE_PSYSHOCK",
-                    "MOVE_ICE_BEAM",
-                    "MOVE_CALM_MIND"
+                    "MOVE_ROCK_THROW",
+                    "MOVE_SPARK",
+                    "MOVE_BULLDOZE",
+                    "MOVE_ROCK_SMASH"
+                ]
+            },
+            {
+                "level": "6",
+                "monWithForm": {
+                    "name": "SPECIES_SANDILE",
+                    "form": 0
+                },
+                "item": "ITEM_PASSHO_BERRY",
+                "ability": "ABILITY_MOXIE",
+                "moveset": [
+                    "MOVE_MUD_SHOT",
+                    "MOVE_BITE",
+                    "MOVE_SWAGGER",
+                    "MOVE_NONE"
                 ]
             }
         ]
     },
     "28": {
-        "name": "Jake",
-        "class": "ACE_TRAINER_M",
-        "numMons": "3",
+        "name": "Iris",
+        "class": "IRIS",
+        "numMons": "2",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "33",
+                "level": "6",
                 "monWithForm": {
-                    "name": "SPECIES_PARASECT",
+                    "name": "SPECIES_AXEW",
                     "form": 0
                 },
+                "item": "ITEM_SALAC_BERRY",
+                "ability": "ABILITY_MOLD_BREAKER",
                 "moveset": [
-                    "MOVE_LEECH_LIFE",
-                    "MOVE_SPORE",
-                    "MOVE_SLASH",
-                    "MOVE_SWORDS_DANCE"
+                    "MOVE_SCRATCH",
+                    "MOVE_LEER",
+                    "MOVE_TWISTER",
+                    "MOVE_ROCK_SMASH"
                 ]
             },
             {
-                "level": "35",
+                "level": "6",
                 "monWithForm": {
-                    "name": "SPECIES_GOLDUCK",
+                    "name": "SPECIES_WOOLOO",
                     "form": 0
                 },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_FLUFFY",
                 "moveset": [
-                    "MOVE_PSYCHIC",
-                    "MOVE_SCREECH",
-                    "MOVE_WATER_PULSE",
-                    "MOVE_FURY_SWIPES"
-                ]
-            },
-            {
-                "level": "33",
-                "monWithForm": {
-                    "name": "SPECIES_VAPOREON",
-                    "form": 0
-                },
-                "moveset": [
-                    "MOVE_BITE",
-                    "MOVE_QUICK_ATTACK",
-                    "MOVE_SAND_ATTACK",
-                    "MOVE_SURF"
+                    "MOVE_TACKLE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_AGILITY",
+                    "MOVE_NONE"
                 ]
             }
         ]
     },
     "29": {
-        "name": "Rod",
+        "name": "Josh",
         "class": "BIRD_KEEPER_1",
         "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "58",
+                "level": "5",
                 "monWithForm": {
-                    "name": "SPECIES_UNFEZANT",
+                    "name": "SPECIES_SPEAROW",
                     "form": 0
                 },
-                "item": "ITEM_POWER_HERB",
+                "item": "ITEM_SCOPE_LENS",
+                "ability": "ABILITY_SNIPER",
+                "moveset": [
+                    "MOVE_FURY_ATTACK",
+                    "MOVE_PURSUIT",
+                    "MOVE_WORK_UP",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "6",
+                "monWithForm": {
+                    "name": "SPECIES_PIDOVE",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
                 "ability": "ABILITY_SUPER_LUCK",
                 "moveset": [
-                    "MOVE_SKY_ATTACK",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_PLUCK",
+                    "MOVE_AGILITY",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "6",
+                "monWithForm": {
+                    "name": "SPECIES_STARLY",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_INTIMIDATE",
+                "moveset": [
                     "MOVE_U_TURN",
-                    "MOVE_DOUBLE_EDGE",
-                    "MOVE_ROOST"
-                ]
-            },
-            {
-                "level": "57",
-                "monWithForm": {
-                    "name": "SPECIES_SKARMORY",
-                    "form": 0
-                },
-                "item": "ITEM_OCCA_BERRY",
-                "ability": "ABILITY_LIGHTNING_ROD",
-                "moveset": [
-                    "MOVE_STEEL_WING",
-                    "MOVE_WHIRLWIND",
-                    "MOVE_TOXIC_SPIKES",
-                    "MOVE_ROOST"
-                ]
-            },
-            {
-                "level": "57",
-                "monWithForm": {
-                    "name": "SPECIES_GYARADOS",
-                    "form": 0
-                },
-                "item": "ITEM_WACAN_BERRY",
-                "ability": "ABILITY_MOXIE",
-                "moveset": [
-                    "MOVE_WATERFALL",
-                    "MOVE_BOUNCE",
-                    "MOVE_CRUNCH",
-                    "MOVE_THUNDER_FANG"
+                    "MOVE_WING_ATTACK",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_NONE"
                 ]
             }
         ]
     },
     "30": {
-        "name": "Whitney",
-        "class": "WHITNEY",
-        "numMons": "6",
-        "battleType": "DOUBLE_BATTLE",
+        "name": "Bubbles",
+        "class": "CAMPER",
+        "numMons": "3",
+        "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "41",
+                "level": "6",
                 "monWithForm": {
-                    "name": "SPECIES_INDEEDEE",
-                    "form": 1
-                },
-                "item": "ITEM_SITRUS_BERRY",
-                "ability": "ABILITY_PSYCHIC_SURGE",
-                "moveset": [
-                    "MOVE_PSYCHIC",
-                    "MOVE_FOLLOW_ME",
-                    "MOVE_TRICK_ROOM",
-                    "MOVE_DAZZLING_GLEAM"
-                ]
-            },
-            {
-                "level": "42",
-                "monWithForm": {
-                    "name": "SPECIES_WYRDEER",
+                    "name": "SPECIES_CHARCADET",
                     "form": 0
                 },
-                "item": "ITEM_LIFE_ORB",
-                "ability": "ABILITY_INTIMIDATE",
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_FLAME_BODY",
                 "moveset": [
-                    "MOVE_PSYSHIELD_BASH",
-                    "MOVE_EARTHQUAKE",
-                    "MOVE_JUMP_KICK",
-                    "MOVE_MEGAHORN"
+                    "MOVE_FLAME_CHARGE",
+                    "MOVE_SMOG",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "41",
+                "level": "6",
                 "monWithForm": {
-                    "name": "SPECIES_PORYGON_Z",
+                    "name": "SPECIES_TYMPOLE",
                     "form": 0
                 },
-                "item": "ITEM_FOCUS_SASH",
-                "ability": "ABILITY_ADAPTABILITY",
+                "item": "ITEM_SHELL_BELL",
+                "ability": "ABILITY_WATER_ABSORB",
                 "moveset": [
-                    "MOVE_TRI_ATTACK",
-                    "MOVE_ICE_BEAM",
-                    "MOVE_THUNDERBOLT",
-                    "MOVE_AURA_SPHERE"
+                    "MOVE_MUD_SHOT",
+                    "MOVE_ICY_WIND",
+                    "MOVE_WATER_GUN",
+                    "MOVE_NONE"
                 ]
             },
             {
-                "level": "42",
+                "level": "6",
                 "monWithForm": {
-                    "name": "SPECIES_MILTANK",
+                    "name": "SPECIES_BELLSPROUT",
                     "form": 0
                 },
-                "item": "ITEM_LEFTOVERS",
-                "ability": "ABILITY_THICK_FAT",
+                "item": "ITEM_STARF_BERRY",
+                "ability": "ABILITY_GLUTTONY",
                 "moveset": [
-                    "MOVE_ROCK_SLIDE",
-                    "MOVE_BULLDOZE",
-                    "MOVE_TAKE_DOWN",
-                    "MOVE_MILK_DRINK"
-                ]
-            },
-            {
-                "level": "41",
-                "monWithForm": {
-                    "name": "SPECIES_AUDINO",
-                    "form": 1
-                },
-                "item": "ITEM_LEFTOVERS",
-                "ability": "ABILITY_HEALER",
-                "moveset": [
-                    "MOVE_PROTECT",
-                    "MOVE_WISH",
-                    "MOVE_TOXIC",
-                    "MOVE_FLAMETHROWER"
-                ]
-            },
-            {
-                "level": "42",
-                "monWithForm": {
-                    "name": "SPECIES_REGIGIGAS",
-                    "form": 0
-                },
-                "item": "ITEM_CHOPLE_BERRY",
-                "ability": "ABILITY_PRESSURE",
-                "moveset": [
-                    "MOVE_CRUSH_GRIP",
-                    "MOVE_ICE_PUNCH",
-                    "MOVE_DRAIN_PUNCH",
-                    "MOVE_BULK_UP"
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_POISON_STING",
+                    "MOVE_NONE"
                 ]
             }
         ]
@@ -18513,21 +18607,51 @@
     "496": {
         "name": "Steven",
         "class": "STEVEN",
-        "numMons": "1",
+        "numMons": "3",
         "battleType": "SINGLE_BATTLE",
         "party": [
             {
-                "level": "2",
+                "level": "7",
+                "monWithForm": {
+                    "name": "SPECIES_ANORITH",
+                    "form": 0
+                },
+                "item": "ITEM_ORAN_BERRY",
+                "ability": "ABILITY_BATTLE_ARMOR",
+                "moveset": [
+                    "MOVE_HONE_CLAWS",
+                    "MOVE_BUG_BITE",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "7",
+                "monWithForm": {
+                    "name": "SPECIES_LILEEP",
+                    "form": 0
+                },
+                "item": "ITEM_NONE",
+                "ability": "ABILITY_STORM_DRAIN",
+                "moveset": [
+                    "MOVE_LEECH_SEED",
+                    "MOVE_MEGA_DRAIN",
+                    "MOVE_WRAP",
+                    "MOVE_NONE"
+                ]
+            },
+            {
+                "level": "7",
                 "monWithForm": {
                     "name": "SPECIES_BELDUM",
                     "form": 0
                 },
-                "item": "ITEM_NONE",
-                "ability": "ABILITY_LIGHT_METAL",
+                "item": "ITEM_OCCA_BERRY",
+                "ability": "ABILITY_CLEAR_BODY",
                 "moveset": [
-                    "MOVE_TAKE_DOWN",
-                    "MOVE_NONE",
-                    "MOVE_NONE",
+                    "MOVE_ROCK_SMASH",
+                    "MOVE_CONFUSION",
+                    "MOVE_METAL_CLAW",
                     "MOVE_NONE"
                 ]
             }

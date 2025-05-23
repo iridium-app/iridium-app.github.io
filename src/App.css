@@ -138,13 +138,14 @@
 
 .entry-detail-panel {
   grid-column: 4 /7;
+  height: 100vh;
   box-sizing: border-box;
 }
 
 .standard-battle-detail {
   color: white;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -193,7 +194,7 @@
   transition: background-color 0.2s ease;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  height: 64px;
+  height: 50px;
 }
 
 .encounter-entry:hover {
@@ -710,6 +711,7 @@ div.middle-panel::-webkit-scrollbar-thumb {
   padding: 16px;
   background-color: hsla(0, 100%, 50%, 0.05);
   width: fit-content;
+  cursor: pointer;
 }
 
 .type-indicators {

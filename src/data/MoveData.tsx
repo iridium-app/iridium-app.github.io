@@ -1,5 +1,5 @@
-import moves from "./moves.json";
-import nameMapping from "./nameMapping.json";
+import moves from "./json/moves.json";
+import nameMapping from "./json/nameMapping.json";
 let x: unknown = moves;
 interface IDictionary {
   [index: string]: MoveInfo;

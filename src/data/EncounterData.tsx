@@ -1,6 +1,6 @@
 import Dex, { MonWithForm } from "./Dex";
-import encounterData from "./encounters.json";
-import giftEncounterData from "./giftEncounters.json";
+import encounterData from "./json/encounters.json";
+import giftEncounterData from "./json/giftEncounters.json";
 import { Encounter, EncounterType } from "./MastersheetData";
 
 let x: unknown = encounterData;
@@ -31,6 +31,7 @@ export type EncounterWithRate = {
 
 export type GiftInfo = {
   id: string;
+  name: string;
   choices: MonWithForm[];
 };
 

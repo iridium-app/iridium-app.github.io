@@ -21,7 +21,7 @@ function MonHeroFrame({ mon }: MonHeroFrameProps) {
           </a>
           <div className="type-indicators">
             {mon.types.map((type) => (
-              <TypeImage key={type} type={type} />
+              <TypeImage key={mon.name + "-" + type} type={type} />
             ))}
           </div>
         </div>

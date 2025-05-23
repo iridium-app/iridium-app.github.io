@@ -1,5 +1,5 @@
 import { MonWithForm } from "./Dex";
-import form_table from "./formTable.json";
+import form_table from "./json/formTable.json";
 let x: unknown = form_table;
 interface IDictionary {
   [index: string]: {
@@ -12,9 +12,8 @@ class FormTable {
 
   static GetFormName(monWithForm: MonWithForm): string {
     if (monWithForm.form > 0)
-        return this.Dict[monWithForm.name][monWithForm.form];
-    else
-        return monWithForm.name;
+      return this.Dict[monWithForm.name][monWithForm.form];
+    else return monWithForm.name;
   }
 }
 

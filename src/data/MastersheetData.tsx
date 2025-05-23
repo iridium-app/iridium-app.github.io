@@ -1,4 +1,4 @@
-import mastersheet from "../data/mastersheet.json";
+import mastersheet from "../data/json/mastersheet.json";
 
 type MastersheetJson = {
   casual: Area[];

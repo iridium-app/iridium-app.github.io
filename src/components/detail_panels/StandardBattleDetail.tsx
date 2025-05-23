@@ -1,9 +1,7 @@
 import React from "react";
 import { Battle } from "../../data/MastersheetData";
+import TrainerData, { TrainerInfoMon } from "../../data/TrainerData";
 import Dex, { DexInfo } from "../../data/Dex";
-import TrainerData from "../../data/TrainerData";
-import MonImage from "../MonImage";
-import TypeImage from "../TypeImage";
 import MonHeroFrame from "../MonHeroFrame";
 
 interface StandardBattleDetailProps {
@@ -15,14 +13,20 @@ const StandardBattleDetail: React.FC<StandardBattleDetailProps> = ({
   battle,
   setSelectedMon,
 }) => {
-  const firstMon = TrainerData.Dict[battle.battleId].party[0];
   const party = TrainerData.Dict[battle.battleId].party;
-  const dexInfo: DexInfo = Dex.GetDexInfo(firstMon.monWithForm);
+
+  const onPokemonInfoClick = (mon: TrainerInfoMon) => {
+    setSelectedMon(Dex.GetDexInfo(mon.monWithForm));
+  };
 
   return (
     <div className="standard-battle-detail">
       {party.map((mon) => (
-        <div className="pokemon-info">
+        <div
+          className="pokemon-info"
+          onClick={() => onPokemonInfoClick(mon)}
+          key={mon.monWithForm.name + "-pokemon-info"}
+        >
           <div className="header">
             <MonHeroFrame mon={Dex.GetDexInfo(mon.monWithForm)} />
           </div>
@@ -33,8 +37,11 @@ const StandardBattleDetail: React.FC<StandardBattleDetailProps> = ({
           </div>
 
           <div className="moves-list">
-            {firstMon.moveset.map((move, index) => (
-              <div key={index} className="move">
+            {mon.moveset.map((move, index) => (
+              <div
+                key={mon.monWithForm.name + "-move-" + move + "-" + index}
+                className="move"
+              >
                 {Dex.GetNiceName(move)}
               </div>
             )) || (

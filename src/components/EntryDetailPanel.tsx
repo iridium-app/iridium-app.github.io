@@ -21,7 +21,7 @@ function encounterRenderSwitch(
     case EncounterType.standard:
       return (
         <StandardEncounterDetail
-          encounter={EncounterData.GetInfo(encounter.entryId)}
+          encounter={EncounterData.GetInfo(encounter.encounterId)}
           setSelectedMon={setSelectedMon}
         />
       );
@@ -36,6 +36,7 @@ function battleRenderSwitch(
 ): ReactNode {
   switch (battle.battleType) {
     case "standard":
+    case "boss":
       return (
         <StandardBattleDetail battle={battle} setSelectedMon={setSelectedMon} />
       );

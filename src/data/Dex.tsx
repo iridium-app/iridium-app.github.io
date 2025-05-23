@@ -1,6 +1,6 @@
 import FormTable from "./FormTable";
-import nameMapping from "./nameMapping.json";
-import dex from "./dex.json";
+import nameMapping from "./json/nameMapping.json";
+import dex from "./json/dex.json";
 let x: unknown = dex;
 interface IDictionary {
   [index: string]: DexInfo;
