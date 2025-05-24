@@ -8,9 +8,14 @@ import EncounterData from "../data/EncounterData";
 interface Props {
   encounter: Encounter;
   setSelectedEntry: React.Dispatch<React.SetStateAction<MastersheetEntry>>;
+  selectedEntry: MastersheetEntry;
 }
 
-function MastersheetEncounter({ encounter, setSelectedEntry }: Props) {
+function MastersheetEncounter({
+  encounter,
+  setSelectedEntry,
+  selectedEntry,
+}: Props) {
   const encounterInfo =
     encounter.encounterType == EncounterType.gift
       ? EncounterData.GetGiftInfo(encounter.encounterId)
@@ -19,7 +24,9 @@ function MastersheetEncounter({ encounter, setSelectedEntry }: Props) {
   return (
     <div
       onClick={() => setSelectedEntry(encounter)}
-      className="mastersheet-entry mastersheet-encounter"
+      className={`mastersheet-entry mastersheet-encounter ${
+        selectedEntry.entryId == encounter.entryId ? "selected-entry" : ""
+      }`}
     >
       <div>
         {encounter.encounterType == EncounterType.gift

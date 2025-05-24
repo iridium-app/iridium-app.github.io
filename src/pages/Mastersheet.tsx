@@ -51,6 +51,7 @@ function Mastersheet() {
           <MastersheetArea
             key={area.name}
             area={area}
+            selectedEntry={selectedEntry}
             setSelectedEntry={updateSelectedEntry}
           />
         ))}

@@ -36,12 +36,12 @@ function battleRenderSwitch(
 ): ReactNode {
   switch (battle.battleType) {
     case "standard":
+    case "double":
     case "boss":
+    case "multi":
       return (
         <StandardBattleDetail battle={battle} setSelectedMon={setSelectedMon} />
       );
-    case "multi":
-      return "Multi Battle";
   }
 }
 

@@ -6,15 +6,18 @@ import Utility from "../Utility";
 interface Props {
   battle: Battle;
   setSelectedEntry: React.Dispatch<React.SetStateAction<MastersheetEntry>>;
+  selectedEntry: MastersheetEntry;
 }
 
-function MastersheetBattle({ battle, setSelectedEntry }: Props) {
+function MastersheetBattle({ battle, setSelectedEntry, selectedEntry }: Props) {
   const trainerInfo = TrainerData.Dict[battle.battleId];
 
   return (
     <div
       onClick={() => setSelectedEntry(battle)}
-      className="mastersheet-entry mastersheet-battle"
+      className={`mastersheet-entry mastersheet-battle ${
+        selectedEntry.entryId == battle.entryId ? "selected-entry" : ""
+      }`}
     >
       <img src={Utility.GetTrainerImage(trainerInfo)} />
       <div className="mastersheet-battle__mon-list">

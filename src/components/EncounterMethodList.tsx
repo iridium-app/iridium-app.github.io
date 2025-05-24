@@ -59,7 +59,18 @@ function MethodImageFromString(type: string): ReactNode {
     case "oldrod":
       return <img src="/ui/fishing-mark.png" style={imageStyle} />;
     default:
-      return null;
+      return (
+        <span
+          style={{
+            textTransform: "uppercase",
+            fontFamily: "Inter",
+            fontSize: "18px",
+            color: "white",
+          }}
+        >
+          {type}
+        </span>
+      );
   }
 }
 

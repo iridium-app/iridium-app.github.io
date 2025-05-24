@@ -18,13 +18,13 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "2",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "138"
         },
         {
-          "entryId": "2",
+          "entryId": "3",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
@@ -37,34 +37,34 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "4",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "139"
         },
         {
-          "entryId": "2",
+          "entryId": "5",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
           "battleId": "22"
         },
         {
-          "entryId": "3",
+          "entryId": "6",
           "type": "battle",
           "mandatory": true,
           "battleType": "double",
           "battleId": "23"
         },
         {
-          "entryId": "4",
+          "entryId": "7",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
           "battleId": "24"
         },
         {
-          "entryId": "5",
+          "entryId": "8",
           "type": "battle",
           "mandatory": true,
           "battleType": "double",
@@ -73,14 +73,66 @@
       ]
     },
     {
-      "name": "King's Cavern",
+      "name": "Caelestia Springs",
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "9",
           "type": "encounter",
           "encounterType": "standard",
-          "encounterId": "134"
+          "encounterId": "135"
+        }
+      ]
+    },
+    {
+      "name": "East Iridia Mines",
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "10",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "140"
+        },
+        {
+          "entryId": "11",
+          "type": "battle",
+          "mandatory": false,
+          "battleType": "multi",
+          "battleId": "26"
+        },
+        {
+          "entryId": "12",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "29"
+        },
+        {
+          "entryId": "13",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "30"
+        },
+        {
+          "entryId": "14",
+          "type": "battle",
+          "mandatory": true,
+          "battleType": "standard",
+          "battleId": "496"
+        }
+      ]
+    },
+    {
+      "name": "Mineshaft Tunnel",
+      "areaEffect": "none",
+      "entries": [
+        {
+          "entryId": "15",
+          "type": "encounter",
+          "encounterType": "standard",
+          "encounterId": "137"
         }
       ]
     },
@@ -89,41 +141,41 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "16",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "136"
         },
         {
-          "entryId": "2",
+          "entryId": "17",
           "type": "battle",
           "mandatory": false,
-          "battleType": "boss",
+          "battleType": "randomLead",
           "battleId": "3"
         },
         {
-          "entryId": "3",
+          "entryId": "18",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
-          "battleId": "2"
+          "battleId": "6"
         },
         {
-          "entryId": "4",
+          "entryId": "19",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleType": "mirrorRandom",
           "battleId": "5"
         },
         {
-          "entryId": "5",
+          "entryId": "20",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleType": "double",
           "battleId": "4"
         },
         {
-          "entryId": "6",
+          "entryId": "21",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
@@ -136,41 +188,41 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "22",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "111"
         },
         {
-          "entryId": "2",
+          "entryId": "23",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleType": "double",
           "battleId": "7"
         },
         {
-          "entryId": "3",
+          "entryId": "24",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
           "battleId": "8"
         },
         {
-          "entryId": "4",
+          "entryId": "25",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
           "battleId": "9"
         },
         {
-          "entryId": "5",
+          "entryId": "26",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
           "battleId": "20"
         },
         {
-          "entryId": "6",
+          "entryId": "27",
           "type": "battle",
           "mandatory": true,
           "battleType": "multi",
@@ -179,10 +231,10 @@
           "enemyIds": ["10", "12"]
         },
         {
-          "entryId": "7",
+          "entryId": "28",
           "type": "battle",
           "mandatory": false,
-          "battleType": "standard",
+          "battleType": "randomLead",
           "battleId": "13"
         }
       ]
@@ -192,7 +244,7 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "29",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "104"
@@ -204,7 +256,7 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "30",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "86"
@@ -216,16 +268,16 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "31",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "96"
         },
         {
-          "entryId": "2",
+          "entryId": "32",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleType": "double",
           "battleId": "19"
         }
       ]
@@ -235,7 +287,7 @@
       "areaEffect": "none",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "33",
           "type": "encounter",
           "encounterType": "standard",
           "encounterId": "103"
@@ -247,28 +299,28 @@
       "areaEffect": "Automatic Grassy Terrain",
       "entries": [
         {
-          "entryId": "1",
+          "entryId": "34",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
           "battleId": "15"
         },
         {
-          "entryId": "2",
+          "entryId": "35",
           "type": "battle",
           "mandatory": true,
           "battleType": "standard",
           "battleId": "16"
         },
         {
-          "entryId": "3",
+          "entryId": "36",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleType": "double",
           "battleId": "18"
         },
         {
-          "entryId": "4",
+          "entryId": "37",
           "type": "battle",
           "mandatory": true,
           "battleType": "boss",

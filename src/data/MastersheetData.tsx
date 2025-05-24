@@ -41,6 +41,13 @@ export enum EncounterType {
   gift = "gift",
 }
 
+export enum BattleType {
+  standard = "standard",
+  multi = "multi",
+  double = "double",
+  boss = "boss",
+}
+
 class MastersheetData {
   private static Dict = mastersheet as MastersheetJson;
 

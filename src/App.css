@@ -107,6 +107,10 @@
   justify-content: space-around;
 }
 
+.selected-entry {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .mastersheet-battle__mon-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -140,6 +144,7 @@
   grid-column: 4 /7;
   height: 100vh;
   box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .standard-battle-detail {
@@ -204,7 +209,7 @@
 .encounter-entry__catch-button {
   border-radius: 4px;
   aspect-ratio: 1 / 1;
-  height: 64px;
+  height: 50px;
 }
 
 .encounter-entry__catch-button:hover {
@@ -398,7 +403,8 @@ div.middle-panel::-webkit-scrollbar-thumb {
 }
 
 .encounter-method-list__header {
-  padding-bottom: 24px;
+  padding-top: 12px;
+  padding-bottom: 6px;
 }
 
 .encounter-method__encounters-list {
