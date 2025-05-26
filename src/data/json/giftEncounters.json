@@ -26,7 +26,10 @@
       { "name": "SPECIES_POPPLIO", "form": 0 },
       { "name": "SPECIES_GROOKEY", "form": 0 },
       { "name": "SPECIES_SCORBUNNY", "form": 0 },
-      { "name": "SPECIES_SOBBLE", "form": 0 }
+      { "name": "SPECIES_SOBBLE", "form": 0 },
+      { "name": "SPECIES_SPRIGATITO", "form": 0 },
+      { "name": "SPECIES_FUECOCO", "form": 0 },
+      { "name": "SPECIES_QUAXLY", "form": 0 }
     ]
   }
 }

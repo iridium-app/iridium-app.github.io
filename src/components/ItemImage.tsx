@@ -9,6 +9,17 @@ function ItemImage({ itemName }: { itemName: string }) {
       }
       target="_blank"
       rel="noreferrer"
+      className="item-link"
+      style={{
+        display: "inline-block",
+        transition: "transform 0.2s ease",
+      }}
+      onMouseOver={(e) => {
+        e.currentTarget.style.transform = "scale(1.4)";
+      }}
+      onMouseOut={(e) => {
+        e.currentTarget.style.transform = "scale(1)";
+      }}
     >
       <img
         className={
@@ -21,6 +32,7 @@ function ItemImage({ itemName }: { itemName: string }) {
           ": " +
           ItemData.Dict[itemName]?.description
         }
+        style={{ cursor: "pointer" }}
       />
     </a>
   );

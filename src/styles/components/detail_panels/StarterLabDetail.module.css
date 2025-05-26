@@ -1,14 +1,20 @@
 .starterDetailPanel {
   display: flex;
   height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .starterChoices {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: start;
+  justify-items: center;
 }
 
 .starterChoice {
@@ -22,4 +28,24 @@
 .starterChoice:hover {
   border: 2px solid white;
   background-color: hsla(0, 0%, 100%, 0.85);
+}
+
+.caughtContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.undoButton {
+  background: none;
+  border: 2px solid #ff4444;
+  border-radius: 4px;
+  color: #ff4444;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
 }

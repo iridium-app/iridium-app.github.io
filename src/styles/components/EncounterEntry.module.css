@@ -10,10 +10,11 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   height: 50px;
+  padding-left: 24px;
 }
 
 .encounterEntry:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(160, 160, 160, 0.411);
 }
 
 .catchButton {

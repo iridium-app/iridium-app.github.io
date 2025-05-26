@@ -27,7 +27,7 @@ function encounterRenderSwitch(
         />
       );
     case EncounterType.gift:
-      return <StarterLabDetail />;
+      return <StarterLabDetail setSelectedMon={setSelectedMon} />;
   }
 }
 

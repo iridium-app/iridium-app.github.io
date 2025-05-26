@@ -4,6 +4,7 @@ import TrainerData, { TrainerInfoMon } from "../../data/TrainerData";
 import Dex, { DexInfo } from "../../data/Dex";
 import MonHeroFrame from "../MonHeroFrame";
 import styles from "../../styles/components/detail_panels/StandardBattleDetail.module.css";
+import ItemImage from "../ItemImage";
 
 interface StandardBattleDetailProps {
   battle: Battle;
@@ -34,7 +35,9 @@ const StandardBattleDetail: React.FC<StandardBattleDetailProps> = ({
 
           <div className={styles.attributes}>
             <div className={styles.ability}>{Dex.GetNiceName(mon.ability)}</div>
-            <div className={styles.heldItem}>{Dex.GetNiceName(mon.item)}</div>
+            <div className={styles.heldItem}>
+              <ItemImage itemName={mon.item} />
+            </div>
           </div>
 
           <div className={styles.movesList}>
