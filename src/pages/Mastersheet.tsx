@@ -6,11 +6,14 @@ import MastersheetData, {
   Battle,
   MastersheetEntry,
   MastersheetEntryType,
+  Encounter,
+  EncounterType,
 } from "../data/MastersheetData";
 import EntryDetailPanel from "../components/EntryDetailPanel";
 import MultiView from "../components/MultiView";
 import TrainerData from "../data/TrainerData";
 import MastersheetView from "../components/MastersheetView";
+import EncounterData from "../data/EncounterData";
 
 interface MastersheetContextType {
   selectedEntry: MastersheetEntry;
@@ -24,10 +27,20 @@ export const MastersheetContext = createContext<MastersheetContextType>({
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
-  const [selectedMon, setSelectedMon] = useState(Dex.GetNone());
-  const [selectedEntry, setSelectedEntry] = useState<MastersheetEntry>(
-    new MastersheetEntry()
-  );
+
+  // Create a starter entry as the default
+  const defaultEntry = new Encounter();
+  defaultEntry.entryId = "1";
+  defaultEntry.type = MastersheetEntryType.encounter;
+  defaultEntry.encounterType = EncounterType.gift;
+  defaultEntry.encounterId = "g1";
+
+  // Get the first starter from the gift choices
+  const firstStarter = EncounterData.GetGiftInfo("g1").choices[0];
+
+  const [selectedMon, setSelectedMon] = useState(Dex.GetDexInfo(firstStarter));
+  const [selectedEntry, setSelectedEntry] =
+    useState<MastersheetEntry>(defaultEntry);
 
   var mastersheetData = MastersheetData.GetMastersheetEntries(difficulty);
   var rightPanelOpen = selectedMon !== Dex.GetNone();
