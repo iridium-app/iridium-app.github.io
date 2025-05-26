@@ -1,0 +1,49 @@
+/* Base Button */
+.buttonBase {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+/* Clear Button */
+.buttonClear {
+  composes: buttonBase;
+  color: white;
+  font-size: 16px;
+}
+
+/* Action Button */
+.buttonAction {
+  composes: buttonBase;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+/* Danger Button */
+.buttonDanger {
+  composes: buttonAction;
+  border: 2px solid #ff4444;
+  color: #ff4444;
+}
+
+.buttonDanger:hover {
+  background-color: rgba(255, 68, 68, 0.1);
+}
+
+/* Icon Button */
+.buttonIcon {
+  composes: buttonBase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  aspect-ratio: 1 / 1;
+}
+
+.buttonIcon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

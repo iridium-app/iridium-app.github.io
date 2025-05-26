@@ -24,7 +24,7 @@ export class Encounter extends MastersheetEntry {
 export class Battle extends MastersheetEntry {
   mandatory!: boolean;
   battleId!: string;
-  battleType: string | undefined;
+  battleTags: string[] = [];
 }
 
 export class MultiBattle extends Battle {
@@ -41,12 +41,17 @@ export enum EncounterType {
   gift = "gift",
 }
 
-export enum BattleType {
-  standard = "standard",
-  multi = "multi",
-  double = "double",
-  boss = "boss",
-}
+// Tags that can be applied to battles
+export const BattleTags = {
+  Single: "Single",
+  Double: "Double",
+  Multi: "Multi",
+  Boss: "Boss",
+  Mirror: "Mirror",
+  RandomLead: "RandomLead",
+} as const;
+
+export type BattleTag = (typeof BattleTags)[keyof typeof BattleTags];
 
 class MastersheetData {
   private static Dict = mastersheet as MastersheetJson;

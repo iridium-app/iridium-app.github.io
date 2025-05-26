@@ -1,0 +1,42 @@
+.monHeroFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.rightContainer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typeIndicators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameContainer {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}

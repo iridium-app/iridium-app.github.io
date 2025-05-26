@@ -12,6 +12,7 @@ import StandardEncounterDetail from "./detail_panels/StandardEncounterDetail";
 import StarterLabDetail from "./detail_panels/StarterLabDetail";
 import { DexInfo } from "../data/Dex";
 import StandardBattleDetail from "./detail_panels/StandardBattleDetail";
+import styles from "../styles/components/EntryDetailPanel.module.css";
 
 function encounterRenderSwitch(
   encounter: Encounter,
@@ -34,15 +35,9 @@ function battleRenderSwitch(
   battle: Battle,
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>
 ): ReactNode {
-  switch (battle.battleType) {
-    case "standard":
-    case "double":
-    case "boss":
-    case "multi":
-      return (
-        <StandardBattleDetail battle={battle} setSelectedMon={setSelectedMon} />
-      );
-  }
+  return (
+    <StandardBattleDetail battle={battle} setSelectedMon={setSelectedMon} />
+  );
 }
 
 function renderSwitch(
@@ -68,8 +63,13 @@ function EntryDetailPanel({
   entry: MastersheetEntry;
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
 }) {
+  const panelClass =
+    entry.type === MastersheetEntryType.battle
+      ? styles.battlePanel
+      : styles.encounterPanel;
+
   return (
-    <div className="entry-detail-panel">
+    <div className={`${styles.entryDetailPanel} ${panelClass}`}>
       {renderSwitch(entry, setSelectedMon)}
     </div>
   );

@@ -4,33 +4,34 @@ import {
   BookOpenIcon,
   MagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
+import styles from "../styles/components/NavBar.module.css";
 
 function NavBar() {
   return (
     <>
-      <div className="nav">
-        <div className="nav-top">
-          <Link className="nav-item" to="mastersheet">
-            <BookOpenIcon className="nav-icon" />
-            <div className="heading">Mastersheet</div>
+      <div className={styles.nav}>
+        <div className={styles.navTop}>
+          <Link className={styles.navItem} to="mastersheet">
+            <BookOpenIcon className={styles.navIcon} />
+            <div className={styles.heading}>Mastersheet</div>
           </Link>
-          <div className="nav-item">
-            <MagnifyingGlassIcon className="nav-icon" />
-            <div className="heading">Search</div>
+          <div className={styles.navItem}>
+            <MagnifyingGlassIcon className={styles.navIcon} />
+            <div className={styles.heading}>Search</div>
           </div>
-          <div className="nav-item">
-            <ComputerDesktopIcon className="nav-icon" />
-            <div className="heading">PC</div>
+          <div className={styles.navItem}>
+            <ComputerDesktopIcon className={styles.navIcon} />
+            <div className={styles.heading}>PC</div>
           </div>
         </div>
-        <div className="nav-bottom">
-          <div className="split-section">
+        <div className={styles.navBottom}>
+          <div className={styles.splitSection}>
             <img
               src="/sprites/trainers/gardenia.png"
               alt="Gardenia"
-              className="split-trainer"
+              className={styles.splitTrainer}
             />
-            <div className="heading">Gardenia Split</div>
+            <div className={styles.splitHeading}>Gardenia Split</div>
           </div>
         </div>
       </div>

@@ -1,0 +1,133 @@
+/* Flex Layouts */
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCenter {
+  align-items: center;
+  justify-content: center;
+}
+
+.flexStart {
+  align-items: flex-start;
+}
+
+.flexBetween {
+  justify-content: space-between;
+}
+
+.flexAround {
+  justify-content: space-around;
+}
+
+/* Grid Layouts */
+.grid2Cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid3Cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid4Cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid5Cols {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Common Spacing */
+.gap4 {
+  gap: 4px;
+}
+
+.gap8 {
+  gap: 8px;
+}
+
+.gap16 {
+  gap: 16px;
+}
+
+.gap24 {
+  gap: 24px;
+}
+
+/* Common Visual Styles */
+.roundedSm {
+  border-radius: 4px;
+}
+
+.roundedMd {
+  border-radius: 8px;
+}
+
+.roundedLg {
+  border-radius: 16px;
+}
+
+.hoverDarken {
+  transition: background-color 0.2s ease;
+}
+
+.hoverDarken:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hoverLighten {
+  transition: background-color 0.2s ease;
+}
+
+.hoverLighten:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Common Text Styles */
+.textSm {
+  font-size: 14px;
+}
+
+.textMd {
+  font-size: 16px;
+}
+
+.textLg {
+  font-size: 24px;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+/* Common Colors */
+.textWhite {
+  color: white;
+}
+
+.textGray {
+  color: #ccc;
+}
+
+/* Common Backgrounds */
+.bgTranslucentDark {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bgTranslucentLight {
+  background-color: rgba(255, 255, 255, 0.1);
+}

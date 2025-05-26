@@ -1,0 +1,176 @@
+/* Shared styles for mastersheet entries */
+.mastersheetEntry {
+  cursor: pointer;
+  background: rgba(30, 32, 35, 0.7);
+  padding: 12px 16px;
+  margin: 6px 0;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  position: relative;
+  backdrop-filter: blur(8px);
+}
+
+.mastersheetEntry:hover {
+  background: rgba(40, 44, 48, 0.8);
+  transform: translateX(4px);
+}
+
+.mastersheetEntry:active {
+  transform: translateX(2px);
+  background: rgba(35, 38, 42, 0.9);
+}
+
+.selectedEntry {
+  background: rgba(50, 55, 60, 0.95);
+  border-left: 4px solid #4a9eff;
+  padding-left: 12px;
+  transform: translateX(4px);
+}
+
+.selectedEntry:hover {
+  background: rgba(55, 60, 65, 0.95);
+}
+
+/* Encounter specific styles */
+.mastersheetEncounter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.mastersheetEncounter img {
+  opacity: 0.8;
+  width: 24px;
+  height: 24px;
+  transition: all 0.2s ease;
+}
+
+.mastersheetEncounter:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Battle specific styles */
+.mastersheetBattle {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+}
+
+.battleContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mastersheetBattle img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.mastersheetBattle:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Battle Type Indicators */
+.battleTagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.battleTypeTag {
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional Battle */
+.optionalTag {
+  composes: battleTypeTag;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 0.65rem;
+}
+
+/* Tag Colors */
+.battleTypeTag[data-tag="Single"] {
+  background: rgba(74, 158, 255, 0.15);
+  color: rgba(74, 158, 255, 0.9);
+}
+
+.battleTypeTag[data-tag="Double"] {
+  background: rgba(255, 107, 107, 0.15);
+  color: rgba(255, 107, 107, 0.9);
+}
+
+.battleTypeTag[data-tag="Boss"] {
+  background: rgba(255, 211, 42, 0.15);
+  color: rgba(255, 211, 42, 0.9);
+}
+
+.battleTypeTag[data-tag="Multi"] {
+  background: rgba(38, 222, 129, 0.15);
+  color: rgba(38, 222, 129, 0.9);
+}
+
+.battleTypeTag[data-tag="Mirror"] {
+  background: rgba(156, 136, 255, 0.15);
+  color: rgba(156, 136, 255, 0.9);
+}
+
+.battleTypeTag[data-tag="RandomLead"] {
+  background: rgba(255, 159, 67, 0.15);
+  color: rgba(255, 159, 67, 0.9);
+}
+
+.monList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.monList img {
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.selectedEntry .monList img {
+  border-radius: 8px;
+}
+
+.mastersheetBattle:hover .monList img {
+  transform: scale(1.1);
+}
+
+/* Remove the arrow indicators */
+.mastersheetEntry::after {
+  display: none;
+}
+
+.mastersheetEntry:hover::after {
+  display: none;
+}
+
+.selectedEntry::after {
+  display: none;
+}

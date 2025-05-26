@@ -1,0 +1,27 @@
+.encounterEntry {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 50px;
+}
+
+.encounterEntry:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.catchButton {
+  border-radius: 4px;
+  aspect-ratio: 1 / 1;
+  height: 50px;
+}
+
+.catchButton:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}

@@ -1,0 +1,50 @@
+.standardBattleDetail {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.pokemonInfo {
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s;
+}
+
+.pokemonInfo:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.attributes {
+  margin-bottom: 1rem;
+}
+
+.ability,
+.heldItem {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.movesList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.move {
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}

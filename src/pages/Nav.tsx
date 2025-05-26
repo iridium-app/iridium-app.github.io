@@ -6,11 +6,9 @@ function Nav() {
   const { difficulty, setDifficulty } = useContext(UserContext);
 
   const onToggleButtonClick = () => {
-    if (difficulty === "casual")
-      setDifficulty("elite");
-    else
-      setDifficulty("casual");
-  }
+    if (difficulty === "casual") setDifficulty("elite");
+    else setDifficulty("casual");
+  };
 
   return (
     <div>

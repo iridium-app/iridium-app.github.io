@@ -1,6 +1,7 @@
 import { DexInfo } from "../data/Dex";
 import MonImage from "./MonImage";
 import TypeImage from "./TypeImage";
+import styles from "../styles/components/MonHeroFrame.module.css";
 
 interface MonHeroFrameProps {
   mon: DexInfo;
@@ -8,10 +9,10 @@ interface MonHeroFrameProps {
 
 function MonHeroFrame({ mon }: MonHeroFrameProps) {
   return (
-    <div className="mon-hero-frame">
-      <div className="mon-hero-frame__top-container">
+    <div className={styles.monHeroFrame}>
+      <div className={styles.topContainer}>
         <MonImage formName={mon.name} size={96} />
-        <div className="mon-hero-frame__right-container">
+        <div className={styles.rightContainer}>
           <a
             target="_blank"
             rel="noreferrer"
@@ -19,7 +20,7 @@ function MonHeroFrame({ mon }: MonHeroFrameProps) {
           >
             <img src="/ui/bulbapedia.png" alt="Bulbapedia Link" />
           </a>
-          <div className="type-indicators">
+          <div className={styles.typeIndicators}>
             {mon.types.map((type) => (
               <TypeImage key={mon.name + "-" + type} type={type} />
             ))}
@@ -27,7 +28,7 @@ function MonHeroFrame({ mon }: MonHeroFrameProps) {
         </div>
       </div>
 
-      <div className="name-container">{mon.name}</div>
+      <div className={styles.nameContainer}>{mon.name}</div>
     </div>
   );
 }

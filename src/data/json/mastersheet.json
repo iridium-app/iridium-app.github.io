@@ -27,7 +27,7 @@
           "entryId": "3",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "495"
         }
       ]
@@ -46,28 +46,28 @@
           "entryId": "5",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "22"
         },
         {
           "entryId": "6",
           "type": "battle",
           "mandatory": true,
-          "battleType": "double",
+          "battleTags": ["Double"],
           "battleId": "23"
         },
         {
           "entryId": "7",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "24"
         },
         {
           "entryId": "8",
           "type": "battle",
           "mandatory": true,
-          "battleType": "double",
+          "battleTags": ["Double"],
           "battleId": "25"
         }
       ]
@@ -98,28 +98,28 @@
           "entryId": "11",
           "type": "battle",
           "mandatory": false,
-          "battleType": "multi",
+          "battleTags": ["Multi"],
           "battleId": "26"
         },
         {
           "entryId": "12",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "29"
         },
         {
           "entryId": "13",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "30"
         },
         {
           "entryId": "14",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "496"
         }
       ]
@@ -150,35 +150,35 @@
           "entryId": "17",
           "type": "battle",
           "mandatory": false,
-          "battleType": "randomLead",
+          "battleTags": ["Single", "RandomLead"],
           "battleId": "3"
         },
         {
           "entryId": "18",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "6"
         },
         {
           "entryId": "19",
           "type": "battle",
           "mandatory": true,
-          "battleType": "mirrorRandom",
+          "battleTags": ["Single", "Mirror", "RandomLead"],
           "battleId": "5"
         },
         {
           "entryId": "20",
           "type": "battle",
           "mandatory": true,
-          "battleType": "double",
+          "battleTags": ["Double"],
           "battleId": "4"
         },
         {
           "entryId": "21",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "14"
         }
       ]
@@ -197,35 +197,35 @@
           "entryId": "23",
           "type": "battle",
           "mandatory": true,
-          "battleType": "double",
+          "battleTags": ["Double"],
           "battleId": "7"
         },
         {
           "entryId": "24",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "8"
         },
         {
           "entryId": "25",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "9"
         },
         {
           "entryId": "26",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "20"
         },
         {
           "entryId": "27",
           "type": "battle",
           "mandatory": true,
-          "battleType": "multi",
+          "battleTags": ["Multi"],
           "battleId": "11",
           "name": "Fall Fjord Plasma Tag",
           "enemyIds": ["10", "12"]
@@ -234,7 +234,7 @@
           "entryId": "28",
           "type": "battle",
           "mandatory": false,
-          "battleType": "randomLead",
+          "battleTags": ["Single", "RandomLead"],
           "battleId": "13"
         }
       ]
@@ -277,7 +277,7 @@
           "entryId": "32",
           "type": "battle",
           "mandatory": true,
-          "battleType": "double",
+          "battleTags": ["Double"],
           "battleId": "19"
         }
       ]
@@ -302,28 +302,28 @@
           "entryId": "34",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "15"
         },
         {
           "entryId": "35",
           "type": "battle",
           "mandatory": true,
-          "battleType": "standard",
+          "battleTags": ["Single"],
           "battleId": "16"
         },
         {
           "entryId": "36",
           "type": "battle",
           "mandatory": true,
-          "battleType": "double",
+          "battleTags": ["Double"],
           "battleId": "18"
         },
         {
           "entryId": "37",
           "type": "battle",
           "mandatory": true,
-          "battleType": "boss",
+          "battleTags": ["Single", "Boss"],
           "battleId": "17"
         }
       ]

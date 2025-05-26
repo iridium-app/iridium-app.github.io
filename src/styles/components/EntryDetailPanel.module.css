@@ -1,0 +1,29 @@
+.entryDetailPanel {
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.encounterPanel {
+  grid-column: 4 / 7;
+}
+
+.battlePanel {
+  grid-column: 4 / 9;
+}
+
+.standardBattleDetail {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.typeIndicators {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

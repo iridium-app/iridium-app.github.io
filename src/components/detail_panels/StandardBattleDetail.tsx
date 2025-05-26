@@ -3,6 +3,7 @@ import { Battle } from "../../data/MastersheetData";
 import TrainerData, { TrainerInfoMon } from "../../data/TrainerData";
 import Dex, { DexInfo } from "../../data/Dex";
 import MonHeroFrame from "../MonHeroFrame";
+import styles from "../../styles/components/detail_panels/StandardBattleDetail.module.css";
 
 interface StandardBattleDetailProps {
   battle: Battle;
@@ -20,36 +21,36 @@ const StandardBattleDetail: React.FC<StandardBattleDetailProps> = ({
   };
 
   return (
-    <div className="standard-battle-detail">
-      {party.map((mon) => (
+    <div className={styles.standardBattleDetail}>
+      {party.map((mon, index) => (
         <div
-          className="pokemon-info"
+          className={styles.pokemonInfo}
           onClick={() => onPokemonInfoClick(mon)}
-          key={mon.monWithForm.name + "-pokemon-info"}
+          key={mon.monWithForm.name + "-pokemon-info-" + index}
         >
-          <div className="header">
+          <div className={styles.header}>
             <MonHeroFrame mon={Dex.GetDexInfo(mon.monWithForm)} />
           </div>
 
-          <div className="attributes">
-            <div className="ability">{Dex.GetNiceName(mon.ability)}</div>
-            <div className="held-item">{Dex.GetNiceName(mon.item)}</div>
+          <div className={styles.attributes}>
+            <div className={styles.ability}>{Dex.GetNiceName(mon.ability)}</div>
+            <div className={styles.heldItem}>{Dex.GetNiceName(mon.item)}</div>
           </div>
 
-          <div className="moves-list">
+          <div className={styles.movesList}>
             {mon.moveset.map((move, index) => (
               <div
                 key={mon.monWithForm.name + "-move-" + move + "-" + index}
-                className="move"
+                className={styles.move}
               >
                 {Dex.GetNiceName(move)}
               </div>
             )) || (
               <>
-                <div className="move">Stomp</div>
-                <div className="move">Tackle</div>
-                <div className="move">Bulldoze</div>
-                <div className="move">Leech Seed</div>
+                <div className={styles.move}>Stomp</div>
+                <div className={styles.move}>Tackle</div>
+                <div className={styles.move}>Bulldoze</div>
+                <div className={styles.move}>Leech Seed</div>
               </>
             )}
           </div>

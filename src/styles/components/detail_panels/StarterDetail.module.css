@@ -1,0 +1,23 @@
+.starterDetailPanel {
+  display: flex;
+  height: 100vh;
+}
+
+.starterChoices {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.starterChoice {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 16px;
+}
+
+.starterChoice:hover {
+  border: 2px solid white;
+  background-color: hsla(0, 0%, 100%, 0.85);
+}

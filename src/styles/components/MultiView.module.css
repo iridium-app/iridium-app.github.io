@@ -1,0 +1,75 @@
+.multiView {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  gap: 24px;
+  color: rgb(255, 255, 255);
+  overflow-y: auto;
+  transition: transform 0.2s ease;
+}
+
+.encounterView {
+  grid-column: 7 / 11;
+}
+
+.battleView {
+  grid-column: 9 / 11;
+}
+
+.encounterEntry {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 50px;
+}
+
+.encounterEntry:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.catchButton {
+  border-radius: 4px;
+  aspect-ratio: 1 / 1;
+  height: 50px;
+}
+
+.catchButton:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.heroFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.battleView .heroFrame {
+  flex-direction: column;
+  gap: 16px;
+}
+
+.difficultyToggle {
+  position: absolute;
+  right: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1800px) {
+  .multiView {
+    grid-column: 8 / 11;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .multiView {
+    grid-column: 4 / 11;
+  }
+}

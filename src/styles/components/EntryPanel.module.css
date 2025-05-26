@@ -1,0 +1,47 @@
+.entryPanel {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  border-radius: 15px;
+  margin-top: 24px;
+}
+
+.hidden {
+  height: 50px;
+  overflow: hidden;
+}
+
+.header {
+  font-size: xx-large;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.headerText {
+  grid-column: 3;
+}
+
+.hideButton {
+  grid-column: 5;
+  background-color: unset;
+  border: unset;
+  justify-self: end;
+  padding-right: 24px;
+}
+
+.effect {
+  grid-column: 1 / span 5;
+}
+
+.starterList {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 24px;
+}
+
+.starter {
+  display: flex;
+}

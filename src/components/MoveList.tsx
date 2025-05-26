@@ -2,6 +2,7 @@ import MoveData from "../data/MoveData";
 import TypeImage from "./TypeImage";
 import Utility from "../Utility";
 import { DexInfo } from "../data/Dex";
+import styles from "../styles/components/MoveList.module.css";
 
 interface MoveListProps {
   levelUpLearnset: {
@@ -12,24 +13,24 @@ interface MoveListProps {
 
 function MoveList({ levelUpLearnset }: MoveListProps) {
   return (
-    <div className="move-block">
+    <div className={styles.moveBlock}>
       {levelUpLearnset.map((move) => (
         <div
           key={"move-row_" + move.name + "_" + move.level}
-          className="move-row"
+          className={styles.moveRow}
         >
-          <div className="move-row__level">Lvl {move.level}</div>
-          <div className="move-row__name">{MoveData.Dict[move.name].name}</div>
-          <div className="move-row__type">
+          <div className={styles.level}>Lvl {move.level}</div>
+          <div className={styles.name}>{MoveData.Dict[move.name].name}</div>
+          <div className={styles.type}>
             <TypeImage type={MoveData.Dict[move.name].type} />
           </div>
-          <div className="move-row__power">
+          <div className={styles.power}>
             <img
               src={Utility.GetDamageCategoryPath(
                 MoveData.Dict[move.name].damageCategory
               )}
               alt={MoveData.Dict[move.name].damageCategory + "_image"}
-            ></img>
+            />
           </div>
         </div>
       ))}

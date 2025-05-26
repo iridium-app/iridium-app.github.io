@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import EncounterData, { EncounterMethod } from "../data/EncounterData";
 import EncounterEntry from "./EncounterEntry";
 import { DexInfo } from "../data/Dex";
+import styles from "../styles/components/EncounterMethodList.module.css";
 
 function EncounterMethodList({
   method,
@@ -13,25 +14,9 @@ function EncounterMethodList({
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
 }) {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "flex-start",
-      }}
-      className="encounter-method-list"
-    >
-      <div className="encounter-method-list__header">
-        {MethodImageFromString(method.type)}
-      </div>
-      <div
-        className="encounter-method-list__encounter-list"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "100%",
-        }}
-      >
+    <div className={styles.methodList}>
+      <div className={styles.header}>{MethodImageFromString(method.type)}</div>
+      <div className={styles.encounterList}>
         {EncounterData.GetFinalizedArray(method).map((encounter) => (
           <EncounterEntry
             key={encounter.encounter.name}
@@ -47,30 +32,13 @@ function EncounterMethodList({
 }
 
 function MethodImageFromString(type: string): ReactNode {
-  const imageStyle = {
-    width: "60px",
-    height: "60px",
-    objectFit: "contain" as const,
-  };
-
   switch (type.toLowerCase()) {
     case "grass":
-      return <img src="/ui/grass.png" style={imageStyle} />;
+      return <img src="/ui/grass.png" className={styles.methodImage} />;
     case "oldrod":
-      return <img src="/ui/fishing-mark.png" style={imageStyle} />;
+      return <img src="/ui/fishing-mark.png" className={styles.methodImage} />;
     default:
-      return (
-        <span
-          style={{
-            textTransform: "uppercase",
-            fontFamily: "Inter",
-            fontSize: "18px",
-            color: "white",
-          }}
-        >
-          {type}
-        </span>
-      );
+      return <span className={styles.methodText}>{type}</span>;
   }
 }
 

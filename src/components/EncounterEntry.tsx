@@ -8,6 +8,7 @@ import { UserContext } from "../App";
 import { EncounterMethod } from "../data/EncounterData";
 import EncounterMethodList from "./EncounterMethodList";
 import StatBlock from "./StatBlock";
+import styles from "../styles/components/EncounterEntry.module.css";
 
 interface EncounterEntryProps {
   encounter: {
@@ -47,7 +48,7 @@ function EncounterEntry({
 
   return (
     <div
-      className="encounter-entry"
+      className={styles.encounterEntry}
       onClick={() => setSelectedMon(Dex.GetDexInfo(encounter.encounter))}
     >
       <div
@@ -95,7 +96,7 @@ function EncounterEntry({
       </div>
       <button
         onClick={handleCatch}
-        className="encounter-entry__catch-button clear-button"
+        className={`${styles.catchButton} clear-button`}
       >
         <img
           src="/sprites/items/ITEM_POKE_BALL.png"

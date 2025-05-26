@@ -1,0 +1,33 @@
+/* App styles */
+.app {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  background-color: #080d12;
+  height: 100vh;
+}
+
+.materialSymbolsOutlined {
+  font-size: 48px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1800px) {
+  .middlePanel {
+    grid-column: 4 / 8;
+  }
+  .rightPanel {
+    grid-column: 8 / 11;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middlePanel {
+    grid-column: 1 / 11;
+  }
+  .leftPanel {
+    display: none;
+  }
+}

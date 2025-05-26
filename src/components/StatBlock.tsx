@@ -1,4 +1,5 @@
 import { DexInfo } from "../data/Dex";
+import styles from "../styles/components/StatBlock.module.css";
 
 interface StatBlockProps {
   baseStats: {
@@ -13,12 +14,12 @@ interface StatBlockProps {
 
 function StatBlock({ baseStats }: StatBlockProps) {
   return (
-    <div className="stat-block">
-      <div className="stat-row">
-        <div className="stat-row__name">HP:</div>
-        <div className="stat-row__number">{baseStats.hp}</div>
+    <div className={styles.statBlock}>
+      <div className={styles.statRow}>
+        <div className={styles.name}>HP:</div>
+        <div className={styles.number}>{baseStats.hp}</div>
         <div
-          className="stat-row__bar"
+          className={styles.bar}
           style={
             {
               "--progress": baseStats.hp / 2.55,
@@ -27,11 +28,11 @@ function StatBlock({ baseStats }: StatBlockProps) {
           }
         />
       </div>
-      <div className="stat-row">
-        <div className="stat-row__name">Defense:</div>
-        <div className="stat-row__number">{baseStats.defense}</div>
+      <div className={styles.statRow}>
+        <div className={styles.name}>Defense:</div>
+        <div className={styles.number}>{baseStats.defense}</div>
         <div
-          className="stat-row__bar"
+          className={styles.bar}
           style={
             {
               "--progress": baseStats.defense / 2.5,
@@ -40,11 +41,11 @@ function StatBlock({ baseStats }: StatBlockProps) {
           }
         />
       </div>
-      <div className="stat-row">
-        <div className="stat-row__name">Sp. Def:</div>
-        <div className="stat-row__number">{baseStats.specialDefense}</div>
+      <div className={styles.statRow}>
+        <div className={styles.name}>Sp. Def:</div>
+        <div className={styles.number}>{baseStats.specialDefense}</div>
         <div
-          className="stat-row__bar"
+          className={styles.bar}
           style={
             {
               "--progress": baseStats.specialDefense / 2.5,
@@ -54,11 +55,11 @@ function StatBlock({ baseStats }: StatBlockProps) {
         />
       </div>
       <br />
-      <div className="stat-row">
-        <div className="stat-row__name">Attack:</div>
-        <div className="stat-row__number">{baseStats.attack}</div>
+      <div className={styles.statRow}>
+        <div className={styles.name}>Attack:</div>
+        <div className={styles.number}>{baseStats.attack}</div>
         <div
-          className="stat-row__bar"
+          className={styles.bar}
           style={
             {
               "--progress": baseStats.attack / 1.7,
@@ -67,11 +68,11 @@ function StatBlock({ baseStats }: StatBlockProps) {
           }
         />
       </div>
-      <div className="stat-row">
-        <div className="stat-row__name">Sp. Atk:</div>
-        <div className="stat-row__number">{baseStats.specialAttack}</div>
+      <div className={styles.statRow}>
+        <div className={styles.name}>Sp. Atk:</div>
+        <div className={styles.number}>{baseStats.specialAttack}</div>
         <div
-          className="stat-row__bar"
+          className={styles.bar}
           style={
             {
               "--progress": baseStats.specialAttack / 1.94,
@@ -80,11 +81,11 @@ function StatBlock({ baseStats }: StatBlockProps) {
           }
         />
       </div>
-      <div className="stat-row">
-        <div className="stat-row__name">Speed:</div>
-        <div className="stat-row__number">{baseStats.speed}</div>
+      <div className={styles.statRow}>
+        <div className={styles.name}>Speed:</div>
+        <div className={styles.number}>{baseStats.speed}</div>
         <div
-          className="stat-row__bar"
+          className={styles.bar}
           style={
             {
               "--progress": baseStats.speed / 1.45,

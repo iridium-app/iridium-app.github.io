@@ -1,0 +1,9 @@
+.mastersheetView {
+  grid-column: 2 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  gap: 24px;
+  padding: 24px 0;
+}

@@ -1,8 +1,6 @@
-import { useContext, useState } from "react";
+import { useContext, useState, createContext } from "react";
 import { UserContext } from "../App";
-
 import Dex from "../data/Dex";
-
 import "../App.css";
 import MastersheetData, {
   Battle,
@@ -11,8 +9,18 @@ import MastersheetData, {
 } from "../data/MastersheetData";
 import EntryDetailPanel from "../components/EntryDetailPanel";
 import MultiView from "../components/MultiView";
-import MastersheetArea from "../components/MastersheetArea";
 import TrainerData from "../data/TrainerData";
+import MastersheetView from "../components/MastersheetView";
+
+interface MastersheetContextType {
+  selectedEntry: MastersheetEntry;
+  setSelectedEntry: React.Dispatch<React.SetStateAction<MastersheetEntry>>;
+}
+
+export const MastersheetContext = createContext<MastersheetContextType>({
+  selectedEntry: new MastersheetEntry(),
+  setSelectedEntry: () => {},
+});
 
 function Mastersheet() {
   const { difficulty } = useContext(UserContext);
@@ -22,8 +30,6 @@ function Mastersheet() {
   );
 
   var mastersheetData = MastersheetData.GetMastersheetEntries(difficulty);
-
-  // const [searchList, setSearchList] = useState(Dex.Dict);
   var rightPanelOpen = selectedMon !== Dex.GetNone();
 
   const closeBtnOnClick = () => {
@@ -45,24 +51,21 @@ function Mastersheet() {
   };
 
   return (
-    <>
-      <div className="mastersheet-view">
-        {mastersheetData.map((area) => (
-          <MastersheetArea
-            key={area.name}
-            area={area}
-            selectedEntry={selectedEntry}
-            setSelectedEntry={updateSelectedEntry}
-          />
-        ))}
-      </div>
+    <MastersheetContext.Provider
+      value={{ selectedEntry, setSelectedEntry: updateSelectedEntry }}
+    >
+      <MastersheetView
+        mastersheetData={mastersheetData}
+        selectedEntry={selectedEntry}
+        setSelectedEntry={updateSelectedEntry}
+      />
       <EntryDetailPanel entry={selectedEntry} setSelectedMon={setSelectedMon} />
       <MultiView
         selectedMon={selectedMon}
         rightPanelOpen={rightPanelOpen}
         onClose={closeBtnOnClick}
       />
-    </>
+    </MastersheetContext.Provider>
   );
 }
 

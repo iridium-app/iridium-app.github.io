@@ -3,7 +3,10 @@ import ItemData from "../data/ItemData";
 function ItemImage({ itemName }: { itemName: string }) {
   return (
     <a
-      href={"https://bulbapedia.bulbagarden.net/wiki/" + ItemData.Dict[itemName]?.name}
+      href={
+        "https://bulbapedia.bulbagarden.net/wiki/" +
+        ItemData.Dict[itemName]?.name
+      }
       target="_blank"
       rel="noreferrer"
     >

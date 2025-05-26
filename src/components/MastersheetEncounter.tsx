@@ -4,6 +4,7 @@ import {
   EncounterType,
 } from "../data/MastersheetData";
 import EncounterData from "../data/EncounterData";
+import styles from "../styles/components/MastersheetEntry.module.css";
 
 interface Props {
   encounter: Encounter;
@@ -24,8 +25,8 @@ function MastersheetEncounter({
   return (
     <div
       onClick={() => setSelectedEntry(encounter)}
-      className={`mastersheet-entry mastersheet-encounter ${
-        selectedEntry.entryId == encounter.entryId ? "selected-entry" : ""
+      className={`${styles.mastersheetEntry} ${styles.mastersheetEncounter} ${
+        selectedEntry.entryId == encounter.entryId ? styles.selectedEntry : ""
       }`}
     >
       <div>
@@ -33,7 +34,7 @@ function MastersheetEncounter({
           ? encounterInfo.name
           : "Encounter"}
       </div>
-      <img src="/sprites/items/ITEM_POKE_BALL.png" />
+      <img src="/sprites/items/ITEM_POKE_BALL.png" alt="Pokeball" />
     </div>
   );
 }

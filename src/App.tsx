@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import React from "react";
-import "./App.css";
+import styles from "./styles/App.module.css";
 import Home from "./pages/Home";
 import Mastersheet from "./pages/Mastersheet";
 import NavBar from "./components/NavBar";
@@ -37,11 +37,7 @@ function App() {
   // };
 
   return (
-    <div className="app">
-      <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-        rel="stylesheet"
-      />
+    <div className={styles.app}>
       <HashRouter>
         <UserContext.Provider
           value={{
@@ -62,7 +58,7 @@ function App() {
           </Routes>
         </UserContext.Provider>
       </HashRouter>
-      <header className="app-header"></header>
+      <header className={styles.appHeader}></header>
     </div>
   );
 }

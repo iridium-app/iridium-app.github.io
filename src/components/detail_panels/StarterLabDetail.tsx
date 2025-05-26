@@ -3,6 +3,7 @@ import MonImage from "../MonImage";
 import { UserContext } from "../../App";
 import FormTable from "../../data/FormTable";
 import EncounterData from "../../data/EncounterData";
+import styles from "../../styles/components/detail_panels/StarterLabDetail.module.css";
 
 function StarterLabDetail() {
   const { encounterList, setEncounterList } = useContext(UserContext);
@@ -10,7 +11,7 @@ function StarterLabDetail() {
   const starterChoices = EncounterData.GetGiftInfo("g1").choices;
 
   return (
-    <div className="starter-detail-panel">
+    <div className={styles.starterDetailPanel}>
       {hasStarter ? (
         <div>
           <div>You already have a starter companion!</div>
@@ -18,17 +19,17 @@ function StarterLabDetail() {
             onClick={() =>
               setEncounterList({ ...encounterList, Encounters: [] })
             }
-            className="clear-button"
+            className={styles.clearButton}
           >
             Clear All Encounters
           </button>
         </div>
       ) : (
-        <div className="starter-choices">
+        <div className={styles.starterChoices}>
           {starterChoices.map((starter) => (
             <button
               key={starter.name}
-              className="starter-choice"
+              className={styles.starterChoice}
               onClick={() =>
                 setEncounterList({
                   ...encounterList,

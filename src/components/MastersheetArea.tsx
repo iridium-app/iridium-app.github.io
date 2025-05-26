@@ -7,6 +7,7 @@ import {
 } from "../data/MastersheetData";
 import MastersheetEncounter from "./MastersheetEncounter";
 import MastersheetBattle from "./MastersheetBattle";
+import styles from "../styles/components/Mastersheet.module.css";
 
 interface Props {
   area: Area;
@@ -41,8 +42,8 @@ function renderEntry(
 
 function MastersheetArea({ area, setSelectedEntry, selectedEntry }: Props) {
   return (
-    <div className="mastersheet-area">
-      <div className="mastersheet-area__header">{area.name}</div>
+    <div className={styles.mastersheetArea}>
+      <div className={styles.mastersheetAreaHeader}>{area.name}</div>
       {area.entries.map((entry) => (
         <div key={entry.entryId}>
           {renderEntry(entry, setSelectedEntry, selectedEntry)}

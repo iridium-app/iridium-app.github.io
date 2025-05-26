@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { UserContext } from "../../App";
 import MonImage from "../MonImage";
 import { DexInfo } from "../../data/Dex";
+import styles from "../../styles/components/detail_panels/StandardEncounterDetail.module.css";
 
 function StandardEncounterDetail({
   encounter,
@@ -24,14 +25,7 @@ function StandardEncounterDetail({
 
   if (caught) {
     return (
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: "1rem",
-        }}
-      >
+      <div className={styles.caughtContainer}>
         <MonImage
           formName={caught.monWithForm.name}
           size={80}
@@ -39,19 +33,7 @@ function StandardEncounterDetail({
             filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.65))",
           }}
         />
-        <button
-          onClick={handleUndo}
-          style={{
-            background: "none",
-            border: "2px solid #FF4444",
-            borderRadius: "4px",
-            color: "#FF4444",
-            cursor: "pointer",
-            fontFamily: "Inter",
-            fontSize: "14px",
-            fontWeight: 600,
-          }}
-        >
+        <button onClick={handleUndo} className={styles.undoButton}>
           Undo Catch
         </button>
       </div>
