@@ -9,7 +9,7 @@ import Dev from "./pages/Dev";
 import EncounterList, { UserDataContext } from "./data/UserData";
 
 export const UserContext = React.createContext<UserDataContext>({
-  difficulty: "casual",
+  difficulty: "elite",
   setDifficulty: () => {},
   encounterList: new EncounterList([]),
   setEncounterList: () => {},
@@ -18,7 +18,7 @@ export const UserContext = React.createContext<UserDataContext>({
 });
 
 function App() {
-  const [difficulty, setDifficulty] = usePersistedState("difficulty", "casual");
+  const [difficulty, setDifficulty] = usePersistedState("difficulty", "elite");
   const [encounterList, setEncounterList] = usePersistedState(
     "encounterList",
     new EncounterList([])
@@ -27,6 +27,10 @@ function App() {
     "completedTrainerList",
     [] as string[]
   );
+  //TODO: Difficulties
+  if (difficulty === "casual") {
+    setDifficulty("elite");
+  }
   // const onSubmit = (event: React.FormEvent) => {
   //   event.preventDefault();
   // };
