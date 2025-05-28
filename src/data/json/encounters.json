@@ -8651,11 +8651,7 @@
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_BUIZEL",
-                        "form": 0
-                    },
-                    {
-                        "name": "SPECIES_BUIZEL",
+                        "name": "SPECIES_WINGULL",
                         "form": 0
                     },
                     {
@@ -8663,15 +8659,19 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_WOOPER",
-                        "form": 1
-                    },
-                    {
                         "name": "SPECIES_DUCKLETT",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_HOOTHOOT",
+                        "name": "SPECIES_SHELLOS",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_FINIZEN",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_PSYDUCK",
                         "form": 0
                     },
                     {
@@ -8683,19 +8683,19 @@
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_WINGULL",
+                        "name": "SPECIES_BUIZEL",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_WOOPER",
-                        "form": 1
-                    },
-                    {
-                        "name": "SPECIES_SENTRET",
+                        "name": "SPECIES_CLAUNCHER",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_WHISMUR",
+                        "name": "SPECIES_DUCKLETT",
+                        "form": 0
+                    },
+                    {
+                        "name": "SPECIES_SHELLOS",
                         "form": 0
                     }
                 ]
@@ -10831,11 +10831,11 @@
                 "type": "grass",
                 "encounters": [
                     {
-                        "name": "SPECIES_TINKATINK",
+                        "name": "SPECIES_KLINK",
                         "form": 0
                     },
                     {
-                        "name": "SPECIES_TINKATINK",
+                        "name": "SPECIES_KLINK",
                         "form": 0
                     },
                     {
