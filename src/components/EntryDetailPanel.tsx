@@ -5,7 +5,7 @@ import {
   MastersheetEntry,
   MastersheetEntryType,
   Battle,
-  MultiBattle,
+  BattleTags,
 } from "../data/MastersheetData";
 import EncounterData from "../data/EncounterData";
 import StandardEncounterDetail from "./detail_panels/StandardEncounterDetail";
@@ -13,6 +13,7 @@ import StarterLabDetail from "./detail_panels/StarterLabDetail";
 import { DexInfo } from "../data/Dex";
 import StandardBattleDetail from "./detail_panels/StandardBattleDetail";
 import styles from "../styles/components/EntryDetailPanel.module.css";
+import MultiBattleDetail from "./detail_panels/MultiBattleDetail";
 
 function encounterRenderSwitch(
   encounter: Encounter,
@@ -35,6 +36,11 @@ function battleRenderSwitch(
   battle: Battle,
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>
 ): ReactNode {
+  if (battle.battleTags.includes(BattleTags.Multi)) {
+    return (
+      <MultiBattleDetail battle={battle} setSelectedMon={setSelectedMon} />
+    );
+  }
   return (
     <StandardBattleDetail battle={battle} setSelectedMon={setSelectedMon} />
   );

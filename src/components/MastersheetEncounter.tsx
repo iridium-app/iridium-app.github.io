@@ -1,13 +1,16 @@
 import {
-  Encounter,
+  Encounter as SheetEncounter,
   MastersheetEntry,
   EncounterType,
 } from "../data/MastersheetData";
 import EncounterData from "../data/EncounterData";
 import styles from "../styles/components/MastersheetEntry.module.css";
+import { useContext } from "react";
+import { UserContext } from "../App";
+import MonImage from "./MonImage";
 
 interface Props {
-  encounter: Encounter;
+  encounter: SheetEncounter;
   setSelectedEntry: React.Dispatch<React.SetStateAction<MastersheetEntry>>;
   selectedEntry: MastersheetEntry;
 }
@@ -17,6 +20,11 @@ function MastersheetEncounter({
   setSelectedEntry,
   selectedEntry,
 }: Props) {
+  const { encounterList } = useContext(UserContext);
+  const isCaught = encounterList.Encounters.some(
+    (caught) => caught.id === encounter.encounterId
+  );
+
   const encounterInfo =
     encounter.encounterType == EncounterType.gift
       ? EncounterData.GetGiftInfo(encounter.encounterId)
@@ -34,7 +42,19 @@ function MastersheetEncounter({
           ? encounterInfo.name
           : "Encounter"}
       </div>
-      <img src="/sprites/items/ITEM_POKE_BALL.png" alt="Pokeball" />
+      {isCaught ? (
+        <MonImage
+          className={styles.encounterMon}
+          formName={
+            encounterList.Encounters.find(
+              (caught) => caught.id === encounter.encounterId
+            )?.monWithForm.name || ""
+          }
+          size={48}
+        />
+      ) : (
+        <img src="/sprites/items/ITEM_POKE_BALL.png" alt="Pokeball" />
+      )}
     </div>
   );
 }

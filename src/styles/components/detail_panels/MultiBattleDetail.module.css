@@ -1,0 +1,42 @@
+.multiBattleDetail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  padding: 1rem;
+  color: white;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.allySection,
+.enemiesSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.enemyParty {
+  margin-bottom: 2rem;
+}
+
+.enemyTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.partyContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -4,14 +4,16 @@ function MonImage({
   formName,
   size,
   style = {},
+  className,
 }: {
   formName: string;
   size: number;
   style?: React.CSSProperties;
+  className?: string;
 }) {
   return (
     <img
-      className="mon-sprite"
+      className={`mon-sprite ${className}`}
       style={
         {
           width: size + "px",
