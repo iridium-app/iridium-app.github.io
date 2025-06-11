@@ -98,7 +98,7 @@
           "entryId": "11",
           "type": "battle",
           "mandatory": false,
-          "battleTags": ["Multi"],
+          "battleTags": ["Single"],
           "battleId": "26"
         },
         {

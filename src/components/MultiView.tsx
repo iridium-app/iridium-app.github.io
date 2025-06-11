@@ -18,7 +18,7 @@ function MultiView({ selectedMon, rightPanelOpen, onClose }: MultiViewProps) {
 
   return (
     <div className={`${styles.multiView} ${viewClass}`}>
-      <div className={styles.search}>Lorem Ipsum</div>
+      <div className={styles.search}></div>
       <MonMultiView selectedMon={selectedMon} />
     </div>
   );
