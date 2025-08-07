@@ -21,7 +21,7 @@ const MultiBattleDetail: React.FC<MultiBattleDetailProps> = ({
   return (
     <div className={styles.multiBattleDetail}>
       <div className={styles.allySection}>
-        <h2 className={styles.sectionTitle}>Ally</h2>
+        <h2 className={styles.sectionTitle}>{ally.name}</h2>
         <div className={styles.partyContainer}>
           {ally.party.map((mon, index) => (
             <BattleDetailMon
@@ -37,7 +37,7 @@ const MultiBattleDetail: React.FC<MultiBattleDetailProps> = ({
       <div className={styles.enemiesSection}>
         {enemies.map((enemy: TrainerInfo, enemyIndex: number) => (
           <div key={`enemy-${enemyIndex}`} className={styles.enemyParty}>
-            <h2 className={styles.sectionTitle}>Enemy {enemyIndex + 1}</h2>
+            <h2 className={styles.sectionTitle}>{enemy.name}</h2>
             <div className={styles.partyContainer}>
               {enemy.party.map((mon, monIndex) => (
                 <BattleDetailMon

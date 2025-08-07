@@ -6,10 +6,10 @@ import Mastersheet from "./pages/Mastersheet";
 import NavBar from "./components/NavBar";
 import usePersistedState from "use-persisted-state-hook";
 import Dev from "./pages/Dev";
-import EncounterList, { UserDataContext } from "./data/UserData";
+import EncounterList, { UserDataContext, Difficulty } from "./data/UserData";
 
 export const UserContext = React.createContext<UserDataContext>({
-  difficulty: "elite",
+  difficulty: Difficulty.ELITE,
   setDifficulty: () => {},
   encounterList: new EncounterList([]),
   setEncounterList: () => {},
@@ -18,7 +18,10 @@ export const UserContext = React.createContext<UserDataContext>({
 });
 
 function App() {
-  const [difficulty, setDifficulty] = usePersistedState("difficulty", "elite");
+  const [difficulty, setDifficulty] = usePersistedState(
+    "difficulty",
+    Difficulty.ELITE
+  );
   const [encounterList, setEncounterList] = usePersistedState(
     "encounterList",
     new EncounterList([])
@@ -28,9 +31,6 @@ function App() {
     [] as string[]
   );
   //TODO: Difficulties
-  if (difficulty === "casual") {
-    setDifficulty("elite");
-  }
   // const onSubmit = (event: React.FormEvent) => {
   //   event.preventDefault();
   // };

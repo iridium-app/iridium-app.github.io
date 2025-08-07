@@ -5,8 +5,19 @@ import {
   MagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
 import styles from "../styles/components/NavBar.module.css";
+import React, { useContext } from "react";
+import { UserContext } from "../App";
+import { Difficulty } from "../data/UserData";
 
 function NavBar() {
+  const { difficulty, setDifficulty } = useContext(UserContext);
+
+  const toggleDifficulty = () => {
+    setDifficulty(
+      difficulty === Difficulty.ELITE ? Difficulty.CASUAL : Difficulty.ELITE
+    );
+  };
+
   return (
     <>
       <div className={styles.nav}>
@@ -25,6 +36,9 @@ function NavBar() {
           </div>
         </div>
         <div className={styles.navBottom}>
+          <div className={styles.difficultyToggle} onClick={toggleDifficulty}>
+            <div className={styles.difficultyText}>{difficulty}</div>
+          </div>
           <div className={styles.splitSection}>
             <img
               src="/sprites/trainers/gardenia.png"

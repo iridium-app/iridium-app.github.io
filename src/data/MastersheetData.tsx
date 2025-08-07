@@ -1,4 +1,5 @@
 import mastersheet from "../data/json/mastersheet.json";
+import { Difficulty } from "./UserData";
 
 type MastersheetJson = {
   casual: Area[];
@@ -56,8 +57,10 @@ export type BattleTag = (typeof BattleTags)[keyof typeof BattleTags];
 class MastersheetData {
   private static Dict = mastersheet as MastersheetJson;
 
-  static GetMastersheetEntries(difficulty: string) {
-    return difficulty === "casual" ? this.Dict.casual : this.Dict.elite;
+  static GetMastersheetEntries(difficulty: Difficulty) {
+    return difficulty === Difficulty.CASUAL
+      ? this.Dict.casual
+      : this.Dict.elite;
   }
 
   // static GetName(panel: MastersheetEntry) {

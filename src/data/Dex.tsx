@@ -51,6 +51,7 @@ class Dex {
   }
 
   static GetNiceName(hgeName: string): string {
+    if (hgeName === "MOVE_NONE") return " ";
     const mapping = nameMapping.find((mapping) => mapping.hgeName === hgeName);
     if (mapping !== undefined) {
       return mapping.niceName;

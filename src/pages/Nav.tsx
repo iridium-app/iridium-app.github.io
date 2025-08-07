@@ -1,13 +1,14 @@
 import { Link, Outlet } from "react-router-dom";
 import { UserContext } from "../App";
 import { useContext } from "react";
+import { Difficulty } from "../data/UserData";
 
 function Nav() {
   const { difficulty, setDifficulty } = useContext(UserContext);
 
   const onToggleButtonClick = () => {
-    if (difficulty === "casual") setDifficulty("elite");
-    else setDifficulty("casual");
+    if (difficulty === Difficulty.CASUAL) setDifficulty(Difficulty.ELITE);
+    else setDifficulty(Difficulty.CASUAL);
   };
 
   return (

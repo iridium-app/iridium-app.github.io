@@ -1,8 +1,13 @@
 import { MonWithForm } from "./Dex";
 
+export enum Difficulty {
+  ELITE = "elite",
+  CASUAL = "casual",
+}
+
 export type UserDataContext = {
-  difficulty: string;
-  setDifficulty: (d: string) => void;
+  difficulty: Difficulty;
+  setDifficulty: (d: Difficulty) => void;
   encounterList: EncounterList;
   setEncounterList: (encounterList: EncounterList) => void;
   completedTrainerList: string[];

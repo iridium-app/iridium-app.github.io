@@ -7,13 +7,39 @@
 }
 
 .starterChoices {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
-  align-items: start;
+  overflow-y: auto;
+}
+
+.generationGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.generationHeader {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.generationStarters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
   justify-items: center;
 }
 

@@ -73,6 +73,41 @@
   transform: scale(1.05);
 }
 
+.difficultyToggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.difficultyToggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.difficultyText {
+  font-size: 14px;
+  font-family: var(--nav-font);
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.difficultyToggle:hover .difficultyText {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
 .splitSection {
   display: flex;
   flex-direction: column;
