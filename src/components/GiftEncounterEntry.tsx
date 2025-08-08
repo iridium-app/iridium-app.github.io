@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import MonImage from "./MonImage";
+import { MonImage } from "../shared/components/ui";
 import FormTable from "../data/FormTable";
 import Utility from "../shared/utils/utility";
 import Dex, { DexInfo } from "../data/Dex";

@@ -1,8 +1,7 @@
 import { ReactNode, useContext, useState } from "react";
-import MonImage from "./MonImage";
+import { MonImage, TypeImage } from "../shared/components/ui";
 import FormTable from "../data/FormTable";
 import Utility from "../shared/utils/utility";
-import TypeImage from "./TypeImage";
 import Dex, { DexInfo } from "../data/Dex";
 import { UserContext } from "../App";
 import { EncounterMethod } from "../data/EncounterData";

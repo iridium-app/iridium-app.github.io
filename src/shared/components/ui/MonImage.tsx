@@ -1,27 +1,31 @@
-import Utility from "../shared/utils/utility";
+import { Utility } from "../../utils";
 
+interface MonImageProps {
+  formName: string;
+  size: number;
+  backgroundColor?: string;
+  style?: React.CSSProperties;
+  className?: string;
+}
+
+/**
+ * Reusable component for displaying Pokémon sprites
+ */
 function MonImage({
   formName,
   size,
   backgroundColor = "",
   style = {},
   className,
-}: {
-  formName: string;
-  size: number;
-  backgroundColor?: string;
-  style?: React.CSSProperties;
-  className?: string;
-}) {
+}: MonImageProps) {
   return (
     <img
-      className={`mon-sprite ${className}`}
+      className={`mon-sprite ${className || ""}`}
       style={
         {
-          width: size + "px",
+          width: `${size}px`,
           backgroundColor,
           filter: "drop-shadow(0 0 2px rgba(255, 255, 255, 0.3))",
-          dropShadow: "0 0 2px rgba(255, 255, 255, 0.3)",
           ...style,
         } as React.CSSProperties
       }

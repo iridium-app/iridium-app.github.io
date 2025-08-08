@@ -2,7 +2,7 @@ import React from "react";
 import { TrainerInfoMon } from "../../data/TrainerData";
 import Dex, { DexInfo } from "../../data/Dex";
 import MonHeroFrame from "../MonHeroFrame";
-import ItemImage from "../ItemImage";
+import { ItemImage } from "../../shared/components/ui";
 import styles from "../../styles/components/common/BattleDetailMon.module.css";
 
 interface BattleDetailMonProps {

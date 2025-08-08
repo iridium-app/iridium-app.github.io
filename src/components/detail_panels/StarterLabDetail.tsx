@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import MonImage from "../MonImage";
+import { MonImage } from "../../shared/components/ui";
 import { UserContext } from "../../App";
 import FormTable from "../../data/FormTable";
 import EncounterData from "../../data/EncounterData";

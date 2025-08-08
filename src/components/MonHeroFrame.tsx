@@ -1,6 +1,5 @@
 import { DexInfo } from "../data/Dex";
-import MonImage from "./MonImage";
-import TypeImage from "./TypeImage";
+import { MonImage, TypeImage } from "../shared/components/ui";
 import styles from "../styles/components/MonHeroFrame.module.css";
 
 interface MonHeroFrameProps {

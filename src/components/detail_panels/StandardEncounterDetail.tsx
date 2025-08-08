@@ -2,7 +2,7 @@ import { EncounterInfo } from "../../data/EncounterData";
 import EncounterMethodList from "../EncounterMethodList";
 import { useContext } from "react";
 import { UserContext } from "../../App";
-import MonImage from "../MonImage";
+import { MonImage } from "../../shared/components/ui";
 import { DexInfo } from "../../data/Dex";
 import styles from "../../styles/components/detail_panels/StandardEncounterDetail.module.css";
 

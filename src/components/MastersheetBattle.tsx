@@ -1,5 +1,5 @@
 import { Battle, MastersheetEntry, BattleTags } from "../data/MastersheetData";
-import MonImage from "./MonImage";
+import { MonImage } from "../shared/components/ui";
 import TrainerData from "../data/TrainerData";
 import Utility from "../shared/utils/utility";
 import styles from "../styles/components/MastersheetEntry.module.css";

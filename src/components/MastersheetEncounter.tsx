@@ -7,7 +7,7 @@ import EncounterData from "../data/EncounterData";
 import styles from "../styles/components/MastersheetEntry.module.css";
 import { useContext } from "react";
 import { UserContext } from "../App";
-import MonImage from "./MonImage";
+import { MonImage } from "../shared/components/ui";
 
 interface Props {
   encounter: SheetEncounter;

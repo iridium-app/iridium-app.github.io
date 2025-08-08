@@ -1,5 +1,5 @@
 import MoveData from "../data/MoveData";
-import TypeImage from "./TypeImage";
+import { TypeImage } from "../shared/components/ui";
 import Utility from "../shared/utils/utility";
 import { DexInfo } from "../data/Dex";
 import styles from "../styles/components/MoveList.module.css";
