@@ -1,13 +1,13 @@
-import Utility from "../Utility";
+import Utility from "../shared/utils/utility";
 import styles from "../styles/components/TypeImage.module.css";
 
 function TypeImage({ type }: { type: string }) {
   return (
     <img
       className={styles.typeImage}
-      alt={Utility.GetNiceName(type)}
+      alt={Utility.getNiceName(type)}
       src={"/sprites/misc/" + type + ".png"}
-      title={Utility.GetNiceName(type)}
+      title={Utility.getNiceName(type)}
     />
   );
 }

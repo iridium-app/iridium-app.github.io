@@ -1,7 +1,7 @@
 import { Battle, MastersheetEntry, BattleTags } from "../data/MastersheetData";
 import MonImage from "./MonImage";
 import TrainerData from "../data/TrainerData";
-import Utility from "../Utility";
+import Utility from "../shared/utils/utility";
 import styles from "../styles/components/MastersheetEntry.module.css";
 
 interface Props {
@@ -34,7 +34,7 @@ function MastersheetBattle({ battle, setSelectedEntry, selectedEntry }: Props) {
     >
       <div className={styles.battleContent}>
         <img
-          src={Utility.GetTrainerImage(trainerInfo)}
+          src={Utility.getTrainerImage(trainerInfo)}
           alt={trainerInfo.name}
         />
         <div className={styles.monList}>

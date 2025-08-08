@@ -1,6 +1,6 @@
 import MoveData from "../data/MoveData";
 import TypeImage from "./TypeImage";
-import Utility from "../Utility";
+import Utility from "../shared/utils/utility";
 import { DexInfo } from "../data/Dex";
 import styles from "../styles/components/MoveList.module.css";
 
@@ -26,7 +26,7 @@ function MoveList({ levelUpLearnset }: MoveListProps) {
           </div>
           <div className={styles.power}>
             <img
-              src={Utility.GetDamageCategoryPath(
+              src={Utility.getDamageCategoryPath(
                 MoveData.Dict[move.name].damageCategory
               )}
               alt={MoveData.Dict[move.name].damageCategory + "_image"}

@@ -1,4 +1,4 @@
-import Utility from "../Utility";
+import Utility from "../shared/utils/utility";
 
 function MonImage({
   formName,
@@ -21,10 +21,11 @@ function MonImage({
           width: size + "px",
           backgroundColor,
           filter: "drop-shadow(0 0 2px rgba(255, 255, 255, 0.3))",
+          dropShadow: "0 0 2px rgba(255, 255, 255, 0.3)",
           ...style,
         } as React.CSSProperties
       }
-      title={Utility.GetNiceName(formName)}
+      title={Utility.getNiceName(formName)}
       alt={formName}
       src={
         "/sprites/pokemon/" +

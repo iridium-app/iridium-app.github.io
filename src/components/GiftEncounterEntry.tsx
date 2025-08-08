@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import MonImage from "./MonImage";
 import FormTable from "../data/FormTable";
-import Utility from "../Utility";
+import Utility from "../shared/utils/utility";
 import Dex, { DexInfo } from "../data/Dex";
 import { UserContext } from "../App";
 import styles from "../styles/components/GiftEncounterEntry.module.css";

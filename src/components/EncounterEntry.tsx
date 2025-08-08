@@ -1,7 +1,7 @@
 import { ReactNode, useContext, useState } from "react";
 import MonImage from "./MonImage";
 import FormTable from "../data/FormTable";
-import Utility from "../Utility";
+import Utility from "../shared/utils/utility";
 import TypeImage from "./TypeImage";
 import Dex, { DexInfo } from "../data/Dex";
 import { UserContext } from "../App";
@@ -77,7 +77,7 @@ function EncounterEntry({
           color: "#FFFFFF",
         }}
       >
-        {Utility.GetNiceName(encounter.encounter.name)}
+        {Utility.getNiceName(encounter.encounter.name)}
       </div>
       <div
         style={{
