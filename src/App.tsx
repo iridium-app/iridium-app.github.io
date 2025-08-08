@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./styles/App.module.css";
 import Home from "./pages/Home";
 import Mastersheet from "./pages/Mastersheet";
-import NavBar from "./components/NavBar";
+import { NavBar } from "./shared/components";
 import usePersistedState from "use-persisted-state-hook";
 import Dev from "./pages/Dev";
 import EncounterList, { UserDataContext, Difficulty } from "./data/UserData";

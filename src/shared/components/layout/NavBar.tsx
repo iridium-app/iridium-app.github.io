@@ -4,11 +4,14 @@ import {
   BookOpenIcon,
   MagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
-import styles from "../styles/components/NavBar.module.css";
+import styles from "../../../styles/components/NavBar.module.css";
 import React, { useContext } from "react";
-import { UserContext } from "../App";
-import { Difficulty } from "../data/UserData";
+import { UserContext } from "../../../App";
+import { Difficulty } from "../../../data/UserData";
 
+/**
+ * Main navigation bar component
+ */
 function NavBar() {
   const { difficulty, setDifficulty } = useContext(UserContext);
 

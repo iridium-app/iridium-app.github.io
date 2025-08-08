@@ -4,10 +4,10 @@ import {
   MastersheetEntry,
   Encounter,
   Battle,
-} from "../data/MastersheetData";
+} from "../../../data/MastersheetData";
 import MastersheetEncounter from "./MastersheetEncounter";
 import MastersheetBattle from "./MastersheetBattle";
-import styles from "../styles/components/Mastersheet.module.css";
+import styles from "../../../styles/components/Mastersheet.module.css";
 
 interface Props {
   area: Area;
@@ -40,6 +40,9 @@ function renderEntry(
   }
 }
 
+/**
+ * Component for rendering a mastersheet area with its entries
+ */
 function MastersheetArea({ area, setSelectedEntry, selectedEntry }: Props) {
   return (
     <div className={styles.mastersheetArea}>

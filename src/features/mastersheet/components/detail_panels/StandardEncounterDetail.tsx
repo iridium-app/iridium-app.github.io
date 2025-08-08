@@ -1,18 +1,23 @@
-import { EncounterInfo } from "../../data/EncounterData";
-import EncounterMethodList from "../EncounterMethodList";
+import { EncounterInfo } from "../../../../data/EncounterData";
+import { EncounterMethodList } from "../../../encounters/components";
 import { useContext } from "react";
-import { UserContext } from "../../App";
-import { MonImage } from "../../shared/components/ui";
-import { DexInfo } from "../../data/Dex";
-import styles from "../../styles/components/detail_panels/StandardEncounterDetail.module.css";
+import { UserContext } from "../../../../App";
+import { MonImage } from "../../../../shared/components/ui";
+import { DexInfo } from "../../../../data/Dex";
+import styles from "../../../../styles/components/detail_panels/StandardEncounterDetail.module.css";
 
+interface StandardEncounterDetailProps {
+  encounter: EncounterInfo;
+  setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
+}
+
+/**
+ * Detail panel for standard encounter entries
+ */
 function StandardEncounterDetail({
   encounter,
   setSelectedMon,
-}: {
-  encounter: EncounterInfo;
-  setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
-}) {
+}: StandardEncounterDetailProps) {
   const { encounterList, setEncounterList } = useContext(UserContext);
   const caught = encounterList.Encounters.find((e) => e.id === encounter.id);
 

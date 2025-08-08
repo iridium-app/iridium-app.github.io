@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { MonImage } from "../shared/components/ui";
-import FormTable from "../data/FormTable";
-import Utility from "../shared/utils/utility";
-import Dex, { DexInfo } from "../data/Dex";
-import { UserContext } from "../App";
-import styles from "../styles/components/GiftEncounterEntry.module.css";
+import { MonImage } from "../../../shared/components/ui";
+import FormTable from "../../../data/FormTable";
+import Utility from "../../../shared/utils/utility";
+import Dex, { DexInfo } from "../../../data/Dex";
+import { UserContext } from "../../../App";
+import styles from "../../../styles/components/GiftEncounterEntry.module.css";
 
 interface GiftEncounterEntryProps {
   encounter: {
@@ -15,6 +15,9 @@ interface GiftEncounterEntryProps {
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
 }
 
+/**
+ * Component for displaying gift encounter entries
+ */
 function GiftEncounterEntry({
   encounter,
   encounterId,

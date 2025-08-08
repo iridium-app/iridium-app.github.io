@@ -1,8 +1,12 @@
-import { Battle, MastersheetEntry, BattleTags } from "../data/MastersheetData";
-import { MonImage } from "../shared/components/ui";
-import TrainerData from "../data/TrainerData";
-import Utility from "../shared/utils/utility";
-import styles from "../styles/components/MastersheetEntry.module.css";
+import {
+  Battle,
+  MastersheetEntry,
+  BattleTags,
+} from "../../../data/MastersheetData";
+import { MonImage } from "../../../shared/components/ui";
+import TrainerData from "../../../data/TrainerData";
+import { Utility } from "../../../shared/utils";
+import styles from "../../../styles/components/MastersheetEntry.module.css";
 
 interface Props {
   battle: Battle;
@@ -10,6 +14,9 @@ interface Props {
   selectedEntry: MastersheetEntry;
 }
 
+/**
+ * Component for rendering battle entries in the mastersheet
+ */
 function MastersheetBattle({ battle, setSelectedEntry, selectedEntry }: Props) {
   const trainerInfo = TrainerData.Dict[battle.battleId];
 

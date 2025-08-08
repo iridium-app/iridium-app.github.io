@@ -9,10 +9,10 @@ import MastersheetData, {
   Encounter,
   EncounterType,
 } from "../data/MastersheetData";
-import EntryDetailPanel from "../components/EntryDetailPanel";
-import MultiView from "../components/MultiView";
+import EntryDetailPanel from "../features/mastersheet/components/EntryDetailPanel";
+import { MultiView } from "../shared/components";
 import TrainerData from "../data/TrainerData";
-import MastersheetView from "../components/MastersheetView";
+import { MastersheetView } from "../features/mastersheet/components";
 import EncounterData from "../data/EncounterData";
 
 interface MastersheetContextType {

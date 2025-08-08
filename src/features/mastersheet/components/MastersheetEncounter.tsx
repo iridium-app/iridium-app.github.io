@@ -2,12 +2,12 @@ import {
   Encounter as SheetEncounter,
   MastersheetEntry,
   EncounterType,
-} from "../data/MastersheetData";
-import EncounterData from "../data/EncounterData";
-import styles from "../styles/components/MastersheetEntry.module.css";
+} from "../../../data/MastersheetData";
+import EncounterData from "../../../data/EncounterData";
+import styles from "../../../styles/components/MastersheetEntry.module.css";
 import { useContext } from "react";
-import { UserContext } from "../App";
-import { MonImage } from "../shared/components/ui";
+import { UserContext } from "../../../App";
+import { MonImage } from "../../../shared/components/ui";
 
 interface Props {
   encounter: SheetEncounter;
@@ -15,6 +15,9 @@ interface Props {
   selectedEntry: MastersheetEntry;
 }
 
+/**
+ * Component for rendering encounter entries in the mastersheet
+ */
 function MastersheetEncounter({
   encounter,
   setSelectedEntry,

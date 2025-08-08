@@ -1,8 +1,8 @@
-import MoveData from "../data/MoveData";
-import { TypeImage } from "../shared/components/ui";
-import Utility from "../shared/utils/utility";
-import { DexInfo } from "../data/Dex";
-import styles from "../styles/components/MoveList.module.css";
+import MoveData from "../../../data/MoveData";
+import TypeImage from "./TypeImage";
+import { Utility } from "../../utils";
+import { DexInfo } from "../../../data/Dex";
+import styles from "../../../styles/components/MoveList.module.css";
 
 interface MoveListProps {
   levelUpLearnset: {
@@ -11,6 +11,9 @@ interface MoveListProps {
   }[];
 }
 
+/**
+ * Component for displaying a Pokémon's move list
+ */
 function MoveList({ levelUpLearnset }: MoveListProps) {
   return (
     <div className={styles.moveBlock}>

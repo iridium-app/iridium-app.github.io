@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction } from "react";
-import { Area, MastersheetEntry } from "../data/MastersheetData";
+import { Area, MastersheetEntry } from "../../../data/MastersheetData";
 import MastersheetArea from "./MastersheetArea";
-import styles from "../styles/components/MastersheetView.module.css";
+import styles from "../../../styles/components/MastersheetView.module.css";
 
 interface MastersheetViewProps {
   mastersheetData: Area[];
@@ -9,6 +9,9 @@ interface MastersheetViewProps {
   setSelectedEntry: Dispatch<SetStateAction<MastersheetEntry>>;
 }
 
+/**
+ * Main view component for the mastersheet feature
+ */
 function MastersheetView({
   mastersheetData,
   selectedEntry,

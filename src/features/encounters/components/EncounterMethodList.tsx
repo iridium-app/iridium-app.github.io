@@ -1,18 +1,23 @@
 import { ReactNode } from "react";
-import EncounterData, { EncounterMethod } from "../data/EncounterData";
+import EncounterData, { EncounterMethod } from "../../../data/EncounterData";
 import EncounterEntry from "./EncounterEntry";
-import { DexInfo } from "../data/Dex";
-import styles from "../styles/components/EncounterMethodList.module.css";
+import { DexInfo } from "../../../data/Dex";
+import styles from "../../../styles/components/EncounterMethodList.module.css";
 
+interface EncounterMethodListProps {
+  method: EncounterMethod;
+  encounterId: string;
+  setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
+}
+
+/**
+ * Component for displaying encounter methods for a location
+ */
 function EncounterMethodList({
   method,
   encounterId,
   setSelectedMon,
-}: {
-  method: EncounterMethod;
-  encounterId: string;
-  setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
-}) {
+}: EncounterMethodListProps) {
   return (
     <div className={styles.methodList}>
       <div className={styles.header}>{MethodImageFromString(method.type)}</div>

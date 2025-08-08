@@ -1,13 +1,13 @@
 import { ReactNode, useContext, useState } from "react";
-import { MonImage, TypeImage } from "../shared/components/ui";
-import FormTable from "../data/FormTable";
-import Utility from "../shared/utils/utility";
-import Dex, { DexInfo } from "../data/Dex";
-import { UserContext } from "../App";
-import { EncounterMethod } from "../data/EncounterData";
+import { MonImage, TypeImage } from "../../../shared/components/ui";
+import FormTable from "../../../data/FormTable";
+import Utility from "../../../shared/utils/utility";
+import Dex, { DexInfo } from "../../../data/Dex";
+import { UserContext } from "../../../App";
+import { EncounterMethod } from "../../../data/EncounterData";
 import EncounterMethodList from "./EncounterMethodList";
-import StatBlock from "./StatBlock";
-import styles from "../styles/components/EncounterEntry.module.css";
+import StatBlock from "../../../components/StatBlock";
+import styles from "../../../styles/components/EncounterEntry.module.css";
 
 interface EncounterEntryProps {
   encounter: {
@@ -22,6 +22,9 @@ interface EncounterEntryProps {
   setSelectedMon: React.Dispatch<React.SetStateAction<DexInfo>>;
 }
 
+/**
+ * Component for displaying individual encounter entries
+ */
 function EncounterEntry({
   encounter,
   method,
